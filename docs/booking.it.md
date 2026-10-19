@@ -14,9 +14,9 @@ Scegliere lo strumento (e il canale, per potenziostati e ciclatori), guardare la
 
 ## Come funziona la prenotazione
 
-1. Si richiede una prenotazione con la propria **e-mail istituzionale**.
-2. Si riceve un'e-mail con un pulsante di **conferma**. La prenotazione resta *(in attesa)* per 30 minuti e viene liberata se non la si conferma.
-3. La stessa e-mail ha un pulsante di **annullamento**. Annullare le prenotazioni che non si useranno.
+1. Compila il modulo con la tua **e-mail istituzionale**. La prenotazione viene salvata subito e compare nel calendario.
+2. Per **annullare**, usa l'elenco *Le tue prenotazioni fatte su questo dispositivo* sotto il modulo, nello stesso browser con cui hai prenotato. Da un altro dispositivo, chiedi al responsabile del laboratorio.
+3. Annulla le prenotazioni che non userai.
 
 ## Regole
 

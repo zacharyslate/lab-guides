@@ -14,9 +14,9 @@ Cihazı (potansiyostatlar ve döngüleyiciler için kanalı da) seçin, haftaya 
 
 ## Rezervasyon nasıl çalışır
 
-1. **Kurumsal e-posta adresinizle** rezervasyon talep edersiniz.
-2. **Onay** düğmesi içeren bir e-posta alırsınız. Rezervasyon 30 dakika boyunca *(beklemede)* olarak tutulur ve onaylamazsanız serbest bırakılır.
-3. Aynı e-postada bir **iptal** düğmesi vardır. Kullanmayacağınız rezervasyonları lütfen iptal edin.
+1. Formu **kurumsal e-posta adresinizle** doldurun. Rezervasyon hemen kaydedilir ve takvimde görünür.
+2. **İptal** etmek için, rezervasyonu yaptığınız tarayıcıda formun altındaki *Bu cihazda yaptığınız rezervasyonlar* listesini kullanın. Başka bir cihazdan, laboratuvar sorumlusuna başvurun.
+3. Kullanmayacağınız rezervasyonları lütfen iptal edin.
 
 ## Kurallar
 

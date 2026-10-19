@@ -14,9 +14,9 @@ Wählen Sie das Gerät (und bei Potentiostaten und Zyklierern den Kanal), sehen 
 
 ## So funktioniert die Buchung
 
-1. Sie stellen eine Buchungsanfrage mit Ihrer **institutionellen E-Mail-Adresse**.
-2. Sie erhalten eine E-Mail mit einer **Bestätigungs**-Schaltfläche. Die Buchung wird 30 Minuten als *(ausstehend)* gehalten und freigegeben, wenn Sie nicht bestätigen.
-3. Dieselbe E-Mail enthält eine **Stornieren**-Schaltfläche. Bitte stornieren Sie Buchungen, die Sie nicht nutzen.
+1. Füllen Sie das Formular mit Ihrer **institutionellen E-Mail-Adresse** aus. Die Buchung wird sofort gespeichert und erscheint im Kalender.
+2. Zum **Stornieren** nutzen Sie die Liste *Ihre Buchungen auf diesem Gerät* unter dem Formular, im selben Browser, mit dem Sie gebucht haben. Von einem anderen Gerät aus wenden Sie sich an die Laborleitung.
+3. Bitte stornieren Sie Buchungen, die Sie nicht nutzen.
 
 ## Regeln
 

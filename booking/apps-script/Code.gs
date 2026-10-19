@@ -2,9 +2,10 @@
  * Lab instrument booking — Google Apps Script backend.
  *
  * Stores each booking as an event in a Google Calendar (one calendar per
- * instrument, or per cycler unit), checks for overlaps under a lock, and uses
- * an e-mail confirmation step so a booking only becomes final when the person
- * who owns the e-mail address confirms it.
+ * instrument, or per cycler unit) and checks for overlaps under a lock.
+ * Bookings are final immediately (no e-mail confirmation). The booking page
+ * keeps a private cancel token in the booker's browser; the lab manager can
+ * always delete an event directly in Google Calendar.
  *
  * Deploy: see ../README.md. Web app settings:
  *   Execute as: Me (the lab account that owns the calendars)
@@ -15,13 +16,13 @@ var CONFIG = {
   TIMEZONE: 'Europe/Madrid',
   // Only these e-mail domains may book (sub-domains are accepted too).
   ALLOWED_DOMAINS: ['csic.es', 'uam.es', 'estudiante.uam.es'],
-  // Unconfirmed bookings are deleted after this many minutes.
+  // Old unconfirmed ('pending') bookings from the e-mail version are deleted after this many minutes.
   PENDING_MINUTES: 30,
   // Bookings must start and end on this grid.
   SLOT_MINUTES: 15,
   // How far ahead people may book.
   MAX_DAYS_AHEAD: 90,
-  // Lab manager: receives a copy of every confirmed booking (leave '' to disable).
+  // Lab manager: receives an e-mail for every new booking (leave '' to disable).
   MANAGER_EMAIL: '',
   // The public site, used in e-mails.
   SITE_URL: 'https://zacharyslate.github.io/lab-guides/',
@@ -71,6 +72,16 @@ function doPost(e) {
     if (p.action === 'confirm') return page_(confirmBooking_(p.cal, p.id, p.token));
     if (p.action === 'cancel') return page_(cancelBooking_(p.cal, p.id, p.token));
     var b = JSON.parse(e.postData.contents);
+    if (b.action === 'cancel') {
+      var lock = LockService.getScriptLock();
+      if (!lock.tryLock(20000)) return json_(fail_('busy', 'The booking service is busy, try again.'));
+      try {
+        var ev = findEvent_(b.cal, b.id, b.token);
+        if (!ev) return json_(fail_('not_found', 'This booking was not found. It may already have been cancelled.'));
+        ev.deleteEvent();
+        return json_({ ok: true, message: 'Booking cancelled.' });
+      } finally { lock.releaseLock(); }
+    }
     if (b.action !== 'book') return json_({ ok: false, error: 'unknown_action' });
     return json_(createBooking_(b));
   } catch (err) {
@@ -152,26 +163,23 @@ function createBooking_(b) {
     var label = initials_(name) + ' · ' + group;
     var resLabel = R.res.name + (R.ch ? ' · CH ' + R.ch : '');
     var token = Utilities.getUuid();
-    var ev = R.cal.createEvent('[pending] ' + resLabel + ' — ' + label, start, end, {
+    var ev = R.cal.createEvent(resLabel + ' — ' + label, start, end, {
       description: 'Name: ' + name + '\nE-mail: ' + email + '\nGroup: ' + group + '\nPurpose: ' + purpose
     });
     ev.setTag('resource', R.key);
-    ev.setTag('status', 'pending');
+    ev.setTag('status', 'confirmed');
     ev.setTag('token', token);
     ev.setTag('label', label);
     ev.setTag('created', String(now.getTime()));
     ev.setTag('email', email);
 
-    var base = ScriptApp.getService().getUrl();
-    var q = '&cal=' + encodeURIComponent(R.res.id) + '&id=' + encodeURIComponent(ev.getId()) + '&token=' + token;
-    MailApp.sendEmail({
-      to: email,
-      subject: 'Confirm your booking: ' + resLabel + ', ' + fmt_(start),
-      body: 'Hello ' + name + ',\n\nPlease confirm your booking within ' + CONFIG.PENDING_MINUTES + ' minutes:\n' +
-        resLabel + '\n' + fmt_(start) + ' – ' + fmt_(end) + '\n\nConfirm: ' + base + '?action=confirm' + q +
-        '\nCancel:  ' + base + '?action=cancel' + q + '\n\nUnconfirmed bookings are released automatically.\n' + CONFIG.SITE_URL
-    });
-    return { ok: true, message: 'Almost done: check your e-mail and click the confirmation link within ' + CONFIG.PENDING_MINUTES + ' minutes.' };
+    if (CONFIG.MANAGER_EMAIL) {
+      try {
+        MailApp.sendEmail(CONFIG.MANAGER_EMAIL, 'New booking: ' + resLabel + ', ' + fmt_(start),
+          fmt_(start) + ' – ' + fmt_(end) + '\n\n' + ev.getDescription());
+      } catch (mailErr) { /* a mail problem must not block the booking */ }
+    }
+    return { ok: true, message: 'Booking saved.', cancel: { cal: R.res.id, id: ev.getId(), token: token } };
   } finally {
     lock.releaseLock();
   }

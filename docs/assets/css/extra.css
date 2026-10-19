@@ -218,6 +218,10 @@
 .bk-note.demo { background: color-mix(in srgb, #ff9800 18%, transparent); }
 .bk-note.err { background: color-mix(in srgb, #e53935 16%, transparent); }
 .bk-note.ok { background: color-mix(in srgb, #43a047 16%, transparent); }
+.bk-mine { font-size: 0.75rem; padding-left: 1.2rem; }
+.bk-mine li { margin: 0.25rem 0; }
+.bk-mine button { margin-left: 0.4rem; font-size: 0.7rem; padding: 0.1rem 0.5rem; border: 1px solid var(--md-default-fg-color--lighter); border-radius: 3px; background: none; color: inherit; cursor: pointer; }
+.bk-small { font-size: 0.68rem; color: var(--md-default-fg-color--light); }
 .bk-week { width: 100%; overflow-x: auto; }
 .bk-grid { display: grid; grid-template-columns: 3.2rem repeat(7, minmax(5.5rem, 1fr)); min-width: 44rem; font-size: 0.68rem; position: relative; }
 .bk-grid .h { text-align: center; font-weight: 700; padding: 0.3rem 0; border-bottom: 1px solid var(--md-default-fg-color--lighter); }

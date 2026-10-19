@@ -14,9 +14,9 @@ Elija el equipo (y el canal, en potenciostatos y cicladores), mire la semana y r
 
 ## Cómo funcionan las reservas
 
-1. Solicite una reserva con su **correo institucional**.
-2. Recibirá un correo con un botón de **confirmación**. La reserva queda como *(pendiente)* durante 30 minutos y se libera si no la confirma.
-3. El mismo correo tiene un botón de **cancelación**. Cancele las reservas que no vaya a usar.
+1. Rellene el formulario con su **correo institucional**. La reserva se guarda al momento y aparece en el calendario.
+2. Para **cancelar**, use la lista *Sus reservas hechas en este dispositivo* bajo el formulario, en el mismo navegador con el que reservó. Desde otro dispositivo, pídaselo al responsable del laboratorio.
+3. Cancele las reservas que no vaya a usar.
 
 ## Normas
 

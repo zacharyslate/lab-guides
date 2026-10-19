@@ -14,9 +14,9 @@ Choisissez l'instrument (et la voie, pour les potentiostats et les cycleurs), re
 
 ## Fonctionnement des réservations
 
-1. Vous demandez une réservation avec votre **adresse e-mail institutionnelle**.
-2. Vous recevez un e-mail avec un bouton de **confirmation**. La réservation reste *(en attente)* pendant 30 minutes et est libérée si vous ne la confirmez pas.
-3. Le même e-mail contient un bouton d'**annulation**. Merci d'annuler les réservations que vous n'utiliserez pas.
+1. Remplissez le formulaire avec votre **adresse e-mail institutionnelle**. La réservation est enregistrée immédiatement et apparaît dans le calendrier.
+2. Pour **annuler**, utilisez la liste *Vos réservations faites sur cet appareil* sous le formulaire, dans le même navigateur que celui de la réservation. Depuis un autre appareil, adressez-vous au responsable du laboratoire.
+3. Merci d'annuler les réservations que vous n'utiliserez pas.
 
 ## Règles
 

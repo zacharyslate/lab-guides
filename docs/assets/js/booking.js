@@ -9,6 +9,7 @@
   var CFG = window.BOOKING_CONFIG || { resources: [] };
   var LIVE = !!CFG.apiUrl;
   var DEMO_KEY = "lab-booking-demo-v1";
+  var MINE_KEY = "lab-booking-mine-v1"; // live mode: cancel tokens of bookings made in this browser
   var HOURS = 24, ROW_REM = 1.6;
 
   function pad(n) { return (n < 10 ? "0" : "") + n; }
@@ -20,6 +21,8 @@
 
   function demoLoad() { try { return JSON.parse(localStorage.getItem(DEMO_KEY) || "[]"); } catch (e) { return []; } }
   function demoSave(list) { try { localStorage.setItem(DEMO_KEY, JSON.stringify(list)); } catch (e) { /* storage blocked */ } }
+  function mineLoad() { try { return JSON.parse(localStorage.getItem(MINE_KEY) || "[]"); } catch (e) { return []; } }
+  function mineSave(list) { try { localStorage.setItem(MINE_KEY, JSON.stringify(list)); } catch (e) { /* storage blocked */ } }
 
   function api(method, params, body) {
     var url = CFG.apiUrl + "?" + Object.keys(params).map(function (k) { return encodeURIComponent(k) + "=" + encodeURIComponent(params[k]); }).join("&");
@@ -62,7 +65,8 @@
         "</div><div class='bk-row'>" +
           "<label style='flex-direction:row;align-items:center;gap:.4rem'><input type='checkbox' id='bk-trained' style='min-width:0'> " + esc(ui("bkTraining")) + "</label>" +
         "</div><button type='submit' class='primary'>" + esc(ui("bkSubmit")) + "</button>" +
-      "</form><div id='bk-msg'></div>";
+      "</form><div id='bk-msg'></div>" +
+      (LIVE ? "<div id='bk-mine'></div>" : "");
 
     var $ = function (id) { return root.querySelector("#" + id); };
 
@@ -98,9 +102,13 @@
         drawGrid(demoLoad().filter(function (b) { return b.resource === key && new Date(b.end) > from && new Date(b.start) < to; }));
         return;
       }
-      msg(ui("bkLoading"), "");
+      $("bk-wk").textContent += " · " + ui("bkLoading");
       api("GET", { action: "list", resource: resKey(), from: from.toISOString(), to: to.toISOString() })
-        .then(function (res) { msg("", ""); drawGrid(res.events || []); })
+        .then(function (res) {
+          $("bk-wk").textContent = $("bk-wk").textContent.replace(" · " + ui("bkLoading"), "");
+          if (!res.ok && res.message) msg(res.message, "err");
+          drawGrid(res.events || []);
+        })
         .catch(function () { msg(ui("bkError"), "err"); });
     }
 
@@ -162,10 +170,46 @@
       }
       msg(ui("bkLoading"), "");
       api("POST", { action: "book" }, b).then(function (res) {
-        if (res.ok) { msg(res.message || ui("bkOk"), "ok"); weekStart = monday(s); load(); }
+        if (res.ok) {
+          if (res.cancel) {
+            var mine = mineLoad();
+            mine.push({ cal: res.cancel.cal, id: res.cancel.id, token: res.cancel.token, label: resLabel(), start: b.start, end: b.end });
+            mineSave(mine);
+          }
+          msg(ui("bkOk"), "ok"); weekStart = monday(s); load(); drawMine();
+        }
         else msg(res.error === "conflict" ? ui("bkConflict") : (res.message || ui("bkError")), "err");
       }).catch(function () { msg(ui("bkError"), "err"); });
     }
+
+    function drawMine() {
+      var box = $("bk-mine"); if (!box) return;
+      var now = new Date(), lt = localeTag();
+      var mine = mineLoad().filter(function (m) { return new Date(m.end) > now; });
+      mineSave(mine);
+      if (!mine.length) { box.innerHTML = ""; return; }
+      mine.sort(function (a, b) { return new Date(a.start) - new Date(b.start); });
+      box.innerHTML = "<h3>" + esc(ui("bkMyList")) + "</h3><ul class='bk-mine'>" + mine.map(function (m) {
+        var s = new Date(m.start), e = new Date(m.end);
+        return "<li>" + esc(m.label) + " · " + esc(s.toLocaleString(lt, { weekday: "short", day: "numeric", month: "short", hour: "2-digit", minute: "2-digit" })) +
+          " – " + esc(e.toLocaleString(lt, { hour: "2-digit", minute: "2-digit" })) +
+          " <button type='button' data-cancel='" + esc(m.id) + "'>" + esc(ui("bkCancel")) + "</button></li>";
+      }).join("") + "</ul><p class='bk-small'>" + esc(ui("bkMineNote")) + "</p>";
+    }
+    if ($("bk-mine")) $("bk-mine").addEventListener("click", function (e) {
+      var id = e.target.getAttribute && e.target.getAttribute("data-cancel");
+      if (!id) return;
+      var m = mineLoad().filter(function (x) { return x.id === id; })[0]; if (!m) return;
+      if (!window.confirm(ui("bkCancelAsk") + "\n" + m.label)) return;
+      e.target.disabled = true;
+      api("POST", { action: "cancel" }, { action: "cancel", cal: m.cal, id: m.id, token: m.token }).then(function (res) {
+        if (res.ok || res.error === "not_found") {
+          mineSave(mineLoad().filter(function (x) { return x.id !== id; }));
+          msg(ui("bkCancelled"), "ok"); drawMine(); load();
+        } else { e.target.disabled = false; msg(res.message || ui("bkError"), "err"); }
+      }).catch(function () { e.target.disabled = false; msg(ui("bkError"), "err"); });
+    });
+    drawMine();
 
     $("bk-res").addEventListener("change", function () { state.res = resources.filter(function (r) { return r.id === $("bk-res").value; })[0]; onResource(); });
     $("bk-ch").addEventListener("change", function () { state.ch = parseInt($("bk-ch").value, 10) || 1; load(); });

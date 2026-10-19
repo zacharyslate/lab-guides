@@ -13,9 +13,9 @@ Choose the instrument (and channel, for potentiostats and cyclers), look at the 
 
 ## How booking works
 
-1. You request a booking with your **institutional e-mail**.
-2. You receive an e-mail with a **confirmation** button. The booking is held as *(pending)* for 30 minutes and released if you do not confirm.
-3. The same e-mail has a **cancel** button. Please cancel bookings you will not use.
+1. Fill in the form with your **institutional e-mail**. The booking is saved straight away and appears in the calendar.
+2. To **cancel**, use the list *Your bookings made on this device* under the form, in the same browser you booked from. From another device, ask the lab manager.
+3. Please cancel bookings you will not use.
 
 ## Rules
 
