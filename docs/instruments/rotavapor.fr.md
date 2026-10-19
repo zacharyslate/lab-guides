@@ -1,0 +1,87 @@
+---
+title: Büchi Rotavapor R-210
+description: Comment assembler un ballon d'évaporation étanche dans la boîte à gants et sécher une suspension sensible à l'air sur le Büchi Rotavapor R-210 avec refroidisseur et contrôleur de vide.
+translation: machine
+---
+
+# Büchi Rotavapor R-210
+
+<div class="facts" markdown>
+
+| | |
+|---|---|
+| **À quoi il sert** | Éliminer un solvant sous pression réduite, p. ex. sécher la suspension du composite cathodique (éthanol + acétonitrile) |
+| **Éléments** | Refroidisseur (liquide de refroidissement du condenseur), bain chauffant à **huile silicone** (jusqu'à 180 °C), entraînement avec bouton d'inclinaison, Combi Clip et élévateur motorisé, condenseur vertical, ballon récepteur, contrôleur de vide et pompe |
+| **Ballon** | Pour le travail sensible à l'air : un ballon à fond rond fermé par un **adaptateur à robinet (robinet en verre)** et une **pince Keck**, assemblé et fermé dans la boîte à gants (Partie 1) |
+| **Formation** | Obligatoire. Réussir l'examen de l'évaporateur rotatif avant de réserver |
+| **Manuels** | [Manuels et références](../manuals.md#rotavapor) |
+
+</div>
+
+!!! danger "Sécurité"
+    - Blouse, lunettes de sécurité, gants et chaussures fermées.
+    - Le bain d'huile silicone peut atteindre **180 °C**. N'ajoutez jamais d'eau ni aucun produit chimique au bain : de l'eau dans de l'huile chaude provoque des projections violentes (manuel Büchi, §2).
+    - L'huile silicone se dilate fortement en chauffant. Un bain qui paraît à moitié plein à froid **n'est pas** trop bas — ne le complétez pas.
+    - Vérifiez toute la verrerie avant usage (fissures, étoiles) : du verre endommagé peut **imploser** sous vide. Utilisez les pinces sur tous les rodages.
+
+## Partie 1 — Assembler le ballon dans la boîte à gants { #part-1-assemble-the-flask-in-the-glovebox }
+
+L'échantillon ne voit jamais l'air : le ballon est rempli, fermé avec l'adaptateur à robinet et fixé par la pince **dans la boîte à gants**, et n'est rouvert que sous vide sur l'évaporateur rotatif.
+
+<div class="demo" data-demo="rv-glassware">
+--8<-- "rv-glassware.svg"
+</div>
+
+<div class="demo-steps" markdown>
+
+1. **Rassemblez les éléments dans la boîte à gants :** le ballon à fond rond contenant votre suspension (sur un support en liège), l'**adaptateur à robinet** avec son robinet en verre, de la **graisse à vide** et une **pince Keck** adaptée au rodage.
+2. **Vérifiez la verrerie.** Les rodages doivent être propres et non ébréchés ; le ballon ne doit présenter ni fissure ni étoile — il sera sous vide.
+3. **Graissez le rodage.** Appliquez une **fine bande** de graisse à vide uniquement sur le haut du rodage inférieur (mâle) de l'adaptateur. Trop de graisse entre dans le ballon et contamine l'échantillon.
+4. **Insérez et tournez.** Insérez l'adaptateur dans le col du ballon et tournez-le doucement jusqu'à ce que la bande de graisse paraisse transparente et continue, sans stries ni canaux d'air.
+5. **Fixez le rodage.** Placez la **pince Keck** sur le rodage pour que l'adaptateur ne puisse pas glisser.
+6. **Fermez le robinet.** Tournez le robinet en **horizontal = fermé** (vertical = ouvert).
+7. **Contrôle final :** pince en place, robinet horizontal, ballon étiqueté. Gardez propre le rodage supérieur (celui qui va sur l'évaporateur rotatif).
+8. **Sortez-le** par le sas ([guide de la boîte à gants](glovebox.md#taking-material-out)) et portez-le jusqu'à l'évaporateur rotatif en tenant le ballon par le corps. **Gardez le robinet fermé** jusqu'à l'étape 9 de la Partie 2.
+
+</div>
+
+!!! question "À vérifier avec les diapositives du laboratoire"
+    Les diapositives *Rotovapor* montrent le robinet du ballon (vertical = ouvert, horizontal = fermé), la graisse à vide, la pince Keck et le rodage, et se terminent par « fermé → vers le rotovapor ». Seul le texte des diapositives a pu être lu, pas les photos ; le dessin suppose donc **un ballon à fond rond plus un adaptateur à robinet séparé**. Si le laboratoire utilise un ballon à robinet intégré, les étapes 3–5 s'appliquent au rodage fermé dans la boîte à gants — merci de confirmer.
+
+## Partie 2 — Sur l'évaporateur rotatif { #part-2-on-the-rotavapor }
+
+<div class="demo" data-demo="rotavapor">
+--8<-- "rotavapor.svg"
+</div>
+
+<div class="demo-steps" markdown>
+
+1. **Contrôle de sécurité.** Mettez vos EPI, vérifiez le niveau d'huile et la verrerie. Le bain ne doit contenir que de l'huile silicone.
+2. **Allumez le refroidisseur — l'alimentation seulement.** Ne lancez **pas** encore le refroidissement.
+3. **Réglez la température du bain** sur la température initiale indiquée dans votre procédure.
+4. **Réglez la pression** sur le contrôleur de vide à la valeur indiquée dans votre procédure (elle dépend du solvant et de la température du bain).
+5. **Fixez le ballon récepteur.** Appliquez un mince film de graisse à vide sur son rodage et fixez-le sous le condenseur avec sa pince à rotule.
+6. **Fixez le ballon de la Partie 1.** Vérifiez que le robinet est toujours **horizontal (fermé)**. Appuyez sur le bouton de verrouillage de l'entraînement, emboîtez le rodage supérieur de l'adaptateur sur le conduit de vapeur (il faut très peu de force) et fixez-le avec le **Combi Clip** : appuyez sur la bague vers le bas et tournez-la dans le sens **horaire**. Soutenez le ballon d'une main jusqu'à ce qu'il soit fixé.
+7. **Lancez le vide.** Vérifiez la pression réglée et appuyez sur **START** sur le contrôleur de vide. Le ballon fermé n'est pas encore exposé au vide.
+8. **Lancez le refroidissement du refroidisseur** lorsque le vide fonctionne depuis environ 5 min. Un flocon de neige apparaît sur l'écran du refroidisseur.
+9. **Ouvrez le ballon.** Lorsque le refroidisseur refroidit depuis au moins 5 min, tournez **lentement** le robinet en position ouverte (poignée alignée avec l'adaptateur) — la pression remonte brièvement — puis lancez la rotation.
+10. **Ajustez la position.** Le bouton noir de l'entraînement règle l'inclinaison du ballon ; la poignée à interrupteur électrique monte et descend tout l'ensemble de verrerie. La butée de sécurité en bas de l'élévateur empêche le ballon de descendre trop bas.
+11. **Descendez lentement le ballon** dans le bain d'huile.
+12. **Évaporez.** Le solvant se condense sur le condenseur et s'accumule dans le ballon récepteur. Surveillez les ébullitions brusques ; si cela se produit, sortez le ballon du bain et augmentez la pression réglée.
+13. **Terminez sans faire entrer d'air.** Vide toujours actif et robinet ouvert, arrêtez la rotation, sortez le ballon du bain et laissez-le refroidir sous vide. Ensuite seulement, **fermez le robinet** (poignée perpendiculaire à l'adaptateur).
+14. **Arrêtez et remettez à l'air.** Appuyez **une fois sur STOP** pour arrêter le vide et **deux fois** pour remettre à l'air. Arrêtez le refroidissement et le chauffage du bain. Soutenez le ballon et libérez-le en tournant le **Combi Clip dans le sens antihoraire** ; rapportez le ballon fermé (avec l'adaptateur et la pince Keck) dans la boîte à gants avant de l'ouvrir. Videz le ballon récepteur dans le bon conteneur de déchets de solvant.
+
+</div>
+
+!!! warning "Échantillons sensibles à l'air"
+    La remise à l'air (STOP pressé deux fois) fait entrer de l'**air** dans l'ensemble de verrerie. Votre échantillon n'est protégé que si le robinet du ballon est **fermé avant** la remise à l'air. Ne remettez jamais à l'air avec le robinet ouvert.
+
+!!! question "À confirmer avec le responsable du laboratoire"
+    - Les diapositives de démarrage indiquent de lancer le refroidissement 5 min après le vide et d'ouvrir le ballon 5 min plus tard. 5 min peuvent ne pas suffire pour que le liquide de refroidissement atteigne sa température ; le solvant non condensé part alors vers la pompe. Envisagez d'attendre que le refroidisseur atteigne sa consigne.
+    - Les diapositives ne donnent ni températures de bain ni pressions pour la suspension cathodique éthanol/acétonitrile. Merci d'ajouter les valeurs validées à la [procédure de la cathode](../procedures/cathode-composite.md).
+
+## Manuels
+
+- Büchi *Operation Manual Rotavapor R-210/215* (doc. 93076 en) — copie du laboratoire. Combi Clip : §4.4.
+- Diapositives du laboratoire : *Buchi R-210 Rotovapor — Operation start guide* et *Rotovapor* (robinet du ballon, pince Keck, rodage) — copies du laboratoire.
+- Voir [Manuels](../manuals.md#rotavapor) pour les liens publics.
