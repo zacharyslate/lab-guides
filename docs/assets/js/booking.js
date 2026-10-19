@@ -84,7 +84,7 @@
         $("bk-ch").innerHTML = opts; state.ch = Math.min(state.ch, r.channels); $("bk-ch").value = String(state.ch);
       } else { $("bk-chl").hidden = true; }
       $("bk-rules").innerHTML = "<strong>" + esc(ui("bkRules")) + ":</strong> " + esc(r.rules || "") +
-        " · max " + r.maxHours + " " + esc(ui("bkHours"));
+        (r.maxHours ? " · max " + r.maxHours + " " + esc(ui("bkHours")) : "");
       load();
     }
 
@@ -147,7 +147,7 @@
       };
       if (isNaN(s) || isNaN(e) || e <= s || !b.name || !b.email || !b.group || !b.purpose) return msg(ui("bkInvalid"), "err");
       if (s < new Date()) return msg(ui("bkPast"), "err");
-      if ((e - s) / 3600000 > state.res.maxHours) return msg(ui("bkTooLong") + " " + state.res.maxHours + " " + ui("bkHours"), "err");
+      if (state.res.maxHours && (e - s) / 3600000 > state.res.maxHours) return msg(ui("bkTooLong") + " " + state.res.maxHours + " " + ui("bkHours"), "err");
       var dom = b.email.split("@")[1] || "";
       if (CFG.allowedDomains && CFG.allowedDomains.length && !CFG.allowedDomains.some(function (d) { return dom === d || dom.slice(-(d.length + 1)) === "." + d; })) return msg(ui("bkDomain"), "err");
       if (!b.trained) return msg(ui("bkNeedTraining"), "err");

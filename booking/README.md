@@ -6,7 +6,7 @@ The website is static (GitHub Pages), so bookings are stored in **Google Calenda
 
 - One calendar per instrument (cyclers and potentiostat: one calendar per unit; each channel is tagged on the event).
 - Checks overlaps **under a lock**, so two people cannot book the same slot at the same moment.
-- Booking rules: institutional e-mail domain, training checkbox, no past bookings, max duration per instrument, 15-minute grid, max 90 days ahead.
+- Booking rules: institutional e-mail domain, training checkbox, no past bookings, no overlaps, 15-minute grid, max 90 days ahead (optional `maxHours` per instrument).
 - **E-mail confirmation**: a booking stays *pending* for 30 min and is deleted if not confirmed. This proves the person owns the e-mail address; without it anyone could book in someone else's name.
 - Confirm/cancel links open a page with a button; the change only happens when the button is pressed, so e-mail security scanners that pre-open links cannot confirm or cancel bookings.
 - The public calendar shows initials and group only.
@@ -15,7 +15,7 @@ The website is static (GitHub Pages), so bookings are stored in **Google Calenda
 
 1. **Use a lab account**, not a personal one (e.g. a shared lab Google account). It will own the calendars and send the e-mails.
 2. **Create the script**: go to <https://script.google.com> ▸ *New project*. Paste `Code.gs`. In *Project settings* tick *Show "appsscript.json"* and paste `appsscript.json`.
-3. **Edit `CONFIG`** at the top of `Code.gs`: set `ALLOWED_DOMAINS`, `MANAGER_EMAIL`, and the real `maxHours`, `rules` and `channels` for each instrument (the values in the file are **placeholders**).
+3. **Edit `CONFIG`** at the top of `Code.gs`: set `ALLOWED_DOMAINS`, `MANAGER_EMAIL`, and the `rules` and number of `channels` for each instrument. There is no time limit per booking unless you add `maxHours: N` to an instrument.
 4. **Create the calendars**: select the function `setupCalendars` and press *Run*. Authorise when asked (Calendar, send e-mail, triggers). It creates one calendar per instrument, named "Lab booking · …", and remembers their IDs. To use calendars you already have, paste their IDs into `calendarId` instead.
 5. **Check**: run `checkCalendars`. The log must show `OK` for every instrument.
 6. **Install the clean-up trigger**: run `installTrigger` once.

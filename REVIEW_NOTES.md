@@ -33,7 +33,7 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 | 10 | Solid-state battery | Stacking order of Li and In foils; whether the re-tare happens before the cathode is added |
 | 11 | Press | Ram diameter (to convert gauge pressure to pellet pressure for publications) |
 | 12 | Glovebox | Whether circulation is paused while using open solvents; list of chemicals allowed in the box |
-| 13 | Booking rules | Real maximum durations, no-show rule, number of PMC-2000 channels |
+| 13 | Booking rules | No per-booking time limit (decided 2026-10-19); still open: no-show rule, number of PMC-2000 channels |
 | 14 | Manuals | Link to the lab-drive folder with the manuals |
 | 15 | References | Full author lists and DOIs of the group papers (publisher pages could not be read automatically) |
 | 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |

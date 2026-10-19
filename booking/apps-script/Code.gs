@@ -30,22 +30,22 @@ var CONFIG = {
    * per instrument ("Lab booking · <name>") and remembers its ID in the script
    * properties. To use an existing calendar instead, paste its ID here
    * (Google Calendar ▸ Settings ▸ Integrate calendar ▸ Calendar ID).
-   * maxHours values are placeholders — set the real lab rules.
+   * Optional per instrument: maxHours: N limits one booking to N hours (no limit if absent).
    */
   RESOURCES: [
-    { id: 'glovebox', name: 'MBraun EasyLab glovebox', calendarId: '', maxHours: 4, rules: 'Max 4 h per booking during working hours. Leave the antechamber under vacuum and the box in ECO mode.' },
-    { id: 'rotavapor', name: 'Büchi Rotavapor R-210', calendarId: '', maxHours: 6, rules: 'Book the glovebox too if you need to load or unload an air-sensitive flask.' },
-    { id: 'pmc', name: 'PARSTAT MC · PMC-2000', calendarId: '', channels: 2, maxHours: 72, rules: 'Book one channel. Temperature series: include the 45 min equilibration at each step.' },
-    { id: 'ct9008', name: 'Neware CT-9008 (µA cells)', calendarId: '', channels: 8, maxHours: 720, rules: 'Book one channel per cell for the full test length. Micro solid-state cells only.' },
-    { id: 'ct5008', name: 'Neware CT-5008', calendarId: '', channels: 8, maxHours: 720, rules: 'Book one channel per cell for the full test length.' },
-    { id: 'ct4008', name: 'Neware CT-4008Q', calendarId: '', channels: 8, maxHours: 720, rules: 'Book one channel per cell. Not for cells discharged below 2 V.' },
-    { id: 'ct4008t', name: 'Neware CT-4008T', calendarId: '', channels: 8, maxHours: 720, rules: 'Book one channel per cell. Minimum current 5 mA.' },
-    { id: 'monowave', name: 'Anton Paar Monowave 400 R', calendarId: '', maxHours: 12, rules: 'Include cooling time. Book the Cora 5001 as well for in-situ Raman.' },
-    { id: 'cora', name: 'Anton Paar Cora 5001', calendarId: '', maxHours: 8, rules: 'Laser-safety briefing required.' },
-    { id: 'ballmill', name: 'Fritsch Pulverisette 7', calendarId: '', maxHours: 72, rules: 'Book the whole program including pauses.' },
-    { id: 'kf', name: 'Mettler Toledo C20S Karl Fischer', calendarId: '', maxHours: 3, rules: 'Measure the 1 % water standard first.' },
-    { id: 'furnace', name: 'Hobersal muffle furnace', calendarId: '', maxHours: 72, rules: 'Book the whole program including cooling. Lab limit 1100 °C (h) / 1000 °C (≥ 24 h).' },
-    { id: 'oven', name: 'Argolab drying oven', calendarId: '', maxHours: 72, rules: 'Shared oven: label your items. No solvents.' }
+    { id: 'glovebox', name: 'MBraun EasyLab glovebox', calendarId: '', rules: 'Leave the antechamber under vacuum and the box in ECO mode.' },
+    { id: 'rotavapor', name: 'Büchi Rotavapor R-210', calendarId: '', rules: 'Book the glovebox too if you need to load or unload an air-sensitive flask.' },
+    { id: 'pmc', name: 'PARSTAT MC · PMC-2000', calendarId: '', channels: 2, rules: 'Book one channel. Temperature series: include the 45 min equilibration at each step.' },
+    { id: 'ct9008', name: 'Neware CT-9008 (µA cells)', calendarId: '', channels: 8, rules: 'Book one channel per cell for the full test length. Micro solid-state cells only.' },
+    { id: 'ct5008', name: 'Neware CT-5008', calendarId: '', channels: 8, rules: 'Book one channel per cell for the full test length.' },
+    { id: 'ct4008', name: 'Neware CT-4008Q', calendarId: '', channels: 8, rules: 'Book one channel per cell. Not for cells discharged below 2 V.' },
+    { id: 'ct4008t', name: 'Neware CT-4008T', calendarId: '', channels: 8, rules: 'Book one channel per cell. Minimum current 5 mA.' },
+    { id: 'monowave', name: 'Anton Paar Monowave 400 R', calendarId: '', rules: 'Include cooling time. Book the Cora 5001 as well for in-situ Raman.' },
+    { id: 'cora', name: 'Anton Paar Cora 5001', calendarId: '', rules: 'Laser-safety briefing required.' },
+    { id: 'ballmill', name: 'Fritsch Pulverisette 7', calendarId: '', rules: 'Book the whole program including pauses.' },
+    { id: 'kf', name: 'Mettler Toledo C20S Karl Fischer', calendarId: '', rules: 'Measure the 1 % water standard first.' },
+    { id: 'furnace', name: 'Hobersal muffle furnace', calendarId: '', rules: 'Book the whole program including cooling. Lab limit 1100 °C (h) / 1000 °C (≥ 24 h).' },
+    { id: 'oven', name: 'Argolab drying oven', calendarId: '', rules: 'Shared oven: label your items. No solvents.' }
   ]
 };
 
@@ -82,7 +82,7 @@ function doPost(e) {
 
 function publicResources_() {
   return CONFIG.RESOURCES.map(function (r) {
-    return { id: r.id, name: r.name, channels: r.channels || 0, maxHours: r.maxHours, rules: r.rules };
+    return { id: r.id, name: r.name, channels: r.channels || 0, maxHours: r.maxHours || 0, rules: r.rules };
   });
 }
 
@@ -140,7 +140,7 @@ function createBooking_(b) {
   if (b.trained !== true) return fail_('training', 'Training confirmation is required.');
   if (start < now) return fail_('past', 'You cannot book in the past.');
   if ((start - now) / 864e5 > CONFIG.MAX_DAYS_AHEAD) return fail_('too_far', 'Bookings open ' + CONFIG.MAX_DAYS_AHEAD + ' days ahead.');
-  if ((end - start) / 36e5 > R.res.maxHours) return fail_('too_long', 'Maximum ' + R.res.maxHours + ' h for this instrument.');
+  if (R.res.maxHours && (end - start) / 36e5 > R.res.maxHours) return fail_('too_long', 'Maximum ' + R.res.maxHours + ' h for this instrument.');
   var slot = CONFIG.SLOT_MINUTES * 60000;
   if (start.getTime() % slot || end.getTime() % slot) return fail_('invalid', 'Use ' + CONFIG.SLOT_MINUTES + '-minute steps.');
 
