@@ -260,6 +260,12 @@ function setupCalendars() {
   });
 }
 
+// Run once from the editor to grant the e-mail permission (Google may let you
+// untick it on the consent screen). Logs how many e-mails the account can still send today.
+function authorizeEmail() {
+  Logger.log('E-mails left today: ' + MailApp.getRemainingDailyQuota());
+}
+
 // Run once from the editor to check that every calendar is reachable.
 function checkCalendars() {
   CONFIG.RESOURCES.forEach(function (r) {
