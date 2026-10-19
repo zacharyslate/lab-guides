@@ -56,27 +56,185 @@ plugins:
         - locale: es
           name: Español
           build: true
+          site_name: Guías de instrumentos del laboratorio
+          nav_translations:
+            "Home": "Inicio"
+            "Safety first": "La seguridad primero"
+            "Instruments": "Instrumentos"
+            "MBraun EasyLab glovebox": "Caja de guantes MBraun EasyLab"
+            "Neware battery cyclers": "Cicladores de baterías Neware"
+            "Fritsch Pulverisette 7 ball mill": "Molino de bolas Fritsch Pulverisette 7"
+            "Mettler Toledo C20S Karl Fischer": "Karl Fischer Mettler Toledo C20S"
+            "Hobersal muffle furnace": "Mufla Hobersal"
+            "Argolab drying oven": "Estufa Argolab"
+            "Cells & procedures": "Celdas y procedimientos"
+            "AC impedance (EIS) cell": "Celda de impedancia (EIS)"
+            "Solid-state test battery": "Batería de prueba de estado sólido"
+            "Cathode composite (rotavapor route)": "Composite catódico (vía rotavapor)"
+            "75Li2S–25P2S5 by ball milling": "75Li2S–25P2S5 por molienda"
+            "EIS data analysis": "Análisis de datos EIS"
+            "Book an instrument": "Reservar un instrumento"
+            "Manuals": "Manuales"
+            "References": "Referencias"
         - locale: it
           name: Italiano
           build: true
+          site_name: Guide agli strumenti del laboratorio
+          nav_translations:
+            "Safety first": "Prima la sicurezza"
+            "Instruments": "Strumenti"
+            "MBraun EasyLab glovebox": "Glovebox MBraun EasyLab"
+            "Neware battery cyclers": "Ciclatori di batterie Neware"
+            "Fritsch Pulverisette 7 ball mill": "Mulino a sfere Fritsch Pulverisette 7"
+            "Mettler Toledo C20S Karl Fischer": "Karl Fischer Mettler Toledo C20S"
+            "Hobersal muffle furnace": "Muffola Hobersal"
+            "Argolab drying oven": "Stufa Argolab"
+            "Cells & procedures": "Celle e procedure"
+            "AC impedance (EIS) cell": "Cella per impedenza (EIS)"
+            "Solid-state test battery": "Batteria di prova allo stato solido"
+            "Cathode composite (rotavapor route)": "Composito catodico (via rotavapor)"
+            "75Li2S–25P2S5 by ball milling": "75Li2S–25P2S5 per macinazione"
+            "EIS data analysis": "Analisi dei dati EIS"
+            "Book an instrument": "Prenota uno strumento"
+            "Manuals": "Manuali"
+            "References": "Bibliografia"
         - locale: de
           name: Deutsch
           build: true
+          site_name: Laborgeräte-Anleitungen
+          nav_translations:
+            "Home": "Start"
+            "Safety first": "Sicherheit zuerst"
+            "Instruments": "Geräte"
+            "MBraun EasyLab glovebox": "MBraun EasyLab Glovebox"
+            "Neware battery cyclers": "Neware-Batterietester"
+            "Fritsch Pulverisette 7 ball mill": "Kugelmühle Fritsch Pulverisette 7"
+            "Mettler Toledo C20S Karl Fischer": "Karl Fischer Mettler Toledo C20S"
+            "Hobersal muffle furnace": "Muffelofen Hobersal"
+            "Argolab drying oven": "Trockenschrank Argolab"
+            "Cells & procedures": "Zellen & Verfahren"
+            "AC impedance (EIS) cell": "Impedanzzelle (EIS)"
+            "Solid-state test battery": "Festkörper-Testbatterie"
+            "Cathode composite (rotavapor route)": "Kathodenkomposit (Rotavapor-Route)"
+            "75Li2S–25P2S5 by ball milling": "75Li2S–25P2S5 durch Kugelmahlen"
+            "EIS data analysis": "EIS-Datenauswertung"
+            "Book an instrument": "Gerät buchen"
+            "Manuals": "Handbücher"
+            "References": "Literatur"
         - locale: fr
           name: Français
           build: true
+          site_name: Guides des instruments du laboratoire
+          nav_translations:
+            "Home": "Accueil"
+            "Safety first": "La sécurité d'abord"
+            "MBraun EasyLab glovebox": "Boîte à gants MBraun EasyLab"
+            "Neware battery cyclers": "Bancs de cyclage Neware"
+            "Fritsch Pulverisette 7 ball mill": "Broyeur à billes Fritsch Pulverisette 7"
+            "Mettler Toledo C20S Karl Fischer": "Karl Fischer Mettler Toledo C20S"
+            "Hobersal muffle furnace": "Four à moufle Hobersal"
+            "Argolab drying oven": "Étuve Argolab"
+            "Cells & procedures": "Cellules et procédures"
+            "AC impedance (EIS) cell": "Cellule d'impédance (EIS)"
+            "Solid-state test battery": "Batterie tout-solide de test"
+            "Cathode composite (rotavapor route)": "Composite cathodique (voie rotavapor)"
+            "75Li2S–25P2S5 by ball milling": "75Li2S–25P2S5 par broyage"
+            "EIS data analysis": "Analyse des données EIS"
+            "Book an instrument": "Réserver un instrument"
+            "Manuals": "Manuels"
+            "References": "Références"
         - locale: tr
           name: Türkçe
           build: true
+          site_name: Laboratuvar Cihaz Kılavuzları
+          nav_translations:
+            "Home": "Ana sayfa"
+            "Safety first": "Önce güvenlik"
+            "Instruments": "Cihazlar"
+            "MBraun EasyLab glovebox": "MBraun EasyLab eldivenli kutu"
+            "Neware battery cyclers": "Neware batarya test cihazları"
+            "Fritsch Pulverisette 7 ball mill": "Fritsch Pulverisette 7 bilyalı değirmen"
+            "Hobersal muffle furnace": "Hobersal kül fırını"
+            "Argolab drying oven": "Argolab etüv"
+            "Cells & procedures": "Hücreler ve prosedürler"
+            "AC impedance (EIS) cell": "AC empedans (EIS) hücresi"
+            "Solid-state test battery": "Katı hal test bataryası"
+            "Cathode composite (rotavapor route)": "Katot kompoziti (rotavapor yolu)"
+            "75Li2S–25P2S5 by ball milling": "Öğütme ile 75Li2S–25P2S5"
+            "EIS data analysis": "EIS veri analizi"
+            "Book an instrument": "Cihaz rezervasyonu"
+            "Manuals": "Kılavuzlar"
+            "References": "Kaynaklar"
         - locale: zh
           name: 中文
           build: true
+          site_name: 实验室仪器指南
+          nav_translations:
+            "Home": "首页"
+            "Safety first": "安全第一"
+            "Instruments": "仪器"
+            "MBraun EasyLab glovebox": "MBraun EasyLab 手套箱"
+            "Büchi Rotavapor R-210": "Büchi Rotavapor R-210 旋转蒸发仪"
+            "Neware battery cyclers": "Neware 电池测试仪"
+            "Fritsch Pulverisette 7 ball mill": "Fritsch Pulverisette 7 球磨机"
+            "Mettler Toledo C20S Karl Fischer": "Mettler Toledo C20S 卡尔费休"
+            "Hobersal muffle furnace": "Hobersal 马弗炉"
+            "Argolab drying oven": "Argolab 干燥箱"
+            "Cells & procedures": "电池与操作流程"
+            "AC impedance (EIS) cell": "交流阻抗（EIS）电池"
+            "Solid-state test battery": "固态测试电池"
+            "Cathode composite (rotavapor route)": "正极复合材料（旋蒸法）"
+            "75Li2S–25P2S5 by ball milling": "球磨法制备 75Li2S–25P2S5"
+            "EIS data analysis": "EIS 数据分析"
+            "Book an instrument": "预约仪器"
+            "Manuals": "手册"
+            "References": "参考文献"
         - locale: ja
           name: 日本語
           build: true
+          site_name: 実験装置ガイド
+          nav_translations:
+            "Home": "ホーム"
+            "Safety first": "安全第一"
+            "Instruments": "装置"
+            "MBraun EasyLab glovebox": "MBraun EasyLab グローブボックス"
+            "Neware battery cyclers": "Neware 充放電装置"
+            "Fritsch Pulverisette 7 ball mill": "Fritsch Pulverisette 7 ボールミル"
+            "Mettler Toledo C20S Karl Fischer": "Mettler Toledo C20S カールフィッシャー"
+            "Hobersal muffle furnace": "Hobersal マッフル炉"
+            "Argolab drying oven": "Argolab 乾燥機"
+            "Cells & procedures": "セルと手順"
+            "AC impedance (EIS) cell": "AC インピーダンス（EIS）セル"
+            "Solid-state test battery": "全固体試験電池"
+            "Cathode composite (rotavapor route)": "正極合材（エバポレーター法）"
+            "75Li2S–25P2S5 by ball milling": "ボールミルによる 75Li2S–25P2S5"
+            "EIS data analysis": "EIS データ解析"
+            "Book an instrument": "装置の予約"
+            "Manuals": "マニュアル"
+            "References": "参考文献"
         - locale: ko
           name: 한국어
           build: true
+          site_name: 실험실 장비 가이드
+          nav_translations:
+            "Home": "홈"
+            "Safety first": "안전 먼저"
+            "Instruments": "장비"
+            "MBraun EasyLab glovebox": "MBraun EasyLab 글러브박스"
+            "Neware battery cyclers": "Neware 배터리 사이클러"
+            "Fritsch Pulverisette 7 ball mill": "Fritsch Pulverisette 7 볼밀"
+            "Mettler Toledo C20S Karl Fischer": "Mettler Toledo C20S 칼피셔"
+            "Hobersal muffle furnace": "Hobersal 머플로"
+            "Argolab drying oven": "Argolab 건조기"
+            "Cells & procedures": "셀과 절차"
+            "AC impedance (EIS) cell": "AC 임피던스 (EIS) 셀"
+            "Solid-state test battery": "전고체 시험 전지"
+            "Cathode composite (rotavapor route)": "양극 복합재 (회전증발기 방식)"
+            "75Li2S–25P2S5 by ball milling": "볼밀링으로 만드는 75Li2S–25P2S5"
+            "EIS data analysis": "EIS 데이터 분석"
+            "Book an instrument": "장비 예약"
+            "Manuals": "매뉴얼"
+            "References": "참고문헌"
 
 markdown_extensions:
   - admonition
@@ -104,6 +262,7 @@ extra_css:
 
 extra_javascript:
   - assets/js/ui-strings.js
+  - assets/js/demo-labels.js
   - assets/js/demos.js
   - assets/js/demo-player.js
   - assets/js/booking-config.js

@@ -33,7 +33,7 @@
 <rect class="ins" x="132" y="110" width="16" height="22"/><rect class="ins" x="392" y="110" width="16" height="22"/><rect class="ins" x="132" y="306" width="16" height="22"/><rect class="ins" x="392" y="306" width="16" height="22"/>
 <circle class="st" cx="413" cy="121" r="5"/><circle class="st" cx="413" cy="317" r="5"/></g>
 <g class="part" id="dims2"><line x1="105" y1="130" x2="105" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/><line x1="428" y1="130" x2="428" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/>
-<text class="lbl" x="105" y="350" text-anchor="middle">D1</text><text class="lbl" x="428" y="350" text-anchor="middle">D2</text><text class="w-ok" x="270" y="372" text-anchor="middle">D1 = D2 · hand-tight</text></g>
+<text class="lbl" x="105" y="350" text-anchor="middle">D1</text><text class="lbl" x="428" y="350" text-anchor="middle">D2</text><text class="w-ok" x="270" y="372" text-anchor="middle" data-i18n="cell.d12">D1 = D2 · hand-tight</text></g>
 <g class="part" id="cycler">
 <rect class="dark" x="560" y="70" width="220" height="150" rx="6"/>
 <text x="670" y="92" text-anchor="middle" style="fill:#fff;font-size:12px">Neware CT-9008 (5 V · 6 mA)</text>

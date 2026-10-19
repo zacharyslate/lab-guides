@@ -23,6 +23,8 @@
  * A part with data-from="dx,dy" slides in from that offset when shown.
  * A part with data-origin="x y" rotates/scales about that point (SVG units).
  * SVG <text data-i18n="key"> labels are replaced from window.DEMO_LABELS[lang][key].
+ * Text set by a step (txt) is looked up in the same dictionary by its English
+ * value, so prose like "press · 4 MPa · 1 min" can be translated as well.
  */
 (function () {
   "use strict";
@@ -42,9 +44,11 @@
     return { vis: vis, tf: tf, tx: tx, hl: hl };
   }
 
+  var labelDict = null;
   function translateLabels(svg) {
     var lang = window.uiLang ? window.uiLang() : "en";
     var dict = (window.DEMO_LABELS || {})[lang];
+    labelDict = dict || null;
     if (!dict) return;
     svg.querySelectorAll("[data-i18n]").forEach(function (el) {
       var v = dict[el.getAttribute("data-i18n")];
@@ -127,7 +131,8 @@
         else el.style.transform = from ? "translate(" + from.split(",").map(function (v) { return v.trim() + "px"; }).join(",") + ")" : (st.tf[id] || "");
       });
       Object.keys(texts).forEach(function (id) {
-        texts[id].textContent = st.tx[id] != null ? st.tx[id] : texts[id].dataset.orig;
+        var v = st.tx[id] != null ? st.tx[id] : texts[id].dataset.orig;
+        texts[id].textContent = (labelDict && labelDict[v]) || v;
       });
       items.forEach(function (li, i) { li.classList.toggle("active", i === cur); });
       caption.innerHTML = "<strong class='demo-n'>" + (cur + 1) + ".</strong>" + items[cur].innerHTML;

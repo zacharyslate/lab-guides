@@ -55,7 +55,7 @@
 <line class="ln" x1="105" y1="130" x2="105" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/>
 <line class="ln" x1="428" y1="130" x2="428" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/>
 <text class="lbl" x="105" y="350" text-anchor="middle">D1</text><text class="lbl" x="428" y="350" text-anchor="middle">D2</text>
-<text class="w-ok" x="270" y="372" text-anchor="middle">D1 = D2 · hand-tight</text>
+<text class="w-ok" x="270" y="372" text-anchor="middle" data-i18n="cell.d12">D1 = D2 · hand-tight</text>
 </g>
 <g class="part" id="pstat">
 <rect class="dark" x="560" y="110" width="220" height="200" rx="8"/>
