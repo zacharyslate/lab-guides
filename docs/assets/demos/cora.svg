@@ -1,25 +1,55 @@
-<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the Anton Paar Cora 5001 Raman spectrometer with fibre probe in the docking station, sealed sample vial, Enable and Stop buttons and the touchscreen spectrum">
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Drawing of the Anton Paar Cora 5001 Raman spectrometer (fibre version, front view) with its touchscreen, and the fibre probe lying in the docking station with a sealed sample vial in the vial holder">
 <text class="ttl" x="20" y="28" data-i18n="cora.title">Anton Paar Cora 5001 (fibre probe) — measuring a sealed sample</text>
-<rect class="body" x="430" y="80" width="340" height="300" rx="10"/>
-<rect class="scr" x="450" y="100" width="300" height="200" rx="5"/>
-<text class="scrtx" x="462" y="122" id="cs1" style="font-size:12px">— warming up —</text>
-<text class="scrtx" x="462" y="142" id="cs2" style="font-size:11px"></text>
-<text class="scrtx" x="462" y="160" id="cs3" style="font-size:11px"></text>
-<text class="scrtx" x="462" y="178" id="cs4" style="font-size:11px"></text>
-<g class="part" id="focusplot"><path class="axis" d="M470 285 H600 M470 285 V200" style="stroke:#66ffb3"/><path d="M472 280 C500 278 515 210 535 208 C555 210 570 278 598 280" style="fill:none;stroke:#66ffb3;stroke-width:2"/><text x="604" y="288" style="fill:#9fb;font-size:9px">z</text></g>
-<g class="part" id="spec"><path class="axis" d="M470 285 H740 M470 285 V190" style="stroke:#66ffb3"/><path d="M472 278 L520 276 L528 230 L535 276 L580 274 L588 200 L596 274 L640 272 L650 250 L658 272 L736 270" style="fill:none;stroke:#66ffb3;stroke-width:2"/><text x="700" y="298" style="fill:#9fb;font-size:9px">cm⁻¹</text></g>
-<g class="part" id="measBtn"><rect x="640" y="315" width="110" height="28" rx="4" style="fill:#2e7d32"/><text x="695" y="334" text-anchor="middle" style="fill:#fff;font-size:12px">Measure</text></g>
-<g class="part" id="pwr"><circle cx="460" cy="360" r="7" style="fill:#4cff8a"/></g>
-<text class="lbl-s" x="472" y="364" data-i18n="cora.rear">rear power switch</text>
-<path d="M430 330 C380 330 380 255 330 255" style="fill:none;stroke:#f0c419;stroke-width:5"/>
-<rect class="body" x="40" y="250" width="300" height="80" rx="6"/>
-<text class="lbl-s" x="190" y="345" text-anchor="middle" data-i18n="cora.dock">docking station</text>
-<g class="part" id="dlid" data-origin="60 250"><rect x="60" y="238" width="120" height="14" rx="4" style="fill:var(--demo-steel);stroke:var(--demo-steel-dk)"/></g>
-<g class="part" id="dvial" data-from="0,-80"><rect class="gl" x="102" y="176" width="34" height="96" rx="6"/><rect x="99" y="166" width="40" height="14" rx="3" class="dark"/><rect class="pw" x="105" y="236" width="28" height="33" rx="4"/></g>
-<g class="part" id="fprobe"><rect x="200" y="246" width="110" height="18" rx="4" style="fill:#f0c419;stroke:#9a7b00"/><rect x="290" y="240" width="40" height="30" rx="4" class="dark"/>
-<circle cx="303" cy="255" r="6" style="fill:#2e7d32"/><circle cx="320" cy="255" r="6" style="fill:#c62828"/><g class="part" id="ready"><circle cx="303" cy="255" r="3" style="fill:#b9ffcf"/></g></g>
-<g class="part" id="screw"><circle cx="240" cy="285" r="7" class="st"/><line x1="235" y1="285" x2="245" y2="285" style="stroke:#333;stroke-width:2"/></g>
-<g class="part" id="laser"><line x1="200" y1="255" x2="136" y2="255" style="stroke:#00e676;stroke-width:3"/><circle cx="134" cy="255" r="7" style="fill:#00e676;opacity:.45"/></g>
-<text class="lbl-s" x="290" y="232" data-i18n="cora.btns">Enable · Stop</text>
-<text class="lbl-s" x="150" y="160" id="vtxt"></text>
+
+<!-- ===== Cora 5001, front view ===== -->
+<rect class="dark" x="652" y="88" width="128" height="52" rx="7"/>
+<rect class="body" x="420" y="118" width="362" height="262" rx="14"/>
+<rect class="bez" x="452" y="140" width="298" height="200" rx="6"/>
+<rect class="uiscr" x="462" y="148" width="278" height="184" rx="2"/>
+<rect class="uibar" x="463" y="149" width="276" height="16"/>
+<rect class="acc" x="716" y="152" width="20" height="10" rx="1"/>
+<text class="uitx-b" x="472" y="188" id="cs1">— warming up —</text>
+<text class="uitx" x="472" y="206" id="cs2"></text>
+<text class="uitx" x="472" y="224" id="cs3"></text>
+<text class="uitx" x="472" y="242" id="cs4"></text>
+<g class="part" id="focusplot"><path d="M478 318 H612 M478 318 V252" style="fill:none;stroke:#8a939c;stroke-width:1.2"/><path d="M480 314 C506 312 520 258 542 256 C564 258 578 312 606 314" style="fill:none;stroke:var(--demo-accent);stroke-width:2"/><text x="604" y="328" style="fill:#6b7480;font-size:9px">z</text></g>
+<g class="part" id="spec"><path d="M478 318 H730 M478 318 V250" style="fill:none;stroke:#8a939c;stroke-width:1.2"/><path d="M480 312 L522 310 L530 272 L537 310 L578 308 L586 256 L594 308 L630 306 L640 286 L648 306 L728 304" style="fill:none;stroke:var(--demo-accent);stroke-width:2"/><text x="690" y="328" style="fill:#6b7480;font-size:9px">cm⁻¹</text></g>
+<g class="part" id="measBtn"><rect x="648" y="300" width="86" height="24" rx="2" class="acc"/><text x="691" y="316" text-anchor="middle" style="fill:#fff;font-size:11px;font-weight:700">Measure ›</text></g>
+<circle cx="436" cy="240" r="7" class="lo"/><circle cx="766" cy="240" r="7" class="lo"/>
+<rect x="434" y="128" width="20" height="5" rx="2" style="fill:#e53935"/>
+<rect class="acc" x="421" y="364" width="360" height="3"/>
+<text class="plate" x="772" y="358" text-anchor="end">Cora 5001</text>
+<g class="part" id="pwr"><circle cx="432" cy="404" r="7" style="fill:#4cff8a;stroke:#2e9e5b"/></g>
+<text class="lbl-s" x="446" y="408" data-i18n="cora.rear">rear power switch</text>
+
+<!-- fibre cable: dock end → instrument -->
+<path d="M50 250 C16 250 16 410 110 410 H370 C404 410 404 360 420 350" style="fill:none;stroke:#1f2328;stroke-width:5"/>
+
+<!-- ===== docking station ===== -->
+<rect x="40" y="264" width="346" height="48" rx="5" style="fill:#262b31"/>
+<rect x="150" y="288" width="104" height="8" rx="4" style="fill:#4a525b"/>
+<path d="M262 272 v6 M270 272 v4 M278 272 v6 M286 272 v4" style="stroke:#c9ced3;stroke-width:1.2"/>
+<text class="lbl-s" x="212" y="330" text-anchor="middle" data-i18n="cora.dock">docking station</text>
+<!-- sample compartment (drawn cut-away) -->
+<rect x="296" y="196" width="88" height="104" rx="4" style="fill:#262b31"/>
+<rect x="304" y="202" width="72" height="92" rx="2" style="fill:var(--demo-bg);opacity:.6"/>
+<rect x="312" y="256" width="56" height="40" rx="3" style="fill:#3b434c"/>
+<g class="part" id="dvial" data-from="0,-80"><rect class="gl" x="324" y="214" width="32" height="80" rx="6"/><rect x="321" y="204" width="38" height="13" rx="3" class="dark"/><rect class="pw" x="327" y="258" width="26" height="33" rx="4"/></g>
+<rect x="312" y="270" width="56" height="26" rx="3" style="fill:#3b434c;opacity:.85"/>
+<g class="part" id="dlid" data-origin="384 190"><rect x="294" y="183" width="92" height="14" rx="4" style="fill:#262b31;stroke:#59626c"/></g>
+
+<!-- fibre probe (lies on the docking station, tip towards the sample) -->
+<g class="part" id="fprobe">
+<path d="M130 250 H40" style="fill:none;stroke:#1f2328;stroke-width:5"/>
+<rect class="st" x="268" y="246" width="30" height="8" rx="2"/>
+<rect x="128" y="236" width="142" height="28" rx="4" style="fill:#1f2328"/>
+<rect x="166" y="239" width="84" height="22" rx="2" style="fill:#d5d9dd"/>
+<circle cx="174" cy="250" r="2.5" style="fill:#8a939c"/><circle cx="182" cy="250" r="2.5" style="fill:#8a939c"/>
+<rect x="192" y="244" width="16" height="12" rx="2" class="uibtn"/><rect x="211" y="244" width="16" height="12" rx="2" style="fill:#2e7d32"/><rect x="230" y="244" width="16" height="12" rx="2" style="fill:#c62828"/>
+<g class="part" id="ready"><circle cx="182" cy="250" r="3" style="fill:#3cff7a"/></g>
+<g class="part" id="screw"><circle cx="200" cy="292" r="7" class="st"/><line x1="195" y1="292" x2="205" y2="292" style="stroke:#333;stroke-width:2"/></g>
+</g>
+<g class="part" id="laser"><line x1="298" y1="250" x2="338" y2="250" style="stroke:#00e676;stroke-width:3"/><circle cx="340" cy="250" r="7" style="fill:#00e676;opacity:.45"/></g>
+<text class="lbl-s" x="219" y="230" text-anchor="middle" data-i18n="cora.btns">Enable · Stop</text>
+<text class="lbl-s" x="290" y="120" text-anchor="end" id="vtxt"></text>
 </svg>

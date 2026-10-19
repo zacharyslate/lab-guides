@@ -24,10 +24,12 @@ var CONFIG = {
   // Lab manager: receives a copy of every confirmed booking (leave '' to disable).
   MANAGER_EMAIL: '',
   // The public site, used in e-mails.
-  SITE_URL: 'https://example.github.io/instrument-guides/',
+  SITE_URL: 'https://zacharyslate.github.io/lab-guides/',
   /*
-   * calendarId: open Google Calendar ▸ Settings ▸ the instrument calendar ▸
-   * "Integrate calendar" ▸ Calendar ID (looks like ...@group.calendar.google.com).
+   * calendarId: leave '' and run setupCalendars() once — it creates one calendar
+   * per instrument ("Lab booking · <name>") and remembers its ID in the script
+   * properties. To use an existing calendar instead, paste its ID here
+   * (Google Calendar ▸ Settings ▸ Integrate calendar ▸ Calendar ID).
    * maxHours values are placeholders — set the real lab rules.
    */
   RESOURCES: [
@@ -93,8 +95,9 @@ function resolve_(key) {
   var ch = m[2] ? parseInt(m[2], 10) : 0;
   if (r.channels && !(ch >= 1 && ch <= r.channels)) throw new Error('bad channel');
   if (!r.channels && ch) throw new Error('bad channel');
-  if (!r.calendarId) throw new Error('calendar not configured for ' + r.id);
-  var cal = CalendarApp.getCalendarById(r.calendarId);
+  var id = calId_(r);
+  if (!id) throw new Error('calendar not configured for ' + r.id + ' (run setupCalendars)');
+  var cal = CalendarApp.getCalendarById(id);
   if (!cal) throw new Error('calendar not found for ' + r.id);
   return { res: r, ch: ch, key: m[0], cal: cal };
 }
@@ -178,8 +181,10 @@ function createBooking_(b) {
 
 function findEvent_(calKey, id, token) {
   var r = CONFIG.RESOURCES.filter(function (x) { return x.id === calKey; })[0];
-  if (!r || !r.calendarId) return null;
-  var ev = CalendarApp.getCalendarById(r.calendarId).getEventById(id);
+  var cid = r && calId_(r);
+  if (!cid) return null;
+  var cal = CalendarApp.getCalendarById(cid);
+  var ev = cal && cal.getEventById(id);
   if (!ev || !token || ev.getTag('token') !== token) return null;
   return ev;
 }
@@ -219,8 +224,9 @@ function purgePending_(cal) {
 
 function purgeAllPending() {
   CONFIG.RESOURCES.forEach(function (r) {
-    if (!r.calendarId) return;
-    var cal = CalendarApp.getCalendarById(r.calendarId);
+    var id = calId_(r);
+    if (!id) return;
+    var cal = CalendarApp.getCalendarById(id);
     if (cal) purgePending_(cal);
   });
 }
@@ -233,11 +239,33 @@ function installTrigger() {
   ScriptApp.newTrigger('purgeAllPending').timeBased().everyMinutes(15).create();
 }
 
-// Run once from the editor to check that every calendarId is valid.
+// Calendar ID for a resource: CONFIG value first, else the one stored by setupCalendars().
+function calId_(r) {
+  return r.calendarId || PropertiesService.getScriptProperties().getProperty('cal_' + r.id) || '';
+}
+
+// Run once from the editor: creates any missing instrument calendar and stores its ID.
+// Safe to run again — existing calendars are kept.
+function setupCalendars() {
+  var props = PropertiesService.getScriptProperties();
+  CONFIG.RESOURCES.forEach(function (r) {
+    var id = calId_(r);
+    if (id && CalendarApp.getCalendarById(id)) { Logger.log('exists  ' + r.id + ' ' + id); return; }
+    var cal = CalendarApp.createCalendar('Lab booking · ' + r.name, {
+      timeZone: CONFIG.TIMEZONE,
+      summary: 'Bookings made through ' + CONFIG.SITE_URL + 'booking/'
+    });
+    props.setProperty('cal_' + r.id, cal.getId());
+    Logger.log('created ' + r.id + ' ' + cal.getId());
+  });
+}
+
+// Run once from the editor to check that every calendar is reachable.
 function checkCalendars() {
   CONFIG.RESOURCES.forEach(function (r) {
-    var ok = r.calendarId && CalendarApp.getCalendarById(r.calendarId);
-    Logger.log((ok ? 'OK      ' : 'MISSING ') + r.id + ' ' + (r.calendarId || '(no calendarId)'));
+    var id = calId_(r);
+    var ok = id && CalendarApp.getCalendarById(id);
+    Logger.log((ok ? 'OK      ' : 'MISSING ') + r.id + ' ' + (id || '(no calendar — run setupCalendars)'));
   });
 }
 

@@ -28,6 +28,10 @@
   --demo-hl: #ff6d00;
   --demo-body: #e9edf1;
   --demo-body-st: #8a96a3;
+  --demo-body-hi: #f7f9fb;
+  --demo-body-lo: #d9dee3;
+  --demo-bezel: #c9d0d6;
+  --demo-accent: #c8102e;
 }
 
 [data-md-color-scheme="slate"] {
@@ -42,6 +46,9 @@
   --demo-glass: rgba(170, 220, 240, 0.18);
   --demo-body: #2a313b;
   --demo-body-st: #6d7a88;
+  --demo-body-hi: #38414c;
+  --demo-body-lo: #232932;
+  --demo-bezel: #46505c;
 }
 
 /* ---------- animated demonstrations ---------- */
@@ -114,6 +121,19 @@
 .demo .wire { fill: none; stroke-width: 3; stroke-linecap: round; }
 .demo .trace{ fill: none; stroke: var(--demo-hl); stroke-width: 2.5; }
 .demo .axis { stroke: var(--demo-muted); stroke-width: 1.2; fill: none; }
+/* instrument-styled drawings (Monowave, Cora): light touchscreen UI */
+.demo .hi   { fill: var(--demo-body-hi); stroke: var(--demo-body-st); stroke-width: 1.5; }
+.demo .lo   { fill: var(--demo-body-lo); stroke: var(--demo-body-st); stroke-width: 1; }
+.demo .bez  { fill: var(--demo-bezel); stroke: var(--demo-body-st); stroke-width: 1; }
+.demo .acc  { fill: var(--demo-accent); }
+.demo .uiscr{ fill: #ffffff; stroke: #59636e; stroke-width: 1; }
+.demo .uitx { fill: #2b2f33; font-size: 10.5px; }
+.demo .uitx-b{ fill: #2b2f33; font-size: 11.5px; font-weight: 700; }
+.demo .uihd { fill: #ffffff; font-size: 10.5px; font-weight: 700; }
+.demo .uibar{ fill: #e4e7ea; }
+.demo .uibtn{ fill: #ffffff; stroke: #aab2ba; stroke-width: 1; }
+.demo .uibt { fill: #2b2f33; font-size: 9px; }
+.demo .plate{ fill: var(--demo-muted); font-size: 9px; letter-spacing: .3px; }
 
 /* player chrome */
 .demo-bar {

@@ -1,31 +1,94 @@
-<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the Anton Paar Monowave 400 R: reaction vial with snap cap and septum, cavity with adaptor ring, swivelling cover, touchscreen, Raman probe slide and Cora 5001">
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Drawing of the Anton Paar Monowave 400 R microwave reactor (front, with a cut-away of the cavity), its touchscreen, the Raman probe slide on the rear panel and the Cora 5001 Raman spectrometer">
 <text class="ttl" x="20" y="28" data-i18n="mw.title">Anton Paar Monowave 400 R — sealed-vial microwave synthesis</text>
-<g class="part" id="air"><path d="M150 420 V440 H40" class="ln" style="stroke-width:4;stroke:#7a8fa3"/><text class="lbl-s" x="40" y="434" data-i18n="mw.air">compressed air 5.5–6 bar</text></g>
-<rect class="body" x="150" y="150" width="300" height="270" rx="10"/>
-<rect class="dark" x="225" y="205" width="70" height="200" rx="6"/>
-<text class="lbl-s" x="260" y="418" text-anchor="middle" data-i18n="mw.cavity">cavity</text>
-<g class="part" id="ring"><rect x="236" y="290" width="48" height="6" rx="2" style="fill:#d9a441;stroke:#8a6417"/></g>
-<g class="part" id="lid" data-origin="160 150"><rect class="body" x="160" y="132" width="200" height="22" rx="6" style="fill:var(--demo-steel)"/><text class="lbl-s" x="260" y="147" text-anchor="middle" data-i18n="mw.lid">swivelling cover</text></g>
-<rect class="scr" x="320" y="180" width="115" height="150" rx="5"/>
-<text class="scrtx" x="330" y="202" id="scr1" style="font-size:11px">Task List</text>
-<text class="scrtx" x="330" y="222" id="scr2" style="font-size:11px"></text>
-<text class="scrtx" x="330" y="240" id="scr3" style="font-size:11px"></text>
-<text class="scrtx" x="330" y="258" id="scr4" style="font-size:11px"></text>
-<text class="scrtx" x="330" y="276" id="scr5" style="font-size:11px"></text>
-<text class="scrtx" x="330" y="314" id="scr6" style="font-size:11px"></text>
-<g class="part" id="startBtnMw"><rect x="330" y="340" width="95" height="24" rx="4" style="fill:#2e7d32"/><text x="377" y="356" text-anchor="middle" style="fill:#fff;font-size:11px">Start</text></g>
-<rect class="body" x="455" y="372" width="150" height="26" rx="4"/>
-<text class="lbl-s" x="470" y="412" style="font-size:10px">G10</text><text class="lbl-s" x="505" y="412" style="font-size:10px">G30</text><text class="lbl-s" x="560" y="412" style="font-size:10px">idle</text>
-<text class="lbl-s" x="530" y="366" text-anchor="middle" data-i18n="mw.slide">Raman probe slide</text>
-<g class="part" id="probe"><rect x="455" y="378" width="120" height="14" rx="3" style="fill:#f0c419;stroke:#9a7b00"/><rect x="565" y="374" width="34" height="22" rx="3" class="dark"/><circle cx="582" cy="385" r="5" style="fill:#c62828"/></g>
-<path d="M605 385 C625 385 620 330 640 330" style="fill:none;stroke:#f0c419;stroke-width:4"/>
-<g class="part" id="cora"><rect class="dark" x="640" y="285" width="140" height="90" rx="6"/><text x="710" y="335" text-anchor="middle" style="fill:#fff;font-size:12px">Cora 5001</text></g>
-<g class="part" id="beam"><line x1="300" y1="385" x2="268" y2="385" style="stroke:#00e676;stroke-width:3"/><circle cx="266" cy="385" r="6" style="fill:#00e676;opacity:.5"/></g>
+
+<!-- compressed air to the rear inlet -->
+<g class="part" id="air"><path d="M30 432 H108 V412 H120" class="ln" style="stroke-width:4;stroke:#7a8fa3"/><text class="lbl-s" x="30" y="446" data-i18n="mw.air">compressed air 5.5–6 bar</text></g>
+
+<!-- ===== Monowave 400 R housing (front view) ===== -->
+<rect class="dark" x="138" y="418" width="34" height="8" rx="2"/><rect class="dark" x="418" y="418" width="34" height="8" rx="2"/>
+<path class="hi" d="M126 176 L150 142 H440 L464 176 Z"/>
+<path class="body" d="M120 186 Q120 176 130 176 H460 Q470 176 470 186 V412 Q470 420 462 420 H128 Q120 420 120 412 Z"/>
+<rect x="117" y="236" width="5" height="22" rx="2" class="lo"/>
+<rect class="lo" x="121" y="372" width="348" height="47" rx="0"/>
+<rect class="acc" x="121" y="404" width="348" height="3"/>
+<circle cx="140" cy="388" r="3.5" style="fill:#3ccf6a"/>
+<text class="plate" x="456" y="396" text-anchor="end">Monowave 400 R</text>
+
+<!-- cut-away of the microwave cavity -->
+<rect x="184" y="176" width="82" height="128" rx="3" style="fill:var(--demo-panel);opacity:.9"/>
+<rect x="196" y="178" width="58" height="120" rx="4" style="fill:#4a5a6a"/>
+<rect x="184" y="176" width="82" height="128" rx="3" style="fill:none;stroke:var(--demo-muted);stroke-dasharray:4 3"/>
+<rect x="214" y="292" width="22" height="5" rx="2" style="fill:#8a96a3"/>
+<text class="lbl-s" x="225" y="320" text-anchor="middle" data-i18n="mw.cavity">cavity</text>
+
+<!-- touchscreen in its bezel -->
+<rect class="bez" x="284" y="186" width="174" height="176" rx="9"/>
+<rect class="uiscr" x="296" y="196" width="150" height="154" rx="2"/>
+<rect class="acc" x="297" y="197" width="148" height="17"/>
+<text class="uihd" x="303" y="209" id="scr1">Task List</text>
+<text class="uitx" x="304" y="232" id="scr2"></text>
+<text class="uitx" x="304" y="250" id="scr3"></text>
+<text class="uitx" x="304" y="268" id="scr4"></text>
+<text class="uitx" x="304" y="286" id="scr5"></text>
+<text class="uitx-b" x="304" y="310" id="scr6"></text>
+<rect class="uibar" x="297" y="324" width="148" height="25"/>
+<rect class="uibtn" x="300" y="328" width="40" height="17" rx="2"/><text class="uibt" x="320" y="340" text-anchor="middle">Menu</text>
+<rect class="uibtn" x="344" y="328" width="48" height="17" rx="2"/><text class="uibt" x="368" y="340" text-anchor="middle">Task List</text>
+<g class="part" id="startBtnMw"><rect x="396" y="328" width="46" height="17" rx="2" style="fill:#2e7d32"/><text x="419" y="340" text-anchor="middle" style="fill:#fff;font-size:9.5px;font-weight:700">Start</text></g>
+
+<!-- reaction vial with stir bar and snap cap -->
 <g class="part" id="vial" data-from="-20,0">
-<rect class="gl" x="48" y="150" width="34" height="110" rx="10"/>
-<g class="part" id="liq"><rect x="51" y="215" width="28" height="42" rx="8" style="fill:#8fbcd4;opacity:.75"/><rect x="58" y="248" width="14" height="5" rx="2" style="fill:#fff;stroke:#666"/></g>
-<g class="part" id="cap"><rect x="44" y="138" width="42" height="16" rx="3" style="fill:#c7a77a;stroke:#7a5c33"/><rect x="50" y="152" width="30" height="4" style="fill:#e8e8e8;stroke:#999"/></g>
+<rect class="gl" x="48" y="92" width="34" height="110" rx="10"/>
+<g class="part" id="liq"><rect x="51" y="157" width="28" height="42" rx="8" style="fill:#8fbcd4;opacity:.75"/><rect x="58" y="190" width="14" height="5" rx="2" style="fill:#fff;stroke:#666"/></g>
+<g class="part" id="cap"><rect x="44" y="80" width="42" height="16" rx="3" style="fill:#c7a77a;stroke:#7a5c33"/><rect x="50" y="94" width="30" height="4" style="fill:#e8e8e8;stroke:#999"/></g>
 </g>
-<text class="lbl-s" x="96" y="200" id="vlbl"></text>
-<g class="part" id="heat"><path d="M232 330 q6 -10 0 -20 q-6 -10 0 -20" class="hot"/><path d="M288 330 q6 -10 0 -20 q-6 -10 0 -20" class="hot"/></g>
+<text class="lbl-s" x="44" y="62" id="vlbl"></text>
+<!-- adaptor ring (polyimide side up) on the cavity insert, in front of the vial -->
+<g class="part" id="ring"><rect x="202" y="182" width="46" height="7" rx="2" style="fill:#d9a441;stroke:#8a6417"/><rect x="202" y="182" width="46" height="2" style="fill:#8a4b12"/></g>
+<g class="part" id="heat"><path d="M201 284 q6 -10 0 -20 q-6 -10 0 -20 q6 -10 0 -20" class="hot"/><path d="M249 284 q6 -10 0 -20 q-6 -10 0 -20 q6 -10 0 -20" class="hot"/></g>
+<g class="part" id="beam"><circle cx="225" cy="248" r="11" style="fill:#00e676;opacity:.25"/><circle cx="225" cy="248" r="4" style="fill:#00e676"/></g>
+
+<!-- swivelling cover on the top face -->
+<g class="part" id="lid" data-origin="176 158">
+<ellipse cx="225" cy="160" rx="52" ry="11" style="fill:var(--demo-steel);stroke:var(--demo-steel-dk);stroke-width:1.5"/>
+<ellipse cx="225" cy="156" rx="24" ry="5" style="fill:var(--demo-body-hi);stroke:var(--demo-steel-dk)"/>
+</g>
+<text class="lbl-s" x="284" y="164" data-i18n="mw.lid">swivelling cover</text>
+
+<!-- ===== Cora 5001 (fibre version) ===== -->
+<g class="part" id="cora">
+<rect class="dark" x="704" y="176" width="80" height="40" rx="6"/>
+<rect class="body" x="522" y="196" width="264" height="124" rx="10"/>
+<rect class="uiscr" x="556" y="210" width="196" height="94" rx="2"/>
+<rect class="uibar" x="557" y="211" width="194" height="11"/>
+<rect class="acc" x="738" y="213" width="10" height="7"/>
+<g style="fill:#eef0f2;stroke:#c3c8cd">
+<rect x="566" y="230" width="38" height="28"/><rect x="610" y="230" width="38" height="28"/><rect x="654" y="230" width="38" height="28"/><rect x="698" y="230" width="38" height="28"/>
+<rect x="566" y="264" width="38" height="28"/><rect x="610" y="264" width="38" height="28"/><rect x="654" y="264" width="38" height="28"/></g>
+<g class="acc"><circle cx="585" cy="242" r="4"/><circle cx="629" cy="242" r="4"/><circle cx="673" cy="242" r="4"/><circle cx="717" cy="242" r="4"/><circle cx="585" cy="276" r="4"/><circle cx="629" cy="276" r="4"/><circle cx="673" cy="276" r="4"/></g>
+<circle cx="539" cy="257" r="5" class="lo"/><circle cx="769" cy="257" r="5" class="lo"/>
+<rect x="532" y="204" width="16" height="4" rx="2" style="fill:#e53935"/>
+<rect class="acc" x="523" y="311" width="262" height="2"/>
+<text class="plate" x="778" y="307" text-anchor="end">Cora 5001</text>
+</g>
+
+<!-- ===== rear panel inset: Raman probe slide ===== -->
+<rect class="body" x="490" y="340" width="300" height="92" rx="6" style="stroke-dasharray:5 3"/>
+<text class="lbl-s" x="500" y="358" data-i18n="mw.rear">rear panel</text>
+<text class="lbl-s" x="780" y="358" text-anchor="end" data-i18n="mw.slide">Raman probe slide</text>
+<rect x="500" y="383" width="14" height="10" rx="2" class="dark"/>
+<rect class="st" x="514" y="380" width="246" height="16" rx="2"/>
+<path d="M525 398 v6 M560 398 v6 M600 398 v6" class="ln" style="stroke-width:1.5"/>
+<text class="lbl-s" x="525" y="418" text-anchor="middle" style="font-size:10px">G10</text>
+<text class="lbl-s" x="560" y="418" text-anchor="middle" style="font-size:10px">G30</text>
+<text class="lbl-s" x="600" y="418" text-anchor="middle" style="font-size:10px">idle</text>
+<path d="M770 320 C770 346 793 346 793 366 V388 H800" style="fill:none;stroke:#1f2328;stroke-width:4"/>
+<g class="part" id="probe">
+<path d="M730 388 H880" style="fill:none;stroke:#1f2328;stroke-width:4"/>
+<rect class="st" x="600" y="385" width="42" height="6" rx="2"/>
+<rect x="640" y="373" width="92" height="30" rx="4" style="fill:#1f2328"/>
+<rect x="656" y="377" width="34" height="22" rx="2" style="fill:#f0c419"/>
+<path d="M666 394 l7 -12 l7 12 z" style="fill:none;stroke:#1f2328;stroke-width:1.5"/>
+<circle cx="716" cy="388" r="5.5" style="fill:#c62828;stroke:#fff;stroke-width:1"/>
+</g>
 </svg>

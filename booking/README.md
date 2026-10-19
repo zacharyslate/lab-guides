@@ -14,13 +14,10 @@ The website is static (GitHub Pages), so bookings are stored in **Google Calenda
 ## Set-up (about 30 minutes)
 
 1. **Use a lab account**, not a personal one (e.g. a shared lab Google account). It will own the calendars and send the e-mails.
-2. **Create the calendars** in Google Calendar ▸ *Other calendars* ▸ *+* ▸ *Create new calendar*: one for each entry in `CONFIG.RESOURCES` (e.g. "Glovebox", "Rotavapor", "PMC-2000", "CT-9008", …). For each, copy **Settings ▸ Integrate calendar ▸ Calendar ID**.
-3. **Create the script**: go to <https://script.google.com> ▸ *New project*. Paste `Code.gs`. In *Project settings* tick *Show "appsscript.json"* and paste `appsscript.json`.
-4. **Edit `CONFIG`** at the top of `Code.gs`:
-    - paste each `calendarId`;
-    - set `ALLOWED_DOMAINS`, `MANAGER_EMAIL`, `SITE_URL`;
-    - set the real `maxHours` and `rules` for each instrument and the real number of `channels` (the values in the file are **placeholders**).
-5. **Check**: select the function `checkCalendars` and press *Run*. Authorise when asked. The log must show `OK` for every instrument.
+2. **Create the script**: go to <https://script.google.com> ▸ *New project*. Paste `Code.gs`. In *Project settings* tick *Show "appsscript.json"* and paste `appsscript.json`.
+3. **Edit `CONFIG`** at the top of `Code.gs`: set `ALLOWED_DOMAINS`, `MANAGER_EMAIL`, and the real `maxHours`, `rules` and `channels` for each instrument (the values in the file are **placeholders**).
+4. **Create the calendars**: select the function `setupCalendars` and press *Run*. Authorise when asked (Calendar, send e-mail, triggers). It creates one calendar per instrument, named "Lab booking · …", and remembers their IDs. To use calendars you already have, paste their IDs into `calendarId` instead.
+5. **Check**: run `checkCalendars`. The log must show `OK` for every instrument.
 6. **Install the clean-up trigger**: run `installTrigger` once.
 7. **Deploy**: *Deploy ▸ New deployment ▸ Web app*. *Execute as*: **Me**. *Who has access*: **Anyone** (or *Anyone within your organisation* if the institute uses Google Workspace — then only colleagues signed in with the institute account can open it). Copy the **Web app URL** (ends in `/exec`).
 8. **Connect the website**: put the URL in `docs/assets/js/booking-config.js` → `apiUrl: "https://script.google.com/macros/s/…/exec"`, and copy the same `resources` rules there (used only in demo mode). Commit and push.

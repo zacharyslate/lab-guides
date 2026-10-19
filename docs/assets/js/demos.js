@@ -63,18 +63,18 @@ window.DEMOS["rotavapor"] = {
 
 /* ---------------- AC impedance (EIS) cell + PMC-2000 ---------------- */
 window.DEMOS["eis-cell"] = {
-  base: ["balance", "press", "ram", "pneedle"],
+  base: ["balance", "press", "presscyl", "ram", "pneedle"],
   steps: [
     { show: ["dieAsm", "armS"], set: { pneedle: "rotate(-120deg)" }, txt: { bal: "0.000 g" }, hl: ["armS"] },
     { show: ["powder"], txt: { bal: "0.025 g" }, hl: ["powder"] },
     { show: ["armL"], hl: ["armL"] },
-    { set: { dieAsm: "translate(490px,-96px)", ram: "translate(0px,-96px)", pneedle: "rotate(-75deg)" }, txt: { bal: "", pg: "4 MPa", ptime: "1:00" }, hl: ["pneedle"] },
-    { hide: ["dieAsm"], show: ["eject", "pelletOut"], set: { ram: "translate(0px,0px)", pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["pelletOut"] },
-    { hide: ["balance", "eject", "pelletOut"], show: ["pcb", "ccL", "gasL", "pel", "gasS", "ccS", "labelsB"], hl: ["pel", "gasL", "gasS"] },
-    { show: ["miniCell"], set: { pneedle: "rotate(45deg)" }, txt: { pg: "18 MPa (Ø10) · 7.5 MPa (Ø6)", ptime: "3:00" }, hl: ["miniCell", "pneedle"] },
-    { hide: ["miniCell"], show: ["plateT", "plateB", "screws", "ins", "m4"], set: { pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["plateT", "plateB", "ins"] },
+    { set: { dieAsm: "translate(490px,50px)", ram: "translate(0px,74px)", pneedle: "rotate(-75deg)" }, txt: { bal: "", pg: "4 MPa", ptime: "1:00" }, hl: ["pneedle"] },
+    { hide: ["dieAsm"], show: ["eject", "pelletOut"], set: { ram: "translate(0px,58px)", pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["pelletOut"] },
+    { hide: ["balance", "eject", "pelletOut"], set: { ram: "translate(0px,0px)" }, show: ["pcb", "ccL", "gasL", "pel", "gasS", "ccS", "labelsB"], hl: ["pel", "gasL", "gasS"] },
+    { show: ["miniCell"], set: { ram: "translate(0px,138px)", pneedle: "rotate(45deg)" }, txt: { pg: "18 MPa (Ø10) · 7.5 MPa (Ø6)", ptime: "3:00" }, hl: ["miniCell", "pneedle"] },
+    { hide: ["miniCell"], show: ["plateT", "plateB", "screws", "ins", "m4"], set: { ram: "translate(0px,0px)", pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["plateT", "plateB", "ins"] },
     { show: ["dims"], hl: ["dims", "screws"] },
-    { hide: ["press", "ram", "pneedle", "labelsB"], show: ["pstat", "leads"], hl: ["leads", "m4"] },
+    { hide: ["press", "presscyl", "ram", "pneedle", "labelsB"], show: ["pstat", "leads"], hl: ["leads", "m4"] },
     { show: ["nyq"], txt: { tempT: "≥ 45 min at T, then 3 MHz → 0.1 Hz" }, hl: ["nyq"] },
     { txt: { tempT: "40 → 60 → 80 → 100 → 120 °C" }, hl: ["nyq"] }
   ]
@@ -104,17 +104,17 @@ window.DEMOS["ssb-cell"] = {
 window.DEMOS["monowave"] = {
   base: ["lid", "probe", "cora", "startBtnMw"],
   steps: [
-    { show: ["air"], set: { lid: "rotate(-20deg)" }, hl: ["air"] },
+    { show: ["air"], set: { lid: "rotate(-45deg)" }, hl: ["air"] },
     { show: ["vial", "liq"], txt: { vlbl: "G10 vial · 2–6 mL" }, hl: ["liq"] },
     { show: ["cap"], hl: ["cap"] },
     { txt: { scr2: "+ New: Standard", scr3: "Heat → T", scr4: "Hold  t", scr5: "Cool  ≤ bp−10", scr6: "Vial: G10" } },
-    { set: { probe: "translate(-155px,0px)" }, hl: ["probe"] },
-    { show: ["ring"], set: { vial: "translate(195px,140px)" }, txt: { vlbl: "" }, hl: ["ring", "vial"] },
+    { set: { probe: "translate(-75px,0px)" }, hl: ["probe"] },
+    { show: ["ring"], set: { vial: "translate(160px,84px)" }, txt: { vlbl: "" }, hl: ["ring", "vial"] },
     { set: { lid: "rotate(0deg)" }, hl: ["startBtnMw", "lid"] },
     { show: ["beam", "heat"], hl: ["cora", "beam"] },
     { txt: { scr2: "T  ▲  °C", scr3: "p  ▲  bar", scr4: "P   W", scr5: "stir rpm", scr6: "running" }, hl: ["heat"] },
     { hide: ["beam", "heat"], txt: { scr6: "cooling" }, hl: ["cora"] },
-    { set: { lid: "rotate(-20deg)", vial: "translate(0px,0px)" }, txt: { vlbl: "open with capping tool", scr6: "done" }, hl: ["vial"] },
+    { set: { lid: "rotate(-45deg)", vial: "translate(0px,0px)" }, txt: { vlbl: "open with capping tool", scr6: "done" }, hl: ["vial"] },
     { txt: { scr2: "Menu ▸ Data", scr3: "Browse Results", scr4: "Export: USB", scr5: ".pdf .csv", scr6: "" } }
   ]
 };
@@ -125,15 +125,15 @@ window.DEMOS["cora"] = {
   steps: [
     { show: ["pwr"], txt: { cs1: "— warming up (~15 min) —" }, hl: ["pwr"] },
     { txt: { cs1: "Log in", cs2: "user / password" } },
-    { show: ["dvial"], set: { dlid: "rotate(-70deg)", dvial: "translate(0px,-110px)" }, txt: { cs1: "", cs2: "", vtxt: "sealed vial (filled in glovebox)" }, hl: ["dvial"] },
-    { set: { fprobe: "translate(40px,0px)", dvial: "translate(0px,0px)", dlid: "rotate(0deg)" }, txt: { vtxt: "" }, hl: ["screw", "fprobe", "dlid"] },
+    { show: ["dvial"], set: { dlid: "rotate(110deg)", dvial: "translate(0px,-110px)" }, txt: { cs1: "", cs2: "", vtxt: "sealed vial (filled in glovebox)" }, hl: ["dvial"] },
+    { set: { fprobe: "translate(-40px,0px)", dvial: "translate(0px,0px)", dlid: "rotate(0deg)" }, txt: { vtxt: "" }, hl: ["screw", "fprobe", "dlid"] },
     { show: ["ready"], hl: ["ready"] },
     { show: ["focusplot", "laser"], set: { fprobe: "translate(0px,0px)" }, txt: { cs1: "Adjust Focus ▸ Start", cs2: "slide probe → max signal", cs3: "tighten screw ▸ Stop" }, hl: ["focusplot", "screw"] },
     { hide: ["focusplot", "laser"], txt: { cs1: "Single Measurement", cs2: "λ · laser power", cs3: "Auto Exposure ≤ 10 s" } },
     { txt: { cs1: "Advanced Settings", cs2: "background · average N", cs3: "spike removal (N ≥ 3)", cs4: "baseline correction" } },
     { show: ["measBtn", "laser", "spec"], txt: { cs1: "", cs2: "", cs3: "", cs4: "" }, hl: ["measBtn", "spec"] },
     { hide: ["laser", "ready"], txt: { cs1: "Export · Save as method" }, hl: ["fprobe"] },
-    { hide: ["spec", "measBtn", "pwr"], set: { dlid: "rotate(-70deg)", dvial: "translate(0px,-110px)" }, txt: { cs1: "— off —" }, hl: ["dvial"] }
+    { hide: ["spec", "measBtn", "pwr"], set: { dlid: "rotate(110deg)", dvial: "translate(0px,-110px)" }, txt: { cs1: "— off —" }, hl: ["dvial"] }
   ]
 };
 

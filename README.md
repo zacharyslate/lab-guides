@@ -64,3 +64,7 @@ Each demonstration is an SVG in `docs/assets/demos/` plus an entry in `docs/asse
 ## Manuals
 
 Vendor manuals are copyrighted, so they are **not** stored in this public repository (`*.pdf` is in `.gitignore`). The Manuals page links to official pages and to the lab's own copies (add the lab-drive link there).
+
+## QR labels for the instruments
+
+`ZACH-venv/bin/python tools/make_qr_labels.py <outdir>` writes two A4 sheets (13 labels, 63 × 52 mm): `qr-labels-main.pdf` (every code opens the home page) and `qr-labels-instrument.pdf` (every code opens that instrument's guide). Each code is decoded again before the sheet is saved. Update `SITE` in the script if the site moves.
