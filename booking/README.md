@@ -19,10 +19,10 @@ The website is static (GitHub Pages), so bookings are stored in **Google Calenda
 4. **Create the calendars**: select the function `setupCalendars` and press *Run*. Authorise when asked (Calendar, send e-mail, triggers). It creates one calendar per instrument, named "Lab booking · …", and remembers their IDs. To use calendars you already have, paste their IDs into `calendarId` instead.
 5. **E-mail permission**: run `authorizeEmail`. On Google's consent screen tick **every** box (or *Select all*); if *Send email as you* is left unticked, bookings fail with "You do not have permission to call MailApp.sendEmail".
 6. **Check**: run `checkCalendars`. The log must show `OK` for every instrument.
-6. **Install the clean-up trigger**: run `installTrigger` once.
-7. **Deploy**: *Deploy ▸ New deployment ▸ Web app*. *Execute as*: **Me**. *Who has access*: **Anyone** (or *Anyone within your organisation* if the institute uses Google Workspace — then only colleagues signed in with the institute account can open it). Copy the **Web app URL** (ends in `/exec`).
-8. **Connect the website**: put the URL in `docs/assets/js/booking-config.js` → `apiUrl: "https://script.google.com/macros/s/…/exec"`, and copy the same `resources` rules there (used only in demo mode). Commit and push.
-9. **Test**: make a booking, confirm it from the e-mail, check it appears in Google Calendar and on the site, then cancel it.
+7. **Install the clean-up trigger**: run `installTrigger` once.
+8. **Deploy**: *Deploy ▸ New deployment ▸ Web app*. *Execute as*: **Me**. *Who has access*: **Anyone** (or *Anyone within your organisation* if the institute uses Google Workspace — then only colleagues signed in with the institute account can open it). Copy the **Web app URL** (ends in `/exec`).
+9. **Connect the website**: put the URL in `docs/assets/js/booking-config.js` → `apiUrl: "https://script.google.com/macros/s/…/exec"`, and copy the same `resources` rules there (used only in demo mode). Commit and push.
+10. **Test**: make a booking, confirm it from the e-mail, check it appears in Google Calendar and on the site, then cancel it.
 
 When you change `Code.gs` later, use *Deploy ▸ Manage deployments ▸ Edit ▸ New version* so the URL stays the same.
 
