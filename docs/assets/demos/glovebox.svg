@@ -1,0 +1,71 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the MBraun EasyLab glovebox: main chamber, antechamber with inner and outer doors, argon refill valve, vacuum valve, pressure gauge, control panel, catalyst circulation valves and foot pedals">
+<text class="ttl" x="20" y="28" data-i18n="gb.title">MBraun EasyLab — bringing material in through the antechamber</text>
+<rect class="body" x="40" y="70" width="420" height="250" rx="10"/>
+<rect class="gl" x="60" y="85" width="380" height="150" rx="6"/>
+<text class="lbl" x="72" y="104" data-i18n="gb.main">Main chamber (argon)</text>
+<line class="ln" x1="60" y1="215" x2="440" y2="215"/>
+<rect class="scr" x="200" y="36" width="178" height="26" rx="3"/>
+<text class="scrtx" x="208" y="54" id="sens">O₂ &lt;1 · H₂O &lt;1 ppm</text>
+<text class="lbl-s" x="384" y="54" data-i18n="gb.sensors">sensors (example)</text>
+<g class="part" id="gloves">
+<circle class="st" cx="165" cy="275" r="36"/><circle class="dark" cx="165" cy="275" r="28"/>
+<circle class="st" cx="335" cy="275" r="36"/><circle class="dark" cx="335" cy="275" r="28"/>
+<text class="lbl-s" x="250" y="279" text-anchor="middle" data-i18n="gb.gloves">butyl gloves</text>
+</g>
+<rect class="st" x="460" y="145" width="12" height="110"/>
+<rect class="body" x="472" y="155" width="246" height="90" rx="6"/>
+<text class="lbl" x="595" y="236" text-anchor="middle" data-i18n="gb.ante">Antechamber</text>
+<g class="part" id="innerdoor"><rect class="st" x="474" y="148" width="12" height="104" rx="2"/></g>
+<g class="part" id="outerdoor"><rect class="st" x="706" y="148" width="12" height="104" rx="2"/></g>
+<text class="lbl-s" x="480" y="140" text-anchor="middle" data-i18n="gb.inner">inner door</text>
+<text class="lbl-s" x="712" y="140" text-anchor="middle" data-i18n="gb.outer">outer door</text>
+<line class="ln" x1="600" y1="127" x2="600" y2="155" style="stroke-width:3"/>
+<circle class="body" cx="600" cy="95" r="32"/>
+<path class="ln" d="M574 110 A30 30 0 1 1 626 110"/>
+<text class="lbl-s" x="573" y="123" text-anchor="middle">-100</text>
+<text class="lbl-s" x="627" y="123" text-anchor="middle">0</text>
+<g class="part" id="needle" data-origin="600 95"><line x1="600" y1="95" x2="600" y2="70" style="stroke:var(--demo-hot);stroke-width:3;stroke-linecap:round"/><circle cx="600" cy="95" r="4" class="dark"/></g>
+<text class="lbl" x="545" y="62" text-anchor="end" id="gaugeval">−94 kPa</text>
+<text class="lbl" x="650" y="80" id="timer"></text>
+<text class="lbl" x="650" y="100" id="cycle"></text>
+<path d="M540 245 V300 H460" class="ln" style="stroke-width:6;stroke:var(--demo-steel-dk)"/>
+<path d="M660 245 V370" class="ln" style="stroke-width:6;stroke:var(--demo-steel-dk)"/>
+<g class="part" id="flowAr"><path d="M462 300 H540 V248" class="ar flow"/></g>
+<g class="part" id="flowVac"><path d="M660 250 V368" class="flow" style="fill:none;stroke:var(--demo-muted);stroke-width:3"/></g>
+<circle class="st" cx="540" cy="290" r="11"/>
+<g class="part" id="vrefill" data-origin="540 290"><rect x="522" y="286" width="36" height="8" rx="3" style="fill:var(--demo-ar)"/></g>
+<text class="lbl-s" x="560" y="318" data-i18n="gb.vrefill">argon (refill) valve</text>
+<circle class="st" cx="660" cy="300" r="11"/>
+<g class="part" id="vvac" data-origin="660 300"><rect x="642" y="296" width="36" height="8" rx="3" style="fill:var(--demo-ink)"/></g>
+<text class="lbl-s" x="680" y="325" data-i18n="gb.vvac">vacuum valve</text>
+<rect class="dark" x="615" y="370" width="90" height="48" rx="5"/>
+<text x="660" y="398" text-anchor="middle" style="fill:#fff;font-size:12px" data-i18n="gb.pump">vacuum pump</text>
+<g class="part" id="bottle" data-from="50,0">
+<rect class="gl" x="748" y="196" width="24" height="38" rx="3"/><rect class="dark" x="751" y="186" width="18" height="11" rx="2"/>
+<rect class="pw" x="750" y="215" width="20" height="17" rx="2"/>
+</g>
+<rect class="dark" x="40" y="342" width="230" height="96" rx="6"/>
+<text x="52" y="362" style="fill:#fff;font-size:12px" data-i18n="gb.panel">Control panel</text>
+<g style="font-size:10px;fill:#fff" text-anchor="middle">
+<rect x="52" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="74" y="415">ECO</text>
+<rect x="105" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="127" y="415">PUMP</text>
+<rect x="158" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="180" y="415">CIRC</text>
+<rect x="211" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="233" y="415">LIGHT</text>
+</g>
+<circle cx="74" cy="383" r="5" style="fill:#555"/><circle cx="127" cy="383" r="5" style="fill:#555"/><circle cx="180" cy="383" r="5" style="fill:#555"/><circle cx="233" cy="383" r="5" style="fill:#555"/>
+<g class="part" id="ledEco"><circle cx="74" cy="383" r="5" style="fill:#4cff8a"/></g>
+<g class="part" id="ledPump"><circle cx="127" cy="383" r="5" style="fill:#4cff8a"/></g>
+<g class="part" id="ledCirc"><circle cx="180" cy="383" r="5" style="fill:#4cff8a"/></g>
+<rect class="body" x="290" y="350" width="100" height="88" rx="5"/>
+<text class="lbl-s" x="340" y="395" text-anchor="middle" data-i18n="gb.cat">catalyst</text>
+<text class="lbl-s" x="340" y="409" text-anchor="middle">(Cu)</text>
+<g class="part" id="pistons">
+<rect class="st" x="305" y="328" width="12" height="22"/><rect class="st" x="363" y="328" width="12" height="22"/>
+<text class="lbl-s" x="340" y="343" text-anchor="middle">UP</text>
+</g>
+<g class="part" id="pedals">
+<rect class="dark" x="410" y="398" width="26" height="36" rx="4"/><rect class="dark" x="444" y="398" width="26" height="36" rx="4"/>
+<text x="423" y="421" text-anchor="middle" style="fill:#fff;font-size:14px">+</text><text x="457" y="421" text-anchor="middle" style="fill:#fff;font-size:14px">−</text>
+<text class="lbl-s" x="440" y="390" text-anchor="middle" data-i18n="gb.pedals">foot pedals</text>
+</g>
+</svg>

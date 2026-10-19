@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the Hobersal muffle furnace with its Fuji Electric PXF4 programmer and the temperature programme being built">
+<text class="ttl" x="20" y="28" data-i18n="mf.title">Hobersal muffle furnace · Fuji PXF4 programmer</text>
+<rect class="body" x="40" y="110" width="280" height="290" rx="8"/>
+<rect class="dark" x="70" y="140" width="220" height="170" rx="4"/>
+<g class="part" id="glow"><rect x="78" y="148" width="204" height="154" rx="3" style="fill:#ff7a1a;opacity:.55"/></g>
+<g class="part" id="amp" data-from="0,-40"><ellipse cx="180" cy="285" rx="40" ry="8" style="fill:#e8e1d3;stroke:#9a8f7a"/><rect x="150" y="262" width="60" height="18" rx="9" class="gl"/><rect class="pw" x="158" y="268" width="26" height="8" rx="3"/></g>
+<rect class="st" x="70" y="318" width="220" height="10" rx="2"/>
+<g class="part" id="swLed"><circle cx="300" cy="380" r="7" style="fill:#4cff8a"/></g>
+<text class="lbl-s" x="290" y="384" text-anchor="end" data-i18n="mf.sw">power switch (right)</text>
+<text class="lbl-s" x="180" y="350" text-anchor="middle" id="maxlbl">max 1200 °C · lab limit 1100 °C (h) / 1000 °C (≥ 24 h)</text>
+<rect class="dark" x="480" y="60" width="280" height="240" rx="8"/>
+<text x="620" y="80" text-anchor="middle" style="fill:#ccc;font-size:10px">FUJI PXF4</text>
+<rect class="scr" x="500" y="90" width="240" height="120" rx="4"/>
+<text x="720" y="140" text-anchor="end" style="fill:#ff5252;font-size:46px;font-family:monospace" id="pv">––</text>
+<text x="720" y="190" text-anchor="end" style="fill:#4cff8a;font-size:24px;font-family:monospace" id="sv">––</text>
+<text x="512" y="112" style="fill:#9fb;font-size:10px">PV</text><text x="512" y="190" style="fill:#9fb;font-size:10px">SV</text>
+<text x="512" y="160" style="fill:#ffe082;font-size:14px;font-family:monospace" id="par"></text>
+<g style="fill:#cfd8dc;font-size:13px" text-anchor="middle">
+<circle cx="520" cy="250" r="16" style="fill:#455a64"/><text x="520" y="255">⮌</text>
+<circle cx="570" cy="250" r="16" style="fill:#455a64"/><text x="570" y="255">◀</text>
+<circle cx="620" cy="250" r="16" style="fill:#455a64"/><text x="620" y="255">▲</text>
+<circle cx="670" cy="250" r="16" style="fill:#455a64"/><text x="670" y="255">▼</text>
+<circle cx="720" cy="250" r="16" style="fill:#455a64"/><text x="720" y="254" style="font-size:10px">SEL</text>
+</g>
+<path class="axis" d="M500 425 H770 M500 425 V320"/>
+<text class="lbl-s" x="766" y="440" text-anchor="end">t</text><text class="lbl-s" x="490" y="330" text-anchor="end">T</text>
+<g class="part" id="r1"><path d="M500 422 L566 336" class="hot"/><text class="lbl-s" x="510" y="372">5 °C/min · 02:46</text></g>
+<g class="part" id="h1"><path d="M566 336 H590" class="hot"/><text class="lbl-s" x="556" y="328">850 °C · 00:30</text></g>
+<g class="part" id="r2"><path d="M590 336 L760 422" class="hot" style="stroke:var(--demo-ar)"/><text class="lbl-s" x="660" y="368">2 °C/min · 06:55</text></g>
+<g class="part" id="runInd"><text x="512" y="205" style="fill:#4cff8a;font-size:11px">Run</text></g>
+</svg>

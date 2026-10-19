@@ -1,0 +1,45 @@
+# Review notes — open questions for the lab
+
+Found while turning the lab documents and manuals into guides (19 October 2026). Each item is also flagged on the relevant page.
+
+## Errors in the source documents
+
+| # | Where | Problem | Fix used on the site |
+|---|---|---|---|
+| 1 | *AC EIS Cell* slides, activation energy | "Slope (m) = 2.313 × Ea" — the constant is ln 10 = 2.303, and R and the ×1000 of the 1000/T axis are missing | E<sub>a</sub> = −2.303 · R · 1000 · m = −19.14 · m kJ mol⁻¹ |
+| 2 | *AC EIS Cell* slides, conductivity | The fraction is ambiguous in the slide text ("A × Rtotal / L") | σ = L / (R · A) |
+| 3 | *AC EIS Cell* slides, EIS parameters | "Number of points 30" and "Points per decade 10" are inconsistent (3 MHz → 0.1 Hz = 7.5 decades ≈ 75 points) | 10 points per decade |
+| 4 | Hobersal furnace guide (ES) | 166 min written as "2 horas 36 minutos (02:36)" | 02:46 (matches the hand-written correction) |
+
+## Conflicts between lab documents
+
+| # | Topic | Document A | Document B |
+|---|---|---|---|
+| 5 | Antechamber cycle | Glovebox slides: full vacuum ≥ 5 min before releasing | Guía MBraun EasyLab: 3 × (vacuum, 15 min hold, argon), or 45 min in active mode |
+
+## Procedures that conflict with the manufacturer
+
+| # | Topic | Problem |
+|---|---|---|
+| 6 | 75Li₂S–25P₂S₅ milling: 510 rpm, 24 h | Fritsch rates the Pulverisette 7 classic line for 8 h shifts at 30 % duty cycle, not continuous operation. A milling/pause program changes the thermal history, so the synthesis must be re-validated |
+| 7 | Solid-state cells on CT-4008/CT-5008 | At 0.1 C the micro cell needs ≈ 57 µA, below the lowest range of these units (0.2 mA / 0.12 mA) and smaller than their accuracy. Only the CT-9008 is suitable |
+| 8 | VersaStudio EIS export | The VersaStudio manual says EIS data in the raw `.par` file are uncalibrated; export via ZView/Graph View for analysis. **Check whether EIS Studio's `.par` reader applies the calibration** |
+
+## Missing information
+
+| # | Where | Missing |
+|---|---|---|
+| 9 | Cathode composite procedure | Bath temperature, set pressure, drying time, any post-drying heat treatment |
+| 10 | Solid-state battery | Stacking order of Li and In foils; whether the re-tare happens before the cathode is added |
+| 11 | Press | Ram diameter (to convert gauge pressure to pellet pressure for publications) |
+| 12 | Glovebox | Whether circulation is paused while using open solvents; list of chemicals allowed in the box |
+| 13 | Booking rules | Real maximum durations, no-show rule, number of PMC-2000 channels |
+| 14 | Manuals | Link to the lab-drive folder with the manuals |
+| 15 | References | Full author lists and DOIs of the group papers (publisher pages could not be read automatically) |
+| 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |
+
+## Things that need a decision
+
+- **Personal e-mail addresses** in the lab sheets (ball-mill sheet) are not published on the public site. Decide what contact to show.
+- **Translations** of safety-critical pages must be checked by native speakers before they are marked `translation: reviewed`.
+- **Polycarbonate EIS cell at 100–120 °C** — check for creep/deformation (Tg ≈ 145 °C).

@@ -1,0 +1,63 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the bilayer pellet in the die, the solid-state test cell with its anode, and the connection to a Neware CT-9008 cycler">
+<text class="ttl" x="20" y="28" data-i18n="ssb.title">Solid-state test battery — bilayer pellet, anode, cycling</text>
+<g class="part" id="sceneA">
+<rect class="body" x="100" y="338" width="200" height="62" rx="6"/>
+<rect class="st" x="140" y="330" width="120" height="8" rx="2"/>
+<rect class="scr" x="140" y="356" width="120" height="28" rx="3"/>
+<text class="lbl-s" x="200" y="415" text-anchor="middle" data-i18n="eis.balance">analytical balance</text>
+<rect class="st" x="185" y="300" width="30" height="30" style="fill:var(--demo-steel-dk)"/>
+</g>
+<text class="scrtx" x="200" y="376" text-anchor="middle" id="bal2"></text>
+<g class="part" id="el"><rect class="pw" x="185" y="280" width="30" height="20"/><text class="lbl-s" x="262" y="294" data-i18n="ssb.el">electrolyte 100 mg</text></g>
+<g class="part" id="cat"><rect x="185" y="272" width="30" height="8" style="fill:#3b3b3b"/><text class="lbl-s" x="262" y="276" data-i18n="ssb.cat">cathode composite 10 mg</text></g>
+<g class="part" id="dieB"><rect class="st" x="150" y="180" width="100" height="150" rx="4" style="fill-opacity:.45"/><line class="ln" x1="185" y1="180" x2="185" y2="330"/><line class="ln" x1="215" y1="180" x2="215" y2="330"/></g>
+<g class="part" id="armL2" data-from="0,-60"><rect class="st" x="185" y="120" width="30" height="152" style="fill:var(--demo-steel-dk)"/><rect class="st" x="176" y="114" width="48" height="10" rx="2"/></g>
+<text class="lbl" x="440" y="395" id="pnote"></text>
+<g class="part" id="bil" data-from="0,40"><rect class="pw" x="400" y="240" width="90" height="22" rx="3"/><rect x="400" y="262" width="90" height="9" rx="2" style="fill:#3b3b3b"/><text class="lbl-s" x="500" y="256" data-i18n="ssb.bil">bilayer pellet</text></g>
+<g class="part" id="pcb2"><rect class="pc" x="200" y="160" width="140" height="120" rx="3"/><line class="ln" x1="255" y1="160" x2="255" y2="280"/><line class="ln" x1="285" y1="160" x2="285" y2="280"/></g>
+<g class="part" id="ccL2" data-from="0,70"><rect class="st" x="258" y="226" width="24" height="82"/></g>
+<g class="part" id="gas2" data-from="0,70"><rect class="si" x="248" y="272" width="10" height="8"/><rect class="si" x="282" y="272" width="10" height="8"/><rect class="si" x="248" y="160" width="10" height="8"/><rect class="si" x="282" y="160" width="10" height="8"/></g>
+<g class="part" id="bil2" data-from="0,-80"><rect x="258" y="220" width="24" height="6" style="fill:#3b3b3b"/><rect class="pw" x="258" y="206" width="24" height="14"/></g>
+<g class="part" id="ccS2" data-from="0,-80"><rect class="st" x="258" y="130" width="24" height="76"/></g>
+<g class="part" id="anodeCC" data-from="60,0"><rect class="st" x="610" y="140" width="24" height="68"/><rect x="612" y="208" width="20" height="8" style="fill:#9aa4ae;stroke:#5f6a75"/><text class="lbl-s" x="642" y="216" data-i18n="ssb.anode">anode foil(s): In / Li</text></g>
+<g class="part" id="ccS2b"><rect class="st" x="258" y="130" width="24" height="68"/><rect x="260" y="198" width="20" height="8" style="fill:#9aa4ae;stroke:#5f6a75"/></g>
+<g class="part" id="labelsC">
+<text class="lbl-s" x="440" y="150" data-i18n="ssb.lblAn">anode side (small collector)</text>
+<text class="lbl-s" x="440" y="214" data-i18n="ssb.lblEl">electrolyte layer</text>
+<text class="lbl-s" x="440" y="230" data-i18n="ssb.lblCat">cathode layer</text>
+<text class="lbl-s" x="440" y="290" data-i18n="ssb.lblCc">cathode side (long collector)</text>
+</g>
+<g class="part" id="plates2" data-from="0,-30"><rect class="st" x="120" y="112" width="300" height="18" rx="2"/><rect class="st" x="120" y="308" width="300" height="18" rx="2"/>
+<rect class="st" x="137" y="98" width="6" height="244"/><rect class="st" x="397" y="98" width="6" height="244"/>
+<rect class="dark" x="131" y="98" width="18" height="10"/><rect class="dark" x="391" y="98" width="18" height="10"/><rect class="dark" x="131" y="332" width="18" height="10"/><rect class="dark" x="391" y="332" width="18" height="10"/>
+<rect class="ins" x="132" y="110" width="16" height="22"/><rect class="ins" x="392" y="110" width="16" height="22"/><rect class="ins" x="132" y="306" width="16" height="22"/><rect class="ins" x="392" y="306" width="16" height="22"/>
+<circle class="st" cx="413" cy="121" r="5"/><circle class="st" cx="413" cy="317" r="5"/></g>
+<g class="part" id="dims2"><line x1="105" y1="130" x2="105" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/><line x1="428" y1="130" x2="428" y2="308" style="stroke:var(--demo-hl);stroke-width:1.5"/>
+<text class="lbl" x="105" y="350" text-anchor="middle">D1</text><text class="lbl" x="428" y="350" text-anchor="middle">D2</text><text class="w-ok" x="270" y="372" text-anchor="middle">D1 = D2 · hand-tight</text></g>
+<g class="part" id="cycler">
+<rect class="dark" x="560" y="70" width="220" height="150" rx="6"/>
+<text x="670" y="92" text-anchor="middle" style="fill:#fff;font-size:12px">Neware CT-9008 (5 V · 6 mA)</text>
+<g style="fill:#4cff8a"><circle cx="590" cy="120" r="5"/><circle cx="615" cy="120" r="5" style="fill:#555"/><circle cx="640" cy="120" r="5" style="fill:#555"/><circle cx="665" cy="120" r="5" style="fill:#555"/><circle cx="690" cy="120" r="5" style="fill:#555"/><circle cx="715" cy="120" r="5" style="fill:#555"/><circle cx="740" cy="120" r="5" style="fill:#555"/><circle cx="765" cy="120" r="5" style="fill:#555"/></g>
+<text x="590" y="140" text-anchor="middle" style="fill:#ccc;font-size:9px">CH1</text>
+<rect x="578" y="170" width="24" height="30" rx="3" style="fill:#c62828"/><rect x="606" y="170" width="24" height="30" rx="3" style="fill:#222;stroke:#888"/>
+<text x="604" y="214" text-anchor="middle" style="fill:#ccc;font-size:9px">+ / − (4-wire)</text>
+</g>
+<g class="part" id="leads2">
+<path class="wire" d="M418 317 C480 317 520 260 586 200" style="stroke:#c62828"/>
+<path class="wire" d="M418 321 C490 330 540 270 594 200" style="stroke:#e57373"/>
+<path class="wire" d="M418 121 C480 121 560 140 614 170" style="stroke:#222"/>
+<path class="wire" d="M418 125 C490 135 570 150 622 170" style="stroke:#555"/>
+<text class="lbl-s" x="455" y="352" style="fill:#c62828" data-i18n="ssb.pos">+ to cathode side</text>
+<text class="lbl-s" x="455" y="112" data-i18n="ssb.neg">− to anode side</text>
+</g>
+<g class="part" id="pc">
+<rect class="scr" x="560" y="240" width="220" height="150" rx="5"/>
+<text class="scrtx" x="572" y="262" style="font-size:11px">1 Rest  (OCV)</text>
+<text class="scrtx" x="572" y="278" style="font-size:11px">2 CC_Chg   I · V_max</text>
+<text class="scrtx" x="572" y="294" style="font-size:11px">3 Rest</text>
+<text class="scrtx" x="572" y="310" style="font-size:11px">4 CC_DChg  I · V_min</text>
+<text class="scrtx" x="572" y="326" style="font-size:11px">5 Cycle → 2 · N</text>
+<text class="scrtx" x="572" y="342" style="font-size:11px">6 End</text>
+</g>
+<g class="part" id="curve"><path class="axis" d="M690 380 H772 M690 380 V300" style="stroke:#66ffb3"/><path d="M692 372 L715 318 L718 316 L742 372 L745 372 L768 318" style="fill:none;stroke:#66ffb3;stroke-width:2"/></g>
+</svg>

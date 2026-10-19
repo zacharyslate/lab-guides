@@ -1,0 +1,136 @@
+site_name: Lab Instrument Guides
+site_description: >-
+  Simple user guides, animated demonstrations and an instrument booking system
+  for the solid-state battery laboratory.
+# Set this to your GitHub Pages address before the first deploy, e.g.
+# https://<github-user>.github.io/instrument-guides/
+site_url: https://example.github.io/instrument-guides/
+# repo_url: https://github.com/<github-user>/instrument-guides
+# edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  custom_dir: overrides
+  language: en
+  icon:
+    logo: material/flask-outline
+  favicon: assets/img/favicon.svg
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - search.highlight
+    - search.suggest
+    - content.code.copy
+    - toc.follow
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: teal
+      accent: deep orange
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: es
+          name: Español
+          build: true
+        - locale: it
+          name: Italiano
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+        - locale: fr
+          name: Français
+          build: true
+        - locale: tr
+          name: Türkçe
+          build: true
+        - locale: zh
+          name: 中文
+          build: true
+        - locale: ja
+          name: 日本語
+          build: true
+        - locale: ko
+          name: 한국어
+          build: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - footnotes
+  - def_list
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.tilde
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.snippets:
+      base_path: [docs/assets/demos]
+      check_paths: true
+
+extra_css:
+  - assets/css/extra.css
+
+extra_javascript:
+  - assets/js/ui-strings.js
+  - assets/js/demos.js
+  - assets/js/demo-player.js
+  - assets/js/booking-config.js
+  - assets/js/booking.js
+
+nav:
+  - Home: index.md
+  - Safety first: safety.md
+  - Instruments:
+      - instruments/index.md
+      - MBraun EasyLab glovebox: instruments/glovebox.md
+      - Büchi Rotavapor R-210: instruments/rotavapor.md
+      - PARSTAT MC PMC-2000 + VersaStudio: instruments/potentiostat.md
+      - Neware battery cyclers: instruments/battery-cyclers.md
+      - Anton Paar Monowave 400 R: instruments/monowave.md
+      - Anton Paar Cora 5001: instruments/cora.md
+      - Fritsch Pulverisette 7 ball mill: instruments/ball-mill.md
+      - Mettler Toledo C20S Karl Fischer: instruments/karl-fischer.md
+      - Hobersal muffle furnace: instruments/muffle-furnace.md
+      - Argolab drying oven: instruments/drying-oven.md
+  - Cells & procedures:
+      - cells/index.md
+      - AC impedance (EIS) cell: cells/eis-cell.md
+      - Solid-state test battery: cells/solid-state-battery.md
+      - Cathode composite (rotavapor route): procedures/cathode-composite.md
+      - 75Li2S–25P2S5 by ball milling: procedures/lps-ball-milling.md
+      - EIS data analysis: analysis/eis-analysis.md
+  - Book an instrument: booking.md
+  - Manuals: manuals.md
+  - References: references.md

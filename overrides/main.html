@@ -1,0 +1,42 @@
+{% extends "base.html" %}
+
+{#
+  Translation status banner.
+  - A page with no translation in the current language falls back to English
+    (mkdocs-static-i18n, fallback_to_default) and shows "not yet translated".
+  - A translated page declares its status in front matter:
+        translation: machine    -> shows "machine translation, not reviewed"
+        translation: reviewed   -> no banner
+#}
+{% set untranslated = {
+  "es": "Esta página aún no está traducida al español. Se muestra la versión en inglés.",
+  "it": "Questa pagina non è ancora tradotta in italiano. Viene mostrata la versione inglese.",
+  "de": "Diese Seite ist noch nicht ins Deutsche übersetzt. Es wird die englische Version angezeigt.",
+  "fr": "Cette page n'est pas encore traduite en français. La version anglaise est affichée.",
+  "tr": "Bu sayfa henüz Türkçeye çevrilmedi. İngilizce sürüm gösteriliyor.",
+  "zh": "本页尚未翻译成中文，当前显示英文版本。",
+  "ja": "このページはまだ日本語に翻訳されていません。英語版を表示しています。",
+  "ko": "이 페이지는 아직 한국어로 번역되지 않았습니다. 영어 버전이 표시됩니다."
+} %}
+{% set machine = {
+  "es": "Traducción automática, todavía no revisada por un hablante nativo. Ante cualquier duda, siga la versión en inglés.",
+  "it": "Traduzione automatica non ancora revisionata da un madrelingua. In caso di dubbio, segui la versione inglese.",
+  "de": "Maschinelle Übersetzung, noch nicht von Muttersprachlern geprüft. Im Zweifel gilt die englische Version.",
+  "fr": "Traduction automatique, pas encore relue par un locuteur natif. En cas de doute, suivez la version anglaise.",
+  "tr": "Makine çevirisidir, henüz anadili Türkçe olan biri tarafından kontrol edilmedi. Şüphe durumunda İngilizce sürümü esas alın.",
+  "zh": "本页为机器翻译，尚未经母语人士审校。如有疑问，请以英文版本为准。",
+  "ja": "機械翻訳であり、ネイティブスピーカーによる確認はまだです。疑問がある場合は英語版に従ってください。",
+  "ko": "기계 번역이며 아직 원어민의 검토를 거치지 않았습니다. 의문이 있으면 영어 버전을 따르십시오."
+} %}
+
+{% block content %}
+  {% set lang = config.theme.language %}
+  {% if lang != "en" and page and page.meta %}
+    {% if not page.meta.translation and lang in untranslated %}
+      <div class="admonition warning i18n-banner" role="note"><p>{{ untranslated[lang] }}</p></div>
+    {% elif page.meta.translation == "machine" and lang in machine %}
+      <div class="admonition info i18n-banner" role="note"><p>{{ machine[lang] }}</p></div>
+    {% endif %}
+  {% endif %}
+  {{ super() }}
+{% endblock %}

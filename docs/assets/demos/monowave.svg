@@ -1,0 +1,31 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the Anton Paar Monowave 400 R: reaction vial with snap cap and septum, cavity with adaptor ring, swivelling cover, touchscreen, Raman probe slide and Cora 5001">
+<text class="ttl" x="20" y="28" data-i18n="mw.title">Anton Paar Monowave 400 R — sealed-vial microwave synthesis</text>
+<g class="part" id="air"><path d="M150 420 V440 H40" class="ln" style="stroke-width:4;stroke:#7a8fa3"/><text class="lbl-s" x="40" y="434" data-i18n="mw.air">compressed air 5.5–6 bar</text></g>
+<rect class="body" x="150" y="150" width="300" height="270" rx="10"/>
+<rect class="dark" x="225" y="205" width="70" height="200" rx="6"/>
+<text class="lbl-s" x="260" y="418" text-anchor="middle" data-i18n="mw.cavity">cavity</text>
+<g class="part" id="ring"><rect x="236" y="290" width="48" height="6" rx="2" style="fill:#d9a441;stroke:#8a6417"/></g>
+<g class="part" id="lid" data-origin="160 150"><rect class="body" x="160" y="132" width="200" height="22" rx="6" style="fill:var(--demo-steel)"/><text class="lbl-s" x="260" y="147" text-anchor="middle" data-i18n="mw.lid">swivelling cover</text></g>
+<rect class="scr" x="320" y="180" width="115" height="150" rx="5"/>
+<text class="scrtx" x="330" y="202" id="scr1" style="font-size:11px">Task List</text>
+<text class="scrtx" x="330" y="222" id="scr2" style="font-size:11px"></text>
+<text class="scrtx" x="330" y="240" id="scr3" style="font-size:11px"></text>
+<text class="scrtx" x="330" y="258" id="scr4" style="font-size:11px"></text>
+<text class="scrtx" x="330" y="276" id="scr5" style="font-size:11px"></text>
+<text class="scrtx" x="330" y="314" id="scr6" style="font-size:11px"></text>
+<g class="part" id="startBtnMw"><rect x="330" y="340" width="95" height="24" rx="4" style="fill:#2e7d32"/><text x="377" y="356" text-anchor="middle" style="fill:#fff;font-size:11px">Start</text></g>
+<rect class="body" x="455" y="372" width="150" height="26" rx="4"/>
+<text class="lbl-s" x="470" y="412" style="font-size:10px">G10</text><text class="lbl-s" x="505" y="412" style="font-size:10px">G30</text><text class="lbl-s" x="560" y="412" style="font-size:10px">idle</text>
+<text class="lbl-s" x="530" y="366" text-anchor="middle" data-i18n="mw.slide">Raman probe slide</text>
+<g class="part" id="probe"><rect x="455" y="378" width="120" height="14" rx="3" style="fill:#f0c419;stroke:#9a7b00"/><rect x="565" y="374" width="34" height="22" rx="3" class="dark"/><circle cx="582" cy="385" r="5" style="fill:#c62828"/></g>
+<path d="M605 385 C625 385 620 330 640 330" style="fill:none;stroke:#f0c419;stroke-width:4"/>
+<g class="part" id="cora"><rect class="dark" x="640" y="285" width="140" height="90" rx="6"/><text x="710" y="335" text-anchor="middle" style="fill:#fff;font-size:12px">Cora 5001</text></g>
+<g class="part" id="beam"><line x1="300" y1="385" x2="268" y2="385" style="stroke:#00e676;stroke-width:3"/><circle cx="266" cy="385" r="6" style="fill:#00e676;opacity:.5"/></g>
+<g class="part" id="vial" data-from="-20,0">
+<rect class="gl" x="48" y="150" width="34" height="110" rx="10"/>
+<g class="part" id="liq"><rect x="51" y="215" width="28" height="42" rx="8" style="fill:#8fbcd4;opacity:.75"/><rect x="58" y="248" width="14" height="5" rx="2" style="fill:#fff;stroke:#666"/></g>
+<g class="part" id="cap"><rect x="44" y="138" width="42" height="16" rx="3" style="fill:#c7a77a;stroke:#7a5c33"/><rect x="50" y="152" width="30" height="4" style="fill:#e8e8e8;stroke:#999"/></g>
+</g>
+<text class="lbl-s" x="96" y="200" id="vlbl"></text>
+<g class="part" id="heat"><path d="M232 330 q6 -10 0 -20 q-6 -10 0 -20" class="hot"/><path d="M288 330 q6 -10 0 -20 q-6 -10 0 -20" class="hot"/></g>
+</svg>

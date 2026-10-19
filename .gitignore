@@ -1,0 +1,12 @@
+# Python virtual environment (create it with: python3 -m venv ZACH-venv)
+ZACH-venv/
+__pycache__/
+
+# Build output
+site/
+
+# Vendor manuals are copyrighted: keep lab copies on the lab drive, not in this public repo
+manuals-local/
+*.pdf
+
+.DS_Store
