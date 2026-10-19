@@ -24,9 +24,9 @@ Versions are pinned in `requirements.txt`. Material for MkDocs has announced tha
 
 ## Publish on GitHub Pages
 
-1. Create an empty repository on GitHub (e.g. `instrument-guides`) and push this folder to its `main` branch.
+1. The repository is `zacharyslate/lab-guides`; the site is published at https://zacharyslate.github.io/lab-guides/.
 2. In the repository: **Settings ▸ Pages ▸ Build and deployment ▸ Source: GitHub Actions**.
-3. Edit `site_url` in `mkdocs.yml` to `https://<user>.github.io/instrument-guides/` (and `repo_url` if you like), commit and push.
+3. If the repository is ever renamed or moved, update `site_url` and `repo_url` in `mkdocs.yml`.
 4. The workflow in `.github/workflows/deploy.yml` builds the site (with `--strict`) and publishes it on every push to `main`.
 
 ## Project layout

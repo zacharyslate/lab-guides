@@ -2,11 +2,10 @@ site_name: Lab Instrument Guides
 site_description: >-
   Simple user guides, animated demonstrations and an instrument booking system
   for the solid-state battery laboratory.
-# Set this to your GitHub Pages address before the first deploy, e.g.
-# https://<github-user>.github.io/instrument-guides/
-site_url: https://example.github.io/instrument-guides/
-# repo_url: https://github.com/<github-user>/instrument-guides
-# edit_uri: edit/main/docs/
+site_url: https://zacharyslate.github.io/lab-guides/
+repo_url: https://github.com/zacharyslate/lab-guides
+repo_name: zacharyslate/lab-guides
+edit_uri: edit/main/docs/
 
 theme:
   name: material
