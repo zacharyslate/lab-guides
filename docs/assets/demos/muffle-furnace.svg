@@ -7,7 +7,7 @@
 <rect class="st" x="70" y="318" width="220" height="10" rx="2"/>
 <g class="part" id="swLed"><circle cx="300" cy="380" r="7" style="fill:#4cff8a"/></g>
 <text class="lbl-s" x="290" y="384" text-anchor="end" data-i18n="mf.sw">power switch (right)</text>
-<text class="lbl-s" x="180" y="350" text-anchor="middle" id="maxlbl">max 1200 °C · lab limit 1100 °C (h) / 1000 °C (≥ 24 h)</text>
+<text class="lbl-s" x="40" y="424" id="maxlbl" data-i18n="mf.max">max 1200 °C · lab limit 1100 °C (h) / 1000 °C (≥ 24 h)</text>
 <rect class="dark" x="480" y="60" width="280" height="240" rx="8"/>
 <text x="620" y="80" text-anchor="middle" style="fill:#ccc;font-size:10px">FUJI PXF4</text>
 <rect class="scr" x="500" y="90" width="240" height="120" rx="4"/>

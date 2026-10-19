@@ -13,11 +13,11 @@ window.DEMO_LABELS.es = {
   "gb.vrefill": "válvula de argón (llenado)", "gb.vvac": "válvula de vacío", "gb.pump": "bomba de vacío", "gb.panel": "Panel de control",
   "gb.cat": "catalizador", "gb.pedals": "pedales",
   "rg.title": "Matraz del rotavapor — montaje en la caja de guantes", "rg.gb": "en la caja de guantes (argón)", "rg.valve": "válvula del matraz (llave):",
-  "rg.open": "vertical = abierta", "rg.closed": "horizontal = cerrada", "rg.cork": "aro de corcho", "rg.flask": "matraz de fondo redondo",
+  "rg.open": "vertical = abierta", "rg.closed": "horizontal = cerrada", "rg.cork": "aro de corcho", "rg.flask": "matraz redondo",
   "rg.flask2": "con la suspensión", "rg.adapter": "adaptador con válvula", "rg.upper": "junta al rotavapor", "rg.keck": "pinza Keck",
   "rg.grease": "grasa de vacío", "rg.out": "antecámara → rotavapor", "rg.keep": "mantener la válvula cerrada",
-  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Enfriador", "rv.lift": "asa de elevación", "rv.lift2": "(interruptor)", "rv.catch": "tope de seguridad",
-  "rv.bath": "baño calefactor · aceite de silicona (≤ 180 °C)", "rv.cond": "condensador", "rv.combi": "Combi Clip", "rv.knob": "perilla de inclinación",
+  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Enfriador", "rv.lift": "elevador", "rv.lift2": "(interruptor)", "rv.catch": "tope de seguridad",
+  "rv.bath": "baño calefactor · aceite de silicona (≤ 180 °C)", "rv.cond": "condensador", "rv.combi": "Combi Clip", "rv.knob": "inclinación",
   "rv.recv": "matraz", "rv.recv2": "colector", "rv.cock": "llave", "rv.keck": "pinza Keck", "rv.eflask": "matraz de evaporación",
   "rv.ctrl": "controlador de vacío", "rv.pump": "bomba de vacío",
   "eis.title": "Celda de impedancia AC — pastilla, montaje, medida", "eis.balance": "balanza analítica", "eis.press": "prensa hidráulica",
@@ -41,7 +41,8 @@ window.DEMO_LABELS.es = {
   "open with capping tool": "abrir con la herramienta de cierre", "sealed vial (filled in glovebox)": "vial sellado (llenado en la caja de guantes)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "≥ 45 min a T, luego 3 MHz → 0,1 Hz", "OCV stable": "OCV estable", "— warming up (~15 min) —": "— calentando (~15 min) —",
   "slide probe → max signal": "deslizar la sonda → señal máx.", "drift decreasing": "deriva bajando", "drift low and stable": "deriva baja y estable",
-  "set T": "fijar T", "set p": "fijar p", "user / password": "usuario / contraseña", "vent": "venteo"
+  "set T": "fijar T", "set p": "fijar p", "user / password": "usuario / contraseña", "vent": "venteo",
+  "bm.pot": "recipiente de ZrO₂ · 90 g de bolas Ø5 mm · 1 g", "mf.max": "máx. 1200 °C · límite lab. 1100 °C (h) / 1000 °C (≥ 24 h)", "ov.solv": "disolventes", "nw.from": "desde 2 · N veces", "nw.prot": "Protección: límites de tensión superior / inferior", "ssb.4w": "+ / − (4 hilos)", "vs.hint": "doble clic en un canal · clic derecho › Locate Instrument", "— warming up —": "— calentando —", "— off —": "— apagado —"
 };
 
 window.DEMO_LABELS.it = {
@@ -53,8 +54,8 @@ window.DEMO_LABELS.it = {
   "rg.open": "verticale = aperta", "rg.closed": "orizzontale = chiusa", "rg.cork": "anello di sughero", "rg.flask": "pallone a fondo tondo",
   "rg.flask2": "con la sospensione", "rg.adapter": "adattatore con valvola", "rg.upper": "giunto verso il rotavapor", "rg.keck": "clip Keck",
   "rg.grease": "grasso per vuoto", "rg.out": "anticamera → rotavapor", "rg.keep": "tenere la valvola chiusa",
-  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Refrigeratore", "rv.lift": "maniglia di sollevamento", "rv.lift2": "(interruttore)", "rv.catch": "fermo di sicurezza",
-  "rv.bath": "bagno riscaldante · olio siliconico (≤ 180 °C)", "rv.cond": "condensatore", "rv.combi": "Combi Clip", "rv.knob": "manopola inclinazione",
+  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Refrigeratore", "rv.lift": "maniglia", "rv.lift2": "(interruttore)", "rv.catch": "fermo di sicurezza",
+  "rv.bath": "bagno riscaldante · olio siliconico (≤ 180 °C)", "rv.cond": "condensatore", "rv.combi": "Combi Clip", "rv.knob": "inclinazione",
   "rv.recv": "pallone", "rv.recv2": "di raccolta", "rv.cock": "rubinetto", "rv.keck": "clip Keck", "rv.eflask": "pallone di evaporazione",
   "rv.ctrl": "controllore del vuoto", "rv.pump": "pompa da vuoto",
   "eis.title": "Cella per impedenza AC — pastiglia, montaggio, misura", "eis.balance": "bilancia analitica", "eis.press": "pressa idraulica",
@@ -78,7 +79,8 @@ window.DEMO_LABELS.it = {
   "open with capping tool": "aprire con l'attrezzo di chiusura", "sealed vial (filled in glovebox)": "vial sigillata (riempita in glovebox)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "≥ 45 min a T, poi 3 MHz → 0,1 Hz", "OCV stable": "OCV stabile", "— warming up (~15 min) —": "— riscaldamento (~15 min) —",
   "slide probe → max signal": "far scorrere la sonda → segnale max", "drift decreasing": "deriva in calo", "drift low and stable": "deriva bassa e stabile",
-  "set T": "imposta T", "set p": "imposta p", "user / password": "utente / password", "vent": "sfiato"
+  "set T": "imposta T", "set p": "imposta p", "user / password": "utente / password", "vent": "sfiato",
+  "bm.pot": "giara in ZrO₂ · 90 g di sfere Ø5 mm · 1 g", "mf.max": "max 1200 °C · limite lab. 1100 °C (h) / 1000 °C (≥ 24 h)", "ov.solv": "solventi", "nw.from": "da 2 · N volte", "nw.prot": "Protezione: limiti di tensione superiore / inferiore", "ssb.4w": "+ / − (4 fili)", "vs.hint": "doppio clic su un canale · clic destro › Locate Instrument", "— warming up —": "— riscaldamento —", "— off —": "— spento —"
 };
 
 window.DEMO_LABELS.de = {
@@ -115,7 +117,8 @@ window.DEMO_LABELS.de = {
   "open with capping tool": "mit dem Verschlusswerkzeug öffnen", "sealed vial (filled in glovebox)": "versiegeltes Vial (in der Glovebox befüllt)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "≥ 45 min bei T, dann 3 MHz → 0,1 Hz", "OCV stable": "OCV stabil", "— warming up (~15 min) —": "— Aufwärmen (~15 min) —",
   "slide probe → max signal": "Sonde verschieben → max. Signal", "drift decreasing": "Drift sinkt", "drift low and stable": "Drift niedrig und stabil",
-  "set T": "T einstellen", "set p": "p einstellen", "user / password": "Benutzer / Passwort", "vent": "belüften"
+  "set T": "T einstellen", "set p": "p einstellen", "user / password": "Benutzer / Passwort", "vent": "belüften",
+  "bm.pot": "ZrO₂-Becher · 90 g Kugeln Ø5 mm · 1 g", "mf.max": "max. 1200 °C · Laborgrenze 1100 °C (h) / 1000 °C (≥ 24 h)", "ov.solv": "Lösungsmittel", "nw.from": "ab 2 · N-mal", "nw.prot": "Schutz: obere / untere Spannungsgrenze", "ssb.4w": "+ / − (4-Leiter)", "vs.hint": "Doppelklick auf Kanal · Rechtsklick › Locate Instrument", "— warming up —": "— Aufwärmen —", "— off —": "— aus —"
 };
 
 window.DEMO_LABELS.fr = {
@@ -127,8 +130,8 @@ window.DEMO_LABELS.fr = {
   "rg.open": "verticale = ouverte", "rg.closed": "horizontale = fermée", "rg.cork": "valet en liège", "rg.flask": "ballon à fond rond",
   "rg.flask2": "avec la suspension", "rg.adapter": "adaptateur à robinet", "rg.upper": "rodage vers le rotavapor", "rg.keck": "pince Keck",
   "rg.grease": "graisse à vide", "rg.out": "sas → rotavapor", "rg.keep": "garder la vanne fermée",
-  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Refroidisseur", "rv.lift": "poignée de levage", "rv.lift2": "(interrupteur)", "rv.catch": "butée de sécurité",
-  "rv.bath": "bain chauffant · huile silicone (≤ 180 °C)", "rv.cond": "réfrigérant", "rv.combi": "Combi Clip", "rv.knob": "bouton d'inclinaison",
+  "rv.title": "Büchi Rotavapor R-210", "rv.chiller": "Refroidisseur", "rv.lift": "poignée", "rv.lift2": "(interrupteur)", "rv.catch": "butée de sécurité",
+  "rv.bath": "bain chauffant · huile silicone (≤ 180 °C)", "rv.cond": "réfrigérant", "rv.combi": "Combi Clip", "rv.knob": "inclinaison",
   "rv.recv": "ballon", "rv.recv2": "récepteur", "rv.cock": "robinet", "rv.keck": "pince Keck", "rv.eflask": "ballon d'évaporation",
   "rv.ctrl": "régulateur de vide", "rv.pump": "pompe à vide",
   "eis.title": "Cellule d'impédance AC — pastille, montage, mesure", "eis.balance": "balance analytique", "eis.press": "presse hydraulique",
@@ -152,7 +155,8 @@ window.DEMO_LABELS.fr = {
   "open with capping tool": "ouvrir avec l'outil de sertissage", "sealed vial (filled in glovebox)": "flacon scellé (rempli en boîte à gants)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "≥ 45 min à T, puis 3 MHz → 0,1 Hz", "OCV stable": "OCV stable", "— warming up (~15 min) —": "— préchauffage (~15 min) —",
   "slide probe → max signal": "glisser la sonde → signal max", "drift decreasing": "dérive en baisse", "drift low and stable": "dérive faible et stable",
-  "set T": "régler T", "set p": "régler p", "user / password": "utilisateur / mot de passe", "vent": "remise à l'air"
+  "set T": "régler T", "set p": "régler p", "user / password": "utilisateur / mot de passe", "vent": "remise à l'air",
+  "bm.pot": "bol ZrO₂ · 90 g de billes Ø5 mm · 1 g", "mf.max": "max 1200 °C · limite labo 1100 °C (h) / 1000 °C (≥ 24 h)", "ov.solv": "solvants", "nw.from": "depuis 2 · N fois", "nw.prot": "Protection : limites de tension haute / basse", "ssb.4w": "+ / − (4 fils)", "vs.hint": "double-clic sur une voie · clic droit › Locate Instrument", "— warming up —": "— préchauffage —", "— off —": "— éteint —"
 };
 
 window.DEMO_LABELS.tr = {
@@ -189,7 +193,8 @@ window.DEMO_LABELS.tr = {
   "open with capping tool": "kapak aletiyle açın", "sealed vial (filled in glovebox)": "kapalı viyal (eldivenli kutuda dolduruldu)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "T'de ≥ 45 dk, sonra 3 MHz → 0,1 Hz", "OCV stable": "OCV kararlı", "— warming up (~15 min) —": "— ısınıyor (~15 dk) —",
   "slide probe → max signal": "probu kaydırın → maks. sinyal", "drift decreasing": "drift azalıyor", "drift low and stable": "drift düşük ve kararlı",
-  "set T": "T ayarla", "set p": "p ayarla", "user / password": "kullanıcı / şifre", "vent": "havalandır"
+  "set T": "T ayarla", "set p": "p ayarla", "user / password": "kullanıcı / şifre", "vent": "havalandır",
+  "bm.pot": "ZrO₂ kap · 90 g Ø5 mm bilya · 1 g", "mf.max": "maks. 1200 °C · lab. sınırı 1100 °C (sa) / 1000 °C (≥ 24 sa)", "ov.solv": "çözücüler", "nw.from": "2'den · N kez", "nw.prot": "Koruma: üst / alt gerilim sınırları", "ssb.4w": "+ / − (4 telli)", "vs.hint": "kanala çift tık · sağ tık › Locate Instrument", "— warming up —": "— ısınıyor —", "— off —": "— kapalı —"
 };
 
 window.DEMO_LABELS.zh = {
@@ -224,9 +229,10 @@ window.DEMO_LABELS.zh = {
   "vs.props": "Experiment Properties", "nw.devices": "设备",
   "press · 4 MPa · 1 min": "压制 · 4 MPa · 1 分钟", "press · 18 MPa · 3 min": "压制 · 18 MPa · 3 分钟", "press · 4 MPa · 2 min": "压制 · 4 MPa · 2 分钟",
   "open with capping tool": "用封盖工具打开", "sealed vial (filled in glovebox)": "密封小瓶（在手套箱内装样）",
-  "≥ 45 min at T, then 3 MHz → 0.1 Hz": "在 T 下 ≥ 45 分钟，然后 3 MHz → 0.1 Hz", "OCV stable": "开路电压稳定", "— warming up (~15 min) —": "— 预热中（约 15 分钟）—",
+  "≥ 45 min at T, then 3 MHz → 0.1 Hz": "恒温 ≥ 45 分钟后 3 MHz → 0.1 Hz", "OCV stable": "开路电压稳定", "— warming up (~15 min) —": "— 预热中（约 15 分钟）—",
   "slide probe → max signal": "推动探头 → 信号最大", "drift decreasing": "漂移下降中", "drift low and stable": "漂移低且稳定",
-  "set T": "设定 T", "set p": "设定 p", "user / password": "用户名 / 密码", "vent": "放气"
+  "set T": "设定 T", "set p": "设定 p", "user / password": "用户名 / 密码", "vent": "放气",
+  "bm.pot": "ZrO₂ 球磨罐 · 90 g Ø5 mm 磨球 · 1 g", "mf.max": "最高 1200 °C · 实验室限值 1100 °C（数小时）/ 1000 °C（≥ 24 h）", "ov.solv": "溶剂", "nw.from": "从第 2 步 · N 次", "nw.prot": "保护：电压上限 / 下限", "ssb.4w": "+ / −（四线）", "vs.hint": "双击通道 · 右键 › Locate Instrument", "— warming up —": "— 预热中 —", "— off —": "— 关闭 —"
 };
 
 window.DEMO_LABELS.ja = {
@@ -263,7 +269,8 @@ window.DEMO_LABELS.ja = {
   "open with capping tool": "キャッピングツールで開ける", "sealed vial (filled in glovebox)": "密閉バイアル（グローブボックス内で充填）",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "T で ≥ 45 分、その後 3 MHz → 0.1 Hz", "OCV stable": "OCV 安定", "— warming up (~15 min) —": "— ウォームアップ中（約 15 分）—",
   "slide probe → max signal": "プローブを動かす → 最大信号", "drift decreasing": "ドリフト低下中", "drift low and stable": "ドリフトが低く安定",
-  "set T": "T を設定", "set p": "p を設定", "user / password": "ユーザー / パスワード", "vent": "大気開放"
+  "set T": "T を設定", "set p": "p を設定", "user / password": "ユーザー / パスワード", "vent": "大気開放",
+  "bm.pot": "ZrO₂ 容器 · Ø5 mm ボール 90 g · 1 g", "mf.max": "最高 1200 °C · 研究室上限 1100 °C（数時間）/ 1000 °C（≥ 24 h）", "ov.solv": "溶媒", "nw.from": "ステップ 2 から · N 回", "nw.prot": "保護：上限 / 下限電圧", "ssb.4w": "+ / −（4 線式）", "vs.hint": "チャンネルをダブルクリック · 右クリック › Locate Instrument", "— warming up —": "— ウォームアップ中 —", "— off —": "— オフ —"
 };
 
 window.DEMO_LABELS.ko = {
@@ -300,5 +307,6 @@ window.DEMO_LABELS.ko = {
   "open with capping tool": "캐핑 도구로 열기", "sealed vial (filled in glovebox)": "밀봉 바이알 (글러브박스에서 충전)",
   "≥ 45 min at T, then 3 MHz → 0.1 Hz": "T에서 ≥ 45분, 그다음 3 MHz → 0.1 Hz", "OCV stable": "OCV 안정", "— warming up (~15 min) —": "— 예열 중 (약 15분) —",
   "slide probe → max signal": "프로브 이동 → 최대 신호", "drift decreasing": "드리프트 감소 중", "drift low and stable": "드리프트 낮고 안정",
-  "set T": "T 설정", "set p": "p 설정", "user / password": "사용자 / 비밀번호", "vent": "벤트"
+  "set T": "T 설정", "set p": "p 설정", "user / password": "사용자 / 비밀번호", "vent": "벤트",
+  "bm.pot": "ZrO₂ 용기 · Ø5 mm 볼 90 g · 1 g", "mf.max": "최대 1200 °C · 실험실 한계 1100 °C(몇 시간) / 1000 °C(≥ 24 h)", "ov.solv": "용매", "nw.from": "2단계부터 · N회", "nw.prot": "보호: 상한 / 하한 전압", "ssb.4w": "+ / −(4선식)", "vs.hint": "채널 더블클릭 · 오른쪽 클릭 › Locate Instrument", "— warming up —": "— 예열 중 —", "— off —": "— 꺼짐 —"
 };

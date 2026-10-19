@@ -34,7 +34,7 @@
 <g class="part" id="flowVac"><path d="M660 250 V368" class="flow" style="fill:none;stroke:var(--demo-muted);stroke-width:3"/></g>
 <circle class="st" cx="540" cy="290" r="11"/>
 <g class="part" id="vrefill" data-origin="540 290"><rect x="522" y="286" width="36" height="8" rx="3" style="fill:var(--demo-ar)"/></g>
-<text class="lbl-s" x="560" y="318" data-i18n="gb.vrefill">argon (refill) valve</text>
+<text class="lbl-s" x="573" y="348" text-anchor="middle" data-i18n="gb.vrefill">argon (refill) valve</text>
 <circle class="st" cx="660" cy="300" r="11"/>
 <g class="part" id="vvac" data-origin="660 300"><rect x="642" y="296" width="36" height="8" rx="3" style="fill:var(--demo-ink)"/></g>
 <text class="lbl-s" x="680" y="325" data-i18n="gb.vvac">vacuum valve</text>

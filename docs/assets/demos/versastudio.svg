@@ -36,7 +36,7 @@
 <rect x="434" y="164" width="290" height="22" style="fill:none;stroke:var(--demo-body-st)"/><text x="442" y="180" class="lbl-s">No Instrument</text>
 <rect x="434" y="186" width="290" height="22" style="fill:#c8e6c9;stroke:var(--demo-body-st)"/><text x="442" y="202" class="lbl" style="font-size:11px">PMC CH 2 · E 0.000 V · I 0 A</text>
 <rect x="434" y="208" width="290" height="22" style="fill:none;stroke:var(--demo-body-st)"/><text x="442" y="224" class="lbl-s">PMC CH 3 · DATA</text>
-<text x="434" y="260" class="lbl-s">double-click a channel · right-click › Locate Instrument</text></g>
+<text x="434" y="260" class="lbl-s" data-i18n="vs.hint">double-click a channel · right-click › Locate Instrument</text></g>
 <g class="part" id="dlgChk"><rect x="420" y="130" width="320" height="120" rx="6" style="fill:var(--demo-bg);stroke:var(--demo-ink)"/>
 <text x="434" y="152" class="lbl" style="font-weight:700">Load Setup › Impedance Checkout</text>
 <text x="434" y="176" class="lbl-s">Cell to Use = Internal (1 kΩ dummy)</text>

@@ -42,5 +42,5 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 ## Things that need a decision
 
 - **Personal e-mail addresses** in the lab sheets (ball-mill sheet) are not published on the public site. Decide what contact to show.
-- **Translations** of safety-critical pages must be checked by native speakers before they are marked `translation: reviewed`.
+- **Translations** (es, it, de, fr, tr, zh, ja, ko — all 22 pages) are first-pass machine translations made with the English text as the source. They need a native speaker, ideally a lab member who uses the instrument, before they are marked `translation: reviewed`. Start with the safety pages and the glovebox, rotavapor, furnace and ball-mill guides. Terms to check first: the glovebox/antechamber words, the rotavapor stopcock/joint words, and "gauge pressure" vs "pellet pressure" (the distinction matters for the numbers).
 - **Polycarbonate EIS cell at 100–120 °C** — check for creep/deformation (Tg ≈ 145 °C).

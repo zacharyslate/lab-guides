@@ -30,10 +30,10 @@
 <text x="228" y="246">2</text><text x="252" y="246">CC_Chg</text><text x="360" y="246">I (µA)</text><text x="460" y="246">V_max</text>
 <text x="228" y="266">3</text><text x="252" y="266">Rest</text><text x="560" y="266">t</text>
 <text x="228" y="286">4</text><text x="252" y="286">CC_DChg</text><text x="360" y="286">I (µA)</text><text x="460" y="286">V_min</text>
-<text x="228" y="306">5</text><text x="252" y="306">Cycle</text><text x="560" y="306">from 2 · N times</text>
+<text x="228" y="306">5</text><text x="252" y="306">Cycle</text><text x="560" y="306" data-i18n="nw.from">from 2 · N times</text>
 <text x="228" y="326">6</text><text x="252" y="326">End</text>
 </g>
-<text x="228" y="350" class="lbl-s">Protection: upper / lower voltage limits</text></g>
+<text x="228" y="350" class="lbl-s" data-i18n="nw.prot">Protection: upper / lower voltage limits</text></g>
 <g class="part" id="startDlg"><rect x="300" y="190" width="380" height="150" rx="5" style="fill:var(--demo-bg);stroke:var(--demo-ink)"/>
 <text x="314" y="212" class="lbl" style="font-weight:700">Start test</text>
 <g class="lbl" style="font-size:11px"><text x="314" y="238">Barcode / name</text><text x="460" y="238">ZW-SSB-2026-10-19-01</text>

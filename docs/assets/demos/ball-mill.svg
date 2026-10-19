@@ -13,7 +13,7 @@
 <g class="part" id="spacers"><rect x="62" y="186" width="66" height="8" rx="2" style="fill:#fafafa;stroke:#999"/><rect x="62" y="318" width="66" height="8" rx="2" style="fill:#fafafa;stroke:#999"/></g>
 <g class="part" id="tankLid" data-from="0,-40"><rect class="st" x="36" y="168" width="118" height="14" rx="3"/><rect x="40" y="181" width="110" height="3" style="fill:#333"/></g>
 </g>
-<text class="lbl-s" x="95" y="350" text-anchor="middle" id="potlbl">ZrO₂ pot · 90 g balls Ø5 mm · 1 g</text>
+<text class="lbl-s" x="10" y="350" id="potlbl" data-i18n="bm.pot">ZrO₂ pot · 90 g balls Ø5 mm · 1 g</text>
 <g class="part" id="clamp">
 <rect class="st" x="255" y="196" width="130" height="10"/><rect class="st" x="255" y="196" width="8" height="184"/><rect class="st" x="377" y="196" width="8" height="184"/>
 <rect class="st" x="415" y="196" width="130" height="10"/><rect class="st" x="415" y="196" width="8" height="184"/><rect class="st" x="537" y="196" width="8" height="184"/>

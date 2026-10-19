@@ -51,6 +51,11 @@ Translations sit next to the English file with a language suffix, e.g. `docs/ins
 1. Copy `glovebox.md` to `glovebox.es.md` and translate the text. **Keep the demonstration step list the same length and order** — the animation is matched to it item by item.
 2. Add to the front matter: `translation: machine` (shows a "machine translation, not yet reviewed" notice) and change it to `translation: reviewed` once a native speaker has checked it.
 3. Translate the navigation labels with `nav_translations` under that language in `mkdocs.yml`, and the SVG labels with `window.DEMO_LABELS` (keys are the `data-i18n` attributes in the SVGs).
+4. Headings that other pages link to keep their English anchor, e.g. `## Demostración { #demonstration }`, so the same links work in every language.
+5. Chinese, Japanese and Korean: run `ZACH-venv/bin/python tools/cjk_bold.py` after editing. It turns `**…**` / `*…*` into `<strong>`/`<em>`, because Markdown does not close bold before a CJK character (`**注意。**后面` would show the asterisks).
+6. Check with `ZACH-venv/bin/python tools/check_translations.py` (step counts, demos, links, translation flag) and `ZACH-venv/bin/mkdocs build --strict`.
+
+**Status (October 2026):** all 22 pages exist in all eight languages, every one marked `translation: machine`. Instrument screen words (Standby, Single start, Experiment ▸ New…) and document titles are left in English on purpose, so they match what users see on the instrument and in the manuals.
 
 ## Changing a demonstration
 
