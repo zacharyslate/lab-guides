@@ -1,0 +1,40 @@
+<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of assembling the rotavapor evaporating flask in the glovebox: round-bottom flask with the suspension, valve adapter with glass stopcock, vacuum grease on the joint, Keck clip, and transfer out to the rotavapor">
+<text class="ttl" x="20" y="28" data-i18n="rg.title">Rotavapor flask — assembly in the glovebox</text>
+<rect x="20" y="48" width="520" height="390" rx="10" style="fill:none;stroke:var(--demo-ar);stroke-width:2;stroke-dasharray:7 5"/>
+<text class="lbl-s" x="32" y="66" style="fill:var(--demo-ar)" data-i18n="rg.gb">in the glovebox (argon)</text>
+<g transform="translate(36 300)">
+<text class="lbl-s" x="0" y="10" data-i18n="rg.valve">flask valve (stopcock):</text>
+<circle class="gl" cx="20" cy="38" r="11"/><rect x="16" y="22" width="8" height="32" rx="3" style="fill:var(--demo-ok)"/>
+<text class="lbl-s" x="38" y="42" data-i18n="rg.open">vertical = open</text>
+<circle class="gl" cx="20" cy="74" r="11"/><rect x="4" y="70" width="32" height="8" rx="3" style="fill:var(--demo-hot)"/>
+<text class="lbl-s" x="38" y="78" data-i18n="rg.closed">horizontal = closed</text>
+</g>
+<ellipse cx="260" cy="398" rx="62" ry="11" style="fill:#b8865b;stroke:#7a5530"/>
+<text class="lbl-s" x="330" y="414" data-i18n="rg.cork">cork ring</text>
+<g class="part" id="asm">
+<g class="part" id="flask">
+<rect class="gl" x="245" y="236" width="30" height="46" rx="3"/>
+<rect x="247" y="238" width="26" height="24" style="fill:#fff;opacity:.45"/>
+<circle class="gl" cx="260" cy="330" r="60"/>
+<path d="M203 350 A60 60 0 0 0 317 350 Z" style="fill:#333;opacity:.55"/>
+<text class="lbl-s" x="330" y="352" data-i18n="rg.flask">round-bottom flask</text>
+<text class="lbl-s" x="330" y="366" data-i18n="rg.flask2">with the suspension</text>
+</g>
+<g class="part" id="adapter">
+<path d="M249 238 L271 238 L268 266 L252 266 Z" style="fill:#fff;opacity:.6;stroke:var(--demo-glass-st)"/>
+<g class="part" id="grease"><rect x="248" y="238" width="24" height="10" rx="2" style="fill:#fffde7;stroke:#c9b458;stroke-width:1.5"/></g>
+<rect class="gl" x="252" y="140" width="16" height="100"/>
+<rect class="gl" x="244" y="112" width="32" height="34" rx="3"/>
+<rect x="246" y="114" width="28" height="22" style="fill:#fff;opacity:.45"/>
+<circle class="gl" cx="260" cy="190" r="15"/>
+<g class="part" id="vh" data-origin="260 190"><rect x="232" y="186" width="56" height="8" rx="3" style="fill:var(--demo-hot)"/></g>
+<text class="lbl-s" x="292" y="176" data-i18n="rg.adapter">valve adapter</text>
+<text class="lbl-s" x="292" y="128" data-i18n="rg.upper">joint to the rotavapor</text>
+</g>
+<g class="part" id="keck" data-from="180,130"><path d="M240 232 h40 v34 h-40 z" style="fill:none;stroke:#f39c12;stroke-width:4;stroke-linejoin:round"/><text class="lbl-s" x="292" y="256" data-i18n="rg.keck">Keck clip</text></g>
+</g>
+<g class="part" id="gtube"><rect x="420" y="372" width="70" height="20" rx="6" style="fill:#eceff1;stroke:#78909c"/><rect x="488" y="377" width="14" height="10" rx="2" style="fill:#78909c"/><text class="lbl-s" x="420" y="404" data-i18n="rg.grease">vacuum grease</text></g>
+<g class="part" id="toRv"><path d="M548 96 H770" style="stroke:var(--demo-ink);stroke-width:2.5;fill:none"/><path d="M770 96 l-12 -7 v14 z" style="fill:var(--demo-ink)"/>
+<text class="lbl" x="556" y="84" data-i18n="rg.out">antechamber → rotavapor</text>
+<text class="lbl-s" x="556" y="116" data-i18n="rg.keep">keep the valve closed</text></g>
+</svg>

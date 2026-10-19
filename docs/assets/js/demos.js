@@ -25,24 +25,39 @@ window.DEMOS["glovebox"] = {
   ]
 };
 
+/* ---------------- Rotavapor flask assembly (glovebox) ---------------- */
+window.DEMOS["rv-glassware"] = {
+  base: ["asm", "flask", "adapter", "vh", "gtube"],
+  steps: [
+    { set: { adapter: "translate(160px,40px)", vh: "rotate(90deg)" } },
+    { hl: ["flask", "adapter"] },
+    { show: ["grease"], hl: ["grease", "gtube"] },
+    { set: { adapter: "translate(0px,0px)" }, hl: ["adapter"] },
+    { show: ["keck"], hl: ["keck"] },
+    { set: { vh: "rotate(0deg)" }, hl: ["vh"] },
+    { hl: ["keck", "vh"] },
+    { show: ["toRv"], set: { asm: "translate(350px,20px)" } }
+  ]
+};
+
 /* ---------------- Büchi Rotavapor R-210 ---------------- */
 window.DEMOS["rotavapor"] = {
-  base: ["assembly", "knob", "hoseU", "bath", "lift", "ctrl", "startBtn", "stopBtn"],
+  base: ["assembly", "combi", "knob", "hoseU", "bath", "lift", "liftH", "catchS", "ctrl", "startBtn", "stopBtn"],
   steps: [
     { hl: ["bath"] },
     { show: ["chLed"], txt: { chillT: "ON" }, hl: ["chLed"] },
     { txt: { bathT: "set T" }, hl: ["bath"] },
     { txt: { vacset: "set p" }, hl: ["ctrl"] },
     { show: ["recv"], hl: ["recv"] },
-    { show: ["eflask"], hl: ["eflask", "cock"] },
+    { show: ["eflask", "keckR", "cockR"], set: { cockR: "rotate(60deg)" }, hl: ["combi", "cockR"] },
     { show: ["vfU"], txt: { vacset: "p ↓" }, hl: ["startBtn"] },
     { show: ["snow", "wfU"], txt: { chillT: "COOL" }, hl: ["snow"] },
-    { set: { cock: "rotate(90deg)" }, show: ["rot"], hl: ["cock", "rot"] },
-    { hl: ["knob", "lift"] },
+    { set: { cockR: "rotate(-30deg)" }, show: ["rot"], hl: ["cockR", "rot"] },
+    { hl: ["knob", "liftH", "catchS"] },
     { set: { assembly: "translate(0px,45px)" }, hide: ["hoseU", "vfU", "wfU"], show: ["hoseD", "vfD", "wfD"], hl: ["eflask"] },
     { show: ["cond"], hl: ["cond"] },
-    { set: { assembly: "translate(0px,0px)", cock: "rotate(0deg)" }, hide: ["hoseD", "vfD", "wfD", "rot"], show: ["hoseU", "vfU", "wfU"], hl: ["cock"] },
-    { hide: ["vfU", "snow", "wfU"], txt: { vacset: "vent", chillT: "OFF", bathT: "off" }, hl: ["stopBtn"] }
+    { set: { assembly: "translate(0px,0px)", cockR: "rotate(60deg)" }, hide: ["hoseD", "vfD", "wfD", "rot"], show: ["hoseU", "vfU", "wfU"], hl: ["cockR"] },
+    { hide: ["vfU", "snow", "wfU"], txt: { vacset: "vent", chillT: "OFF", bathT: "off" }, hl: ["stopBtn", "combi"] }
   ]
 };
 

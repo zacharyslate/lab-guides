@@ -24,8 +24,8 @@ The electrolyte (Li₆PS₅Cl, LPSC) is dissolved in ethanol and re-precipitated
 1. **Prepare two bottles.** Bottle 1: LPSC + 10 mL ethanol. Bottle 2: VGCF + NMC-111, no solvent.
 2. **Dissolve** all the LPSC in the ethanol (bottle 1), then transfer the **entire contents** of bottle 1 into bottle 2.
 3. **Mix.** Add 10 mL of acetonitrile and mix for **2 min** on the vortex mixer in the glovebox.
-4. **Transfer** everything to an evaporating flask **with a glass stopcock**, close the stopcock and take the flask out of the glovebox.
-5. **Dry on the rotavapor** following the [rotavapor guide](../instruments/rotavapor.md#demonstration) — cool under vacuum and close the stopcock before venting.
+4. **Transfer** everything to a round-bottom flask and close it with the valve adapter and Keck clip, valve closed, as shown in [Part 1 of the rotavapor guide](../instruments/rotavapor.md#part-1-assemble-the-flask-in-the-glovebox). Take the closed flask out of the glovebox.
+5. **Dry on the rotavapor** following [Part 2 of the rotavapor guide](../instruments/rotavapor.md#part-2-on-the-rotavapor) — cool under vacuum and close the stopcock before venting.
 6. **Collect** all the dry powder from the flask (back in the glovebox) and grind it in a mortar and pestle until it is uniform and soft.
 7. **Store** the powder in a bottle labelled **"NMC Cathode"** with the NMC wt % (38 %) and the date.
 
