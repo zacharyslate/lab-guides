@@ -35,7 +35,7 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 | 12 | Glovebox | Whether circulation is paused while using open solvents; list of chemicals allowed in the box |
 | 13 | Booking rules | No per-booking time limit (decided 2026-10-19); still open: no-show rule, number of PMC-2000 channels |
 | 14 | Manuals | Link to the lab-drive folder with the manuals |
-| 15 | References | Full author lists and DOIs of the group papers (publisher pages could not be read automatically) |
+| 15 | References | ✔ Confirmed correct by Zach (2026-10-20); "to be confirmed" notice removed |
 | 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |
 | 17 | Rotavapor flask | Only the text of the *Rotovapor* slides could be read. The guide assumes a round-bottom flask + separate stopcock adapter joined with grease and a Keck clip in the glovebox — confirm, or say if the flask has a built-in valve |
 | 18 | Glovebox panel | The lab photo (2026-10-20) shows the circ LED dark although it should always be on — check whether circulation was off or the LED is faulty (the old slides say the LED "does not function well"). The functions of the **Min.set / Max.set** knobs (box-pressure limits) come from their labels, not from a manual; "purge only when the lab manager asks" is a lab-rule assumption — confirm both |
