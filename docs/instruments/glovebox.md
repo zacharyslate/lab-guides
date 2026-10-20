@@ -64,7 +64,7 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
 | **pressure mbar** (top display) | Box pressure above the room, in mbar. Normally a small overpressure: in ECO mode the box is held at +2 to +6 mbar. During regeneration it still shows the box pressure. |
 | **O₂ ppm** and **H₂O ppm** | Oxygen and water in the argon. During regeneration they show the stage and the minutes left instead. |
 | **Min.set** / **Max.set** knobs | Lower and upper limits of the box-pressure control. **Do not change them.** |
-| **circ** | Circulation of argon through the purifier. Must **always be on (LED lit)**, except during regeneration. If the LED is dark, check that the circulation pistons are UP and tell the lab manager. |
+| **circ** | Circulation of argon through the purifier. Must **always be on**, except during regeneration. **Known fault:** the circ LED on our box only glows very dimly, so it can look off while circulation is running. Check the circulation pistons instead: **UP = circulation on**. If they are down, tell the lab manager. |
 | **reg** / **reg abort** | Start / stop catalyst regeneration (reg abort only works in the first stages). Lab manager only. |
 | **pump** | Vacuum pump. Must be on to evacuate the antechamber. |
 | **ana** | O₂ and H₂O analysers. Leave on. |
@@ -72,8 +72,11 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
 | **purge** | Flushes the box with argon to lower O₂/H₂O. Only when the lab manager asks. |
 | **eco** | Standby: the pump runs only when the box needs argon, the light switches off, pressure +2 to +6 mbar. Leave the box in ECO after use. |
 
+!!! warning "Known fault: dim circ LED"
+    The **circ** LED on our glovebox is faulty: it is on whenever circulation is on, but so dim that it looks off. Never judge circulation by that LED — the pistons on the circulation valves under the box are the check (**UP = on**).
+
 !!! tip "What a normal working state looks like"
-    Pressure a few mbar (here 2.7), O₂ and H₂O below 1 ppm (here 0.5), and the **circ**, **pump**, **ana** and **light** LEDs on. In this photo the **circ** LED is dark: if you see that, check the circulation pistons and tell the lab manager.
+    Pressure a few mbar (here 2.7), O₂ and H₂O below 1 ppm (here 0.5), and the **pump**, **ana** and **light** LEDs on. The **circ** LED looks dark in the photo because it is faulty and very dim — check the circulation pistons instead.
 
 ## Demonstration
 
@@ -85,7 +88,7 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
 
 1. **Check the box as you find it.** It should be in **ECO** mode, with both antechamber doors closed, the antechamber under full vacuum (gauge ≈ −94 kPa) and every valve closed. Read the O₂ and H₂O values on the sensor display.
 2. **Wake the box up.** Press **ECO** once to leave ECO mode and **PUMP** once. You can switch the **LIGHT** on or off at any time.
-3. **Check circulation.** Argon must always circulate through the catalyst (except during regeneration): the **CIRC** LED must be on. Also check the pistons of the magnetic circulation valves on top of the catalyst: they must be **UP**. If the LED is off or the pistons are down, tell the lab manager before you open any sensitive material.
+3. **Check circulation.** Argon must always circulate through the catalyst (except during regeneration). The **CIRC** LED on this box is faulty and only glows very dimly, so do not rely on it: look at the pistons of the magnetic circulation valves on top of the purifier, under the box (see the photo above). They must be **UP**. If they are down, tell the lab manager before you open any sensitive material.
 4. **Bring the antechamber to argon.** Slowly open the **argon (refill) valve**, which connects the antechamber to the main chamber. Watch the gauge rise from −94 kPa to 0 kPa, then close the valve.
 5. **Load your items.** Open the **outer door**, put your items in the antechamber and close the outer door. Leave containers of liquid closed; powders and solids can be open or loosely capped.
 6. **Evacuate (cycle 1).** Check both doors and the argon valve are closed. Slowly open the **vacuum valve** until the gauge reads −94 kPa, keep it under vacuum for **15 min**, then close the valve.

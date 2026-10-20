@@ -65,7 +65,7 @@ translation: machine
 | <strong>pressure mbar</strong>（上方显示） | 手套箱相对室内的压力，单位 mbar。通常为微正压：ECO 模式下保持在 +2 至 +6 mbar。再生期间仍显示手套箱压力。 |
 | <strong>O₂ ppm</strong> 和 <strong>H₂O ppm</strong> | 氩气中的氧和水含量。再生期间改为显示当前阶段和剩余分钟数。 |
 | <strong>Min.set</strong> / <strong>Max.set</strong> 旋钮 | 手套箱压力控制的下限和上限。<strong>请勿调节。</strong> |
-| <strong>circ</strong> | 氩气通过净化器的循环。除再生外必须<strong>始终开启（指示灯亮）</strong>。如指示灯不亮，请检查循环活塞是否处于“上”位，并告知实验室负责人。 |
+| <strong>circ</strong> | 氩气通过净化器的循环。除再生外必须<strong>始终开启</strong>。<strong>已知故障：</strong>本手套箱的 circ 指示灯亮度极低，即使循环正在运行也可能看起来是灭的。请改为检查循环活塞：<strong>在上方 = 循环开启</strong>。如活塞在下方，请告知实验室负责人。 |
 | <strong>reg</strong> / <strong>reg abort</strong> | 启动 / 中止催化剂再生（reg abort 仅在最初几个阶段有效）。仅限实验室负责人。 |
 | <strong>pump</strong> | 真空泵。抽空过渡舱时必须开启。 |
 | <strong>ana</strong> | O₂ 和 H₂O 分析仪。保持开启。 |
@@ -73,8 +73,11 @@ translation: machine
 | <strong>purge</strong> | 用氩气吹扫手套箱以降低 O₂/H₂O。仅在实验室负责人要求时使用。 |
 | <strong>eco</strong> | 待机：仅在手套箱需要补充氩气时开泵，照明关闭，压力 +2 至 +6 mbar。使用后请将手套箱置于 ECO 模式。 |
 
+!!! warning "已知故障：circ 指示灯昏暗"
+    本手套箱的 <strong>circ</strong> 指示灯有故障：只要循环开启它就会亮，但亮度低到看起来像是灭的。切勿根据这个指示灯判断循环状态——应检查箱体下方循环阀的活塞（<strong>在上方 = 开启</strong>）。
+
 !!! tip "正常工作状态的样子"
-    压力为几 mbar（此处 2.7），O₂ 和 H₂O 低于 1 ppm（此处 0.5），<strong>circ</strong>、<strong>pump</strong>、<strong>ana</strong> 和 <strong>light</strong> 指示灯亮。此照片中 <strong>circ</strong> 指示灯未亮：遇到这种情况，请检查循环活塞并告知实验室负责人。
+    压力为几 mbar（此处 2.7），O₂ 和 H₂O 低于 1 ppm（此处 0.5），<strong>pump</strong>、<strong>ana</strong> 和 <strong>light</strong> 指示灯亮。照片中 <strong>circ</strong> 指示灯看似不亮，是因为它有故障、亮度极低——请改为检查循环活塞。
 
 ## 演示 { #demonstration }
 
@@ -86,7 +89,7 @@ translation: machine
 
 1. <strong>检查手套箱的初始状态。</strong>应处于 <strong>ECO</strong> 模式，过渡舱两扇门关闭，过渡舱处于全真空（压力表 ≈ −94 kPa），所有阀门关闭。在传感器屏幕上读取 O₂ 和 H₂O 数值。
 2. <strong>激活手套箱。</strong>按一次 <strong>ECO</strong> 退出 ECO 模式，再按一次 <strong>PUMP</strong>。<strong>LIGHT</strong> 可随时开关。
-3. <strong>检查循环。</strong>氩气必须始终流经催化剂（再生期间除外）：<strong>CIRC</strong> 指示灯必须亮。同时查看催化剂上方磁性循环阀的活塞：必须处于<strong>上方</strong>。如指示灯不亮或活塞在下方，请在打开任何敏感材料前告知实验室负责人。
+3. <strong>检查循环。</strong>氩气必须始终流经催化剂（再生期间除外）。本手套箱的 <strong>CIRC</strong> 指示灯有故障，亮度极低，不要依赖它：请查看箱体下方净化器上的磁性循环阀活塞（见上方照片），必须处于<strong>上方</strong>。如活塞在下方，请在打开任何敏感材料前告知实验室负责人。
 4. <strong>将过渡舱充入氩气。</strong>缓慢打开连接过渡舱与主箱体的<strong>氩气（充气）阀</strong>。观察压力表从 −94 kPa 升至 0 kPa，然后关闭该阀。
 5. <strong>放入物品。</strong>打开<strong>外门</strong>，将物品放入过渡舱，关闭外门。装液体的容器保持密封；粉末和固体可敞口或松盖。
 6. <strong>抽真空（第 1 次循环）。</strong>确认两扇门和氩气阀均已关闭。缓慢打开<strong>真空阀</strong>直至压力表显示 −94 kPa，保持真空 <strong>15 分钟</strong>，然后关闭该阀。

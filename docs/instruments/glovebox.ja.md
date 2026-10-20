@@ -65,7 +65,7 @@ translation: machine
 | <strong>pressure mbar</strong>（上部表示） | 室内に対するボックスの圧力（mbar）。通常はわずかな陽圧で、ECO モードでは +2〜+6 mbar に保たれます。再生中もボックス圧力を表示します。 |
 | <strong>O₂ ppm</strong> と <strong>H₂O ppm</strong> | アルゴン中の酸素と水分。再生中は代わりに工程と残り時間（分）を表示します。 |
 | <strong>Min.set</strong> / <strong>Max.set</strong> ノブ | ボックス圧力制御の下限と上限。<strong>変更しないでください。</strong> |
-| <strong>circ</strong> | 精製器を通るアルゴンの循環。再生時以外は<strong>常にオン（LED 点灯）</strong>でなければなりません。LED が消えている場合は、循環ピストンが「上」にあるか確認し、ラボ管理者に連絡してください。 |
+| <strong>circ</strong> | 精製器を通るアルゴンの循環。再生時以外は<strong>常にオン</strong>でなければなりません。<strong>既知の不具合：</strong>当研究室のボックスの circ LED はごく暗くしか光らないため、循環中でも消えて見えることがあります。代わりに循環ピストンを確認してください：<strong>上 = 循環オン</strong>。下がっていればラボ管理者に連絡してください。 |
 | <strong>reg</strong> / <strong>reg abort</strong> | 触媒再生の開始 / 中止（reg abort は最初の工程でのみ有効）。ラボ管理者のみ。 |
 | <strong>pump</strong> | 真空ポンプ。前室を排気するにはオンにする必要があります。 |
 | <strong>ana</strong> | O₂・H₂O 分析計。オンのままにします。 |
@@ -73,8 +73,11 @@ translation: machine
 | <strong>purge</strong> | アルゴンでボックスをパージして O₂/H₂O を下げます。ラボ管理者の指示があるときのみ。 |
 | <strong>eco</strong> | 待機：ボックスがアルゴンを必要とするときだけポンプが動き、照明は消え、圧力は +2〜+6 mbar。使用後は ECO にしておきます。 |
 
+!!! warning "既知の不具合：暗い circ LED"
+    当研究室のグローブボックスの <strong>circ</strong> LED は故障しています。循環がオンのときは点灯していますが、暗すぎて消えているように見えます。この LED で循環を判断しないでください。確認するのはボックス下の循環バルブのピストンです（<strong>上 = オン</strong>）。
+
 !!! tip "通常の作業状態"
-    圧力は数 mbar（ここでは 2.7）、O₂ と H₂O は 1 ppm 未満（ここでは 0.5）、<strong>circ</strong>・<strong>pump</strong>・<strong>ana</strong>・<strong>light</strong> の LED が点灯。この写真では <strong>circ</strong> の LED が消えています。この状態を見たら、循環ピストンを確認してラボ管理者に連絡してください。
+    圧力は数 mbar（ここでは 2.7）、O₂ と H₂O は 1 ppm 未満（ここでは 0.5）、<strong>pump</strong>・<strong>ana</strong>・<strong>light</strong> の LED が点灯。写真で <strong>circ</strong> の LED が消えて見えるのは、故障していてごく暗いためです。代わりに循環ピストンを確認してください。
 
 ## デモンストレーション { #demonstration }
 
@@ -86,7 +89,7 @@ translation: machine
 
 1. <strong>最初の状態を確認します。</strong>ボックスは <strong>ECO</strong> モードで、前室の扉は両方閉まり、前室は完全真空（圧力計 ≈ −94 kPa）、すべてのバルブが閉じているはずです。センサー画面で O₂ と H₂O の値を読みます。
 2. <strong>ボックスを起動します。</strong><strong>ECO</strong> を 1 回押して ECO モードを解除し、<strong>PUMP</strong> を 1 回押します。<strong>LIGHT</strong> はいつでも点灯・消灯できます。
-3. <strong>循環を確認します。</strong>アルゴンは常に触媒を通って循環していなければなりません（再生中を除く）。<strong>CIRC</strong> の LED が点灯している必要があります。触媒の上にある電磁循環バルブのピストンも確認してください。<strong>上</strong>にあるはずです。LED が消えているかピストンが下がっている場合は、敏感な試料を開ける前にラボ管理者に連絡してください。
+3. <strong>循環を確認します。</strong>アルゴンは常に触媒を通って循環していなければなりません（再生中を除く）。このボックスの <strong>CIRC</strong> LED は故障していてごく暗くしか光らないので頼らないでください。ボックスの下、精製器の上にある電磁循環バルブのピストンを見ます（上の写真参照）。<strong>上</strong>にあるはずです。下がっている場合は、敏感な試料を開ける前にラボ管理者に連絡してください。
 4. <strong>前室をアルゴンで満たします。</strong>前室とメインチャンバーをつなぐ<strong>アルゴン（充填）バルブ</strong>をゆっくり開けます。圧力計が −94 kPa から 0 kPa に上がるのを確認し、バルブを閉じます。
 5. <strong>物品を入れます。</strong><strong>外扉</strong>を開け、物品を前室に置き、外扉を閉じます。液体の容器は閉じたままにします。粉末や固体は開けたまま、またはふたを緩めた状態で構いません。
 6. <strong>真空引き（サイクル 1）。</strong>両方の扉とアルゴンバルブが閉じていることを確認します。圧力計が −94 kPa を示すまで<strong>真空バルブ</strong>をゆっくり開け、真空を <strong>15 分</strong>保持してからバルブを閉じます。

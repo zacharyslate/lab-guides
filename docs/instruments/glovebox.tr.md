@@ -65,7 +65,7 @@ translation: machine
 | **pressure mbar** (üst ekran) | Kutunun oda basıncına göre basıncı, mbar. Normalde küçük bir pozitif basınç: ECO modunda kutu +2 ile +6 mbar arasında tutulur. Rejenerasyon sırasında da kutu basıncını gösterir. |
 | **O₂ ppm** ve **H₂O ppm** | Argondaki oksijen ve su. Rejenerasyon sırasında bunun yerine aşamayı ve kalan dakikayı gösterir. |
 | **Min.set** / **Max.set** düğmeleri | Kutu basınç kontrolünün alt ve üst sınırları. **Değiştirmeyin.** |
-| **circ** | Argonun arıtıcıdan sirkülasyonu. Rejenerasyon dışında **her zaman açık (LED yanık)** olmalıdır. LED sönükse sirkülasyon pistonlarının YUKARIDA olduğunu kontrol edin ve laboratuvar sorumlusuna haber verin. |
+| **circ** | Argonun arıtıcıdan sirkülasyonu. Rejenerasyon dışında **her zaman açık** olmalıdır. **Bilinen arıza:** kabinimizin circ LED'i çok sönük yanar; sirkülasyon çalışırken bile kapalı gibi görünebilir. Bunun yerine sirkülasyon pistonlarını kontrol edin: **YUKARIDA = sirkülasyon açık**. Aşağıdaysa laboratuvar sorumlusuna haber verin. |
 | **reg** / **reg abort** | Katalizör rejenerasyonunu başlatır / durdurur (reg abort yalnızca ilk aşamalarda çalışır). Yalnızca laboratuvar sorumlusu. |
 | **pump** | Vakum pompası. Ön haznenin vakumlanması için açık olmalıdır. |
 | **ana** | O₂ ve H₂O analizörleri. Açık bırakın. |
@@ -73,8 +73,11 @@ translation: machine
 | **purge** | O₂/H₂O'yu düşürmek için kutuyu argonla süpürür. Yalnızca laboratuvar sorumlusu isterse. |
 | **eco** | Bekleme: pompa yalnızca kutu argon istediğinde çalışır, ışık söner, basınç +2 ile +6 mbar. Kullanımdan sonra kutuyu ECO'da bırakın. |
 
+!!! warning "Bilinen arıza: sönük circ LED'i"
+    Kabinimizin **circ** LED'i arızalıdır: sirkülasyon her açık olduğunda yanar, ancak o kadar sönük ki kapalı gibi görünür. Sirkülasyonu asla bu LED'e bakarak değerlendirmeyin — kontrol, kabinin altındaki sirkülasyon vanalarının pistonlarıdır (**YUKARIDA = açık**).
+
 !!! tip "Normal çalışma durumu nasıl görünür"
-    Basınç birkaç mbar (burada 2,7), O₂ ve H₂O 1 ppm'in altında (burada 0,5), **circ**, **pump**, **ana** ve **light** LED'leri yanık. Bu fotoğrafta **circ** LED'i sönük: bunu görürseniz sirkülasyon pistonlarını kontrol edin ve laboratuvar sorumlusuna haber verin.
+    Basınç birkaç mbar (burada 2,7), O₂ ve H₂O 1 ppm'in altında (burada 0,5), **pump**, **ana** ve **light** LED'leri yanık. **circ** LED'i fotoğrafta kapalı görünür, çünkü arızalıdır ve çok sönük yanar — bunun yerine sirkülasyon pistonlarını kontrol edin.
 
 ## Gösterim { #demonstration }
 
@@ -86,7 +89,7 @@ translation: machine
 
 1. **Kabini bulduğunuz haliyle kontrol edin.** **ECO** modunda olmalı; her iki ön oda kapısı kapalı, ön oda tam vakumda (manometre ≈ −94 kPa) ve tüm vanalar kapalı olmalıdır. Sensör ekranından O₂ ve H₂O değerlerini okuyun.
 2. **Kabini etkinleştirin.** ECO modundan çıkmak için **ECO**'ya bir kez, ardından **PUMP**'a bir kez basın. **LIGHT**'ı istediğiniz zaman açıp kapatabilirsiniz.
-3. **Sirkülasyonu kontrol edin.** Argon her zaman katalizörden geçerek dolaşmalıdır (rejenerasyon sırasında hariç): **CIRC** LED'i yanık olmalıdır. Ayrıca katalizörün üzerindeki manyetik sirkülasyon vanalarının pistonlarına bakın: **YUKARIDA** olmalıdır. LED sönükse veya pistonlar aşağıdaysa, hassas malzemeyi açmadan önce laboratuvar sorumlusuna haber verin.
+3. **Sirkülasyonu kontrol edin.** Argon her zaman katalizörden geçerek dolaşmalıdır (rejenerasyon sırasında hariç). Bu kabinin **CIRC** LED'i arızalıdır ve çok sönük yanar; ona güvenmeyin: kabinin altında, arıtıcının üzerindeki manyetik sirkülasyon vanalarının pistonlarına bakın (yukarıdaki fotoğraf). **YUKARIDA** olmalıdırlar. Aşağıdaysalar, hassas malzemeyi açmadan önce laboratuvar sorumlusuna haber verin.
 4. **Ön odayı argona getirin.** Ön odayı ana hazneye bağlayan **argon (dolum) vanasını** yavaşça açın. Manometrenin −94 kPa'dan 0 kPa'ya yükselişini izleyin, sonra vanayı kapatın.
 5. **Malzemelerinizi yükleyin.** **Dış kapıyı** açın, malzemeleri ön odaya koyun ve dış kapıyı kapatın. Sıvı kaplarını kapalı tutun; tozlar ve katılar açık veya kapağı gevşek olabilir.
 6. **Vakumlayın (döngü 1).** Her iki kapının ve argon vanasının kapalı olduğunu kontrol edin. Manometre −94 kPa gösterene kadar **vakum vanasını** yavaşça açın, vakumu **15 dk** tutun, sonra vanayı kapatın.

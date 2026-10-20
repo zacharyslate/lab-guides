@@ -65,7 +65,7 @@ translation: machine
 | <strong>pressure mbar</strong> (위쪽 표시) | 실내 대비 박스 압력(mbar). 보통 약간의 양압이며 ECO 모드에서는 +2~+6 mbar로 유지됩니다. 재생 중에도 박스 압력을 표시합니다. |
 | <strong>O₂ ppm</strong>와 <strong>H₂O ppm</strong> | 아르곤 속 산소와 수분. 재생 중에는 대신 단계와 남은 시간(분)을 표시합니다. |
 | <strong>Min.set</strong> / <strong>Max.set</strong> 노브 | 박스 압력 제어의 하한과 상한. <strong>바꾸지 마십시오.</strong> |
-| <strong>circ</strong> | 정제기를 통한 아르곤 순환. 재생 중을 제외하고 <strong>항상 켜져 있어야(LED 켜짐)</strong> 합니다. LED가 꺼져 있으면 순환 피스톤이 위(UP)에 있는지 확인하고 실험실 관리자에게 알리십시오. |
+| <strong>circ</strong> | 정제기를 통한 아르곤 순환. 재생 중을 제외하고 <strong>항상 켜져 있어야</strong> 합니다. <strong>알려진 결함:</strong> 우리 박스의 circ LED는 아주 희미하게만 켜져서 순환이 작동 중이어도 꺼진 것처럼 보일 수 있습니다. 대신 순환 피스톤을 확인하십시오: <strong>위 = 순환 켜짐</strong>. 내려가 있으면 실험실 관리자에게 알리십시오. |
 | <strong>reg</strong> / <strong>reg abort</strong> | 촉매 재생 시작 / 중단(reg abort는 초기 단계에서만 작동). 실험실 관리자만. |
 | <strong>pump</strong> | 진공 펌프. 전실을 배기하려면 켜져 있어야 합니다. |
 | <strong>ana</strong> | O₂·H₂O 분석기. 켜 두십시오. |
@@ -73,8 +73,11 @@ translation: machine
 | <strong>purge</strong> | O₂/H₂O를 낮추기 위해 박스를 아르곤으로 퍼지합니다. 실험실 관리자가 요청할 때만. |
 | <strong>eco</strong> | 대기: 박스가 아르곤을 필요로 할 때만 펌프가 작동하고 조명이 꺼지며 압력은 +2~+6 mbar. 사용 후에는 ECO로 두십시오. |
 
+!!! warning "알려진 결함: 희미한 circ LED"
+    우리 글러브박스의 <strong>circ</strong> LED는 고장 났습니다. 순환이 켜져 있으면 항상 켜지지만 너무 희미해서 꺼진 것처럼 보입니다. 이 LED로 순환을 판단하지 마십시오. 박스 아래 순환 밸브의 피스톤으로 확인합니다(<strong>위 = 켜짐</strong>).
+
 !!! tip "정상 작업 상태"
-    압력 몇 mbar(여기서는 2.7), O₂와 H₂O 1 ppm 미만(여기서는 0.5), <strong>circ</strong>·<strong>pump</strong>·<strong>ana</strong>·<strong>light</strong> LED 켜짐. 이 사진에서는 <strong>circ</strong> LED가 꺼져 있습니다. 이런 상태를 보면 순환 피스톤을 확인하고 실험실 관리자에게 알리십시오.
+    압력 몇 mbar(여기서는 2.7), O₂와 H₂O 1 ppm 미만(여기서는 0.5), <strong>pump</strong>·<strong>ana</strong>·<strong>light</strong> LED 켜짐. 사진에서 <strong>circ</strong> LED가 꺼진 것처럼 보이는 것은 고장 나서 아주 희미하기 때문입니다. 대신 순환 피스톤을 확인하십시오.
 
 ## 시연 { #demonstration }
 
@@ -86,7 +89,7 @@ translation: machine
 
 1. <strong>처음 상태를 확인합니다.</strong> 박스는 <strong>ECO</strong> 모드여야 하고, 전실 문은 둘 다 닫혀 있으며, 전실은 완전 진공(압력계 ≈ −94 kPa)이고, 모든 밸브가 닫혀 있어야 합니다. 센서 화면에서 O₂와 H₂O 값을 읽습니다.
 2. <strong>박스를 활성화합니다.</strong> <strong>ECO</strong>를 한 번 눌러 ECO 모드를 해제하고 <strong>PUMP</strong>를 한 번 누릅니다. <strong>LIGHT</strong>는 언제든 켜고 끌 수 있습니다.
-3. <strong>순환을 확인합니다.</strong> 아르곤은 항상 촉매를 통해 순환해야 합니다(재생 중 제외). <strong>CIRC</strong> LED가 켜져 있어야 합니다. 촉매 위 자기 순환 밸브의 피스톤도 확인하십시오. <strong>위</strong>에 있어야 합니다. LED가 꺼져 있거나 피스톤이 내려가 있으면 민감한 물질을 열기 전에 실험실 관리자에게 알리십시오.
+3. <strong>순환을 확인합니다.</strong> 아르곤은 항상 촉매를 통해 순환해야 합니다(재생 중 제외). 이 박스의 <strong>CIRC</strong> LED는 고장 나서 아주 희미하게만 켜지므로 믿지 마십시오. 박스 아래 정제기 위의 자기 순환 밸브 피스톤을 보십시오(위 사진 참조). <strong>위</strong>에 있어야 합니다. 내려가 있으면 민감한 물질을 열기 전에 실험실 관리자에게 알리십시오.
 4. <strong>전실을 아르곤으로 채웁니다.</strong> 전실과 주 챔버를 연결하는 <strong>아르곤(충전) 밸브</strong>를 천천히 엽니다. 압력계가 −94 kPa에서 0 kPa로 오르는 것을 확인한 뒤 밸브를 닫습니다.
 5. <strong>물품을 넣습니다.</strong> <strong>바깥 문</strong>을 열고 물품을 전실에 넣은 뒤 바깥 문을 닫습니다. 액체 용기는 닫아 둡니다. 분말과 고체는 열어 두거나 뚜껑을 느슨하게 해도 됩니다.
 6. <strong>진공을 겁니다(사이클 1).</strong> 두 문과 아르곤 밸브가 닫혀 있는지 확인합니다. 압력계가 −94 kPa가 될 때까지 <strong>진공 밸브</strong>를 천천히 열고, 진공을 <strong>15분</strong> 유지한 뒤 밸브를 닫습니다.

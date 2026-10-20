@@ -65,7 +65,7 @@ translation: machine
 | **pressure mbar** (display superiore) | Pressione della glovebox rispetto al laboratorio, in mbar. Di norma una piccola sovrapressione: in modalità ECO la glovebox è mantenuta tra +2 e +6 mbar. Durante la rigenerazione mostra ancora la pressione della glovebox. |
 | **O₂ ppm** e **H₂O ppm** | Ossigeno e acqua nell'argon. Durante la rigenerazione mostrano invece la fase e i minuti rimanenti. |
 | Manopole **Min.set** / **Max.set** | Limiti inferiore e superiore del controllo di pressione. **Non modificarli.** |
-| **circ** | Circolazione dell'argon nel purificatore. Deve essere **sempre attiva (LED acceso)**, tranne durante la rigenerazione. Se il LED è spento, controlla che i pistoni di circolazione siano SU e avvisa il responsabile del laboratorio. |
+| **circ** | Circolazione dell'argon nel purificatore. Deve essere **sempre attiva**, tranne durante la rigenerazione. **Difetto noto:** il LED circ della nostra glovebox si accende molto debolmente, quindi può sembrare spento anche con la circolazione attiva. Controlla invece i pistoni di circolazione: **SU = circolazione attiva**. Se sono giù, avvisa il responsabile del laboratorio. |
 | **reg** / **reg abort** | Avvia / interrompe la rigenerazione del catalizzatore (reg abort funziona solo nelle prime fasi). Solo il responsabile del laboratorio. |
 | **pump** | Pompa del vuoto. Deve essere accesa per evacuare l'anticamera. |
 | **ana** | Analizzatori di O₂ e H₂O. Lasciarli accesi. |
@@ -73,8 +73,11 @@ translation: machine
 | **purge** | Lava la glovebox con argon per abbassare O₂/H₂O. Solo su richiesta del responsabile del laboratorio. |
 | **eco** | Standby: la pompa funziona solo quando la glovebox richiede argon, la luce si spegne, pressione tra +2 e +6 mbar. Lascia la glovebox in ECO dopo l'uso. |
 
+!!! warning "Difetto noto: LED circ debole"
+    Il LED **circ** della nostra glovebox è difettoso: è acceso ogni volta che la circolazione è attiva, ma così debolmente da sembrare spento. Non giudicare mai la circolazione da quel LED: la verifica sono i pistoni delle valvole di circolazione sotto la glovebox (**SU = attiva**).
+
 !!! tip "Com'è lo stato di lavoro normale"
-    Pressione di pochi mbar (qui 2,7), O₂ e H₂O sotto 1 ppm (qui 0,5) e i LED di **circ**, **pump**, **ana** e **light** accesi. In questa foto il LED di **circ** è spento: se lo vedi così, controlla i pistoni di circolazione e avvisa il responsabile del laboratorio.
+    Pressione di pochi mbar (qui 2,7), O₂ e H₂O sotto 1 ppm (qui 0,5) e i LED di **pump**, **ana** e **light** accesi. Il LED di **circ** sembra spento nella foto perché è difettoso e molto debole: controlla invece i pistoni di circolazione.
 
 ## Dimostrazione { #demonstration }
 
@@ -86,7 +89,7 @@ translation: machine
 
 1. **Controllare la glovebox come la si trova.** Deve essere in modalità **ECO**, con entrambe le porte della precamera chiuse, la precamera sotto vuoto completo (manometro ≈ −94 kPa) e tutte le valvole chiuse. Leggere i valori di O₂ e H₂O sulla schermata dei sensori.
 2. **Attivare la glovebox.** Premere **ECO** una volta per uscire dalla modalità ECO e **PUMP** una volta. La **LIGHT** si può accendere o spegnere in qualsiasi momento.
-3. **Controllare la circolazione.** L'argon deve circolare sempre attraverso il catalizzatore (tranne durante la rigenerazione): il LED **CIRC** deve essere acceso. Controllare anche i pistoni delle valvole magnetiche di circolazione sopra il catalizzatore: devono essere **SU**. Se il LED è spento o i pistoni sono giù, avvisare il responsabile del laboratorio prima di aprire materiale sensibile.
+3. **Controllare la circolazione.** L'argon deve circolare sempre attraverso il catalizzatore (tranne durante la rigenerazione). Il LED **CIRC** di questa glovebox è difettoso e si accende molto debolmente, quindi non fidarsene: guardare i pistoni delle valvole magnetiche di circolazione sopra il purificatore, sotto la glovebox (vedi la foto sopra). Devono essere **SU**. Se sono giù, avvisare il responsabile del laboratorio prima di aprire materiale sensibile.
 4. **Portare la precamera in argon.** Aprire lentamente la **valvola dell'argon (riempimento)**, che collega la precamera alla camera principale. Osservare il manometro salire da −94 kPa a 0 kPa, poi chiudere la valvola.
 5. **Caricare gli oggetti.** Aprire la **porta esterna**, mettere gli oggetti nella precamera e chiudere la porta esterna. Lasciare chiusi i contenitori di liquidi; polveri e solidi possono essere aperti o con il tappo allentato.
 6. **Evacuare (ciclo 1).** Verificare che entrambe le porte e la valvola dell'argon siano chiuse. Aprire lentamente la **valvola del vuoto** finché il manometro non indica −94 kPa, mantenere il vuoto per **15 min**, poi chiudere la valvola.
