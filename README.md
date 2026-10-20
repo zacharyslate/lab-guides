@@ -67,4 +67,4 @@ Vendor manuals are copyrighted, so they are **not** stored in this public reposi
 
 ## QR labels for the instruments
 
-`ZACH-venv/bin/python tools/make_qr_labels.py <outdir>` writes two A4 sheets (13 labels, 63 × 52 mm): `qr-labels-main.pdf` (every code opens the home page) and `qr-labels-instrument.pdf` (every code opens that instrument's guide). Each code is decoded again before the sheet is saved. Update `SITE` in the script if the site moves.
+The site has a **QR labels** page (`docs/qr-labels*.md`) where anyone can download the labels. The PDFs live in `docs/assets/qr/` and are made by `ZACH-venv/bin/python tools/make_qr_labels.py` (needs `segno`, `reportlab`, `pyzbar` and `pdftoppm`): two A4 sheets (13 labels, 63 × 52 mm) and one single-label PDF per instrument, each with a code to its guide and a code to the home page. The script decodes every code from a rendering of the finished PDF before it reports success. If the site moves, update `SITE` in the script, run it again and commit the new PDFs.

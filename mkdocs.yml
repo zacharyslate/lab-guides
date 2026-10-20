@@ -75,6 +75,7 @@ plugins:
             "Book an instrument": "Reservar un instrumento"
             "Manuals": "Manuales"
             "References": "Referencias"
+            "QR labels": "Etiquetas QR"
         - locale: it
           name: Italiano
           build: true
@@ -97,6 +98,7 @@ plugins:
             "Book an instrument": "Prenota uno strumento"
             "Manuals": "Manuali"
             "References": "Bibliografia"
+            "QR labels": "Etichette QR"
         - locale: de
           name: Deutsch
           build: true
@@ -120,6 +122,7 @@ plugins:
             "Book an instrument": "Gerät buchen"
             "Manuals": "Handbücher"
             "References": "Literatur"
+            "QR labels": "QR-Etiketten"
         - locale: fr
           name: Français
           build: true
@@ -142,6 +145,7 @@ plugins:
             "Book an instrument": "Réserver un instrument"
             "Manuals": "Manuels"
             "References": "Références"
+            "QR labels": "Étiquettes QR"
         - locale: tr
           name: Türkçe
           build: true
@@ -164,6 +168,7 @@ plugins:
             "Book an instrument": "Cihaz rezervasyonu"
             "Manuals": "Kılavuzlar"
             "References": "Kaynaklar"
+            "QR labels": "QR etiketleri"
         - locale: zh
           name: 中文
           build: true
@@ -188,6 +193,7 @@ plugins:
             "Book an instrument": "预约仪器"
             "Manuals": "手册"
             "References": "参考文献"
+            "QR labels": "二维码标签"
         - locale: ja
           name: 日本語
           build: true
@@ -211,6 +217,7 @@ plugins:
             "Book an instrument": "装置の予約"
             "Manuals": "マニュアル"
             "References": "参考文献"
+            "QR labels": "QR ラベル"
         - locale: ko
           name: 한국어
           build: true
@@ -234,6 +241,7 @@ plugins:
             "Book an instrument": "장비 예약"
             "Manuals": "매뉴얼"
             "References": "참고문헌"
+            "QR labels": "QR 라벨"
 
 markdown_extensions:
   - admonition
@@ -290,5 +298,6 @@ nav:
       - 75Li2S–25P2S5 by ball milling: procedures/lps-ball-milling.md
       - EIS data analysis: analysis/eis-analysis.md
   - Book an instrument: booking.md
+  - QR labels: qr-labels.md
   - Manuals: manuals.md
   - References: references.md
