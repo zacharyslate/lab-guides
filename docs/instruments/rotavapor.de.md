@@ -11,7 +11,7 @@ translation: machine
 | | |
 |---|---|
 | **Wofür** | Lösungsmittel unter vermindertem Druck entfernen, z. B. die Kathodenkomposit-Suspension (Ethanol + Acetonitril) trocknen |
-| **Teile** | Umlaufkühler (Kühlmittel des Kühlers), Heizbad mit **Silikonöl** (bis 180 °C), Antrieb mit Neigungsknopf, Combi-Clip und motorisiertem Lift, vertikaler Kühler, Auffangkolben, Vakuumcontroller und Pumpe |
+| **Teile** | **Büchi Umlaufkühler F-105** (Kühlmittel für den Kühler) · **Nahita Digital-Ölbad** mit **Silikonöl** · **R-210** mit Netzschalter, **ROTATION**-Drehknopf (0–10), Neigungsknopf, Combi-Clip und motorischem Lift · senkrechter Kühler und Auffangkolben · **Büchi Vakuum-Controller V-850** auf der **Vakuumpumpe V-700** |
 | **Kolben** | Für luftempfindliche Arbeiten: ein Rundkolben, verschlossen mit einem **Ventiladapter (Glashahn)** und einer **Keck-Klemme**, in der Glovebox montiert und verschlossen (Teil 1) |
 | **Einweisung** | Erforderlich. Vor der Buchung die Rotavapor-Prüfung bestehen |
 | **Handbücher** | [Handbücher und Referenzen](../manuals.md#rotavapor) |
@@ -23,6 +23,34 @@ translation: machine
     - Das Silikonölbad kann **180 °C** erreichen. Geben Sie niemals Wasser oder andere Chemikalien in das Bad: Wasser in heißem Öl führt zu heftigem Spritzen (Büchi-Handbuch, §2).
     - Silikonöl dehnt sich beim Erwärmen stark aus. Ein Bad, das kalt halb voll aussieht, ist **nicht** zu niedrig — nicht nachfüllen.
     - Prüfen Sie alle Glasteile vor dem Gebrauch auf Risse oder Sternbrüche: Beschädigtes Glas kann unter Vakuum **implodieren**. Sichern Sie alle Schliffe mit Klemmen.
+
+## Unser Aufbau { #our-set-up }
+
+![Der Aufbau im Abzug: V-850 auf der Pumpe V-700, Kühler, R-210, Nahita-Ölbad](../assets/img/rv-setup.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![R-210: Netzschalter und ROTATION-Knopf](../assets/img/rv-r210.jpg){ loading=lazy }
+<figcaption>R-210: Netzschalter und ROTATION-Knopf</figcaption>
+</figure>
+
+<figure markdown>
+![Umlaufkühler F-105](../assets/img/rv-chiller.jpg){ loading=lazy }
+<figcaption>Umlaufkühler F-105</figcaption>
+</figure>
+
+<figure markdown>
+![Vakuum-Controller V-850 (Manual)](../assets/img/rv-v850.jpg){ loading=lazy }
+<figcaption>Vakuum-Controller V-850 (Manual)</figcaption>
+</figure>
+
+<figure markdown>
+![Nahita Digital-Ölbad: PV = Ist, SV = Soll](../assets/img/rv-bath.jpg){ loading=lazy }
+<figcaption>Nahita Digital-Ölbad: PV = Ist, SV = Soll</figcaption>
+</figure>
+
+</div>
 
 ## Teil 1 — Kolben in der Glovebox montieren { #part-1-assemble-the-flask-in-the-glovebox }
 
@@ -57,19 +85,19 @@ Die Probe kommt nie mit Luft in Kontakt: Der Kolben wird **in der Glovebox** bef
 <div class="demo-steps" markdown>
 
 1. **Sicherheitscheck.** Legen Sie PSA an, prüfen Sie den Ölstand und die Glasteile. Das Bad darf nur Silikonöl enthalten.
-2. **Schalten Sie den Umlaufkühler ein — nur die Stromversorgung.** Starten Sie die Kühlung **noch nicht**.
-3. **Stellen Sie die Badtemperatur** auf die in Ihrem Verfahren angegebene Starttemperatur ein.
-4. **Stellen Sie den Druck** am Vakuumcontroller auf den in Ihrem Verfahren angegebenen Wert ein (er hängt vom Lösungsmittel und der Badtemperatur ab).
+2. **Kühler einschalten — nur die Stromversorgung.** Den grünen Netzschalter am F-105 drücken: Das Display zeigt SET TEMP und ACTUAL TEMP. START noch **nicht** drücken.
+3. **Ölbad einstellen.** Das Nahita-Bad einschalten (POWER). **SET** drücken, den Sollwert (**SV**, grün) mit ◄ ▼ ▲ ändern und erneut **SET** drücken. **PV** (rot) ist die Ist-Temperatur des Öls.
+4. **Druck einstellen** am Vakuum-Controller V-850 (Modus Manual): die Softtaste **Set** drücken, den schwarzen Drehknopf auf den Druck Ihrer Vorschrift drehen und bestätigen. Der Sollwert steht oben im Display („Set … mbar“); die große Zahl ist der Ist-Druck.
 5. **Befestigen Sie den Auffangkolben.** Tragen Sie einen dünnen Film Vakuumfett auf seinen Schliff auf und befestigen Sie ihn mit seiner Kugelschliffklemme unter dem Kühler.
 6. **Befestigen Sie den Kolben aus Teil 1.** Prüfen Sie, dass der Hahn noch **waagerecht (geschlossen)** steht. Drücken Sie die Arretiertaste am Antrieb, schieben Sie den oberen Schliff des Adapters auf das Dampfdurchführungsrohr (dafür ist sehr wenig Kraft nötig) und sichern Sie ihn mit dem **Combi-Clip**: Ring nach unten drücken und **im Uhrzeigersinn** drehen. Halten Sie den Kolben mit einer Hand, bis er gesichert ist.
-7. **Starten Sie das Vakuum.** Prüfen Sie den eingestellten Druck und drücken Sie **START** am Vakuumcontroller. Der verschlossene Kolben ist noch nicht dem Vakuum ausgesetzt.
-8. **Starten Sie die Kühlung des Umlaufkühlers**, wenn das Vakuum etwa 5 min läuft. Auf dem Display des Kühlers erscheint eine Schneeflocke.
-9. **Öffnen Sie den Kolben.** Wenn der Kühler mindestens 5 min gekühlt hat, drehen Sie den Hahn **langsam** auf offen (Griff in Linie mit dem Adapter) — der Druck steigt kurz an — und starten Sie dann die Rotation.
+7. **Vakuum starten.** Prüfen, dass die Vakuumpumpe V-700 eingeschaltet ist (Schalter vorne), den Solldruck prüfen und am Controller **START** drücken. Der geschlossene Kolben steht noch nicht unter Vakuum.
+8. **Kühlung des Kühlers starten**, nachdem das Vakuum etwa 5 min gelaufen ist: **START** am F-105 drücken. Im Display erscheint eine Schneeflocke, und ACTUAL TEMP sinkt Richtung SET TEMP.
+9. **Kolben öffnen und Rotation starten.** Wenn der Kühler mindestens 5 min gekühlt hat, den Hahn **langsam** öffnen (Griff in Linie mit dem Adapter) — der Druck steigt kurz an. Den Rotavapor einschalten (grüner Schalter oben am Bedienfeld) und den **ROTATION**-Knopf auf die gewünschte Drehzahl drehen.
 10. **Stellen Sie die Position ein.** Der schwarze Knopf am Antrieb stellt die Neigung des Kolbens ein; der Griff mit elektrischem Schalter hebt und senkt die gesamte Glasbaugruppe. Der Sicherheitsanschlag unten am Lift verhindert, dass der Kolben zu tief fährt.
 11. **Senken Sie den Kolben langsam** in das Ölbad.
 12. **Verdampfen.** Das Lösungsmittel kondensiert am Kühler und sammelt sich im Auffangkolben. Achten Sie auf Siedeverzug; tritt er auf, heben Sie den Kolben aus dem Bad und erhöhen Sie den eingestellten Druck.
-13. **Beenden, ohne Luft einzulassen.** Bei laufendem Vakuum und offenem Hahn stoppen Sie die Rotation, heben den Kolben aus dem Bad und lassen ihn unter Vakuum abkühlen. Erst dann **schließen Sie den Hahn** (Griff quer zum Adapter).
-14. **Stoppen und belüften.** Drücken Sie **STOP einmal**, um das Vakuum zu stoppen, und **zweimal**, um zu belüften. Stoppen Sie die Kühlung und die Badheizung. Halten Sie den Kolben und lösen Sie ihn, indem Sie den **Combi-Clip gegen den Uhrzeigersinn** drehen; bringen Sie den verschlossenen Kolben (mit Adapter und Keck-Klemme) zurück in die Glovebox, bevor Sie ihn öffnen. Leeren Sie den Auffangkolben in den richtigen Lösungsmittelabfallbehälter.
+13. **Beenden, ohne Luft einzulassen.** Bei laufendem Vakuum und offenem Hahn stoppen Sie die Rotation (**ROTATION**-Knopf auf 0), heben den Kolben aus dem Bad und lassen ihn unter Vakuum abkühlen. Erst dann **schließen Sie den Hahn** (Griff quer zum Adapter).
+14. **Stoppen und belüften.** Drücken Sie **STOP einmal**, um das Vakuum zu stoppen, und **zweimal**, um zu belüften. Drücken Sie **STOP** am Kühler und schalten Sie das Ölbad aus. Halten Sie den Kolben und lösen Sie ihn, indem Sie den **Combi-Clip gegen den Uhrzeigersinn** drehen; bringen Sie den verschlossenen Kolben (mit Adapter und Keck-Klemme) zurück in die Glovebox, bevor Sie ihn öffnen. Leeren Sie den Auffangkolben in den richtigen Lösungsmittelabfallbehälter.
 
 </div>
 

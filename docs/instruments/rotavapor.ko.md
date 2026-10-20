@@ -11,7 +11,7 @@ translation: machine
 | | |
 |---|---|
 | <strong>용도</strong> | 감압하에서 용매 제거. 예: 양극 복합체 슬러리(에탄올 + 아세토니트릴) 건조 |
-| <strong>구성</strong> | 칠러(응축기 냉매), <strong>실리콘 오일</strong> 가열 배스(최대 180 °C), 기울기 손잡이가 있는 구동부, Combi Clip과 전동 리프트, 수직 응축기, 수기 플라스크, 진공 컨트롤러와 펌프 |
+| <strong>구성</strong> | <strong>Büchi 순환 냉각기 F-105</strong>(응축기 냉각수) · <strong>실리콘 오일</strong>을 채운 <strong>Nahita 디지털 오일 배스</strong> · 전원 스위치, <strong>ROTATION</strong> 노브(0–10), 기울기 노브, Combi Clip, 전동 리프트가 있는 <strong>R-210</strong> · 수직 응축기와 수집 플라스크 · <strong>진공 펌프 V-700</strong> 위의 <strong>Büchi 진공 컨트롤러 V-850</strong> |
 | <strong>플라스크</strong> | 공기에 민감한 작업용: <strong>밸브 어댑터(유리 콕)</strong>와 <strong>Keck 클립</strong>으로 닫은 둥근바닥 플라스크. 글러브박스에서 조립하고 닫음(1부) |
 | <strong>교육</strong> | 필수. 예약 전에 회전 증발기 시험에 통과할 것 |
 | <strong>설명서</strong> | [설명서와 참고 자료](../manuals.md#rotavapor) |
@@ -23,6 +23,34 @@ translation: machine
     - 실리콘 오일 배스는 <strong>180 °C</strong>까지 오를 수 있습니다. 배스에 물이나 다른 화학물질을 절대 넣지 마십시오. 뜨거운 오일에 물이 들어가면 격렬하게 튑니다(Büchi 설명서, §2).
     - 실리콘 오일은 가열하면 크게 팽창합니다. 차가울 때 반쯤 차 보이는 배스는 부족한 것이 <strong>아닙니다</strong> — 보충하지 마십시오.
     - 사용 전에 모든 유리 기구에 금이나 별 모양 균열이 없는지 확인하십시오. 손상된 유리는 진공에서 <strong>내파</strong>될 수 있습니다. 모든 조인트에 클립을 사용하십시오.
+
+## 우리 실험실 장비 { #our-set-up }
+
+![후드 안의 장비: V-700 펌프 위의 V-850, 응축기, R-210, Nahita 오일 배스](../assets/img/rv-setup.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![R-210: 전원 스위치와 ROTATION 노브](../assets/img/rv-r210.jpg){ loading=lazy }
+<figcaption>R-210: 전원 스위치와 ROTATION 노브</figcaption>
+</figure>
+
+<figure markdown>
+![냉각기 F-105](../assets/img/rv-chiller.jpg){ loading=lazy }
+<figcaption>냉각기 F-105</figcaption>
+</figure>
+
+<figure markdown>
+![진공 컨트롤러 V-850 (Manual)](../assets/img/rv-v850.jpg){ loading=lazy }
+<figcaption>진공 컨트롤러 V-850 (Manual)</figcaption>
+</figure>
+
+<figure markdown>
+![Nahita 디지털 오일 배스: PV = 실제값, SV = 설정값](../assets/img/rv-bath.jpg){ loading=lazy }
+<figcaption>Nahita 디지털 오일 배스: PV = 실제값, SV = 설정값</figcaption>
+</figure>
+
+</div>
 
 ## 1부 — 글러브박스에서 플라스크 조립 { #part-1-assemble-the-flask-in-the-glovebox }
 
@@ -57,19 +85,19 @@ translation: machine
 <div class="demo-steps" markdown>
 
 1. <strong>안전 점검.</strong> 개인 보호구를 착용하고 오일 양과 유리 기구를 확인합니다. 배스에는 실리콘 오일만 있어야 합니다.
-2. <strong>칠러를 켭니다 — 전원만.</strong> 냉각은 <strong>아직</strong> 시작하지 않습니다.
-3. <strong>배스 온도를</strong> 절차서에 적힌 시작 온도로 <strong>설정합니다</strong>.
-4. 진공 컨트롤러에서 <strong>압력을</strong> 절차서의 값으로 <strong>설정합니다</strong>(용매와 배스 온도에 따라 다름).
+2. <strong>냉각기는 전원만 켭니다.</strong> F-105의 녹색 전원 스위치를 누르면 화면에 SET TEMP와 ACTUAL TEMP가 켜집니다. START는 아직 <strong>누르지 마십시오</strong>.
+3. <strong>오일 배스를 설정합니다.</strong> Nahita 배스를 켭니다(POWER). <strong>SET</strong>을 누르고 ◄ ▼ ▲로 설정값(<strong>SV</strong>, 녹색)을 바꾼 뒤 다시 <strong>SET</strong>을 누릅니다. <strong>PV</strong>(빨간색)는 실제 오일 온도입니다.
+4. V-850 진공 컨트롤러(Manual 모드)에서 <strong>압력을 설정합니다</strong>. <strong>Set</strong> 소프트키를 누르고 검은 노브를 절차에서 정한 압력까지 돌린 뒤 확인합니다. 설정값은 화면 위쪽("Set … mbar")에, 큰 숫자는 실제 압력입니다.
 5. <strong>수기 플라스크를 장착합니다.</strong> 조인트에 진공 그리스를 얇게 바르고, 볼 조인트 클립으로 응축기 아래에 고정합니다.
 6. <strong>1부의 플라스크를 장착합니다.</strong> 콕이 여전히 <strong>수평(닫힘)</strong>인지 확인합니다. 구동부의 잠금 버튼을 누르고, 어댑터의 위쪽 조인트를 증기관에 끼우고(힘이 거의 필요 없음), <strong>Combi Clip</strong>으로 고정합니다: 칼라를 아래로 누르고 <strong>시계 방향</strong>으로 돌립니다. 고정될 때까지 한 손으로 플라스크를 받칩니다.
-7. <strong>진공을 시작합니다.</strong> 설정 압력을 확인하고 진공 컨트롤러의 <strong>START</strong>를 누릅니다. 닫힌 플라스크는 아직 진공에 노출되지 않습니다.
-8. 진공이 약 5분 작동하면 <strong>칠러 냉각을 시작합니다</strong>. 칠러 화면에 눈꽃 표시가 나타납니다.
-9. <strong>플라스크를 엽니다.</strong> 칠러가 최소 5분 냉각한 뒤, 콕을 <strong>천천히</strong> 열림 위치(손잡이가 어댑터와 나란히)로 돌립니다 — 압력이 잠시 오릅니다 — 그런 다음 회전을 시작합니다.
+7. <strong>진공을 시작합니다.</strong> 진공 펌프 V-700이 켜져 있는지(앞면 스위치)와 설정 압력을 확인하고 컨트롤러의 <strong>START</strong>를 누릅니다. 닫힌 플라스크는 아직 진공에 노출되지 않습니다.
+8. 진공을 약 5분 건 뒤 <strong>냉각기 냉각을 시작합니다</strong>. F-105의 <strong>START</strong>를 누르면 화면에 눈송이가 나타나고 ACTUAL TEMP가 SET TEMP 쪽으로 내려갑니다.
+9. <strong>플라스크를 열고 회전을 시작합니다.</strong> 냉각기가 5분 이상 냉각하면 콕을 <strong>천천히</strong> 여는 방향으로 돌립니다(손잡이를 어댑터와 같은 방향으로). 압력이 잠시 올라갑니다. 회전증발기를 켜고(위쪽 패널의 녹색 스위치) <strong>ROTATION</strong> 노브를 필요한 속도로 돌립니다.
 10. <strong>위치를 조정합니다.</strong> 구동부의 검은 손잡이로 플라스크 기울기를 조절하고, 전기 스위치가 있는 손잡이로 유리 조립체 전체를 올리고 내립니다. 리프트 아래쪽의 안전 스토퍼가 플라스크가 너무 내려가는 것을 막습니다.
 11. <strong>플라스크를 천천히</strong> 오일 배스에 <strong>내립니다</strong>.
 12. <strong>증발시킵니다.</strong> 용매가 응축기에서 응축되어 수기 플라스크에 모입니다. 돌비에 주의하고, 발생하면 플라스크를 배스에서 올리고 설정 압력을 높입니다.
-13. <strong>공기를 넣지 않고 끝냅니다.</strong> 진공이 걸린 채 콕을 연 상태에서 회전을 멈추고, 플라스크를 배스에서 올려 진공 상태로 식힙니다. 그 다음에야 <strong>콕을 닫습니다</strong>(손잡이가 어댑터와 직각).
-14. <strong>멈추고 벤트합니다.</strong> <strong>STOP을 한 번</strong> 눌러 진공을 멈추고 <strong>두 번</strong> 눌러 벤트합니다. 칠러 냉각과 배스 가열을 멈춥니다. 플라스크를 받치고 <strong>Combi Clip을 반시계 방향</strong>으로 돌려 분리합니다. 닫힌 플라스크(어댑터와 Keck 클립 포함)는 열기 전에 글러브박스로 다시 가져갑니다. 수기 플라스크는 올바른 용매 폐액 용기에 비웁니다.
+13. <strong>공기를 넣지 않고 끝냅니다.</strong> 진공이 걸린 채 콕을 연 상태에서 회전을 멈추고(<strong>ROTATION</strong> 노브를 0으로), 플라스크를 배스에서 올려 진공 상태로 식힙니다. 그 다음에야 <strong>콕을 닫습니다</strong>(손잡이가 어댑터와 직각).
+14. <strong>멈추고 벤트합니다.</strong> <strong>STOP을 한 번</strong> 눌러 진공을 멈추고 <strong>두 번</strong> 눌러 벤트합니다. 냉각기의 <strong>STOP</strong>을 누르고 오일 배스를 끕니다. 플라스크를 받치고 <strong>Combi Clip을 반시계 방향</strong>으로 돌려 분리합니다. 닫힌 플라스크(어댑터와 Keck 클립 포함)는 열기 전에 글러브박스로 다시 가져갑니다. 수기 플라스크는 올바른 용매 폐액 용기에 비웁니다.
 
 </div>
 

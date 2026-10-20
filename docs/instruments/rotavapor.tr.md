@@ -11,7 +11,7 @@ translation: machine
 | | |
 |---|---|
 | **Ne için** | Düşük basınç altında çözücü uzaklaştırmak, ör. katot kompoziti süspansiyonunu (etanol + asetonitril) kurutmak |
-| **Parçalar** | Soğutucu (kondenser soğutma sıvısı), **silikon yağlı** ısıtma banyosu (180 °C'ye kadar), eğim düğmeli tahrik ünitesi, Combi Clip ve motorlu asansör, dikey kondenser, toplama balonu, vakum kontrolörü ve pompa |
+| **Parçalar** | **Büchi F-105 sirkülasyonlu soğutucu** (kondenser soğutma suyu) · **silikon yağı** dolu **Nahita dijital yağ banyosu** · güç anahtarı, **ROTATION** düğmesi (0–10), eğim düğmesi, Combi Clip ve motorlu kaldırıcılı **R-210** · dikey kondenser ve toplama balonu · **V-700 vakum pompası** üzerinde **Büchi V-850 vakum kontrolörü** |
 | **Balon** | Havaya duyarlı çalışmalar için: **vanalı adaptör (cam musluk)** ve **Keck klipsi** ile kapatılmış, eldivenli kabinde monte edilip kapatılan bir yuvarlak dipli balon (Bölüm 1) |
 | **Eğitim** | Zorunlu. Rezervasyondan önce rotavapor sınavını geçin |
 | **Kılavuzlar** | [Kılavuzlar ve kaynaklar](../manuals.md#rotavapor) |
@@ -23,6 +23,34 @@ translation: machine
     - Silikon yağ banyosu **180 °C**'ye ulaşabilir. Banyoya asla su veya başka bir kimyasal eklemeyin: sıcak yağdaki su şiddetli sıçramaya yol açar (Büchi kılavuzu, §2).
     - Silikon yağı ısındıkça belirgin şekilde genleşir. Soğukken yarı dolu görünen bir banyo düşük **değildir** — üzerine eklemeyin.
     - Kullanmadan önce tüm cam malzemeyi çatlak veya yıldız kırığı açısından kontrol edin: hasarlı cam vakum altında **içe çökebilir**. Tüm şliflerde klips kullanın.
+
+## Kurulumumuz { #our-set-up }
+
+![Çeker ocaktaki kurulum: V-700 pompası üzerinde V-850, kondenser, R-210, Nahita yağ banyosu](../assets/img/rv-setup.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![R-210: güç anahtarı ve ROTATION düğmesi](../assets/img/rv-r210.jpg){ loading=lazy }
+<figcaption>R-210: güç anahtarı ve ROTATION düğmesi</figcaption>
+</figure>
+
+<figure markdown>
+![Soğutucu F-105](../assets/img/rv-chiller.jpg){ loading=lazy }
+<figcaption>Soğutucu F-105</figcaption>
+</figure>
+
+<figure markdown>
+![Vakum kontrolörü V-850 (Manual)](../assets/img/rv-v850.jpg){ loading=lazy }
+<figcaption>Vakum kontrolörü V-850 (Manual)</figcaption>
+</figure>
+
+<figure markdown>
+![Nahita dijital yağ banyosu: PV = gerçek, SV = ayar](../assets/img/rv-bath.jpg){ loading=lazy }
+<figcaption>Nahita dijital yağ banyosu: PV = gerçek, SV = ayar</figcaption>
+</figure>
+
+</div>
 
 ## Bölüm 1 — Balonu eldivenli kabinde monte edin { #part-1-assemble-the-flask-in-the-glovebox }
 
@@ -57,19 +85,19 @@ Numune hiçbir zaman havayla temas etmez: balon **eldivenli kabinin içinde** do
 <div class="demo-steps" markdown>
 
 1. **Güvenlik kontrolü.** KKD'nizi giyin, yağ seviyesini ve cam malzemeyi kontrol edin. Banyoda yalnızca silikon yağı olmalıdır.
-2. **Soğutucuyu açın — yalnızca güç.** Soğutmayı **henüz** başlatmayın.
-3. **Banyo sıcaklığını** prosedürünüzde belirtilen başlangıç sıcaklığına ayarlayın.
-4. **Basıncı** vakum kontrolöründe prosedürünüzde belirtilen değere ayarlayın (çözücüye ve banyo sıcaklığına bağlıdır).
+2. **Soğutucuyu açın — yalnızca güç.** F-105'in yeşil güç anahtarına basın: ekranda SET TEMP ve ACTUAL TEMP görünür. START'a henüz **basmayın**.
+3. **Yağ banyosunu ayarlayın.** Nahita banyosunu açın (POWER). **SET**'e basın, ayar değerini (**SV**, yeşil) ◄ ▼ ▲ ile değiştirin ve tekrar **SET**'e basın. **PV** (kırmızı) gerçek yağ sıcaklığıdır.
+4. **Basıncı ayarlayın:** V-850 vakum kontrolöründe (Manual modu) **Set** yazılım tuşuna basın, siyah düğmeyi prosedürünüzün istediği basınca çevirin ve onaylayın. Ayar değeri ekranın üstünde görünür ("Set … mbar"); büyük sayı gerçek basınçtır.
 5. **Toplama balonunu takın.** Şlifine ince bir vakum gresi tabakası sürün ve küresel şlif klipsiyle kondenserin altına sabitleyin.
 6. **Bölüm 1'deki balonu takın.** Musluğun hâlâ **yatay (kapalı)** olduğunu kontrol edin. Tahrik ünitesindeki kilit düğmesine basın, adaptörün üst şlifini buhar kanalına geçirin (çok az kuvvet gerekir) ve **Combi Clip** ile sabitleyin: bileziği aşağı bastırıp **saat yönünde** çevirin. Sabitlenene kadar balonu bir elinizle tutun.
-7. **Vakumu başlatın.** Ayarlı basıncı kontrol edin ve vakum kontrolöründe **START**'a basın. Kapalı balon henüz vakuma maruz kalmaz.
-8. Vakum yaklaşık 5 dk çalıştıktan sonra **soğutucunun soğutmasını başlatın**. Soğutucu ekranında bir kar tanesi görünür.
-9. **Balonu açın.** Soğutucu en az 5 dk soğuttuktan sonra musluğu **yavaşça** açık konuma çevirin (kol adaptörle aynı hizada) — basınç kısa süre yükselir — ardından dönmeyi başlatın.
+7. **Vakumu başlatın.** V-700 vakum pompasının açık olduğunu (ön taraftaki anahtar) ve ayar basıncını kontrol edin, kontrolörde **START**'a basın. Kapalı balon henüz vakuma açılmaz.
+8. **Soğutucunun soğutmasını başlatın:** vakum yaklaşık 5 dk çalıştıktan sonra F-105'te **START**'a basın. Ekranda bir kar tanesi belirir ve ACTUAL TEMP, SET TEMP'e doğru düşer.
+9. **Balonu açın ve döndürmeye başlayın.** Soğutucu en az 5 dk soğuttuktan sonra musluğu **yavaşça** açığa çevirin (kol adaptörle aynı hizada) — basınç kısa süre yükselir. Rotavaporu açın (üst paneldeki yeşil anahtar) ve **ROTATION** düğmesini gereken hıza çevirin.
 10. **Konumu ayarlayın.** Tahrik ünitesindeki siyah düğme balonun eğimini ayarlar; elektrik anahtarlı kol tüm cam düzeneği yukarı ve aşağı hareket ettirir. Asansörün altındaki güvenlik durdurucusu balonun çok aşağı inmesini önler.
 11. **Balonu yavaşça** yağ banyosuna **indirin**.
 12. **Buharlaştırın.** Çözücü kondenserde yoğunlaşır ve toplama balonunda birikir. Ani kaynamaya dikkat edin; olursa balonu banyodan kaldırın ve ayarlı basıncı yükseltin.
-13. **Hava sokmadan bitirin.** Vakum hâlâ açık ve musluk açıkken dönmeyi durdurun, balonu banyodan kaldırın ve vakum altında soğumasını bekleyin. Ancak ondan sonra **musluğu kapatın** (kol adaptöre dik).
-14. **Durdurun ve havalandırın.** Vakumu durdurmak için **STOP'a bir kez**, havalandırmak için **iki kez** basın. Soğutucunun soğutmasını ve banyo ısıtmasını durdurun. Balonu tutun ve **Combi Clip'i saat yönünün tersine** çevirerek çıkarın; kapalı balonu (adaptör ve Keck klipsiyle birlikte) açmadan önce eldivenli kabine geri götürün. Toplama balonunu doğru çözücü atık kabına boşaltın.
+13. **Hava sokmadan bitirin.** Vakum hâlâ açık ve musluk açıkken dönmeyi durdurun (**ROTATION** düğmesi 0'a), balonu banyodan kaldırın ve vakum altında soğumasını bekleyin. Ancak ondan sonra **musluğu kapatın** (kol adaptöre dik).
+14. **Durdurun ve havalandırın.** Vakumu durdurmak için **STOP'a bir kez**, havalandırmak için **iki kez** basın. Soğutucuda **STOP**'a basın ve yağ banyosunu kapatın. Balonu tutun ve **Combi Clip'i saat yönünün tersine** çevirerek çıkarın; kapalı balonu (adaptör ve Keck klipsiyle birlikte) açmadan önce eldivenli kabine geri götürün. Toplama balonunu doğru çözücü atık kabına boşaltın.
 
 </div>
 

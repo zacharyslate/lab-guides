@@ -238,3 +238,9 @@
 .bk-nav { display: flex; gap: 0.4rem; align-items: center; margin: 0.6rem 0; flex-wrap: wrap; }
 .bk-nav .wk { font-weight: 700; font-size: 0.8rem; margin: 0 0.4rem; }
 .bk label[hidden] { display: none; }
+
+/* photo grid (instrument photos from the lab) */
+.photo-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); gap: 0.8rem; margin: 0.8em 0; }
+.photo-grid figure { margin: 0; }
+.photo-grid img { width: 100%; height: auto; border-radius: 4px; }
+.photo-grid figcaption { font-size: 0.68rem; color: var(--md-default-fg-color--light); margin-top: 0.2rem; }

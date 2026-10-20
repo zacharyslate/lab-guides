@@ -39,6 +39,7 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 | 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |
 | 17 | Rotavapor flask | Only the text of the *Rotovapor* slides could be read. The guide assumes a round-bottom flask + separate stopcock adapter joined with grease and a Keck clip in the glovebox — confirm, or say if the flask has a built-in valve |
 | 18 | Glovebox panel | The lab photo (2026-10-20) shows the circ LED dark although it should always be on — check whether circulation was off or the LED is faulty (the old slides say the LED "does not function well"). The functions of the **Min.set / Max.set** knobs (box-pressure limits) come from their labels, not from a manual; "purge only when the lab manager asks" is a lab-rule assumption — confirm both |
+| 19 | Rotavapor set-up | From the lab photos (2026-10-20): (a) the **SET / ◄ ▼ ▲** procedure for the Nahita oil bath and the **Set soft key + knob** procedure for the V-850 are the usual ones for these controllers, not taken from their manuals (not in the project) — confirm on the instruments; (b) the 180 °C limit comes from the lab slides — confirm it applies to the Nahita bath; (c) what are the red blocks under the lift for (immersion stop?); (d) is 2.0 °C the standard chiller set point? |
 
 ## Things that need a decision
 
