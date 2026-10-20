@@ -87,7 +87,7 @@ Il manometro della pompa a pedale misura la **pressione dell'olio** nel cilindro
 </div>
 
 !!! warning "Prima di fidarti dei numeri"
-    - Il calcolo considera lo **stelo da 40 mm** come il pistone su cui spinge l'olio. Se la targhetta del cilindro riporta un'area efficace, usa quella: un pistone da 45 mm darebbe il 27 % di forza in più.
+    - Il diametro del pistone del nostro cilindro è di **40 mm** (confermato). Per un'altra pressa o un altro cilindro, inserisci il suo diametro del pistone nel calcolatore.
     - Non sono inclusi l'attrito nel cilindro e nello stampo né la precisione del manometro. Negli articoli riporta la pressione sulla pastiglia insieme alla lettura del manometro, ai diametri di stelo e stampo e al modello di pressa.
     - Non superare mai la pressione nominale indicata sulla pompa né il carico nominale dello stampo.
 

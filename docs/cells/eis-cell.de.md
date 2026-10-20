@@ -87,7 +87,7 @@ Das Manometer der Fußpumpe zeigt den **Öldruck** im Zylinder. Die Kraft entste
 </div>
 
 !!! warning "Bevor Sie sich auf die Zahlen verlassen"
-    - Die Rechnung nimmt die **40-mm-Kolbenstange** als den Kolben, auf den das Öl drückt. Nennt das Typenschild des Zylinders eine wirksame Fläche, verwenden Sie diese: Ein 45-mm-Kolben ergäbe 27 % mehr Kraft.
+    - Der Kolbendurchmesser unseres Zylinders beträgt **40 mm** (bestätigt). Für eine andere Presse oder einen anderen Zylinder geben Sie dessen Kolbendurchmesser im Rechner ein.
     - Reibung in Zylinder und Werkzeug sowie die Genauigkeit des Manometers sind nicht berücksichtigt. Geben Sie in Veröffentlichungen den Pelletdruck zusammen mit dem Manometerwert, den Durchmessern von Stange und Werkzeug und dem Pressenmodell an.
     - Überschreiten Sie nie den Nenndruck auf dem Pumpenschild oder die Nennlast des Werkzeugs.
 

@@ -87,7 +87,7 @@ Ayak pompasındaki manometre silindirdeki **yağ basıncını** gösterir. Kuvve
 </div>
 
 !!! warning "Sayılara güvenmeden önce"
-    - Hesap, yağın ittiği piston olarak **40 mm'lik mili** alır. Silindirin etiketinde etkin alan yazıyorsa onu kullanın: 45 mm'lik bir piston %27 daha fazla kuvvet verir.
+    - Silindirimizin piston çapı **40 mm**'dir (doğrulandı). Başka bir pres veya silindir için hesaplayıcıya onun piston çapını girin.
     - Silindir ve kalıptaki sürtünme ile manometrenin doğruluğu hesaba katılmamıştır. Makalelerde pelet basıncını manometre okuması, mil ve kalıp çapları ve pres modeliyle birlikte verin.
     - Pompa etiketindeki anma basıncını veya kalıbın anma yükünü asla aşmayın.
 

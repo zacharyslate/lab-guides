@@ -87,7 +87,7 @@ El manómetro de la bomba de pie mide la **presión del aceite** en el cilindro.
 </div>
 
 !!! warning "Antes de fiarse de los números"
-    - El cálculo toma el **vástago de 40 mm** como el pistón sobre el que empuja el aceite. Si la placa del cilindro indica un área efectiva, use esa: un pistón de 45 mm daría un 27 % más de fuerza que estos números.
+    - El diámetro del pistón de nuestro cilindro es de **40 mm** (confirmado). Para otra prensa u otro cilindro, introduzca su diámetro de pistón en la calculadora.
     - No se incluyen el rozamiento en el cilindro y la matriz ni la precisión del manómetro. En los artículos, indique la presión sobre la pastilla junto con la lectura del manómetro, los diámetros del vástago y de la matriz y el modelo de prensa.
     - No supere nunca la presión nominal de la etiqueta de la bomba ni la carga nominal de la matriz.
 

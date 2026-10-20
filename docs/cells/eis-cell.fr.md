@@ -87,7 +87,7 @@ Le manomètre de la pompe à pied indique la **pression d'huile** dans le vérin
 </div>
 
 !!! warning "Avant de vous fier aux chiffres"
-    - Le calcul prend la **tige de 40 mm** comme le piston sur lequel pousse l'huile. Si la plaque du vérin donne une surface effective, utilisez-la : un piston de 45 mm donnerait 27 % de force en plus.
+    - Le diamètre du piston de notre vérin est de **40 mm** (confirmé). Pour une autre presse ou un autre vérin, saisissez son diamètre de piston dans le calculateur.
     - Le frottement dans le vérin et la matrice et la précision du manomètre ne sont pas pris en compte. Dans les articles, indiquez la pression sur la pastille avec la lecture du manomètre, les diamètres de la tige et de la matrice et le modèle de presse.
     - Ne dépassez jamais la pression nominale indiquée sur la pompe ni la charge nominale de la matrice.
 

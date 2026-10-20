@@ -86,7 +86,7 @@ The gauge on the foot pump reads the **oil pressure** in the cylinder. The force
 </div>
 
 !!! warning "Before you rely on the numbers"
-    - The calculation takes the **40 mm shaft** as the piston the oil pushes on. If the cylinder's nameplate gives an effective area, use that: a 45 mm piston would give 27 % more force than these numbers.
+    - The piston diameter of our cylinder is **40 mm** (confirmed). For another press or cylinder, enter its piston diameter in the calculator.
     - Friction in the cylinder and die and the accuracy of the gauge are not included. In papers, report the pellet pressure together with the gauge reading, the shaft and die diameters and the press model.
     - Never exceed the rated pressure on the pump label or the rated load of the die.
 

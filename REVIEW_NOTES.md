@@ -31,7 +31,7 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 |---|---|---|
 | 9 | Cathode composite procedure | Bath temperature, set pressure, drying time, any post-drying heat treatment |
 | 10 | Solid-state battery | Stacking order of Li and In foils; whether the re-tare happens before the cathode is added |
-| 11 | Press (CDM-5M + Riken Seiki foot pump) | ✔ Shaft 40 mm, head 45 mm (Zach, 2026-10-20); the site converts with the **40 mm shaft as the effective piston area** (1 MPa gauge = 1.257 kN). Still open: confirm the effective piston area / bore on the cylinder nameplate or manual (a 45 mm piston would give +27 % force); the pump's rated pressure (label appears to read 70 MPa — check) and the rated load of the Ø 6 and Ø 10 mm dies |
+| 11 | Press (CDM-5M + Riken Seiki foot pump) | ✔ Piston 40 mm, head 45 mm (Zach, 2026-10-20); 1 MPa gauge = 1.257 kN. Still open: the pump's rated pressure (label appears to read 70 MPa — check), the press frame's rated load, and the rated load of the Ø 6 and Ø 10 mm dies |
 | 12 | Glovebox | Whether circulation is paused while using open solvents; list of chemicals allowed in the box |
 | 13 | Booking rules | No per-booking time limit (decided 2026-10-19); still open: the 30-min no-show rule (now shown on the site without a caveat), number of PMC-2000 channels |
 | 14 | Manuals | Link to the lab-drive folder with the manuals |
