@@ -25,6 +25,27 @@ translation: machine
     - **Riesgo de quemaduras.** Los recipientes se calientan mucho en ensayos largos (el interior 20–30 °C más que la pared exterior). Use guantes térmicos para retirarlos. Temperatura máxima de la pared exterior: 100–110 °C (ágata: 70–80 °C).
     - Nunca abra un recipiente sellado con sulfuros fuera de la caja de guantes.
 
+## Nuestro equipo { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Nuestro Pulverisette 7 classic line con la tapa cerrada. El panel de control está sobre la tapa; el cierre de la tapa está en el frente.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Nuestro Pulverisette 7 classic line con la tapa cerrada. El panel de control está sobre la tapa; el cierre de la tapa está en el frente.</figcaption>
+</figure>
+
+<figure markdown>
+![Tapa abierta: las dos posiciones de recipiente sobre el disco solar, cada una con su estribo de sujeción y pomo en estrella. Un muelle de gas mantiene la tapa levantada.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Tapa abierta: las dos posiciones de recipiente sobre el disco solar, cada una con su estribo de sujeción y pomo en estrella. Un muelle de gas mantiene la tapa levantada.</figcaption>
+</figure>
+
+<figure markdown>
+![Panel de control: velocidad de rotación (rpm), temporizador, repeticiones, las teclas Milling, Pause y Reverse, y START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Panel de control: velocidad de rotación (rpm), temporizador, repeticiones, las teclas Milling, Pause y Reverse, y START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Demostración { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

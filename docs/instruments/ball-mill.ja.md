@@ -25,6 +25,27 @@ translation: machine
     - <strong>やけどの危険。</strong>長時間の運転では容器が非常に熱くなります（内部は外壁より 20–30 °C 高い）。取り出しには耐熱手袋を使います。外壁の最高温度：100–110 °C（メノウ：70–80 °C）。
     - 硫化物を入れた密閉容器をグローブボックスの外で開けないでください。
 
+## 当研究室の装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![フードを閉じた当研究室の Pulverisette 7 classic line。操作パネルはフードの上、フードのロックは前面にあります。](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>フードを閉じた当研究室の Pulverisette 7 classic line。操作パネルはフードの上、フードのロックは前面にあります。</figcaption>
+</figure>
+
+<figure markdown>
+![フードを開けた状態：サンディスク上の 2 つのボウル位置。それぞれにクランプ金具とスターノブがあります。ガススプリングがフードを支えます。](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>フードを開けた状態：サンディスク上の 2 つのボウル位置。それぞれにクランプ金具とスターノブがあります。ガススプリングがフードを支えます。</figcaption>
+</figure>
+
+<figure markdown>
+![操作パネル：回転数（rpm）、タイマー、繰り返し回数、Milling・Pause・Reverse キー、START / STOP。](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>操作パネル：回転数（rpm）、タイマー、繰り返し回数、Milling・Pause・Reverse キー、START / STOP。</figcaption>
+</figure>
+
+</div>
+
 ## デモンストレーション { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

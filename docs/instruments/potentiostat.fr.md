@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## Notre installation { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Châssis PARSTAT MC. Les voies sont repérées par du ruban adhésif ; chacune a ses LED POWER, STATUS, COMM et OVERLOAD et son connecteur de câble de cellule. L'interrupteur principal est en bas à gauche.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>Châssis PARSTAT MC. Les voies sont repérées par du ruban adhésif ; chacune a ses LED POWER, STATUS, COMM et OVERLOAD et son connecteur de câble de cellule. L'interrupteur principal est en bas à gauche.</figcaption>
+</figure>
+
+<figure markdown>
+![La baie d'instruments : le potentiostat PARSTAT MC en haut, les cycleurs de batteries Neware en dessous. Les câbles de cellule pendent des deux côtés de la baie.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>La baie d'instruments : le potentiostat PARSTAT MC en haut, les cycleurs de batteries Neware en dessous. Les câbles de cellule pendent des deux côtés de la baie.</figcaption>
+</figure>
+
+</div>
+
 ## Couleurs des fils de cellule (câble PMC-2000)
 
 | Couleur | Fil | Cellule à deux électrodes (cellule EIS, batterie) |

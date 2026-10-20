@@ -27,6 +27,22 @@ translation: machine
 
 <em>예:</em> [전고체 시험 전지](../cells/solid-state-battery.md)는 ≈ 0.57 mAh → 0.1 C ≈ 57 µA → <strong>CT-9008, 범위 1</strong>(오차 ±36 nA ≈ 0.06%). CT-4008/5008에서는 같은 전류가 최저 범위보다 낮고, 정확도(±20–24 µA)가 전류의 약 40%입니다.
 
+## 우리 실험실 장비 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![포텐쇼스탯 아래의 Neware 사이클러. 채널 번호는 각 장비 앞면에 인쇄되어 있습니다. 장비마다 전류 범위가 다르므로(위 표) 채널을 시작하기 전에 장비의 모델 라벨을 확인하십시오.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>포텐쇼스탯 아래의 Neware 사이클러. 채널 번호는 각 장비 앞면에 인쇄되어 있습니다. 장비마다 전류 범위가 다르므로(위 표) 채널을 시작하기 전에 장비의 모델 라벨을 확인하십시오.</figcaption>
+</figure>
+
+<figure markdown>
+![장비 랙: 위쪽이 PARSTAT MC 포텐쇼스탯, 아래쪽이 Neware 배터리 사이클러입니다. 셀 케이블은 랙 양쪽에 걸려 있습니다.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>장비 랙: 위쪽이 PARSTAT MC 포텐쇼스탯, 아래쪽이 Neware 배터리 사이클러입니다. 셀 케이블은 랙 양쪽에 걸려 있습니다.</figcaption>
+</figure>
+
+</div>
+
 ## 시연 — BTS 소프트웨어
 
 <div class="demo" data-demo="neware-bts">

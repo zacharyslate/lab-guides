@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## 当研究室の装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT MC 本体。各チャンネルはテープで表示されており、それぞれに POWER、STATUS、COMM、OVERLOAD の LED とセルケーブル端子があります。主電源スイッチは左下です。](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT MC 本体。各チャンネルはテープで表示されており、それぞれに POWER、STATUS、COMM、OVERLOAD の LED とセルケーブル端子があります。主電源スイッチは左下です。</figcaption>
+</figure>
+
+<figure markdown>
+![装置ラック：上が PARSTAT MC ポテンショスタット、その下が Neware の電池充放電装置です。セルケーブルはラックの両側に掛けてあります。](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>装置ラック：上が PARSTAT MC ポテンショスタット、その下が Neware の電池充放電装置です。セルケーブルはラックの両側に掛けてあります。</figcaption>
+</figure>
+
+</div>
+
 ## セルケーブルの色（PMC-2000 ケーブル）
 
 | 色 | リード | 2 電極セル（EIS セル、電池） |

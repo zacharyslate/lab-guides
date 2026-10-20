@@ -27,6 +27,22 @@ Il ciclatore deve poter **applicare e misurare** la corrente con accuratezza. L'
 
 *Esempio:* la [batteria di prova allo stato solido](../cells/solid-state-battery.md) ha ≈ 0,57 mAh → 0,1 C ≈ 57 µA → **CT-9008, intervallo 1** (errore ±36 nA ≈ 0,06 %). Su un CT-4008/5008 la stessa corrente è sotto l'intervallo più basso e l'accuratezza (±20–24 µA) è circa il 40 % della corrente.
 
+## Il nostro sistema { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Ciclatori Neware sotto il potenziostato. I numeri dei canali sono stampati sul frontale di ogni unità. Le unità hanno intervalli di corrente diversi (tabella sopra), quindi controlla l'etichetta del modello sull'unità prima di avviare un canale.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>Ciclatori Neware sotto il potenziostato. I numeri dei canali sono stampati sul frontale di ogni unità. Le unità hanno intervalli di corrente diversi (tabella sopra), quindi controlla l'etichetta del modello sull'unità prima di avviare un canale.</figcaption>
+</figure>
+
+<figure markdown>
+![Il rack degli strumenti: il potenziostato PARSTAT MC in alto, i ciclatori di batterie Neware sotto. I cavi di cella pendono ai due lati del rack.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Il rack degli strumenti: il potenziostato PARSTAT MC in alto, i ciclatori di batterie Neware sotto. I cavi di cella pendono ai due lati del rack.</figcaption>
+</figure>
+
+</div>
+
 ## Dimostrazione — software BTS
 
 <div class="demo" data-demo="neware-bts">

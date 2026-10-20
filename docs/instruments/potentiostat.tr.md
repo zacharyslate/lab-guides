@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## Kurulumumuz { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT MC şasisi. Kanallar bantla etiketlenmiştir; her birinin kendi POWER, STATUS, COMM ve OVERLOAD LED'leri ve hücre kablosu konektörü vardır. Ana şalter sol alttadır.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT MC şasisi. Kanallar bantla etiketlenmiştir; her birinin kendi POWER, STATUS, COMM ve OVERLOAD LED'leri ve hücre kablosu konektörü vardır. Ana şalter sol alttadır.</figcaption>
+</figure>
+
+<figure markdown>
+![Cihaz rafı: üstte PARSTAT MC potansiyostat, altında Neware pil döngüleyiciler. Hücre kabloları rafın iki yanında asılıdır.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Cihaz rafı: üstte PARSTAT MC potansiyostat, altında Neware pil döngüleyiciler. Hücre kabloları rafın iki yanında asılıdır.</figcaption>
+</figure>
+
+</div>
+
 ## Hücre kablosu renkleri (PMC-2000 kablosu)
 
 | Renk | Uç | İki elektrotlu hücre (EIS hücresi, batarya) |

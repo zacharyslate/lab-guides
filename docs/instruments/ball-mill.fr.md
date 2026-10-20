@@ -25,6 +25,27 @@ translation: machine
     - **Risque de brûlure.** Les bols deviennent très chauds lors des longs essais (l'intérieur 20–30 °C de plus que la paroi extérieure). Utilisez des gants thermiques pour les retirer. Température maximale de la paroi extérieure : 100–110 °C (agate : 70–80 °C).
     - N'ouvrez jamais un bol scellé contenant des sulfures hors de la boîte à gants.
 
+## Notre installation { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Notre Pulverisette 7 classic line, capot fermé. Le panneau de commande est sur le capot ; le verrou du capot est à l'avant.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Notre Pulverisette 7 classic line, capot fermé. Le panneau de commande est sur le capot ; le verrou du capot est à l'avant.</figcaption>
+</figure>
+
+<figure markdown>
+![Capot ouvert : les deux postes de bol sur le disque solaire, chacun avec son étrier de serrage et sa poignée étoile. Un vérin à gaz maintient le capot levé.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Capot ouvert : les deux postes de bol sur le disque solaire, chacun avec son étrier de serrage et sa poignée étoile. Un vérin à gaz maintient le capot levé.</figcaption>
+</figure>
+
+<figure markdown>
+![Panneau de commande : vitesse de rotation (rpm), minuterie, répétitions, les touches Milling, Pause et Reverse, et START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Panneau de commande : vitesse de rotation (rpm), minuterie, répétitions, les touches Milling, Pause et Reverse, et START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Démonstration { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

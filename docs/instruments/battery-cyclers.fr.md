@@ -27,6 +27,22 @@ Le cycleur doit pouvoir **imposer et mesurer** votre courant avec précision. La
 
 *Exemple :* la [batterie de test tout-solide](../cells/solid-state-battery.md) a ≈ 0,57 mAh → 0,1 C ≈ 57 µA → **CT-9008, gamme 1** (erreur ±36 nA ≈ 0,06 %). Sur un CT-4008/5008, le même courant est sous la plus petite gamme et la précision (±20–24 µA) représente environ 40 % du courant.
 
+## Notre installation { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Cycleurs Neware sous le potentiostat. Les numéros de voie sont imprimés en façade de chaque appareil. Les appareils ont des gammes de courant différentes (tableau ci-dessus) : vérifiez l'étiquette du modèle sur l'appareil avant de lancer une voie.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>Cycleurs Neware sous le potentiostat. Les numéros de voie sont imprimés en façade de chaque appareil. Les appareils ont des gammes de courant différentes (tableau ci-dessus) : vérifiez l'étiquette du modèle sur l'appareil avant de lancer une voie.</figcaption>
+</figure>
+
+<figure markdown>
+![La baie d'instruments : le potentiostat PARSTAT MC en haut, les cycleurs de batteries Neware en dessous. Les câbles de cellule pendent des deux côtés de la baie.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>La baie d'instruments : le potentiostat PARSTAT MC en haut, les cycleurs de batteries Neware en dessous. Les câbles de cellule pendent des deux côtés de la baie.</figcaption>
+</figure>
+
+</div>
+
 ## Démonstration — logiciel BTS
 
 <div class="demo" data-demo="neware-bts">

@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## 우리 실험실 장비 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT MC 섀시. 각 채널은 테이프로 표시되어 있고, 채널마다 POWER, STATUS, COMM, OVERLOAD LED와 셀 케이블 커넥터가 있습니다. 주 전원 스위치는 왼쪽 아래에 있습니다.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT MC 섀시. 각 채널은 테이프로 표시되어 있고, 채널마다 POWER, STATUS, COMM, OVERLOAD LED와 셀 케이블 커넥터가 있습니다. 주 전원 스위치는 왼쪽 아래에 있습니다.</figcaption>
+</figure>
+
+<figure markdown>
+![장비 랙: 위쪽이 PARSTAT MC 포텐쇼스탯, 아래쪽이 Neware 배터리 사이클러입니다. 셀 케이블은 랙 양쪽에 걸려 있습니다.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>장비 랙: 위쪽이 PARSTAT MC 포텐쇼스탯, 아래쪽이 Neware 배터리 사이클러입니다. 셀 케이블은 랙 양쪽에 걸려 있습니다.</figcaption>
+</figure>
+
+</div>
+
 ## 셀 케이블 색상(PMC-2000 케이블)
 
 | 색 | 리드 | 2전극 셀(EIS 셀, 전지) |

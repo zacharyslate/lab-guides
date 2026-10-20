@@ -25,6 +25,27 @@ translation: machine
     - <strong>화상 위험.</strong> 장시간 실행에서는 용기가 매우 뜨거워집니다(내부가 외벽보다 20–30 °C 높음). 꺼낼 때 내열 장갑을 쓰십시오. 외벽 최고 온도: 100–110 °C(마노: 70–80 °C).
     - 황화물이 든 밀봉 용기를 글러브박스 밖에서 절대 열지 마십시오.
 
+## 우리 실험실 장비 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![덮개를 닫은 우리 실험실의 Pulverisette 7 classic line. 조작 패널은 덮개 위에, 덮개 잠금장치는 앞쪽에 있습니다.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>덮개를 닫은 우리 실험실의 Pulverisette 7 classic line. 조작 패널은 덮개 위에, 덮개 잠금장치는 앞쪽에 있습니다.</figcaption>
+</figure>
+
+<figure markdown>
+![덮개 연 상태: 선 디스크 위의 두 용기 자리, 각각 고정 브래킷과 별 손잡이가 있습니다. 가스 스프링이 덮개를 받쳐 줍니다.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>덮개 연 상태: 선 디스크 위의 두 용기 자리, 각각 고정 브래킷과 별 손잡이가 있습니다. 가스 스프링이 덮개를 받쳐 줍니다.</figcaption>
+</figure>
+
+<figure markdown>
+![조작 패널: 회전 속도(rpm), 타이머, 반복 횟수, Milling·Pause·Reverse 키, START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>조작 패널: 회전 속도(rpm), 타이머, 반복 횟수, Milling·Pause·Reverse 키, START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## 시연 { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

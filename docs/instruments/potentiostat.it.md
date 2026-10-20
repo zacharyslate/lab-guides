@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## Il nostro sistema { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Telaio PARSTAT MC. I canali sono contrassegnati con nastro; ognuno ha i propri LED POWER, STATUS, COMM e OVERLOAD e il proprio connettore per il cavo di cella. L'interruttore principale è in basso a sinistra.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>Telaio PARSTAT MC. I canali sono contrassegnati con nastro; ognuno ha i propri LED POWER, STATUS, COMM e OVERLOAD e il proprio connettore per il cavo di cella. L'interruttore principale è in basso a sinistra.</figcaption>
+</figure>
+
+<figure markdown>
+![Il rack degli strumenti: il potenziostato PARSTAT MC in alto, i ciclatori di batterie Neware sotto. I cavi di cella pendono ai due lati del rack.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Il rack degli strumenti: il potenziostato PARSTAT MC in alto, i ciclatori di batterie Neware sotto. I cavi di cella pendono ai due lati del rack.</figcaption>
+</figure>
+
+</div>
+
 ## Colori dei cavi di cella (cavo PMC-2000)
 
 | Colore | Cavo | Cella a due terminali (cella EIS, batteria) |

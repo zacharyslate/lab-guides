@@ -27,6 +27,22 @@ translation: machine
 
 <em>例：</em>[全固体試験電池](../cells/solid-state-battery.md)は ≈ 0.57 mAh → 0.1 C ≈ 57 µA → <strong>CT-9008、レンジ 1</strong>（誤差 ±36 nA ≈ 0.06%）。CT-4008/5008 では同じ電流が最小レンジを下回り、精度（±20–24 µA）は電流の約 40% になります。
 
+## 当研究室の装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![ポテンショスタットの下の Neware 充放電装置。チャンネル番号は各装置の前面に印字されています。装置ごとに電流レンジが異なる（上の表）ので、チャンネルを開始する前に装置の型式ラベルを確認してください。](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>ポテンショスタットの下の Neware 充放電装置。チャンネル番号は各装置の前面に印字されています。装置ごとに電流レンジが異なる（上の表）ので、チャンネルを開始する前に装置の型式ラベルを確認してください。</figcaption>
+</figure>
+
+<figure markdown>
+![装置ラック：上が PARSTAT MC ポテンショスタット、その下が Neware の電池充放電装置です。セルケーブルはラックの両側に掛けてあります。](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>装置ラック：上が PARSTAT MC ポテンショスタット、その下が Neware の電池充放電装置です。セルケーブルはラックの両側に掛けてあります。</figcaption>
+</figure>
+
+</div>
+
 ## デモンストレーション——BTS ソフトウェア
 
 <div class="demo" data-demo="neware-bts">

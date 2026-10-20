@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## 本实验室的装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT MC 机箱。各通道用胶带标注；每个通道有自己的 POWER、STATUS、COMM 和 OVERLOAD 指示灯及电池线缆接口。总电源开关在左下方。](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT MC 机箱。各通道用胶带标注；每个通道有自己的 POWER、STATUS、COMM 和 OVERLOAD 指示灯及电池线缆接口。总电源开关在左下方。</figcaption>
+</figure>
+
+<figure markdown>
+![仪器机柜：上方是 PARSTAT MC 电化学工作站，下方是 Neware 电池测试仪。电池线缆挂在机柜两侧。](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>仪器机柜：上方是 PARSTAT MC 电化学工作站，下方是 Neware 电池测试仪。电池线缆挂在机柜两侧。</figcaption>
+</figure>
+
+</div>
+
 ## 电池线缆颜色（PMC-2000 线缆）
 
 | 颜色 | 导线 | 两电极电池（EIS 电池、电池） |

@@ -25,6 +25,27 @@ translation: machine
     - <strong>烫伤危险。</strong>长时间运行后球磨罐会非常热（内部比外壁高 20–30 °C）。取出时戴耐热手套。外壁最高温度：100–110 °C（玛瑙：70–80 °C）。
     - 切勿在手套箱外打开装有硫化物的密封罐。
 
+## 本实验室的装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![本实验室的 Pulverisette 7 classic line，机盖关闭。控制面板在机盖上方，机盖锁在正面。](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>本实验室的 Pulverisette 7 classic line，机盖关闭。控制面板在机盖上方，机盖锁在正面。</figcaption>
+</figure>
+
+<figure markdown>
+![机盖打开：太阳盘上的两个研磨罐工位，各有一个夹紧支架和星形旋钮。气弹簧撑住机盖。](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>机盖打开：太阳盘上的两个研磨罐工位，各有一个夹紧支架和星形旋钮。气弹簧撑住机盖。</figcaption>
+</figure>
+
+<figure markdown>
+![控制面板：转速（rpm）、定时器、重复次数、Milling、Pause 和 Reverse 键，以及 START / STOP。](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>控制面板：转速（rpm）、定时器、重复次数、Milling、Pause 和 Reverse 键，以及 START / STOP。</figcaption>
+</figure>
+
+</div>
+
 ## 演示 { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

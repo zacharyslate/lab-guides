@@ -17,6 +17,22 @@ description: Selecting a channel, setting up a potentiostatic EIS experiment, ru
 
 </div>
 
+## Our set-up { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT MC chassis. The channels are labelled with tape; each has its own POWER, STATUS, COMM and OVERLOAD LEDs and cell-cable connector. The main switch is at the bottom left.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT MC chassis. The channels are labelled with tape; each has its own POWER, STATUS, COMM and OVERLOAD LEDs and cell-cable connector. The main switch is at the bottom left.</figcaption>
+</figure>
+
+<figure markdown>
+![The instrument rack: the PARSTAT MC potentiostat at the top, the Neware battery cyclers below. Cell leads hang on both sides of the rack.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>The instrument rack: the PARSTAT MC potentiostat at the top, the Neware battery cyclers below. Cell leads hang on both sides of the rack.</figcaption>
+</figure>
+
+</div>
+
 ## Cell-lead colours (PMC-2000 cable)
 
 | Colour | Lead | Two-terminal cell (EIS cell, battery) |

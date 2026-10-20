@@ -25,6 +25,27 @@ translation: machine
     - **Yanık tehlikesi.** Kaplar uzun çalışmalarda çok ısınır (iç kısım dış duvardan 20–30 °C daha sıcak). Çıkarmak için ısıya dayanıklı eldiven kullanın. Maksimum dış duvar sıcaklığı: 100–110 °C (akik: 70–80 °C).
     - Sülfür içeren mühürlü bir kabı asla eldivenli kabin dışında açmayın.
 
+## Kurulumumuz { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Kapağı kapalı Pulverisette 7 classic line cihazımız. Kontrol paneli kapağın üstünde, kapak kilidi öndedir.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Kapağı kapalı Pulverisette 7 classic line cihazımız. Kontrol paneli kapağın üstünde, kapak kilidi öndedir.</figcaption>
+</figure>
+
+<figure markdown>
+![Kapak açık: güneş diski üzerindeki iki hazne yeri, her birinde sıkma braketi ve yıldız topuz. Kapağı bir gazlı amortisör açık tutar.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Kapak açık: güneş diski üzerindeki iki hazne yeri, her birinde sıkma braketi ve yıldız topuz. Kapağı bir gazlı amortisör açık tutar.</figcaption>
+</figure>
+
+<figure markdown>
+![Kontrol paneli: dönüş hızı (rpm), zamanlayıcı, tekrar sayısı, Milling, Pause ve Reverse tuşları ile START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Kontrol paneli: dönüş hızı (rpm), zamanlayıcı, tekrar sayısı, Milling, Pause ve Reverse tuşları ile START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Gösterim { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

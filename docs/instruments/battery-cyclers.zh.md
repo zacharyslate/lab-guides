@@ -27,6 +27,22 @@ translation: machine
 
 <em>示例：</em>[固态测试电池](../cells/solid-state-battery.md)约为 0.57 mAh → 0.1 C ≈ 57 µA → <strong>CT-9008，量程 1</strong>（误差 ±36 nA ≈ 0.06%）。在 CT-4008/5008 上，同样的电流低于最低量程，精度（±20–24 µA）约为电流的 40%。
 
+## 本实验室的装置 { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![电化学工作站下方的 Neware 测试仪。通道号印在每台设备的前面板上。各设备的电流量程不同（见上表），启动通道前请核对设备上的型号标签。](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>电化学工作站下方的 Neware 测试仪。通道号印在每台设备的前面板上。各设备的电流量程不同（见上表），启动通道前请核对设备上的型号标签。</figcaption>
+</figure>
+
+<figure markdown>
+![仪器机柜：上方是 PARSTAT MC 电化学工作站，下方是 Neware 电池测试仪。电池线缆挂在机柜两侧。](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>仪器机柜：上方是 PARSTAT MC 电化学工作站，下方是 Neware 电池测试仪。电池线缆挂在机柜两侧。</figcaption>
+</figure>
+
+</div>
+
 ## 演示——BTS 软件
 
 <div class="demo" data-demo="neware-bts">

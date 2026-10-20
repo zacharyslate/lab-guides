@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## Unser Aufbau { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![PARSTAT-MC-Gehäuse. Die Kanäle sind mit Klebeband beschriftet; jeder hat eigene LEDs POWER, STATUS, COMM und OVERLOAD und einen eigenen Zellkabelanschluss. Der Hauptschalter ist unten links.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>PARSTAT-MC-Gehäuse. Die Kanäle sind mit Klebeband beschriftet; jeder hat eigene LEDs POWER, STATUS, COMM und OVERLOAD und einen eigenen Zellkabelanschluss. Der Hauptschalter ist unten links.</figcaption>
+</figure>
+
+<figure markdown>
+![Das Geräte-Rack: oben der Potentiostat PARSTAT MC, darunter die Neware-Batterietester. Die Zellkabel hängen an beiden Seiten des Racks.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Das Geräte-Rack: oben der Potentiostat PARSTAT MC, darunter die Neware-Batterietester. Die Zellkabel hängen an beiden Seiten des Racks.</figcaption>
+</figure>
+
+</div>
+
 ## Farben der Zellkabel (PMC-2000-Kabel)
 
 | Farbe | Leitung | Zwei-Elektroden-Zelle (EIS-Zelle, Batterie) |

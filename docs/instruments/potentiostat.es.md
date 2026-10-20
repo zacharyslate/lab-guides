@@ -18,6 +18,22 @@ translation: machine
 
 </div>
 
+## Nuestro equipo { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Chasis PARSTAT MC. Los canales están marcados con cinta; cada uno tiene sus LED POWER, STATUS, COMM y OVERLOAD y su conector de cable de celda. El interruptor principal está abajo a la izquierda.](../assets/img/rack-parstat.jpg){ loading=lazy }
+<figcaption>Chasis PARSTAT MC. Los canales están marcados con cinta; cada uno tiene sus LED POWER, STATUS, COMM y OVERLOAD y su conector de cable de celda. El interruptor principal está abajo a la izquierda.</figcaption>
+</figure>
+
+<figure markdown>
+![El rack de equipos: el potenciostato PARSTAT MC arriba y los cicladores de baterías Neware debajo. Los cables de celda cuelgan a ambos lados del rack.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>El rack de equipos: el potenciostato PARSTAT MC arriba y los cicladores de baterías Neware debajo. Los cables de celda cuelgan a ambos lados del rack.</figcaption>
+</figure>
+
+</div>
+
 ## Colores de los cables de celda (cable PMC-2000)
 
 | Color | Cable | Celda de dos terminales (celda EIS, batería) |

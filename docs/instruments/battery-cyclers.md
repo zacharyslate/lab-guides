@@ -26,6 +26,22 @@ The cycler must be able to **set and measure** your current accurately. Accuracy
 
 *Example:* the [solid-state test battery](../cells/solid-state-battery.md) holds ≈ 0.57 mAh → 0.1 C ≈ 57 µA → **CT-9008, range 1** (error ±36 nA ≈ 0.06 %). On a CT-4008/5008 the same current is below the lowest range and the accuracy (±20–24 µA) is about 40 % of the current.
 
+## Our set-up { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Neware cyclers below the potentiostat. The channel numbers are printed on the front of each unit. The units have different current ranges (table above), so check the model label on the unit before you start a channel.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>Neware cyclers below the potentiostat. The channel numbers are printed on the front of each unit. The units have different current ranges (table above), so check the model label on the unit before you start a channel.</figcaption>
+</figure>
+
+<figure markdown>
+![The instrument rack: the PARSTAT MC potentiostat at the top, the Neware battery cyclers below. Cell leads hang on both sides of the rack.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>The instrument rack: the PARSTAT MC potentiostat at the top, the Neware battery cyclers below. Cell leads hang on both sides of the rack.</figcaption>
+</figure>
+
+</div>
+
 ## Demonstration — BTS software
 
 <div class="demo" data-demo="neware-bts">

@@ -27,6 +27,22 @@ Döngüleyici akımınızı doğru biçimde **uygulayabilmeli ve ölçebilmelidi
 
 *Örnek:* [katı hal test bataryası](../cells/solid-state-battery.md) ≈ 0,57 mAh'dir → 0,1 C ≈ 57 µA → **CT-9008, aralık 1** (hata ±36 nA ≈ %0,06). Bir CT-4008/5008'de aynı akım en düşük aralığın altında kalır ve doğruluk (±20–24 µA) akımın yaklaşık %40'ıdır.
 
+## Kurulumumuz { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Potansiyostatın altındaki Neware döngüleyiciler. Kanal numaraları her cihazın ön yüzünde yazılıdır. Cihazların akım aralıkları farklıdır (yukarıdaki tablo); bu nedenle bir kanalı başlatmadan önce cihazın model etiketini kontrol edin.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>Potansiyostatın altındaki Neware döngüleyiciler. Kanal numaraları her cihazın ön yüzünde yazılıdır. Cihazların akım aralıkları farklıdır (yukarıdaki tablo); bu nedenle bir kanalı başlatmadan önce cihazın model etiketini kontrol edin.</figcaption>
+</figure>
+
+<figure markdown>
+![Cihaz rafı: üstte PARSTAT MC potansiyostat, altında Neware pil döngüleyiciler. Hücre kabloları rafın iki yanında asılıdır.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Cihaz rafı: üstte PARSTAT MC potansiyostat, altında Neware pil döngüleyiciler. Hücre kabloları rafın iki yanında asılıdır.</figcaption>
+</figure>
+
+</div>
+
 ## Gösterim — BTS yazılımı
 
 <div class="demo" data-demo="neware-bts">

@@ -27,6 +27,22 @@ Der Zyklierer muss Ihren Strom genau **einprägen und messen** können. Die Gena
 
 *Beispiel:* Die [Festkörper-Testbatterie](../cells/solid-state-battery.md) hat ≈ 0,57 mAh → 0,1 C ≈ 57 µA → **CT-9008, Bereich 1** (Fehler ±36 nA ≈ 0,06 %). An einem CT-4008/5008 liegt derselbe Strom unter dem kleinsten Bereich, und die Genauigkeit (±20–24 µA) beträgt etwa 40 % des Stroms.
 
+## Unser Aufbau { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Neware-Tester unter dem Potentiostaten. Die Kanalnummern stehen auf der Front jedes Geräts. Die Geräte haben unterschiedliche Strombereiche (Tabelle oben); prüfen Sie daher das Typenschild am Gerät, bevor Sie einen Kanal starten.](../assets/img/rack-neware.jpg){ loading=lazy }
+<figcaption>Neware-Tester unter dem Potentiostaten. Die Kanalnummern stehen auf der Front jedes Geräts. Die Geräte haben unterschiedliche Strombereiche (Tabelle oben); prüfen Sie daher das Typenschild am Gerät, bevor Sie einen Kanal starten.</figcaption>
+</figure>
+
+<figure markdown>
+![Das Geräte-Rack: oben der Potentiostat PARSTAT MC, darunter die Neware-Batterietester. Die Zellkabel hängen an beiden Seiten des Racks.](../assets/img/rack-overview.jpg){ loading=lazy }
+<figcaption>Das Geräte-Rack: oben der Potentiostat PARSTAT MC, darunter die Neware-Batterietester. Die Zellkabel hängen an beiden Seiten des Racks.</figcaption>
+</figure>
+
+</div>
+
 ## Vorführung — BTS-Software
 
 <div class="demo" data-demo="neware-bts">

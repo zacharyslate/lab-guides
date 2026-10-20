@@ -24,6 +24,27 @@ description: Loading, balancing, clamping and programming the Fritsch Pulveriset
     - **Burn hazard.** Bowls get very hot during long runs (inside 20–30 °C hotter than the outer wall). Wear thermal gloves to remove them. Maximum outer-wall temperature: 100–110 °C (agate: 70–80 °C).
     - Never open a sealed sulfide pot outside the glovebox.
 
+## Our set-up { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Our Pulverisette 7 classic line with the hood closed. The control panel is on top of the hood; the hood lock is at the front.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Our Pulverisette 7 classic line with the hood closed. The control panel is on top of the hood; the hood lock is at the front.</figcaption>
+</figure>
+
+<figure markdown>
+![Hood open: the two bowl stations on the sun disc, each with a clamping bracket and star knob. A gas spring holds the hood up.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Hood open: the two bowl stations on the sun disc, each with a clamping bracket and star knob. A gas spring holds the hood up.</figcaption>
+</figure>
+
+<figure markdown>
+![Control panel: rotational speed (rpm), timer, repetitions, the Milling, Pause and Reverse keys, and START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Control panel: rotational speed (rpm), timer, repetitions, the Milling, Pause and Reverse keys, and START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Demonstration
 
 <div class="demo" data-demo="ball-mill">

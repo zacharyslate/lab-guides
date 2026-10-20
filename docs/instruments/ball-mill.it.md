@@ -25,6 +25,27 @@ translation: machine
     - **Rischio di ustioni.** Le giare si scaldano molto nelle prove lunghe (l'interno 20–30 °C più della parete esterna). Usare guanti termici per estrarle. Temperatura massima della parete esterna: 100–110 °C (agata: 70–80 °C).
     - Non aprire mai una giara sigillata contenente solfuri fuori dalla glovebox.
 
+## Il nostro sistema { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Il nostro Pulverisette 7 classic line con il coperchio chiuso. Il pannello di controllo è sopra il coperchio; la chiusura del coperchio è sul davanti.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Il nostro Pulverisette 7 classic line con il coperchio chiuso. Il pannello di controllo è sopra il coperchio; la chiusura del coperchio è sul davanti.</figcaption>
+</figure>
+
+<figure markdown>
+![Coperchio aperto: le due postazioni delle giare sul disco solare, ognuna con staffa di bloccaggio e pomello a stella. Una molla a gas tiene il coperchio sollevato.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Coperchio aperto: le due postazioni delle giare sul disco solare, ognuna con staffa di bloccaggio e pomello a stella. Una molla a gas tiene il coperchio sollevato.</figcaption>
+</figure>
+
+<figure markdown>
+![Pannello di controllo: velocità di rotazione (rpm), timer, ripetizioni, i tasti Milling, Pause e Reverse, e START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Pannello di controllo: velocità di rotazione (rpm), timer, ripetizioni, i tasti Milling, Pause e Reverse, e START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Dimostrazione { #demonstration }
 
 <div class="demo" data-demo="ball-mill">

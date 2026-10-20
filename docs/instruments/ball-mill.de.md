@@ -25,6 +25,27 @@ translation: machine
     - **Verbrennungsgefahr.** Becher werden bei langen Läufen sehr heiß (innen 20–30 °C heißer als die Außenwand). Verwenden Sie zum Entnehmen hitzebeständige Handschuhe. Maximale Außenwandtemperatur: 100–110 °C (Achat: 70–80 °C).
     - Öffnen Sie einen versiegelten Becher mit Sulfiden nie außerhalb der Glovebox.
 
+## Unser Aufbau { #our-set-up }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Unsere Pulverisette 7 classic line mit geschlossener Haube. Das Bedienfeld sitzt oben auf der Haube; die Haubenverriegelung ist vorn.](../assets/img/mill-closed.jpg){ loading=lazy }
+<figcaption>Unsere Pulverisette 7 classic line mit geschlossener Haube. Das Bedienfeld sitzt oben auf der Haube; die Haubenverriegelung ist vorn.</figcaption>
+</figure>
+
+<figure markdown>
+![Haube offen: die beiden Becherplätze auf der Sonnenscheibe, jeder mit Spannbügel und Sterngriff. Eine Gasfeder hält die Haube oben.](../assets/img/mill-open.jpg){ loading=lazy }
+<figcaption>Haube offen: die beiden Becherplätze auf der Sonnenscheibe, jeder mit Spannbügel und Sterngriff. Eine Gasfeder hält die Haube oben.</figcaption>
+</figure>
+
+<figure markdown>
+![Bedienfeld: Drehzahl (rpm), Timer, Wiederholungen, die Tasten Milling, Pause und Reverse sowie START / STOP.](../assets/img/mill-panel.jpg){ loading=lazy }
+<figcaption>Bedienfeld: Drehzahl (rpm), Timer, Wiederholungen, die Tasten Milling, Pause und Reverse sowie START / STOP.</figcaption>
+</figure>
+
+</div>
+
 ## Vorführung { #demonstration }
 
 <div class="demo" data-demo="ball-mill">
