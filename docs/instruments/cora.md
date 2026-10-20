@@ -22,6 +22,13 @@ description: Measuring a Raman spectrum of a sealed sample with the Cora 5001 fi
     - Wear the laser-protection glasses provided for the wavelength in use whenever the probe is not enclosed.
     - Opening the sample chamber or fibre port, pressing **Stop** on the probe, or triggering the interlock switches the laser off immediately.
 
+## Our set-up
+
+<figure markdown>
+![Our Monowave 400 R (left) and Cora 5001 (right). The compressed-air regulator is on the left; laser safety glasses are kept next to the Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Our Monowave 400 R (left) and Cora 5001 (right). The compressed-air regulator is on the left; laser safety glasses are kept next to the Cora.</figcaption>
+</figure>
+
 ## Demonstration
 
 <div class="demo" data-demo="cora">

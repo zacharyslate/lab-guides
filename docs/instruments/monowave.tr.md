@@ -40,6 +40,13 @@ translation: machine
     - Cihaz **aside dayanıklı değildir**; aşındırıcı reaktifler ömrünü kısaltır (hızlı başlangıç sayfası).
     - Havaya duyarlı reaksiyonlar: şişeyi **eldivenli kabinde** doldurup kapatın. Bir şişe basınç boşaltırsa, egzoz reaksiyon buharlarını taşır (sülfür kimyasında muhtemelen H₂S) — egzoz çekişe gitmelidir.
 
+## Kurulumumuz { #our-set-up }
+
+<figure markdown>
+![Monowave 400 R (solda) ve Cora 5001 (sağda). Basınçlı hava regülatörü solda; lazer koruma gözlükleri Cora'nın yanında durur.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Monowave 400 R (solda) ve Cora 5001 (sağda). Basınçlı hava regülatörü solda; lazer koruma gözlükleri Cora'nın yanında durur.</figcaption>
+</figure>
+
 ## Gösterim { #demonstration }
 
 <div class="demo" data-demo="monowave">

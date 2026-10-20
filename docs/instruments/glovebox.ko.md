@@ -23,6 +23,39 @@ translation: machine
     - 열린 용매 용기를 진공 상태의 전실에 넣지 마십시오. 닫힌 용매 병은 반진공 절차(9단계)가 필요합니다.
     - O₂ 또는 H₂O 값이 높으면 작업을 멈추고 실험실 책임자에게 알리십시오. 민감한 재료를 열지 마십시오.
 
+## 우리 실험실 글러브박스 { #our-glovebox }
+
+![우리 MBraun EasyLab: 메인 챔버, 제어판과 오른쪽 전실, 아래에 정제기와 진공 펌프, 바닥에 발 페달](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![ECO 모드의 제어판 — 올 때와 떠날 때 이 상태여야 합니다(eco LED 녹색)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>ECO 모드의 제어판 — 올 때와 떠날 때 이 상태여야 합니다(eco LED 녹색)</figcaption>
+</figure>
+
+<figure markdown>
+![전실: 위에 압력계, REFILL(아르곤)과 EVACUATE(진공) 밸브 표시](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>전실: 위에 압력계, REFILL(아르곤)과 EVACUATE(진공) 밸브 표시</figcaption>
+</figure>
+
+<figure markdown>
+![바깥 문: 전실이 진공일 때는 열지 마십시오](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>바깥 문: 전실이 진공일 때는 열지 마십시오</figcaption>
+</figure>
+
+<figure markdown>
+![박스 아래 자기 순환 밸브: 피스톤이 위(UP)에 있어야 합니다](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>박스 아래 자기 순환 밸브: 피스톤이 위(UP)에 있어야 합니다</figcaption>
+</figure>
+
+<figure markdown>
+![발 페달: 왼쪽 = LOW PRESSURE(감압), 오른쪽 = HIGH PRESSURE(가압)](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>발 페달: 왼쪽 = LOW PRESSURE(감압), 오른쪽 = HIGH PRESSURE(가압)</figcaption>
+</figure>
+
+</div>
+
 ## 제어판 { #control-panel }
 
 ![우리 실험실의 EasyLab 제어판](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. 진공–유지–충전을 총 <strong>3회</strong> 될 때까지 <strong>반복합니다.</strong> 다공성이거나 부피가 큰 물품(섬유, 종이, 폼)은 하룻밤 진공에 둔 뒤 전체 사이클을 한 번 하는 것이 가장 좋습니다.
 9. <strong>특수한 경우 — 닫힌 용매 병.</strong> 닫힌 병은 완전 진공에서 터질 수 있습니다. <strong>반진공</strong>(≈ −47 kPa)까지만 걸고, 몇 분 기다린 뒤 충전하고, <strong>최소 10회</strong> 반복합니다.
 10. <strong>물품을 안으로 옮깁니다.</strong> 마지막 충전 후(압력계 0 kPa, 두 밸브 닫힘) 장갑에 손을 넣고 <strong>안쪽 문</strong>을 열어 물품을 주 챔버로 옮긴 뒤 안쪽 문을 닫습니다.
-11. <strong>편하게 작업합니다.</strong> 박스는 스스로 압력을 조절합니다. 장갑이 너무 팽팽하거나 헐거우면 <strong>발판</strong>으로 챔버 압력을 올리거나(+) 내립니다(−).
+11. <strong>편하게 작업합니다.</strong> 박스는 스스로 압력을 조절합니다. 장갑이 너무 팽팽하거나 헐거우면 <strong>발판</strong>으로 챔버 압력을 올리거나(+) 내립니다(−). 왼쪽 페달 = <strong>LOW PRESSURE</strong>, 오른쪽 페달 = <strong>HIGH PRESSURE</strong>.
 12. <strong>작업을 마칩니다.</strong> 엎지른 것을 치우고, 장갑은 <strong>에탄올로만</strong> 닦고, 안쪽 문과 바깥 문을 닫은 뒤 진공 밸브를 연 상태로 전실을 <strong>최소 5분</strong> 진공으로 둡니다.
 13. <strong>처음 상태로 돌려 놓습니다.</strong> 진공 밸브를 닫고(압력계는 ≈ −94 kPa 유지), 모든 밸브가 닫혔는지 확인하고, <strong>ECO</strong>를 한 번 누른 뒤 순환 피스톤이 <strong>위</strong>에 있는지 확인합니다.
 

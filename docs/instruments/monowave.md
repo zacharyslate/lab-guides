@@ -39,6 +39,13 @@ description: Running a sealed-vial microwave synthesis on the Monowave 400 R, wi
     - The instrument is **not acid resistant**; corrosive reagents shorten its life (Quick Start sheet).
     - Air-sensitive reactions: fill and cap the vial **in the glovebox**. If a vial vents, the exhaust carries reaction vapours (for sulfide chemistry, possibly H₂S) — the exhaust must go to extraction.
 
+## Our set-up
+
+<figure markdown>
+![Our Monowave 400 R (left) and Cora 5001 (right). The compressed-air regulator is on the left; laser safety glasses are kept next to the Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Our Monowave 400 R (left) and Cora 5001 (right). The compressed-air regulator is on the left; laser safety glasses are kept next to the Cora.</figcaption>
+</figure>
+
 ## Demonstration
 
 <div class="demo" data-demo="monowave">

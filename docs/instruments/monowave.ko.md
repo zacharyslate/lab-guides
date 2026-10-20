@@ -40,6 +40,13 @@ translation: machine
     - 이 장비는 <strong>내산성이 아닙니다</strong>. 부식성 시약은 수명을 단축합니다(빠른 시작 안내서).
     - 공기에 민감한 반응: 바이알은 <strong>글러브박스 안에서</strong> 채우고 닫으십시오. 바이알이 압력을 방출하면 배기가 반응 증기(황화물 화학에서는 H₂S일 수 있음)를 함께 내보내므로 배기는 국소 배기로 연결되어야 합니다.
 
+## 우리 실험실 장비 { #our-set-up }
+
+<figure markdown>
+![우리 Monowave 400 R(왼쪽)과 Cora 5001(오른쪽). 압축 공기 레귤레이터는 왼쪽에 있고, 레이저 보안경은 Cora 옆에 둡니다.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>우리 Monowave 400 R(왼쪽)과 Cora 5001(오른쪽). 압축 공기 레귤레이터는 왼쪽에 있고, 레이저 보안경은 Cora 옆에 둡니다.</figcaption>
+</figure>
+
 ## 시연 { #demonstration }
 
 <div class="demo" data-demo="monowave">

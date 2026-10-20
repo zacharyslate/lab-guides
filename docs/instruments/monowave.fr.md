@@ -40,6 +40,13 @@ translation: machine
     - L'appareil **n'est pas résistant aux acides** ; les réactifs corrosifs réduisent sa durée de vie (fiche de démarrage rapide).
     - Réactions sensibles à l'air : remplissez et fermez le flacon **dans la boîte à gants**. Si un flacon dégaze, l'échappement entraîne des vapeurs de réaction (en chimie des sulfures, potentiellement de l'H₂S) — l'échappement doit aller vers l'extraction.
 
+## Notre installation { #our-set-up }
+
+<figure markdown>
+![Notre Monowave 400 R (à gauche) et Cora 5001 (à droite). Le régulateur d'air comprimé est à gauche ; les lunettes de protection laser sont rangées à côté du Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Notre Monowave 400 R (à gauche) et Cora 5001 (à droite). Le régulateur d'air comprimé est à gauche ; les lunettes de protection laser sont rangées à côté du Cora.</figcaption>
+</figure>
+
 ## Démonstration { #demonstration }
 
 <div class="demo" data-demo="monowave">

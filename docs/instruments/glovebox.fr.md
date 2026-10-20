@@ -23,6 +23,39 @@ translation: machine
     - Ne mettez jamais un récipient de solvant ouvert sous vide dans le sas. Les flacons de solvant fermés nécessitent la procédure au demi-vide (étape 9).
     - Si la valeur d'O₂ ou d'H₂O est élevée, arrêtez et prévenez le responsable du laboratoire. N'ouvrez aucun matériau sensible.
 
+## Notre boîte à gants { #our-glovebox }
+
+![Notre MBraun EasyLab : chambre principale, panneau de commande et sas à droite, purificateur et pompe à vide dessous, pédales au sol](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Panneau de commande en mode ECO, l'état dans lequel la trouver et la laisser (LED eco verte)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>Panneau de commande en mode ECO, l'état dans lequel la trouver et la laisser (LED eco verte)</figcaption>
+</figure>
+
+<figure markdown>
+![Sas : manomètre en haut et étiquettes des vannes REFILL (argon) et EVACUATE (vide)](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Sas : manomètre en haut et étiquettes des vannes REFILL (argon) et EVACUATE (vide)</figcaption>
+</figure>
+
+<figure markdown>
+![Porte extérieure : ne pas ouvrir le sas tant qu'il est sous vide](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Porte extérieure : ne pas ouvrir le sas tant qu'il est sous vide</figcaption>
+</figure>
+
+<figure markdown>
+![Vannes magnétiques de circulation sous la boîte : leurs pistons doivent être EN HAUT](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Vannes magnétiques de circulation sous la boîte : leurs pistons doivent être EN HAUT</figcaption>
+</figure>
+
+<figure markdown>
+![Pédales : gauche = LOW PRESSURE, droite = HIGH PRESSURE](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Pédales : gauche = LOW PRESSURE, droite = HIGH PRESSURE</figcaption>
+</figure>
+
+</div>
+
 ## Panneau de commande { #control-panel }
 
 ![Le panneau de commande EasyLab de notre laboratoire](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. **Répétez** vide–attente–remplissage jusqu'à **3 cycles** au total. Les objets poreux ou volumineux (fibres, papier, mousses) gagnent à rester sous vide toute la nuit avant un cycle complet.
 9. **Cas particulier — flacons de solvant fermés.** Un flacon fermé peut éclater sous vide complet. Faites le vide seulement jusqu'au **demi-vide** (≈ −47 kPa), attendez quelques minutes, remplissez et répétez **au moins 10 fois**.
 10. **Faites entrer les objets.** Après le dernier remplissage (manomètre à 0 kPa, les deux vannes fermées), passez les mains dans les gants, ouvrez la **porte intérieure**, faites passer les objets dans la chambre principale et fermez la porte intérieure.
-11. **Travaillez confortablement.** La boîte régule elle-même sa pression. Si les gants sont trop tendus ou trop mous, utilisez les **pédales** pour augmenter (+) ou diminuer (−) la pression de la chambre.
+11. **Travaillez confortablement.** La boîte régule elle-même sa pression. Si les gants sont trop tendus ou trop mous, utilisez les **pédales** pour augmenter (+) ou diminuer (−) la pression de la chambre. Pédale gauche = **LOW PRESSURE**, pédale droite = **HIGH PRESSURE**.
 12. **Terminez votre session.** Nettoyez les déversements, essuyez les gants **uniquement à l'éthanol**, fermez les portes intérieure et extérieure et faites le vide dans le sas, vanne de vide ouverte, pendant **au moins 5 min**.
 13. **Laissez-la comme vous l'avez trouvée.** Fermez la vanne de vide (le manomètre reste à ≈ −94 kPa), vérifiez que toutes les vannes sont fermées, appuyez une fois sur **ECO** et confirmez que les pistons de circulation sont **EN HAUT**.
 

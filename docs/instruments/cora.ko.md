@@ -23,6 +23,13 @@ translation: machine
     - 프로브가 차폐되지 않았을 때는 사용 파장용 레이저 보안경을 착용하십시오.
     - 시료실이나 광섬유 포트를 열거나, 프로브의 <strong>Stop</strong>을 누르거나, 인터록이 작동하면 레이저가 즉시 꺼집니다.
 
+## 우리 실험실 장비 { #our-set-up }
+
+<figure markdown>
+![우리 Monowave 400 R(왼쪽)과 Cora 5001(오른쪽). 압축 공기 레귤레이터는 왼쪽에 있고, 레이저 보안경은 Cora 옆에 둡니다.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>우리 Monowave 400 R(왼쪽)과 Cora 5001(오른쪽). 압축 공기 레귤레이터는 왼쪽에 있고, 레이저 보안경은 Cora 옆에 둡니다.</figcaption>
+</figure>
+
 ## 시연 { #demonstration }
 
 <div class="demo" data-demo="cora">

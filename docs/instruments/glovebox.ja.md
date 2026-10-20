@@ -23,6 +23,39 @@ translation: machine
     - 開放した溶媒容器を前室に入れて真空引きしないでください。密閉した溶媒瓶には半真空の手順（ステップ 9）が必要です。
     - O₂ または H₂O の値が高い場合は作業を止め、研究室責任者に連絡してください。敏感な材料を開けないでください。
 
+## 当研究室のグローブボックス { #our-glovebox }
+
+![当研究室の MBraun EasyLab：メインチャンバー、コントロールパネルと右側の前室、下に精製装置と真空ポンプ、床にフットペダル](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![ECO モードのコントロールパネル。来たときと帰るときはこの状態です（eco の LED が緑）](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>ECO モードのコントロールパネル。来たときと帰るときはこの状態です（eco の LED が緑）</figcaption>
+</figure>
+
+<figure markdown>
+![前室：上部に圧力計、バルブ表示 REFILL（アルゴン）と EVACUATE（真空）](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>前室：上部に圧力計、バルブ表示 REFILL（アルゴン）と EVACUATE（真空）</figcaption>
+</figure>
+
+<figure markdown>
+![外扉：前室が真空のときは開けないでください](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>外扉：前室が真空のときは開けないでください</figcaption>
+</figure>
+
+<figure markdown>
+![ボックス下の電磁循環バルブ：ピストンは「上」でなければなりません](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>ボックス下の電磁循環バルブ：ピストンは「上」でなければなりません</figcaption>
+</figure>
+
+<figure markdown>
+![フットペダル：左 = LOW PRESSURE（減圧）、右 = HIGH PRESSURE（加圧）](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>フットペダル：左 = LOW PRESSURE（減圧）、右 = HIGH PRESSURE（加圧）</figcaption>
+</figure>
+
+</div>
+
 ## コントロールパネル { #control-panel }
 
 ![当研究室の EasyLab コントロールパネル](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. 真空–保持–充填を合計 <strong>3 サイクル</strong>になるまで<strong>繰り返します</strong>。多孔質やかさばる物品（繊維、紙、フォーム）は、一晩真空に置いてから完全なサイクルを 1 回行うのが最適です。
 9. <strong>特別な場合——密閉した溶媒瓶。</strong>密閉瓶は完全真空で破裂するおそれがあります。<strong>半真空</strong>（≈ −47 kPa）までだけ引き、数分待ってから充填し、これを<strong>少なくとも 10 回</strong>繰り返します。
 10. <strong>物品を中に入れます。</strong>最後の充填後（圧力計 0 kPa、両バルブ閉）、グローブに手を入れ、<strong>内扉</strong>を開け、物品をメインチャンバーに移して内扉を閉じます。
-11. <strong>快適に作業します。</strong>ボックスは自動で圧力を調整します。グローブがきつすぎる・ゆるすぎる場合は、<strong>フットペダル</strong>でチャンバー圧を上げる（+）か下げます（−）。
+11. <strong>快適に作業します。</strong>ボックスは自動で圧力を調整します。グローブがきつすぎる・ゆるすぎる場合は、<strong>フットペダル</strong>でチャンバー圧を上げる（+）か下げます（−）。左のペダル = <strong>LOW PRESSURE</strong>、右のペダル = <strong>HIGH PRESSURE</strong>。
 12. <strong>作業を終了します。</strong>こぼれたものを片付け、グローブは<strong>エタノールのみ</strong>で拭き、内扉と外扉を閉じ、真空バルブを開けたまま前室を<strong>少なくとも 5 分</strong>真空引きします。
 13. <strong>元の状態に戻します。</strong>真空バルブを閉じ（圧力計は ≈ −94 kPa のまま）、すべてのバルブが閉じていることを確認し、<strong>ECO</strong> を 1 回押し、循環ピストンが<strong>上</strong>にあることを確認します。
 

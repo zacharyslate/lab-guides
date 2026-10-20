@@ -23,6 +23,13 @@ translation: machine
     - Tragen Sie eine Laserschutzbrille für die verwendete Wellenlänge, wann immer die Sonde nicht eingehaust ist.
     - Öffnen der Probenkammer oder des Faseranschlusses, Drücken von **Stop** an der Sonde oder Auslösen der Verriegelung schaltet den Laser sofort ab.
 
+## Unser Aufbau { #our-set-up }
+
+<figure markdown>
+![Unser Monowave 400 R (links) und Cora 5001 (rechts). Der Druckluftregler ist links; Laserschutzbrillen liegen neben dem Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Unser Monowave 400 R (links) und Cora 5001 (rechts). Der Druckluftregler ist links; Laserschutzbrillen liegen neben dem Cora.</figcaption>
+</figure>
+
 ## Vorführung { #demonstration }
 
 <div class="demo" data-demo="cora">

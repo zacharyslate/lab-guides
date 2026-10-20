@@ -40,6 +40,13 @@ translation: machine
     - 本装置は<strong>耐酸性ではありません</strong>。腐食性試薬は寿命を縮めます（クイックスタートシート）。
     - 大気に敏感な反応：バイアルは<strong>グローブボックス内</strong>で充填・密閉してください。バイアルが放圧すると、排気が反応蒸気（硫化物化学では H₂S の可能性）を運ぶため、排気は局所排気につなぐ必要があります。
 
+## 当研究室の装置 { #our-set-up }
+
+<figure markdown>
+![当研究室の Monowave 400 R（左）と Cora 5001（右）。圧縮空気レギュレーターは左側にあり、レーザー保護メガネは Cora の横に置いてあります。](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>当研究室の Monowave 400 R（左）と Cora 5001（右）。圧縮空気レギュレーターは左側にあり、レーザー保護メガネは Cora の横に置いてあります。</figcaption>
+</figure>
+
 ## デモンストレーション { #demonstration }
 
 <div class="demo" data-demo="monowave">

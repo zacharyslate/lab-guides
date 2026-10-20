@@ -23,6 +23,13 @@ translation: machine
     - Indossare occhiali di protezione laser per la lunghezza d'onda in uso ogni volta che la sonda non è confinata.
     - Aprire la camera del campione o la porta della fibra, premere **Stop** sulla sonda o attivare l'interblocco spegne immediatamente il laser.
 
+## Il nostro sistema { #our-set-up }
+
+<figure markdown>
+![Il nostro Monowave 400 R (a sinistra) e Cora 5001 (a destra). Il regolatore dell'aria compressa è a sinistra; gli occhiali di protezione laser si trovano accanto al Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Il nostro Monowave 400 R (a sinistra) e Cora 5001 (a destra). Il regolatore dell'aria compressa è a sinistra; gli occhiali di protezione laser si trovano accanto al Cora.</figcaption>
+</figure>
+
 ## Dimostrazione { #demonstration }
 
 <div class="demo" data-demo="cora">

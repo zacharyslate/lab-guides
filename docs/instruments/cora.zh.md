@@ -23,6 +23,13 @@ translation: machine
     - 只要探头未被封闭，就要佩戴对应波长的激光防护眼镜。
     - 打开样品室或光纤接口、按探头上的 <strong>Stop</strong> 或触发联锁，都会立即关闭激光。
 
+## 本实验室的装置 { #our-set-up }
+
+<figure markdown>
+![我们的 Monowave 400 R（左）和 Cora 5001（右）。压缩空气调压阀在左侧；激光防护眼镜放在 Cora 旁边。](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>我们的 Monowave 400 R（左）和 Cora 5001（右）。压缩空气调压阀在左侧；激光防护眼镜放在 Cora 旁边。</figcaption>
+</figure>
+
 ## 演示 { #demonstration }
 
 <div class="demo" data-demo="cora">

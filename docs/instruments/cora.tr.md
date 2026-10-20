@@ -23,6 +23,13 @@ translation: machine
     - Prob kapalı bir alanda değilken kullanılan dalga boyuna uygun lazer koruyucu gözlük takın.
     - Numune haznesini veya fiber portunu açmak, probdaki **Stop**'a basmak ya da kilidi tetiklemek lazeri hemen kapatır.
 
+## Kurulumumuz { #our-set-up }
+
+<figure markdown>
+![Monowave 400 R (solda) ve Cora 5001 (sağda). Basınçlı hava regülatörü solda; lazer koruma gözlükleri Cora'nın yanında durur.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Monowave 400 R (solda) ve Cora 5001 (sağda). Basınçlı hava regülatörü solda; lazer koruma gözlükleri Cora'nın yanında durur.</figcaption>
+</figure>
+
 ## Gösterim { #demonstration }
 
 <div class="demo" data-demo="cora">

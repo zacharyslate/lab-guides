@@ -23,6 +23,39 @@ translation: machine
     - Bringen Sie niemals einen offenen Lösungsmittelbehälter unter Vakuum in die Schleuse. Geschlossene Lösungsmittelflaschen erfordern das Halbvakuum-Verfahren (Schritt 9).
     - Wenn der O₂- oder H₂O-Wert hoch ist, hören Sie auf und informieren Sie die Laborleitung. Öffnen Sie keine empfindlichen Materialien.
 
+## Unsere Glovebox { #our-glovebox }
+
+![Unsere MBraun EasyLab: Hauptkammer, Bedienfeld und Schleuse rechts, Reiniger und Vakuumpumpe darunter, Fußpedale am Boden](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Bedienfeld im ECO-Modus, so finden und hinterlassen Sie die Box (eco-LED grün)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>Bedienfeld im ECO-Modus, so finden und hinterlassen Sie die Box (eco-LED grün)</figcaption>
+</figure>
+
+<figure markdown>
+![Schleuse: Manometer oben und die Ventilschilder REFILL (Argon) und EVACUATE (Vakuum)](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Schleuse: Manometer oben und die Ventilschilder REFILL (Argon) und EVACUATE (Vakuum)</figcaption>
+</figure>
+
+<figure markdown>
+![Außentür: die Schleuse nicht öffnen, solange sie evakuiert ist](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Außentür: die Schleuse nicht öffnen, solange sie evakuiert ist</figcaption>
+</figure>
+
+<figure markdown>
+![Magnetische Umwälzventile unter der Box: ihre Kolben müssen OBEN stehen](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Magnetische Umwälzventile unter der Box: ihre Kolben müssen OBEN stehen</figcaption>
+</figure>
+
+<figure markdown>
+![Fußpedale: links = LOW PRESSURE, rechts = HIGH PRESSURE](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Fußpedale: links = LOW PRESSURE, rechts = HIGH PRESSURE</figcaption>
+</figure>
+
+</div>
+
 ## Bedienfeld { #control-panel }
 
 ![Das EasyLab-Bedienfeld in unserem Labor](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. **Wiederholen** Sie Evakuieren–Halten–Fluten, bis insgesamt **3 Zyklen** erreicht sind. Poröse oder voluminöse Gegenstände (Fasern, Papier, Schäume) lässt man am besten über Nacht unter Vakuum und fährt danach einen vollständigen Zyklus.
 9. **Sonderfall — geschlossene Lösungsmittelflaschen.** Eine geschlossene Flasche kann unter vollem Vakuum platzen. Evakuieren Sie nur bis zum **Halbvakuum** (≈ −47 kPa), warten Sie einige Minuten, fluten Sie und wiederholen Sie dies **mindestens 10-mal**.
 10. **Gegenstände einbringen.** Nach dem letzten Fluten (Manometer 0 kPa, beide Ventile geschlossen) greifen Sie in die Handschuhe, öffnen die **Innentür**, holen die Gegenstände in die Hauptkammer und schließen die Innentür.
-11. **Bequem arbeiten.** Die Box regelt ihren Druck selbst. Sind die Handschuhe zu straff oder zu schlaff, erhöhen (+) oder senken (−) Sie den Kammerdruck mit den **Fußpedalen**.
+11. **Bequem arbeiten.** Die Box regelt ihren Druck selbst. Sind die Handschuhe zu straff oder zu schlaff, erhöhen (+) oder senken (−) Sie den Kammerdruck mit den **Fußpedalen**. Linkes Pedal = **LOW PRESSURE**, rechtes Pedal = **HIGH PRESSURE**.
 12. **Sitzung beenden.** Beseitigen Sie Verschüttetes, reinigen Sie die Handschuhe **nur mit Ethanol**, schließen Sie Innen- und Außentür und evakuieren Sie die Schleuse bei offenem Vakuumventil **mindestens 5 min**.
 13. **Hinterlassen Sie die Box wie vorgefunden.** Schließen Sie das Vakuumventil (das Manometer bleibt bei ≈ −94 kPa), prüfen Sie, dass alle Ventile geschlossen sind, drücken Sie einmal **ECO** und bestätigen Sie, dass die Zirkulationskolben **OBEN** sind.
 

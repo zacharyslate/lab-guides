@@ -22,6 +22,39 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
     - Never put an open container of solvent into the antechamber under vacuum. Closed solvent bottles need the half-vacuum procedure (step 9).
     - If the O₂ or H₂O reading is high, stop and tell the lab manager. Do not open sensitive materials.
 
+## Our glovebox
+
+![Our MBraun EasyLab: main chamber, control panel and antechamber on the right, purifier and vacuum pump below, foot pedals on the floor](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Control panel in ECO mode, the state to find and leave it in (eco LED green)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>Control panel in ECO mode, the state to find and leave it in (eco LED green)</figcaption>
+</figure>
+
+<figure markdown>
+![Antechamber: gauge on top and the valve labels REFILL (argon) and EVACUATE (vacuum)](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Antechamber: gauge on top and the valve labels REFILL (argon) and EVACUATE (vacuum)</figcaption>
+</figure>
+
+<figure markdown>
+![Outer door: do not open the antechamber while it is evacuated](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Outer door: do not open the antechamber while it is evacuated</figcaption>
+</figure>
+
+<figure markdown>
+![Magnetic circulation valves under the box: their pistons must be UP](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Magnetic circulation valves under the box: their pistons must be UP</figcaption>
+</figure>
+
+<figure markdown>
+![Foot pedals: left = LOW PRESSURE, right = HIGH PRESSURE](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Foot pedals: left = LOW PRESSURE, right = HIGH PRESSURE</figcaption>
+</figure>
+
+</div>
+
 ## Control panel { #control-panel }
 
 ![The EasyLab control panel in our lab](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -60,7 +93,7 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
 8. **Repeat** the evacuate–hold–refill cycle until you have done **3 cycles** in total. Porous or bulky items (fibres, paper, foams) are better left under vacuum overnight, followed by a full cycle.
 9. **Special case — sealed solvent bottles.** A closed bottle can burst under full vacuum. Evacuate only to **half vacuum** (≈ −47 kPa), wait several minutes, refill, and repeat **at least 10 times**.
 10. **Move the items in.** After the last refill (gauge at 0 kPa, both valves closed), put your hands into the gloves, open the **inner door**, bring the items into the main chamber and close the inner door.
-11. **Work comfortably.** The box controls its own pressure. If the gloves feel too tight or too loose, use the **foot pedals** to raise (+) or lower (−) the chamber pressure.
+11. **Work comfortably.** The box controls its own pressure. If the gloves feel too tight or too loose, use the **foot pedals** to raise (+) or lower (−) the chamber pressure. Left pedal = **LOW PRESSURE**, right pedal = **HIGH PRESSURE**.
 12. **Finish your session.** Clean up spills, wipe the gloves with **ethanol only**, close the inner and outer doors and evacuate the antechamber with the vacuum valve open for **at least 5 min**.
 13. **Leave it as you found it.** Close the vacuum valve (gauge stays at ≈ −94 kPa), check every valve is closed, press **ECO** once and confirm the circulation pistons are **UP**.
 

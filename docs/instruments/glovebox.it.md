@@ -23,6 +23,39 @@ translation: machine
     - Non mettere mai sotto vuoto nella precamera un contenitore di solvente aperto. Le bottiglie di solvente chiuse richiedono la procedura a mezzo vuoto (passo 9).
     - Se la lettura di O₂ o H₂O è alta, fermarsi e avvisare il responsabile del laboratorio. Non aprire materiali sensibili.
 
+## La nostra glovebox { #our-glovebox }
+
+![La nostra MBraun EasyLab: camera principale, pannello di controllo e anticamera a destra, purificatore e pompa del vuoto sotto, pedali a terra](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Pannello di controllo in modalità ECO, lo stato in cui trovarla e lasciarla (LED eco verde)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>Pannello di controllo in modalità ECO, lo stato in cui trovarla e lasciarla (LED eco verde)</figcaption>
+</figure>
+
+<figure markdown>
+![Anticamera: manometro in alto ed etichette delle valvole REFILL (argon) ed EVACUATE (vuoto)](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Anticamera: manometro in alto ed etichette delle valvole REFILL (argon) ed EVACUATE (vuoto)</figcaption>
+</figure>
+
+<figure markdown>
+![Porta esterna: non aprire l'anticamera mentre è sotto vuoto](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Porta esterna: non aprire l'anticamera mentre è sotto vuoto</figcaption>
+</figure>
+
+<figure markdown>
+![Valvole magnetiche di circolazione sotto la glovebox: i pistoni devono essere SU](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Valvole magnetiche di circolazione sotto la glovebox: i pistoni devono essere SU</figcaption>
+</figure>
+
+<figure markdown>
+![Pedali: sinistro = LOW PRESSURE, destro = HIGH PRESSURE](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Pedali: sinistro = LOW PRESSURE, destro = HIGH PRESSURE</figcaption>
+</figure>
+
+</div>
+
 ## Pannello di controllo { #control-panel }
 
 ![Il pannello di controllo EasyLab del nostro laboratorio](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. **Ripetere** il ciclo vuoto–attesa–riempimento fino a completare **3 cicli** in totale. Gli oggetti porosi o voluminosi (fibre, carta, schiume) è meglio lasciarli sotto vuoto per una notte e poi fare un ciclo completo.
 9. **Caso particolare — bottiglie di solvente chiuse.** Una bottiglia chiusa può scoppiare sotto vuoto completo. Evacuare solo fino a **mezzo vuoto** (≈ −47 kPa), attendere qualche minuto, riempire e ripetere **almeno 10 volte**.
 10. **Introdurre gli oggetti.** Dopo l'ultimo riempimento (manometro a 0 kPa, entrambe le valvole chiuse), infilare le mani nei guanti, aprire la **porta interna**, spostare gli oggetti nella camera principale e chiudere la porta interna.
-11. **Lavorare comodamente.** La glovebox regola da sola la propria pressione. Se i guanti sono troppo tesi o troppo molli, usare i **pedali** per aumentare (+) o diminuire (−) la pressione della camera.
+11. **Lavorare comodamente.** La glovebox regola da sola la propria pressione. Se i guanti sono troppo tesi o troppo molli, usare i **pedali** per aumentare (+) o diminuire (−) la pressione della camera. Pedale sinistro = **LOW PRESSURE**, pedale destro = **HIGH PRESSURE**.
 12. **Terminare la sessione.** Pulire i versamenti, pulire i guanti **solo con etanolo**, chiudere le porte interna ed esterna ed evacuare la precamera con la valvola del vuoto aperta per **almeno 5 min**.
 13. **Lasciarla come la si è trovata.** Chiudere la valvola del vuoto (il manometro resta a ≈ −94 kPa), verificare che tutte le valvole siano chiuse, premere **ECO** una volta e confermare che i pistoni di circolazione sono **SU**.
 

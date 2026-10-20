@@ -40,6 +40,13 @@ translation: machine
     - El equipo **no es resistente a ácidos**; los reactivos corrosivos acortan su vida (hoja de inicio rápido).
     - Reacciones sensibles al aire: llene y cierre el vial **en la caja de guantes**. Si un vial descarga presión, el escape arrastra vapores de reacción (en química de sulfuros, posiblemente H₂S) — el escape debe ir a extracción.
 
+## Nuestro equipo { #our-set-up }
+
+<figure markdown>
+![Nuestro Monowave 400 R (izquierda) y Cora 5001 (derecha). El regulador de aire comprimido está a la izquierda; las gafas de protección láser se guardan junto al Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Nuestro Monowave 400 R (izquierda) y Cora 5001 (derecha). El regulador de aire comprimido está a la izquierda; las gafas de protección láser se guardan junto al Cora.</figcaption>
+</figure>
+
 ## Demostración { #demonstration }
 
 <div class="demo" data-demo="monowave">

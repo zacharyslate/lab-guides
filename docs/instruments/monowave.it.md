@@ -40,6 +40,13 @@ translation: machine
     - Lo strumento **non è resistente agli acidi**; i reagenti corrosivi ne accorciano la vita (foglio di avvio rapido).
     - Reazioni sensibili all'aria: riempire e chiudere la vial **nella glovebox**. Se una vial sfiata, il gas di scarico trascina vapori di reazione (nella chimica dei solfuri, potenzialmente H₂S) — lo scarico deve andare all'aspirazione.
 
+## Il nostro sistema { #our-set-up }
+
+<figure markdown>
+![Il nostro Monowave 400 R (a sinistra) e Cora 5001 (a destra). Il regolatore dell'aria compressa è a sinistra; gli occhiali di protezione laser si trovano accanto al Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Il nostro Monowave 400 R (a sinistra) e Cora 5001 (a destra). Il regolatore dell'aria compressa è a sinistra; gli occhiali di protezione laser si trovano accanto al Cora.</figcaption>
+</figure>
+
 ## Dimostrazione { #demonstration }
 
 <div class="demo" data-demo="monowave">

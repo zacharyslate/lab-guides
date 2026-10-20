@@ -23,6 +23,13 @@ translation: machine
     - Portez des lunettes de protection laser pour la longueur d'onde utilisée chaque fois que la sonde n'est pas confinée.
     - Ouvrir la chambre d'échantillon ou le port de fibre, appuyer sur **Stop** sur la sonde ou déclencher le verrouillage coupe immédiatement le laser.
 
+## Notre installation { #our-set-up }
+
+<figure markdown>
+![Notre Monowave 400 R (à gauche) et Cora 5001 (à droite). Le régulateur d'air comprimé est à gauche ; les lunettes de protection laser sont rangées à côté du Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Notre Monowave 400 R (à gauche) et Cora 5001 (à droite). Le régulateur d'air comprimé est à gauche ; les lunettes de protection laser sont rangées à côté du Cora.</figcaption>
+</figure>
+
 ## Démonstration { #demonstration }
 
 <div class="demo" data-demo="cora">

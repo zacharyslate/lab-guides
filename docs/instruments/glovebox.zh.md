@@ -23,6 +23,39 @@ translation: machine
     - 切勿将敞口的溶剂容器放入过渡舱抽真空。密封的溶剂瓶需要采用半真空程序（第 9 步）。
     - 如果 O₂ 或 H₂O 读数偏高，请停止操作并通知实验室负责人。不要打开敏感材料。
 
+## 本实验室的手套箱 { #our-glovebox }
+
+![我们的 MBraun EasyLab：主箱体、控制面板和右侧过渡舱，下方为净化器和真空泵，地面为脚踏板](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![ECO 模式下的控制面板——到达和离开时应处于此状态（eco 指示灯为绿色）](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>ECO 模式下的控制面板——到达和离开时应处于此状态（eco 指示灯为绿色）</figcaption>
+</figure>
+
+<figure markdown>
+![过渡舱：顶部压力表，以及 REFILL（氩气）和 EVACUATE（抽真空）阀门标签](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>过渡舱：顶部压力表，以及 REFILL（氩气）和 EVACUATE（抽真空）阀门标签</figcaption>
+</figure>
+
+<figure markdown>
+![外门：过渡舱处于真空状态时不要打开](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>外门：过渡舱处于真空状态时不要打开</figcaption>
+</figure>
+
+<figure markdown>
+![箱体下方的磁性循环阀：活塞必须处于上方](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>箱体下方的磁性循环阀：活塞必须处于上方</figcaption>
+</figure>
+
+<figure markdown>
+![脚踏板：左 = LOW PRESSURE（降压），右 = HIGH PRESSURE（升压）](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>脚踏板：左 = LOW PRESSURE（降压），右 = HIGH PRESSURE（升压）</figcaption>
+</figure>
+
+</div>
+
 ## 控制面板 { #control-panel }
 
 ![本实验室的 EasyLab 控制面板](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. <strong>重复</strong>抽真空–保持–充气，共完成 <strong>3 次循环</strong>。多孔或体积大的物品（纤维、纸、泡沫）最好先在真空下放置一夜，再做一次完整循环。
 9. <strong>特殊情况——密封溶剂瓶。</strong>密封瓶在全真空下可能爆裂。只抽到<strong>半真空</strong>（≈ −47 kPa），等待几分钟，充气，并<strong>至少重复 10 次</strong>。
 10. <strong>将物品移入箱内。</strong>最后一次充气后（压力表 0 kPa，两个阀均关闭），将手伸入手套，打开<strong>内门</strong>，把物品移入主箱体，关闭内门。
-11. <strong>舒适地操作。</strong>手套箱会自动调节压力。如果手套过紧或过松，用<strong>脚踏板</strong>升高（+）或降低（−）箱体压力。
+11. <strong>舒适地操作。</strong>手套箱会自动调节压力。如果手套过紧或过松，用<strong>脚踏板</strong>升高（+）或降低（−）箱体压力。左踏板 = <strong>LOW PRESSURE</strong>，右踏板 = <strong>HIGH PRESSURE</strong>。
 12. <strong>结束操作。</strong>清理洒落物，<strong>仅用乙醇</strong>擦拭手套，关闭内门和外门，并在真空阀打开的情况下对过渡舱抽真空<strong>至少 5 分钟</strong>。
 13. <strong>恢复原状。</strong>关闭真空阀（压力表保持在 ≈ −94 kPa），确认所有阀门关闭，按一次 <strong>ECO</strong>，并确认循环活塞处于<strong>上方</strong>。
 

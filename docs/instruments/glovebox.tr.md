@@ -23,6 +23,39 @@ translation: machine
     - Ön odaya asla açık bir çözücü kabını vakum altında koymayın. Kapalı çözücü şişeleri yarım vakum prosedürünü gerektirir (adım 9).
     - O₂ veya H₂O değeri yüksekse durun ve laboratuvar sorumlusuna haber verin. Hassas malzemeleri açmayın.
 
+## Eldivenli kabinimiz { #our-glovebox }
+
+![MBraun EasyLab kabinimiz: ana hazne, kontrol paneli ve sağda ön hazne, altta arıtıcı ve vakum pompası, yerde ayak pedalları](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![ECO modundaki kontrol paneli; kabini bu durumda bulmalı ve bırakmalısınız (eco LED'i yeşil)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>ECO modundaki kontrol paneli; kabini bu durumda bulmalı ve bırakmalısınız (eco LED'i yeşil)</figcaption>
+</figure>
+
+<figure markdown>
+![Ön hazne: üstte manometre ve REFILL (argon) ile EVACUATE (vakum) vana etiketleri](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Ön hazne: üstte manometre ve REFILL (argon) ile EVACUATE (vakum) vana etiketleri</figcaption>
+</figure>
+
+<figure markdown>
+![Dış kapı: ön hazne vakumdayken açmayın](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Dış kapı: ön hazne vakumdayken açmayın</figcaption>
+</figure>
+
+<figure markdown>
+![Kabinin altındaki manyetik sirkülasyon vanaları: pistonları YUKARIDA olmalı](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Kabinin altındaki manyetik sirkülasyon vanaları: pistonları YUKARIDA olmalı</figcaption>
+</figure>
+
+<figure markdown>
+![Ayak pedalları: sol = LOW PRESSURE, sağ = HIGH PRESSURE](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Ayak pedalları: sol = LOW PRESSURE, sağ = HIGH PRESSURE</figcaption>
+</figure>
+
+</div>
+
 ## Kontrol paneli { #control-panel }
 
 ![Laboratuvarımızdaki EasyLab kontrol paneli](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. **Toplam 3 döngüye** ulaşana kadar vakum–bekleme–dolum işlemini **tekrarlayın**. Gözenekli veya hacimli malzemeleri (lifler, kâğıt, köpükler) bir gece vakumda bırakıp ardından tam bir döngü yapmak en iyisidir.
 9. **Özel durum — kapalı çözücü şişeleri.** Kapalı bir şişe tam vakumda patlayabilir. Yalnızca **yarım vakuma** (≈ −47 kPa) kadar vakumlayın, birkaç dakika bekleyin, doldurun ve **en az 10 kez** tekrarlayın.
 10. **Malzemeleri içeri alın.** Son dolumdan sonra (manometre 0 kPa, her iki vana kapalı) ellerinizi eldivenlere sokun, **iç kapıyı** açın, malzemeleri ana hazneye alın ve iç kapıyı kapatın.
-11. **Rahat çalışın.** Kabin kendi basıncını kendisi ayarlar. Eldivenler çok gergin veya çok gevşekse, hazne basıncını artırmak (+) veya azaltmak (−) için **ayak pedallarını** kullanın.
+11. **Rahat çalışın.** Kabin kendi basıncını kendisi ayarlar. Eldivenler çok gergin veya çok gevşekse, hazne basıncını artırmak (+) veya azaltmak (−) için **ayak pedallarını** kullanın. Sol pedal = **LOW PRESSURE**, sağ pedal = **HIGH PRESSURE**.
 12. **Oturumu bitirin.** Döküntüleri temizleyin, eldivenleri **yalnızca etanolle** silin, iç ve dış kapıları kapatın ve vakum vanası açıkken ön odayı **en az 5 dk** vakumlayın.
 13. **Bulduğunuz gibi bırakın.** Vakum vanasını kapatın (manometre ≈ −94 kPa'da kalır), tüm vanaların kapalı olduğunu kontrol edin, **ECO**'ya bir kez basın ve sirkülasyon pistonlarının **YUKARIDA** olduğunu doğrulayın.
 

@@ -50,8 +50,8 @@
 
 <!-- swivelling cover on the top face -->
 <g class="part" id="lid" data-origin="176 158">
-<ellipse cx="225" cy="160" rx="52" ry="11" style="fill:var(--demo-steel);stroke:var(--demo-steel-dk);stroke-width:1.5"/>
-<ellipse cx="225" cy="156" rx="24" ry="5" style="fill:var(--demo-body-hi);stroke:var(--demo-steel-dk)"/>
+<ellipse cx="225" cy="160" rx="52" ry="11" style="fill:#c0262d;stroke:#7d161b;stroke-width:1.5"/>
+<ellipse cx="225" cy="156" rx="24" ry="5" style="fill:#d9434a;stroke:#7d161b"/>
 </g>
 <text class="lbl-s" x="284" y="164" data-i18n="mw.lid">swivelling cover</text>
 

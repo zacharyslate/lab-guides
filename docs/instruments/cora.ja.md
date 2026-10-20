@@ -23,6 +23,13 @@ translation: machine
     - プローブが遮蔽されていないときは、使用波長用のレーザー保護メガネを着用してください。
     - 試料室やファイバーポートを開ける、プローブの <strong>Stop</strong> を押す、またはインターロックが作動すると、レーザーは直ちに停止します。
 
+## 当研究室の装置 { #our-set-up }
+
+<figure markdown>
+![当研究室の Monowave 400 R（左）と Cora 5001（右）。圧縮空気レギュレーターは左側にあり、レーザー保護メガネは Cora の横に置いてあります。](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>当研究室の Monowave 400 R（左）と Cora 5001（右）。圧縮空気レギュレーターは左側にあり、レーザー保護メガネは Cora の横に置いてあります。</figcaption>
+</figure>
+
 ## デモンストレーション { #demonstration }
 
 <div class="demo" data-demo="cora">

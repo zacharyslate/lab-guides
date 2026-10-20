@@ -40,6 +40,13 @@ translation: machine
     - Das Gerät ist **nicht säurebeständig**; korrosive Reagenzien verkürzen seine Lebensdauer (Kurzanleitung).
     - Luftempfindliche Reaktionen: Vial **in der Glovebox** befüllen und verschließen. Entlüftet ein Vial, trägt das Abgas Reaktionsdämpfe mit (in der Sulfidchemie möglicherweise H₂S) — die Abluft muss in die Absaugung gehen.
 
+## Unser Aufbau { #our-set-up }
+
+<figure markdown>
+![Unser Monowave 400 R (links) und Cora 5001 (rechts). Der Druckluftregler ist links; Laserschutzbrillen liegen neben dem Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Unser Monowave 400 R (links) und Cora 5001 (rechts). Der Druckluftregler ist links; Laserschutzbrillen liegen neben dem Cora.</figcaption>
+</figure>
+
 ## Vorführung { #demonstration }
 
 <div class="demo" data-demo="monowave">

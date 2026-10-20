@@ -23,6 +23,13 @@ translation: machine
     - Use las gafas de protección láser de la longitud de onda en uso siempre que la sonda no esté encerrada.
     - Abrir la cámara de muestra o el puerto de fibra, pulsar **Stop** en la sonda o activar el enclavamiento apaga el láser inmediatamente.
 
+## Nuestro equipo { #our-set-up }
+
+<figure markdown>
+![Nuestro Monowave 400 R (izquierda) y Cora 5001 (derecha). El regulador de aire comprimido está a la izquierda; las gafas de protección láser se guardan junto al Cora.](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>Nuestro Monowave 400 R (izquierda) y Cora 5001 (derecha). El regulador de aire comprimido está a la izquierda; las gafas de protección láser se guardan junto al Cora.</figcaption>
+</figure>
+
 ## Demostración { #demonstration }
 
 <div class="demo" data-demo="cora">

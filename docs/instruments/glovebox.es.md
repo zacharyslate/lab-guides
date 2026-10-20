@@ -23,6 +23,39 @@ translation: machine
     - Nunca meta en la antecámara un recipiente abierto con disolvente bajo vacío. Los frascos de disolvente cerrados requieren el procedimiento de medio vacío (paso 9).
     - Si la lectura de O₂ o H₂O es alta, pare y avise al responsable del laboratorio. No abra materiales sensibles.
 
+## Nuestra caja de guantes { #our-glovebox }
+
+![Nuestra MBraun EasyLab: cámara principal, panel de control y antecámara a la derecha, purificador y bomba de vacío debajo, pedales en el suelo](../assets/img/gb-overview.jpg){ loading=lazy }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Panel de control en modo ECO, el estado en que debe encontrarla y dejarla (LED eco verde)](../assets/img/gb-panel-eco.jpg){ loading=lazy }
+<figcaption>Panel de control en modo ECO, el estado en que debe encontrarla y dejarla (LED eco verde)</figcaption>
+</figure>
+
+<figure markdown>
+![Antecámara: manómetro arriba y etiquetas de las válvulas REFILL (argón) y EVACUATE (vacío)](../assets/img/gb-antechamber.jpg){ loading=lazy }
+<figcaption>Antecámara: manómetro arriba y etiquetas de las válvulas REFILL (argón) y EVACUATE (vacío)</figcaption>
+</figure>
+
+<figure markdown>
+![Puerta exterior: no abra la antecámara mientras esté en vacío](../assets/img/gb-door.jpg){ loading=lazy }
+<figcaption>Puerta exterior: no abra la antecámara mientras esté en vacío</figcaption>
+</figure>
+
+<figure markdown>
+![Válvulas magnéticas de circulación bajo la caja: sus pistones deben estar ARRIBA](../assets/img/gb-circ-valves.jpg){ loading=lazy }
+<figcaption>Válvulas magnéticas de circulación bajo la caja: sus pistones deben estar ARRIBA</figcaption>
+</figure>
+
+<figure markdown>
+![Pedales: izquierdo = LOW PRESSURE (bajar), derecho = HIGH PRESSURE (subir)](../assets/img/gb-pedals.jpg){ loading=lazy }
+<figcaption>Pedales: izquierdo = LOW PRESSURE (bajar), derecho = HIGH PRESSURE (subir)</figcaption>
+</figure>
+
+</div>
+
 ## Panel de control { #control-panel }
 
 ![El panel de control EasyLab de nuestro laboratorio](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
@@ -61,7 +94,7 @@ translation: machine
 8. **Repita** el ciclo vacío–espera–llenado hasta completar **3 ciclos** en total. Es mejor dejar los objetos porosos o voluminosos (fibras, papel, espumas) en vacío durante la noche y después hacer un ciclo completo.
 9. **Caso especial — frascos de disolvente cerrados.** Un frasco cerrado puede reventar con vacío total. Haga vacío solo hasta **medio vacío** (≈ −47 kPa), espere varios minutos, rellene y repita **al menos 10 veces**.
 10. **Introduzca los objetos.** Tras el último llenado (manómetro a 0 kPa, ambas válvulas cerradas), meta las manos en los guantes, abra la **puerta interior**, pase los objetos a la cámara principal y cierre la puerta interior.
-11. **Trabaje con comodidad.** La caja regula su propia presión. Si los guantes están demasiado tensos o flojos, use los **pedales** para subir (+) o bajar (−) la presión de la cámara.
+11. **Trabaje con comodidad.** La caja regula su propia presión. Si los guantes están demasiado tensos o flojos, use los **pedales** para subir (+) o bajar (−) la presión de la cámara. Pedal izquierdo = **LOW PRESSURE**, pedal derecho = **HIGH PRESSURE**.
 12. **Termine la sesión.** Limpie los derrames, limpie los guantes **solo con etanol**, cierre las puertas interior y exterior y haga vacío en la antecámara con la válvula de vacío abierta **al menos 5 min**.
 13. **Déjela como la encontró.** Cierre la válvula de vacío (el manómetro se queda en ≈ −94 kPa), compruebe que todas las válvulas están cerradas, pulse **ECO** una vez y confirme que los pistones de circulación están **ARRIBA**.
 

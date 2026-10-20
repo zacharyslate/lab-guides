@@ -40,6 +40,13 @@ translation: machine
     - 本仪器<strong>不耐酸</strong>；腐蚀性试剂会缩短其寿命（快速入门页）。
     - 空气敏感反应：在<strong>手套箱中</strong>装填并封闭反应瓶。如果反应瓶泄压，排气会带出反应蒸气（在硫化物化学中可能含 H₂S）——排气必须接入抽风系统。
 
+## 本实验室的装置 { #our-set-up }
+
+<figure markdown>
+![我们的 Monowave 400 R（左）和 Cora 5001（右）。压缩空气调压阀在左侧；激光防护眼镜放在 Cora 旁边。](../assets/img/mw-cora.jpg){ loading=lazy }
+<figcaption>我们的 Monowave 400 R（左）和 Cora 5001（右）。压缩空气调压阀在左侧；激光防护眼镜放在 Cora 旁边。</figcaption>
+</figure>
+
 ## 演示 { #demonstration }
 
 <div class="demo" data-demo="monowave">
