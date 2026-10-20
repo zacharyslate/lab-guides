@@ -32,7 +32,7 @@ translation: machine
 | **pressure mbar** (affichage du haut) | Surpression de la boîte par rapport à la pièce, en mbar. Normalement une légère surpression : en mode ECO, la boîte est maintenue entre +2 et +6 mbar. Pendant la régénération, il affiche toujours la pression de la boîte. |
 | **O₂ ppm** et **H₂O ppm** | Oxygène et eau dans l'argon. Pendant la régénération, ils affichent l'étape et les minutes restantes. |
 | Boutons rotatifs **Min.set** / **Max.set** | Limites basse et haute de la régulation de pression de la boîte. **Ne pas les modifier.** |
-| **circ** | Circulation de l'argon dans le purificateur. Doit rester active sauf pendant la régénération. Sa LED n'est pas fiable : vérifiez que les pistons de circulation sont en HAUT. |
+| **circ** | Circulation de l'argon dans le purificateur. Doit être **toujours active (LED allumée)**, sauf pendant la régénération. Si la LED est éteinte, vérifiez que les pistons de circulation sont en HAUT et prévenez le responsable du laboratoire. |
 | **reg** / **reg abort** | Démarrer / arrêter la régénération du catalyseur (reg abort ne fonctionne qu'aux premières étapes). Responsable du laboratoire uniquement. |
 | **pump** | Pompe à vide. Doit être allumée pour faire le vide dans le sas. |
 | **ana** | Analyseurs d'O₂ et d'H₂O. Laisser allumés. |
@@ -41,7 +41,7 @@ translation: machine
 | **eco** | Veille : la pompe ne tourne que lorsque la boîte demande de l'argon, la lumière s'éteint, pression entre +2 et +6 mbar. Laissez la boîte en ECO après usage. |
 
 !!! tip "À quoi ressemble l'état de travail normal"
-    Comme sur la photo : pression de quelques mbar (ici 2,7), O₂ et H₂O sous 1 ppm (ici 0,5), LED **pump**, **ana** et **light** allumées. La LED **circ** peut rester éteinte même quand la circulation fonctionne (défaut connu) ; vérifiez les pistons.
+    Pression de quelques mbar (ici 2,7), O₂ et H₂O sous 1 ppm (ici 0,5), LED **circ**, **pump**, **ana** et **light** allumées. Sur cette photo, la LED **circ** est éteinte : si vous voyez cela, vérifiez les pistons de circulation et prévenez le responsable du laboratoire.
 
 ## Démonstration { #demonstration }
 
@@ -53,7 +53,7 @@ translation: machine
 
 1. **Vérifiez la boîte telle que vous la trouvez.** Elle doit être en mode **ECO**, les deux portes du sas fermées, le sas sous vide complet (manomètre ≈ −94 kPa) et toutes les vannes fermées. Lisez les valeurs d'O₂ et d'H₂O sur l'écran des capteurs.
 2. **Activez la boîte.** Appuyez une fois sur **ECO** pour quitter le mode ECO et une fois sur **PUMP**. Vous pouvez allumer ou éteindre **LIGHT** à tout moment.
-3. **Vérifiez la circulation.** L'argon doit toujours circuler à travers le catalyseur (sauf pendant la régénération). Le voyant CIRC de cet appareil n'est pas fiable ; regardez donc les pistons des vannes magnétiques de circulation au-dessus du catalyseur : ils doivent être **EN HAUT**.
+3. **Vérifiez la circulation.** L'argon doit toujours circuler à travers le catalyseur (sauf pendant la régénération) : le voyant **CIRC** doit être allumé. Vérifiez aussi les pistons des vannes magnétiques de circulation au-dessus du catalyseur : ils doivent être **EN HAUT**. Si le voyant est éteint ou les pistons en bas, prévenez le responsable du laboratoire avant d'ouvrir un produit sensible.
 4. **Mettez le sas sous argon.** Ouvrez lentement la **vanne d'argon (remplissage)**, qui relie le sas à la chambre principale. Regardez le manomètre monter de −94 kPa à 0 kPa, puis fermez la vanne.
 5. **Chargez vos objets.** Ouvrez la **porte extérieure**, placez les objets dans le sas et fermez la porte extérieure. Gardez fermés les récipients de liquide ; les poudres et solides peuvent être ouverts ou avec un bouchon desserré.
 6. **Faites le vide (cycle 1).** Vérifiez que les deux portes et la vanne d'argon sont fermées. Ouvrez lentement la **vanne de vide** jusqu'à ce que le manomètre indique −94 kPa, maintenez le vide **15 min**, puis fermez la vanne.

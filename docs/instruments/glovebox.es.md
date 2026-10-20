@@ -32,7 +32,7 @@ translation: machine
 | **pressure mbar** (pantalla superior) | Presión de la caja sobre la del laboratorio, en mbar. Normalmente una pequeña sobrepresión: en modo ECO la caja se mantiene entre +2 y +6 mbar. Durante la regeneración sigue mostrando la presión de la caja. |
 | **O₂ ppm** y **H₂O ppm** | Oxígeno y agua en el argón. Durante la regeneración muestran la etapa y los minutos restantes. |
 | Mandos **Min.set** / **Max.set** | Límites inferior y superior del control de presión de la caja. **No los cambie.** |
-| **circ** | Circulación del argón por el purificador. Debe estar siempre activa salvo durante la regeneración. Su LED no es fiable: compruebe que los pistones de circulación están ARRIBA. |
+| **circ** | Circulación del argón por el purificador. Debe estar **siempre activa (LED encendido)**, salvo durante la regeneración. Si el LED está apagado, compruebe que los pistones de circulación están ARRIBA y avise al responsable del laboratorio. |
 | **reg** / **reg abort** | Iniciar / detener la regeneración del catalizador (reg abort solo funciona en las primeras etapas). Solo el responsable del laboratorio. |
 | **pump** | Bomba de vacío. Debe estar encendida para hacer vacío en la antecámara. |
 | **ana** | Analizadores de O₂ y H₂O. Déjelos encendidos. |
@@ -41,7 +41,7 @@ translation: machine
 | **eco** | Reposo: la bomba solo funciona cuando la caja pide argón, la luz se apaga, presión entre +2 y +6 mbar. Deje la caja en ECO al terminar. |
 
 !!! tip "Así se ve el estado normal de trabajo"
-    Como en la foto: presión de unos pocos mbar (aquí 2,7), O₂ y H₂O por debajo de 1 ppm (aquí 0,5) y los LED de **pump**, **ana** y **light** encendidos. El LED de **circ** puede quedar apagado aunque la circulación esté activa (fallo conocido); compruebe los pistones.
+    Presión de unos pocos mbar (aquí 2,7), O₂ y H₂O por debajo de 1 ppm (aquí 0,5) y los LED de **circ**, **pump**, **ana** y **light** encendidos. En esta foto el LED de **circ** está apagado: si lo ve así, compruebe los pistones de circulación y avise al responsable del laboratorio.
 
 ## Demostración { #demonstration }
 
@@ -53,7 +53,7 @@ translation: machine
 
 1. **Compruebe la caja tal como la encuentra.** Debe estar en modo **ECO**, con las dos puertas de la antecámara cerradas, la antecámara en vacío total (manómetro ≈ −94 kPa) y todas las válvulas cerradas. Lea los valores de O₂ y H₂O en la pantalla de sensores.
 2. **Active la caja.** Pulse **ECO** una vez para salir del modo ECO y **PUMP** una vez. Puede encender o apagar la **LIGHT** en cualquier momento.
-3. **Compruebe la circulación.** El argón debe circular siempre por el catalizador (salvo durante la regeneración). El LED CIRC de este equipo no es fiable, así que mire los pistones de las válvulas magnéticas de circulación sobre el catalizador: deben estar **ARRIBA**.
+3. **Compruebe la circulación.** El argón debe circular siempre por el catalizador (salvo durante la regeneración): el LED **CIRC** debe estar encendido. Compruebe también los pistones de las válvulas magnéticas de circulación sobre el catalizador: deben estar **ARRIBA**. Si el LED está apagado o los pistones abajo, avise al responsable del laboratorio antes de abrir material sensible.
 4. **Lleve la antecámara a argón.** Abra lentamente la **válvula de argón (llenado)**, que conecta la antecámara con la cámara principal. Observe cómo el manómetro sube de −94 kPa a 0 kPa y cierre la válvula.
 5. **Cargue sus objetos.** Abra la **puerta exterior**, coloque los objetos en la antecámara y cierre la puerta exterior. Deje cerrados los recipientes con líquido; los polvos y sólidos pueden ir abiertos o con el tapón flojo.
 6. **Haga vacío (ciclo 1).** Compruebe que ambas puertas y la válvula de argón están cerradas. Abra lentamente la **válvula de vacío** hasta que el manómetro marque −94 kPa, mantenga el vacío **15 min** y cierre la válvula.

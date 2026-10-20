@@ -32,7 +32,7 @@ translation: machine
 | **pressure mbar** (obere Anzeige) | Überdruck der Box gegenüber dem Raum, in mbar. Normalerweise ein kleiner Überdruck: im ECO-Modus wird die Box auf +2 bis +6 mbar gehalten. Während der Regeneration zeigt sie weiterhin den Boxdruck. |
 | **O₂ ppm** und **H₂O ppm** | Sauerstoff und Wasser im Argon. Während der Regeneration zeigen sie stattdessen die Stufe und die Restminuten. |
 | Drehknöpfe **Min.set** / **Max.set** | Unter- und Obergrenze der Druckregelung der Box. **Nicht verstellen.** |
-| **circ** | Umwälzung des Argons durch den Reiniger. Muss immer eingeschaltet sein, außer während der Regeneration. Die LED ist unzuverlässig: prüfen, ob die Kolben der Umwälzventile OBEN stehen. |
+| **circ** | Umwälzung des Argons durch den Reiniger. Muss **immer eingeschaltet sein (LED an)**, außer während der Regeneration. Ist die LED dunkel, prüfen, ob die Kolben der Umwälzventile OBEN stehen, und die Laborleitung informieren. |
 | **reg** / **reg abort** | Regeneration des Katalysators starten / abbrechen (reg abort nur in den ersten Stufen). Nur die Laborleitung. |
 | **pump** | Vakuumpumpe. Muss an sein, um die Schleuse zu evakuieren. |
 | **ana** | O₂- und H₂O-Analysatoren. Eingeschaltet lassen. |
@@ -41,7 +41,7 @@ translation: machine
 | **eco** | Standby: die Pumpe läuft nur, wenn die Box Argon braucht, das Licht geht aus, Druck +2 bis +6 mbar. Die Box nach der Arbeit im ECO-Modus lassen. |
 
 !!! tip "So sieht der normale Arbeitszustand aus"
-    Wie auf dem Foto: Druck einige mbar (hier 2,7), O₂ und H₂O unter 1 ppm (hier 0,5), LEDs von **pump**, **ana** und **light** an. Die **circ**-LED kann dunkel bleiben, obwohl die Umwälzung läuft (bekannter Fehler); die Kolben prüfen.
+    Druck einige mbar (hier 2,7), O₂ und H₂O unter 1 ppm (hier 0,5), LEDs von **circ**, **pump**, **ana** und **light** an. Auf diesem Foto ist die **circ**-LED dunkel: Wenn Sie das sehen, die Kolben prüfen und die Laborleitung informieren.
 
 ## Vorführung { #demonstration }
 
@@ -53,7 +53,7 @@ translation: machine
 
 1. **Prüfen Sie die Box im vorgefundenen Zustand.** Sie sollte im **ECO**-Modus sein, beide Schleusentüren geschlossen, die Schleuse unter vollem Vakuum (Manometer ≈ −94 kPa) und alle Ventile geschlossen. Lesen Sie die O₂- und H₂O-Werte auf der Sensoranzeige ab.
 2. **Aktivieren Sie die Box.** Drücken Sie einmal **ECO**, um den ECO-Modus zu verlassen, und einmal **PUMP**. **LIGHT** können Sie jederzeit ein- oder ausschalten.
-3. **Prüfen Sie die Zirkulation.** Argon muss immer durch den Katalysator zirkulieren (außer während der Regeneration). Die CIRC-LED dieses Geräts ist unzuverlässig; prüfen Sie daher die Kolben der magnetischen Zirkulationsventile über dem Katalysator: Sie müssen **OBEN** sein.
+3. **Prüfen Sie die Zirkulation.** Argon muss immer durch den Katalysator zirkulieren (außer während der Regeneration): Die **CIRC**-LED muss leuchten. Prüfen Sie außerdem die Kolben der magnetischen Zirkulationsventile über dem Katalysator: Sie müssen **OBEN** sein. Ist die LED aus oder sind die Kolben unten, informieren Sie die Laborleitung, bevor Sie empfindliches Material öffnen.
 4. **Bringen Sie die Schleuse auf Argon.** Öffnen Sie langsam das **Argon-(Füll-)Ventil**, das die Schleuse mit der Hauptkammer verbindet. Beobachten Sie, wie das Manometer von −94 kPa auf 0 kPa steigt, und schließen Sie das Ventil.
 5. **Laden Sie Ihre Gegenstände.** Öffnen Sie die **Außentür**, legen Sie die Gegenstände in die Schleuse und schließen Sie die Außentür. Flüssigkeitsbehälter bleiben geschlossen; Pulver und Feststoffe dürfen offen oder mit lockerem Deckel sein.
 6. **Evakuieren (Zyklus 1).** Prüfen Sie, dass beide Türen und das Argonventil geschlossen sind. Öffnen Sie langsam das **Vakuumventil**, bis das Manometer −94 kPa anzeigt, halten Sie das Vakuum **15 min** und schließen Sie das Ventil.
