@@ -20,7 +20,7 @@ Choose the instrument (and channel, for potentiostats and cyclers), look at the 
 ## Rules
 
 - Book only instruments you have been **trained** on.
-- Arrive on time; a booking not started within 30 min may be used by someone else *(lab rule to be confirmed)*.
+- Arrive on time; a booking not started within 30 min may be used by someone else.
 - Long runs (cyclers, ball mill, furnace) must be booked for their **whole duration**, including pauses and cooling.
 - Report faults to the lab manager immediately and note them in the instrument logbook.
 

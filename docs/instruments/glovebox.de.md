@@ -116,14 +116,11 @@ translation: machine
     Der Kupferkatalysator wird durch **Schwefelverbindungen und Säuren irreversibel vergiftet**, und auch das Molekularsieb adsorbiert H₂S und Lösungsmitteldämpfe, wenn der Aktivkohlefilter gesättigt ist (Laboranleitung *Guía MBraun EasyLab*, Rev. 07-2022). Sulfidelektrolyte (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) setzen mit Spuren von Feuchtigkeit H₂S frei. Halten Sie Sulfidbehälter geschlossen, wenn sie nicht benutzt werden, lassen Sie Sulfidpulver nie über Nacht offen stehen und notieren Sie, welche Chemikalien Sie in der Box verwenden, damit sich ein Verlust der O₂-Aufnahmekapazität zurückverfolgen lässt.
 
 !!! note "Lösungsmittel"
-    Flüchtige Lösungsmittel (Ethanol, Acetonitril, THF …) belasten den Aktivkohlefilter und können die Sensoren driften lassen. Verwenden Sie möglichst kleine Mengen und halten Sie Flaschen geschlossen. Fragen Sie die Laborleitung, ob die Zirkulation während der Arbeit mit offenen Lösungsmitteln abgeschaltet werden soll — die aktuellen Laborverfahren sagen dazu nichts.
+    Flüchtige Lösungsmittel (Ethanol, Acetonitril, THF …) belasten den Aktivkohlefilter und können die Sensoren driften lassen. Verwenden Sie möglichst kleine Mengen und halten Sie Flaschen geschlossen.
 
 ## Regeneration und Sensoren (nur Laborleitung)
 
 Die Regeneration von Katalysator/Molekularsieb (16 Stufen, ca. 960 min, Formiergas Ar/H₂ bei ~15 L/min) und die Wartung des H₂O-Sensors (Neubeschichtung mit 85 % H₃PO₄ alle ~2000 h) werden ausschließlich von der Laborleitung gemäß der Laboranleitung durchgeführt.
-
-!!! question "Mit der Laborleitung zu klären"
-    Die beiden Labordokumente widersprechen sich beim Schleusenzyklus. Die englischen Einführungsfolien sagen *„volles Vakuum mindestens 5 min, bevor der Druck abgelassen wird“*; die spanische Laboranleitung sagt **3 Vakuumzyklen mit je 15 min Haltezeit** (oder 45 min im „aktiven“ Modus). Diese Anleitung verwendet den strengeren Zyklus 3 × 15 min. Bitte bestätigen Sie, was im Labor gilt.
 
 ## Handbücher
 

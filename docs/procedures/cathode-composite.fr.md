@@ -30,8 +30,8 @@ L'électrolyte (Li₆PS₅Cl, LPSC) est dissous dans l'éthanol puis reprécipit
 6. **Récupérez** toute la poudre sèche du ballon (de nouveau dans la boîte à gants) et broyez-la au mortier jusqu'à ce qu'elle soit homogène et douce.
 7. **Stockez** la poudre dans un flacon étiqueté **« NMC Cathode »** avec le pourcentage massique de NMC (38 %) et la date.
 
-!!! question "Paramètres manquants — à compléter par le laboratoire"
-    Les diapositives sources n'indiquent ni la **température du bain**, ni la **pression de consigne**, ni la **durée de séchage**, ni aucun **traitement thermique après séchage** (les voies de dissolution–précipitation pour les argyrodites en nécessitent généralement un pour retrouver la phase cristalline et éliminer le solvant résiduel). Sans ces données, la procédure n'est pas reproductible. Merci d'ajouter ici les valeurs validées.
+!!! note "Notez les conditions de séchage"
+    La température du bain, la pression de consigne et la durée de séchage ne sont pas encore fixées pour cette procédure. Notez les valeurs utilisées, ainsi que tout traitement thermique après séchage, pour que l'essai soit reproductible.
 
 !!! warning "Sécurité des solvants"
     L'éthanol et l'acétonitrile sont inflammables ; l'acétonitrile est toxique. Limitez les volumes dans la boîte à gants, gardez les flacons bouchés et consultez la note sur les solvants dans le [guide de la boîte à gants](../instruments/glovebox.md#things-that-damage-the-box).

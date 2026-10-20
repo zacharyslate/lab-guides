@@ -9,7 +9,7 @@ translation: machine
 Bu sitedeki kılavuzlar özettir. **Esas olan üreticinin kılavuzudur**; bir kılavuz ile üretici kılavuzu çelişirse üretici kılavuzunu izleyin ve laboratuvar sorumlusuna haber verin.
 
 !!! info "PDF'ler neden bu sitede değil"
-    Üretici kılavuzları telif hakkıyla korunur ve çoğu yeniden dağıtımı yasaklar; bu nedenle bu herkese açık site onları barındırmak yerine onlara **bağlantı verir**. Laboratuvarın kendi kopyaları laboratuvar sürücüsündedir: **[klasör bağlantısını laboratuvar sorumlusundan isteyin — buraya eklenecek]**.
+    Üretici kılavuzları telif hakkıyla korunur ve çoğu yeniden dağıtımı yasaklar; bu nedenle bu herkese açık site onları barındırmak yerine onlara **bağlantı verir**. Laboratuvarın kendi kopyaları laboratuvar sürücüsündedir; klasör bağlantısını laboratuvar sorumlusundan isteyin.
 
 Bağlantılar 19 Ekim 2026'da kontrol edildi. "Resmî", üreticinin web sitesi anlamına gelir; "üçüncü taraf kopyası", başka birinin barındırdığı bir kopyadır — yalnızca resmî olan mevcut değilse kullanın. Belge başlıkları orijinal dillerinde bırakılmıştır.
 

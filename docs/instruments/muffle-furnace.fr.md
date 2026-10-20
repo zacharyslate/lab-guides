@@ -76,8 +76,5 @@ Le PXF4 demande des **durées** de rampe, pas des vitesses. Saisissez vos valeur
 })();
 </script>
 
-!!! question "Correction du guide du laboratoire"
-    Le guide imprimé du laboratoire donne comme durée de chauffe de l'exemple *« 166 minutos, es decir, 2 horas 36 minutos … 02:36 »*. 166 min font **2 h 46 min (02:46)** — la correction manuscrite sur la copie du laboratoire est juste. Merci de corriger le document source.
-
 !!! note "Exactitude du programme"
     La rampe est calculée à partir de SV = 20 °C. Si le four est encore chaud au départ, la vitesse de chauffe réelle du premier segment différera de la vitesse nominale. Notez le PV au début de chaque essai.

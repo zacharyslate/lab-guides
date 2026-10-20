@@ -76,8 +76,5 @@ PXF4 rampa hızı değil rampa **süresi** ister. Değerlerinizi girin:
 })();
 </script>
 
-!!! question "Laboratuvar kılavuzunda düzeltme"
-    Basılı laboratuvar kılavuzu örnek için ısıtma süresini *"166 minutos, es decir, 2 horas 36 minutos … 02:36"* olarak veriyor. 166 dk **2 sa 46 dk (02:46)** eder — laboratuvar kopyasındaki el yazısı düzeltme doğrudur. Lütfen kaynak belgeyi düzeltin.
-
 !!! note "Program doğruluğu"
     Rampa SV = 20 °C'den hesaplanır. Fırın başlangıçta hâlâ sıcaksa, ilk segmentteki gerçek ısıtma hızı nominal hızdan farklı olur. Her çalışmanın başında PV değerini kaydedin.

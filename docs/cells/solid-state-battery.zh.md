@@ -49,9 +49,5 @@ translation: machine
 - <strong>用哪个通道。</strong>在这些电流下，只有 <strong>CT-9008</strong> 能正常工作（电流量程 1：0.1–180 µA，精度 ±36 nA）。CT-4008 和 CT-5008 分别从 0.2 mA 和 0.12 mA 起——高于本电池的 0.1 C——其精度为 100 mA 或 120 mA 满量程的 ±0.02%（±20–24 µA），与电流本身相当。
 - <strong>电压。</strong>Li–In 负极相对于 Li⁺/Li 约为 0.6 V，因此相对于 Li⁺/Li 给出的正极电压窗口在输入 BTS 时需下移约 0.6 V。
 
-!!! question "待与实验室负责人确认"
-    - 幻灯片同时展示了 Li 箔和 In 箔，但没有说明两者同时使用时哪一片朝向电解质。请补充堆叠顺序。
-    - 幻灯片第 4 步在第二次压制后写的是 <em>"remove the long pressing arm by hand, and retare the die with pellet"</em>；本指南将重新去皮提前到加入正极之前，以便记录正极质量。请确认这符合原意。
-
 !!! note "压力表压力"
-    所有压力均为液压机的<strong>压力表</strong>读数。报告结果时请换算为片上压力（压力表读数 × 活塞面积 / 模具面积）——见 [EIS 电池页面](eis-cell.md#points-to-check-before-you-publish-numbers)。
+    所有压力均为液压机的<strong>表压</strong>读数。压片压力 = 表压 × (40 mm / 模具 Ø)²：Ø 10 mm 模具时，表压 4 MPa ≈ 64 MPa，18 MPa ≈ 288 MPa。见带计算器的[压机与压力换算](eis-cell.md#press)。

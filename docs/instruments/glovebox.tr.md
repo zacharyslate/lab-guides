@@ -116,14 +116,11 @@ translation: machine
     Bakır katalizör **kükürt bileşikleri ve asitler tarafından geri dönüşümsüz olarak zehirlenir**; aktif karbon filtresi doyduğunda moleküler elek de H₂S ve çözücü buharlarını adsorbe eder (laboratuvar kılavuzu *Guía MBraun EasyLab*, rev. 07-2022). Sülfür elektrolitler (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) eser miktarda nemle H₂S açığa çıkarır. Kullanılmadığında sülfür kaplarını kapalı tutun, sülfür tozlarını asla bir gece açık bırakmayın ve O₂ tutma kapasitesindeki bir kaybın izini sürebilmek için kabinde hangi kimyasalları kullandığınızı kaydedin.
 
 !!! note "Çözücüler"
-    Uçucu çözücüler (etanol, asetonitril, THF…) aktif karbon filtresini yükler ve sensörlerde sapmaya neden olabilir. Mümkün olan en küçük hacmi kullanın ve şişeleri kapalı tutun. Açık çözücülerle çalışırken sirkülasyonun durdurulması gerekip gerekmediğini laboratuvar sorumlusuna sorun — mevcut laboratuvar prosedürleri bunu belirtmiyor.
+    Uçucu çözücüler (etanol, asetonitril, THF…) aktif karbon filtresini yükler ve sensörlerde sapmaya neden olabilir. Mümkün olan en küçük hacmi kullanın ve şişeleri kapalı tutun.
 
 ## Rejenerasyon ve sensörler (yalnızca laboratuvar sorumlusu)
 
 Katalizör/elek rejenerasyonu (16 aşama, yaklaşık 960 dk, ~15 L/dk'da Ar/H₂ şekillendirme gazı) ve H₂O sensörü bakımı (her ~2000 saatte bir %85 H₃PO₄ ile yeniden kaplama) yalnızca laboratuvar sorumlusu tarafından laboratuvar kılavuzuna göre yapılır.
-
-!!! question "Laboratuvar sorumlusuyla teyit edilecek"
-    İki laboratuvar belgesi ön oda döngüsü konusunda farklı şeyler söylüyor. İngilizce başlangıç slaytları *"basıncı bırakmadan önce en az 5 dk tam vakum"* diyor; İspanyolca laboratuvar kılavuzu ise **15 dk beklemeli 3 vakum döngüsü** (veya "aktif" modda 45 dk) diyor. Bu kılavuz daha sıkı olan 3 × 15 dk döngüsünü kullanır. Lütfen laboratuvar kuralının hangisi olduğunu teyit edin.
 
 ## Kılavuzlar
 

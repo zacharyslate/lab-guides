@@ -42,6 +42,55 @@ Questa cella misura la **conducibilità ionica** di una pastiglia di elettrolita
 
 </div>
 
+## La pressa e la conversione della pressione { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Pompa a pedale Riken Seiki con manometro 0–100 MPa: indica la pressione dell'olio, non quella sulla pastiglia](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Pompa a pedale Riken Seiki con manometro 0–100 MPa: indica la pressione dell'olio, non quella sulla pastiglia</figcaption>
+</figure>
+
+<figure markdown>
+![Pressa CDM-5M: il cilindro in alto spinge il pistone verso il basso sullo stampo o sulla cella, appoggiati sulla piastra di base](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>Pressa CDM-5M: il cilindro in alto spinge il pistone verso il basso sullo stampo o sulla cella, appoggiati sulla piastra di base</figcaption>
+</figure>
+
+</div>
+
+Il manometro della pompa a pedale misura la **pressione dell'olio** nel cilindro. La forza nasce da questa pressione che agisce sul pistone del cilindro, lo **stelo da 40 mm**; la testa da 45 mm trasmette soltanto la forza al punzone. La pressione nella pastiglia è questa forza divisa per l'area della pastiglia:
+
+<div class="formula" markdown>
+
+*F* = *P*<sub>g</sub> × π *d*² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>p</sub> = *F* / (π *D*² / 4) = *P*<sub>g</sub> × (*d* / *D*)² &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>g</sub> = *P*<sub>p</sub> × (*D* / *d*)²
+
+</div>
+
+*d* = diametro dello stelo (40 mm), *D* = diametro dello stampo (pastiglia). Con *d* = 40 mm, **1 MPa sul manometro = 1,26 kN (0,13 t)**.
+
+| Ø stampo | Area della pastiglia | Pastiglia ÷ manometro | 4 MPa manometro (formatura) | Impostazione del laboratorio per la cella |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 7,5 MPa manometro → **333 MPa** (9,4 kN) |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 18 MPa manometro → **288 MPa** (22,6 kN) |
+
+**Al contrario:** per pressare una pastiglia di Ø 10 mm a 375 MPa, porta il manometro a 375 × (10/40)² = **23,4 MPa**; per Ø 6 mm, 375 × (6/40)² = **8,4 MPa**.
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>Ø stelo (mm)<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>Ø stampo (mm)<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>Manometro (MPa)<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>Pressione sulla pastiglia (MPa)<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>Forza<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "Prima di fidarti dei numeri"
+    - Il calcolo considera lo **stelo da 40 mm** come il pistone su cui spinge l'olio. Se la targhetta del cilindro riporta un'area efficace, usa quella: un pistone da 45 mm darebbe il 27 % di forza in più.
+    - Non sono inclusi l'attrito nel cilindro e nello stampo né la precisione del manometro. Negli articoli riporta la pressione sulla pastiglia insieme alla lettura del manometro, ai diametri di stelo e stampo e al modello di pressa.
+    - Non superare mai la pressione nominale indicata sulla pompa né il carico nominale dello stampo.
+
 ## Parametri di misura (VersaStudio, Potentiostatic EIS) { #measurement-settings-versastudio-potentiostatic-eis }
 
 | Gruppo | Parametro | Valore |
@@ -61,9 +110,6 @@ Questa cella misura la **conducibilità ionica** di una pastiglia di elettrolita
 | | Cell to use | External |
 | Options | Notch filter | **None** (obbligatorio per l'EIS — manuale VersaStudio §4.4.2.2) |
 
-!!! question "Incoerenza nelle diapositive del laboratorio"
-    Le diapositive del laboratorio riportano sia *«Number of points: 30»* sia *«Points per decade: 10»*. Non possono valere entrambe: da 3 MHz a 0,1 Hz ci sono 7,5 decadi, cioè ≈ 75 punti a 10 punti/decade (≈ 65 punti fino a 1 Hz). Questa guida usa 10 punti per decade. Confermare.
-
 ## Dallo spettro alla conducibilità { #from-spectrum-to-conductivity }
 
 1. **Fittare** lo spettro con un circuito equivalente o una distribuzione dei tempi di rilassamento (DRT). I residui del fit non devono mostrare un andamento, tranne alle frequenze più basse dove gli elettrodi bloccanti si polarizzano. Nella DRT ogni picco corrisponde a un processo; il contributo di polarizzazione degli elettrodi è **escluso** dalla resistenza dell'elettrolita.
@@ -72,8 +118,8 @@ Questa cella misura la **conducibilità ionica** di una pastiglia di elettrolita
 4. **Conducibilità ionica:** σ<sub>ion</sub> = *L* / (R<sub>total</sub> · *A*)  — in S cm⁻¹ con *L* in cm, *A* in cm² e R in Ω.
 5. **Energia di attivazione:** σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT). Riportare log₁₀ σ in funzione di 1000/T (T in K). La pendenza *m* dà **E<sub>a</sub> = −m · ln(10) · R · 1000 = −19,14 · m kJ mol⁻¹**.
 
-!!! warning "Correzione alle diapositive del laboratorio"
-    Le diapositive riportano *«slope = 2.313 × E<sub>a</sub>»*. La costante è ln 10 = **2,303**, e la relazione deve includere R e il fattore 1000 dell'asse 1000/T: E<sub>a</sub> [kJ mol⁻¹] = −2,303 · 8,314 · m = **−19,14 m**. Indicare inoltre nei report se si fitta σ o σT in funzione di 1/T — le due convenzioni danno E<sub>a</sub> leggermente diverse.
+!!! note "Energia di attivazione"
+    Indica nei report se hai interpolato σ o σT in funzione di 1/T: le due convenzioni danno valori di E<sub>a</sub> leggermente diversi.
 
 Tutti i passaggi di fit, DRT e conducibilità si possono fare in **[EIS Studio](https://zacharyslate.github.io/eis-studio/)** — vedere [Analisi dei dati EIS](../analysis/eis-analysis.md).
 
@@ -88,7 +134,7 @@ Obiettivi usati nel gruppo: elettroliti separatori σ<sub>ion</sub> > 10⁻⁴ S
 ## Punti da verificare prima di pubblicare i risultati { #points-to-check-before-you-publish-numbers }
 
 !!! note "La pressione del manometro non è la pressione sulla pastiglia"
-    «4 MPa» e «18 MPa» sono **pressioni del manometro (idrauliche)**. La pressione sulla pastiglia è *P*<sub>pastiglia</sub> = *P*<sub>manometro</sub> × (*A*<sub>pistone</sub> / *A*<sub>stampo</sub>), molte volte maggiore per uno stampo da Ø 6–10 mm. Riportare negli articoli la pressione sulla pastiglia (e il modello di pressa e il diametro del pistone) così che altri possano riprodurla.
+    «4 MPa», «7,5 MPa» e «18 MPa» sono **pressioni del manometro (olio)**. Con lo stelo da 40 mm, 18 MPa di manometro su una pastiglia di Ø 10 mm corrispondono a ≈ **288 MPa**, e 7,5 MPa su una di Ø 6 mm a ≈ **333 MPa**: vedi [La pressa e la conversione della pressione](#press). Negli articoli riporta la pressione sulla pastiglia (e la lettura del manometro e i diametri di stelo e stampo) perché altri possano riprodurla.
 
 !!! note "Policarbonato a 120 °C"
     Il policarbonato si ammorbidisce vicino alla transizione vetrosa (≈ 145 °C) e scorre sotto carico molto prima. A 100–120 °C sotto pressione di impilamento il foro e le guarnizioni possono deformarsi, cambiando contatto e spessore. Controllare la cella dopo le prove ad alta temperatura e rimisurare lo spessore della pastiglia; una prova di riscaldamento e raffreddamento che si ripercorre è un buon test.

@@ -73,9 +73,6 @@ La muestra nunca ve el aire: el matraz se llena, se cierra con el adaptador con 
 
 </div>
 
-!!! question "Comprobar con las diapositivas del laboratorio"
-    Las diapositivas *Rotovapor* muestran la válvula del matraz (vertical = abierta, horizontal = cerrada), la grasa de vacío, la pinza Keck y la junta, y terminan con «cerrada → a rotovapor». Solo se pudo leer el texto de las diapositivas, no las fotos, así que el dibujo supone **un matraz de fondo redondo más un adaptador con llave separado**. Si el laboratorio usa un matraz con válvula integrada, los pasos 3–5 se aplican a la junta que se cierre en la caja de guantes — confírmelo.
-
 ## Parte 2 — En el rotavapor { #part-2-on-the-rotavapor }
 
 <div class="demo" data-demo="rotavapor">
@@ -104,9 +101,8 @@ La muestra nunca ve el aire: el matraz se llena, se cierra con el adaptador con 
 !!! warning "Muestras sensibles al aire"
     Ventilar (STOP pulsado dos veces) deja entrar **aire** en el conjunto de vidrio. Su muestra solo está protegida si la llave del matraz está **cerrada antes** de ventilar. Nunca ventile con la llave abierta.
 
-!!! question "A confirmar con el responsable del laboratorio"
-    - Las diapositivas de puesta en marcha indican iniciar la refrigeración 5 min después del vacío y abrir el matraz 5 min más tarde. Puede que 5 min no basten para que el refrigerante alcance su temperatura; el disolvente no condensado va entonces a la bomba. Considere esperar a que el enfriador alcance su consigna.
-    - Las diapositivas no indican temperaturas del baño ni presiones para la suspensión catódica de etanol/acetonitrilo. Añada los valores validados al [procedimiento del cátodo](../procedures/cathode-composite.md).
+!!! tip "Espere al refrigerador"
+    Cinco minutos es el mínimo. Si ACTUAL TEMP del refrigerador sigue muy por encima de SET TEMP cuando abre el matraz, el disolvente no se condensa y va a la bomba.
 
 ## Manuales
 

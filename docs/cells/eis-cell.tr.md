@@ -42,6 +42,55 @@ Bu hücre, iki bloke edici paslanmaz çelik elektrot arasındaki sülfür veya h
 
 </div>
 
+## Pres ve basınç dönüşümü { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Riken Seiki ayak pompası ve 0–100 MPa manometresi: pelet üzerindeki basıncı değil, yağ basıncını gösterir](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Riken Seiki ayak pompası ve 0–100 MPa manometresi: pelet üzerindeki basıncı değil, yağ basıncını gösterir</figcaption>
+</figure>
+
+<figure markdown>
+![CDM-5M pres: üstteki silindir pistonu aşağı, taban plakasında duran kalıba veya hücreye doğru iter](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>CDM-5M pres: üstteki silindir pistonu aşağı, taban plakasında duran kalıba veya hücreye doğru iter</figcaption>
+</figure>
+
+</div>
+
+Ayak pompasındaki manometre silindirdeki **yağ basıncını** gösterir. Kuvvet, bu basıncın silindirin pistonuna, yani **40 mm'lik mile** etki etmesinden gelir; 45 mm'lik baş kuvveti yalnızca zımbaya iletir. Peletteki basınç, bu kuvvetin pelet alanına bölümüdür:
+
+<div class="formula" markdown>
+
+*F* = *P*<sub>g</sub> × π *d*² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>p</sub> = *F* / (π *D*² / 4) = *P*<sub>g</sub> × (*d* / *D*)² &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>g</sub> = *P*<sub>p</sub> × (*D* / *d*)²
+
+</div>
+
+*d* = mil çapı (40 mm), *D* = kalıp (pelet) çapı. *d* = 40 mm ile **manometrede 1 MPa = 1,26 kN (0,13 t)**.
+
+| Kalıp Ø | Pelet alanı | Pelet ÷ manometre | 4 MPa manometre (pelet oluşturma) | Hücre için laboratuvar ayarı |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 7,5 MPa manometre → **333 MPa** (9,4 kN) |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 18 MPa manometre → **288 MPa** (22,6 kN) |
+
+**Tersinden:** Ø 10 mm'lik bir peleti 375 MPa'da preslemek için manometreyi 375 × (10/40)² = **23,4 MPa**'ya ayarlayın; Ø 6 mm için 375 × (6/40)² = **8,4 MPa**.
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>Mil Ø (mm)<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>Kalıp Ø (mm)<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>Manometre (MPa)<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>Pelet basıncı (MPa)<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>Kuvvet<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "Sayılara güvenmeden önce"
+    - Hesap, yağın ittiği piston olarak **40 mm'lik mili** alır. Silindirin etiketinde etkin alan yazıyorsa onu kullanın: 45 mm'lik bir piston %27 daha fazla kuvvet verir.
+    - Silindir ve kalıptaki sürtünme ile manometrenin doğruluğu hesaba katılmamıştır. Makalelerde pelet basıncını manometre okuması, mil ve kalıp çapları ve pres modeliyle birlikte verin.
+    - Pompa etiketindeki anma basıncını veya kalıbın anma yükünü asla aşmayın.
+
 ## Ölçüm ayarları (VersaStudio, Potentiostatic EIS) { #measurement-settings-versastudio-potentiostatic-eis }
 
 | Grup | Ayar | Değer |
@@ -61,9 +110,6 @@ Bu hücre, iki bloke edici paslanmaz çelik elektrot arasındaki sülfür veya h
 | | Cell to use | External |
 | Options | Notch filter | **None** (EIS için zorunlu — VersaStudio kılavuzu §4.4.2.2) |
 
-!!! question "Laboratuvar slaytlarında tutarsızlık"
-    Laboratuvar slaytları hem *"Number of points: 30"* hem de *"Points per decade: 10"* diyor. İkisi birden geçerli olamaz: 3 MHz'den 0,1 Hz'e 7,5 dekat vardır; yani dekat başına 10 noktayla ≈ 75 nokta (1 Hz'e kadar ≈ 65 nokta). Bu kılavuz dekat başına 10 nokta kullanır. Lütfen teyit edin.
-
 ## Spektrumdan iletkenliğe { #from-spectrum-to-conductivity }
 
 1. Spektrumu bir eşdeğer devreyle veya bir gevşeme süreleri dağılımıyla (DRT) **fit edin**. Fit artıkları, bloke edici elektrotların polarize olduğu en düşük frekanslar dışında bir desen göstermemelidir. DRT'de her pik bir sürece karşılık gelir; elektrot polarizasyonu katkısı elektrolit direncinden **hariç tutulur**.
@@ -72,8 +118,8 @@ Bu hücre, iki bloke edici paslanmaz çelik elektrot arasındaki sülfür veya h
 4. **İyonik iletkenlik:** σ<sub>ion</sub> = *L* / (R<sub>total</sub> · *A*)  — *L* cm, *A* cm² ve R Ω cinsinden olmak üzere S cm⁻¹.
 5. **Aktivasyon enerjisi:** σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT). log₁₀ σ'yı 1000/T'ye karşı çizin (T, K cinsinden). Eğim *m*, **E<sub>a</sub> = −m · ln(10) · R · 1000 = −19,14 · m kJ mol⁻¹** verir.
 
-!!! warning "Laboratuvar slaytlarında düzeltme"
-    Slaytlar *"slope = 2.313 × E<sub>a</sub>"* diyor. Sabit ln 10 = **2,303**'tür ve bağıntı R'yi ve 1000/T ekseninden gelen 1000 çarpanını içermelidir: E<sub>a</sub> [kJ mol⁻¹] = −2,303 · 8,314 · m = **−19,14 m**. Raporlarda ayrıca σ'yı mı yoksa σT'yi mi 1/T'ye karşı fit ettiğinizi belirtin — iki yaklaşım biraz farklı E<sub>a</sub> verir.
+!!! note "Aktivasyon enerjisi"
+    Raporlarda 1/T'ye karşı σ mı yoksa σT mi uydurduğunuzu belirtin; iki yaklaşım biraz farklı E<sub>a</sub> verir.
 
 Fit, DRT ve iletkenlik adımlarının tümü **[EIS Studio](https://zacharyslate.github.io/eis-studio/)**'da yapılabilir — bkz. [EIS veri analizi](../analysis/eis-analysis.md).
 
@@ -88,7 +134,7 @@ Grupta kullanılan hedefler: ayırıcı elektrolitler için σ<sub>ion</sub> > 1
 ## Sonuçları yayımlamadan önce kontrol edilecek noktalar { #points-to-check-before-you-publish-numbers }
 
 !!! note "Manometre basıncı pelet basıncı değildir"
-    "4 MPa" ve "18 MPa" **manometre (hidrolik) basınçlarıdır**. Pelet üzerindeki basınç *P*<sub>pelet</sub> = *P*<sub>manometre</sub> × (*A*<sub>piston</sub> / *A*<sub>kalıp</sub>) olup Ø 6–10 mm'lik bir kalıp için kat kat daha büyüktür. Başkalarının tekrarlayabilmesi için makalelerde pelet basıncını (ve pres modelini ve piston çapını) belirtin.
+    "4 MPa", "7,5 MPa" ve "18 MPa" **manometre (yağ) basınçlarıdır**. 40 mm'lik mille, Ø 10 mm'lik pelette 18 MPa manometre ≈ **288 MPa**, Ø 6 mm'lik pelette 7,5 MPa ≈ **333 MPa** eder — bkz. [Pres ve basınç dönüşümü](#press). Başkalarının tekrarlayabilmesi için makalelerde pelet basıncını (ve manometre okumasını, mil ve kalıp çaplarını) verin.
 
 !!! note "120 °C'de polikarbonat"
     Polikarbonat camsı geçişine (≈ 145 °C) yakın yumuşar ve çok daha önce yük altında sünme gösterir. Yığın basıncı altında 100–120 °C'de delik ve contalar deforme olabilir; bu da teması ve kalınlığı değiştirir. Yüksek sıcaklık çalışmalarından sonra hücreyi kontrol edin ve pelet kalınlığını yeniden ölçün; kendini tekrarlayan bir ısıtma-soğutma çalışması iyi bir testtir.

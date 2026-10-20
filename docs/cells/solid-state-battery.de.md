@@ -49,9 +49,5 @@ Eine Mikrotestbatterie in derselben Polycarbonatzelle wie für die [EIS](eis-cel
 - **Welcher Kanal.** Bei diesen Strömen funktioniert nur der **CT-9008** einwandfrei (Strombereich 1: 0,1–180 µA, Genauigkeit ±36 nA). Die Geräte CT-4008 und CT-5008 beginnen bei 0,2 mA bzw. 0,12 mA — oberhalb von 0,1 C für diese Zelle — und ihre Genauigkeit beträgt ±0,02 % eines Endwerts von 100 mA bzw. 120 mA (±20–24 µA), so groß wie der Strom selbst.
 - **Spannung.** Die Li–In-Anode liegt bei ≈ 0,6 V gegen Li⁺/Li; ein gegen Li⁺/Li angegebenes Kathodenfenster muss bei der Eingabe in BTS um ≈ 0,6 V nach unten verschoben werden.
 
-!!! question "Mit der Laborleitung zu klären"
-    - Die Folie zeigt sowohl Li- als auch In-Folie, sagt aber nicht, welche bei Verwendung beider zum Elektrolyten zeigt. Bitte die Stapelreihenfolge ergänzen.
-    - Schritt 4 der Folien sagt nach dem zweiten Pressen *„remove the long pressing arm by hand, and retare the die with pellet“*; diese Anleitung zieht das erneute Tarieren vor die Kathodenzugabe, damit die Kathodenmasse notiert werden kann. Bitte prüfen, ob das so gemeint ist.
-
 !!! note "Manometerdruck"
-    Alle Drücke sind **Manometer**-Werte der Hydraulikpresse. Rechnen Sie sie beim Berichten in den Druck auf den Pressling um (Manometer × Kolbenfläche / Matrizenfläche) — siehe [Seite der EIS-Zelle](eis-cell.md#points-to-check-before-you-publish-numbers).
+    Alle Drücke sind **Manometer**werte der Hydraulikpresse. Pelletdruck = Manometer × (40 mm / Werkzeug-Ø)²: bei einem Ø-10-mm-Werkzeug ergeben 4 MPa am Manometer ≈ 64 MPa und 18 MPa ≈ 288 MPa. Siehe [Die Presse und die Druckumrechnung](eis-cell.md#press) mit Rechner.

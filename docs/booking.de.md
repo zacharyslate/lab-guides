@@ -21,7 +21,7 @@ Wählen Sie das Gerät (und bei Potentiostaten und Zyklierern den Kanal), sehen 
 ## Regeln
 
 - Buchen Sie nur Geräte, für die Sie **eingewiesen** sind.
-- Seien Sie pünktlich; eine Buchung, die nicht innerhalb von 30 min begonnen wird, darf von anderen genutzt werden *(Laborregel noch zu bestätigen)*.
+- Seien Sie pünktlich; eine Buchung, die nicht innerhalb von 30 min begonnen wird, darf von anderen genutzt werden.
 - Lange Läufe (Zyklierer, Kugelmühle, Ofen) müssen für ihre **gesamte Dauer** gebucht werden, einschließlich Pausen und Abkühlung.
 - Melden Sie Störungen sofort der Laborleitung und tragen Sie sie in das Gerätelogbuch ein.
 

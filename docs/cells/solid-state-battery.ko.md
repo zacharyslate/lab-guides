@@ -49,9 +49,5 @@ translation: machine
 - <strong>어느 채널인가.</strong> 이 전류에서는 <strong>CT-9008</strong>만 제대로 작동합니다(전류 범위 1: 0.1–180 µA, 정확도 ±36 nA). CT-4008과 CT-5008은 각각 0.2 mA, 0.12 mA부터 시작해 — 이 셀의 0.1 C보다 높고 — 정확도는 100 mA 또는 120 mA 풀스케일의 ±0.02%(±20–24 µA)로 전류 자체만큼 큽니다.
 - <strong>전압.</strong> Li–In 음극은 Li⁺/Li 대비 ≈ 0.6 V에 있으므로, Li⁺/Li 기준으로 주어진 양극 전압 창은 BTS에 입력할 때 ≈ 0.6 V 낮춰야 합니다.
 
-!!! question "실험실 책임자에게 확인"
-    - 슬라이드에는 Li 포일과 In 포일이 모두 나오지만, 둘 다 쓸 때 어느 쪽이 전해질을 향하는지 나와 있지 않습니다. 적층 순서를 추가해 주십시오.
-    - 슬라이드 4단계는 두 번째 성형 후 <em>"remove the long pressing arm by hand, and retare the die with pellet"</em>이라고 합니다. 이 가이드는 양극 질량을 기록할 수 있도록 영점 재설정을 양극을 넣기 전으로 옮겼습니다. 의도와 맞는지 확인해 주십시오.
-
 !!! note "게이지 압력"
-    모든 압력은 유압 프레스의 <strong>게이지</strong> 값입니다. 결과를 보고할 때는 펠릿 압력(게이지 × 램 면적 / 다이 면적)으로 환산하십시오 — [EIS 셀 페이지](eis-cell.md#points-to-check-before-you-publish-numbers) 참조.
+    모든 압력은 유압 프레스의 <strong>게이지</strong> 값입니다. 펠릿 압력 = 게이지 × (40 mm / 다이 Ø)²: Ø 10 mm 다이에서 게이지 4 MPa ≈ 64 MPa, 18 MPa ≈ 288 MPa. 계산기가 있는 [프레스와 압력 환산](eis-cell.md#press)을 참조하십시오.

@@ -115,14 +115,11 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
     The copper catalyst is **irreversibly poisoned by sulfur compounds and acids**, and the molecular sieve also adsorbs H₂S and solvent vapours once the activated-carbon filter is saturated (lab guide *Guía MBraun EasyLab*, rev. 07-2022). Sulfide electrolytes (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) release H₂S with traces of moisture. Keep sulfide containers closed when not in use, never leave sulfide powders open overnight, and record which chemicals you use in the box so a loss of O₂ capacity can be traced.
 
 !!! note "Solvents"
-    Volatile solvents (ethanol, acetonitrile, THF…) load the activated-carbon filter and can drift the sensors. Use the smallest volume you can and keep bottles capped. Ask the lab manager whether circulation should be paused while you work with open solvents — the lab procedures do not currently say.
+    Volatile solvents (ethanol, acetonitrile, THF…) load the activated-carbon filter and can drift the sensors. Use the smallest volume you can and keep bottles capped.
 
 ## Regeneration and sensors (lab manager only)
 
 Catalyst/sieve regeneration (16 stages, about 960 min, Ar/H₂ forming gas at ~15 L/min) and H₂O-sensor maintenance (re-coating with 85 % H₃PO₄ every ~2000 h) are done only by the lab manager, following the lab guide.
-
-!!! question "To confirm with the lab manager"
-    The two lab documents disagree on the antechamber cycle. The English start-up slides say *"a full vacuum for at least 5 min before releasing the pressure"*; the Spanish lab guide says **3 cycles of vacuum with a 15 min hold** (or 45 min in "active" mode). This guide uses the stricter 3 × 15 min cycle. Please confirm which one is the lab rule.
 
 ## Manuals
 

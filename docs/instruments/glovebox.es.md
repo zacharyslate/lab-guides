@@ -116,14 +116,11 @@ translation: machine
     El catalizador de cobre se **envenena de forma irreversible con compuestos de azufre y ácidos**, y el tamiz molecular también adsorbe H₂S y vapores de disolvente cuando el filtro de carbón activo se satura (guía del laboratorio *Guía MBraun EasyLab*, rev. 07-2022). Los electrolitos sulfuro (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) liberan H₂S con trazas de humedad. Mantenga cerrados los recipientes de sulfuros cuando no los use, nunca deje polvos de sulfuro abiertos durante la noche y anote qué productos usa en la caja para poder rastrear una pérdida de capacidad de retención de O₂.
 
 !!! note "Disolventes"
-    Los disolventes volátiles (etanol, acetonitrilo, THF…) cargan el filtro de carbón activo y pueden desviar los sensores. Use el menor volumen posible y mantenga los frascos cerrados. Pregunte al responsable del laboratorio si debe pararse la circulación mientras trabaja con disolventes abiertos — los procedimientos actuales del laboratorio no lo indican.
+    Los disolventes volátiles (etanol, acetonitrilo, THF…) cargan el filtro de carbón activo y pueden desviar los sensores. Use el menor volumen posible y mantenga los frascos cerrados.
 
 ## Regeneración y sensores (solo el responsable del laboratorio)
 
 La regeneración del catalizador/tamiz (16 etapas, unos 960 min, gas de formación Ar/H₂ a ~15 L/min) y el mantenimiento del sensor de H₂O (nuevo recubrimiento con H₃PO₄ al 85 % cada ~2000 h) los realiza únicamente el responsable del laboratorio, siguiendo la guía del laboratorio.
-
-!!! question "A confirmar con el responsable del laboratorio"
-    Los dos documentos del laboratorio no coinciden en el ciclo de la antecámara. Las diapositivas de puesta en marcha en inglés dicen *«vacío total durante al menos 5 min antes de liberar la presión»*; la guía del laboratorio en español dice **3 ciclos de vacío con 15 min de espera** (o 45 min en modo «activo»). Esta guía usa el ciclo más estricto de 3 × 15 min. Confirme cuál es la norma del laboratorio.
 
 ## Manuales
 

@@ -65,13 +65,13 @@ window.DEMOS["rotavapor"] = {
 window.DEMOS["eis-cell"] = {
   base: ["balance", "press", "presscyl", "ram", "pneedle"],
   steps: [
-    { show: ["dieAsm", "armS"], set: { pneedle: "rotate(-120deg)" }, txt: { bal: "0.000 g" }, hl: ["armS"] },
+    { show: ["dieAsm", "armS", "dieLbl"], set: { pneedle: "rotate(-120deg)" }, txt: { bal: "0.000 g" }, hl: ["armS"] },
     { show: ["powder"], txt: { bal: "0.025 g" }, hl: ["powder"] },
     { show: ["armL"], hl: ["armL"] },
-    { set: { dieAsm: "translate(490px,50px)", ram: "translate(0px,74px)", pneedle: "rotate(-75deg)" }, txt: { bal: "", pg: "4 MPa", ptime: "1:00" }, hl: ["pneedle"] },
+    { hide: ["dieLbl"], set: { dieAsm: "translate(490px,50px)", ram: "translate(0px,74px)", pneedle: "rotate(-110deg)" }, txt: { bal: "", pg: "4 MPa", ptime: "1:00" }, hl: ["pneedle"] },
     { hide: ["dieAsm"], show: ["eject", "pelletOut"], set: { ram: "translate(0px,58px)", pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["pelletOut"] },
     { hide: ["balance", "eject", "pelletOut"], set: { ram: "translate(0px,0px)" }, show: ["pcb", "ccL", "gasL", "pel", "gasS", "ccS", "labelsB"], hl: ["pel", "gasL", "gasS"] },
-    { show: ["miniCell"], set: { ram: "translate(0px,138px)", pneedle: "rotate(45deg)" }, txt: { pg: "18 MPa (Ø10) · 7.5 MPa (Ø6)", ptime: "3:00" }, hl: ["miniCell", "pneedle"] },
+    { show: ["miniCell"], set: { ram: "translate(0px,138px)", pneedle: "rotate(-76deg)" }, txt: { pg: "18 MPa (Ø10) · 7.5 MPa (Ø6)", ptime: "3:00" }, hl: ["miniCell", "pneedle"] },
     { hide: ["miniCell"], show: ["plateT", "plateB", "screws", "ins", "m4"], set: { ram: "translate(0px,0px)", pneedle: "rotate(-120deg)" }, txt: { pg: "", ptime: "" }, hl: ["plateT", "plateB", "ins"] },
     { show: ["dims"], hl: ["dims", "screws"] },
     { hide: ["press", "presscyl", "ram", "pneedle", "labelsB"], show: ["pstat", "leads"], hl: ["leads", "m4"] },

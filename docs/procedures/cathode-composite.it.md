@@ -30,8 +30,8 @@ L'elettrolita (Li₆PS₅Cl, LPSC) viene sciolto in etanolo e riprecipitato su N
 6. **Raccogliere** tutta la polvere secca dal pallone (di nuovo nella glovebox) e macinarla in un mortaio finché è uniforme e soffice.
 7. **Conservare** la polvere in una bottiglia etichettata **«NMC Cathode»** con la % in peso di NMC (38 %) e la data.
 
-!!! question "Parametri mancanti — da aggiungere a cura del laboratorio"
-    Le diapositive originali non indicano la **temperatura del bagno**, la **pressione impostata**, il **tempo di essiccazione** né alcun **trattamento termico successivo all'essiccazione** (le vie di dissoluzione–precipitazione per le argiroditi ne richiedono di solito uno per recuperare la fase cristallina ed eliminare il solvente residuo). Senza questi dati la procedura non è riproducibile. Aggiungere qui i valori validati.
+!!! note "Annota le condizioni di essiccazione"
+    Temperatura del bagno, pressione impostata e tempo di essiccazione non sono ancora fissati per questa procedura. Annota i valori che usi, e l'eventuale trattamento termico dopo l'essiccazione, perché la prova sia riproducibile.
 
 !!! warning "Sicurezza con i solventi"
     Etanolo e acetonitrile sono infiammabili; l'acetonitrile è tossico. Usare volumi ridotti nella glovebox, tenere tappate le bottiglie e vedere la nota sui solventi nella [guida della glovebox](../instruments/glovebox.md#things-that-damage-the-box).

@@ -9,7 +9,7 @@ translation: machine
 Les guides de ce site sont des résumés. **Le manuel du fabricant fait foi** ; si un guide et un manuel divergent, suivez le manuel et prévenez le responsable du laboratoire.
 
 !!! info "Pourquoi les PDF ne sont pas sur ce site"
-    Les manuels des fabricants sont protégés par le droit d'auteur et la plupart interdisent leur redistribution ; ce site public **renvoie** donc vers eux au lieu de les héberger. Les copies du laboratoire se trouvent sur le lecteur partagé du laboratoire : **[demandez le lien du dossier au responsable du laboratoire — à ajouter ici]**.
+    Les manuels des fabricants sont protégés par le droit d'auteur et la plupart interdisent leur redistribution ; ce site public **renvoie** donc vers eux au lieu de les héberger. Les copies du laboratoire se trouvent sur le lecteur partagé du laboratoire ; demandez le lien du dossier au responsable du laboratoire.
 
 Les liens ont été vérifiés le 19 octobre 2026. « Officiel » désigne le site du fabricant ; « copie tierce » désigne une copie hébergée par quelqu'un d'autre — à n'utiliser que si l'officielle n'est pas disponible. Les titres des documents sont laissés dans leur langue d'origine.
 

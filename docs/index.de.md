@@ -36,6 +36,3 @@ Jede Anleitung enthält eine Animation des Geräts und der Zelle bzw. des Gefä�
 ## Sprachen
 
 Verwenden Sie das Sprachmenü in der Kopfzeile. Maßgeblich ist die englische Version. Weitere Sprachen werden ergänzt; noch nicht übersetzte Seiten zeigen den englischen Text mit einem Hinweis, und maschinell übersetzte Seiten sind gekennzeichnet, bis Muttersprachler sie geprüft haben. **Bei Sicherheitsschritten gilt im Zweifel der englische Text.**
-
-!!! note "Stand dieser Website"
-    Erste Version (Oktober 2026). Mit **„Mit der Laborleitung zu klären“** markierte Punkte sind Stellen, an denen sich die Labordokumente widersprechen oder ein Wert fehlt; sie müssen beantwortet werden, bevor die Anleitung endgültig ist.

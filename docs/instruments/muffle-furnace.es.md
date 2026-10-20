@@ -76,8 +76,5 @@ El PXF4 pide **tiempos** de rampa, no velocidades. Introduzca sus valores:
 })();
 </script>
 
-!!! question "Corrección a la guía del laboratorio"
-    La guía impresa del laboratorio da como tiempo de calentamiento del ejemplo *«166 minutos, es decir, 2 horas 36 minutos … 02:36»*. 166 min son **2 h 46 min (02:46)** — la corrección a mano en la copia del laboratorio es la correcta. Corrija el documento original.
-
 !!! note "Exactitud del programa"
     La rampa se calcula desde SV = 20 °C. Si el horno sigue caliente al empezar, la velocidad real de calentamiento del primer segmento será distinta de la nominal. Anote el PV al inicio de cada ensayo.

@@ -30,8 +30,8 @@ Elektrolit (Li₆PS₅Cl, LPSC) etanolde çözülür ve çözücü [rotavaporda]
 6. Balondaki tüm kuru tozu (yeniden eldivenli kabinde) **toplayın** ve homojen ve yumuşak olana kadar havanda öğütün.
 7. Tozu, NMC ağırlık yüzdesi (%38) ve tarihle birlikte **"NMC Cathode"** etiketli bir şişede **saklayın**.
 
-!!! question "Eksik parametreler — laboratuvar tarafından eklenecek"
-    Kaynak slaytlar **banyo sıcaklığını**, **ayar basıncını**, **kurutma süresini** veya herhangi bir **kurutma sonrası ısıl işlemi** vermiyor (arjirodit için çözünme–çökelme yolları, kristal fazı geri kazanmak ve kalıntı çözücüyü uzaklaştırmak için genellikle bir ısıl işlem gerektirir). Bunlar olmadan prosedür tekrarlanabilir değildir. Lütfen doğrulanmış değerleri buraya ekleyin.
+!!! note "Kurutma koşullarını kaydedin"
+    Bu işlem için banyo sıcaklığı, ayar basıncı ve kurutma süresi henüz sabitlenmedi. Denemenin tekrarlanabilmesi için kullandığınız değerleri ve kurutmadan sonraki ısıl işlemi not edin.
 
 !!! warning "Çözücü güvenliği"
     Etanol ve asetonitril yanıcıdır; asetonitril toksiktir. Eldivenli kabinde hacimleri küçük tutun, şişeleri kapalı tutun ve [eldivenli kabin kılavuzundaki](../instruments/glovebox.md#things-that-damage-the-box) çözücülerle ilgili notu okuyun.

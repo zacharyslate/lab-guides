@@ -9,7 +9,7 @@ translation: machine
 Las guías de este sitio son resúmenes. **El manual del fabricante es la referencia**; si una guía y un manual no coinciden, siga el manual e informe al responsable del laboratorio.
 
 !!! info "Por qué los PDF no están en este sitio"
-    Los manuales de los fabricantes tienen derechos de autor y la mayoría prohíbe su redistribución, así que este sitio público **enlaza** a ellos en lugar de alojarlos. Las copias del laboratorio están en la unidad compartida del laboratorio: **[pida el enlace a la carpeta al responsable del laboratorio — se añadirá aquí]**.
+    Los manuales de los fabricantes tienen derechos de autor y la mayoría prohíbe su redistribución, así que este sitio público **enlaza** a ellos en lugar de alojarlos. Las copias del laboratorio están en la unidad compartida del laboratorio; pida el enlace a la carpeta al responsable del laboratorio.
 
 Los enlaces se comprobaron el 19 de octubre de 2026. «Oficial» significa la web del fabricante; «copia de terceros» significa una copia alojada por otra entidad — úsela solo si la oficial no está disponible. Los títulos de los documentos se dejan en su idioma original.
 

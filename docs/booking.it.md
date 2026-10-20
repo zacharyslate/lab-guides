@@ -21,7 +21,7 @@ Scegliere lo strumento (e il canale, per potenziostati e ciclatori), guardare la
 ## Regole
 
 - Prenotare solo strumenti per cui si è ricevuta la **formazione**.
-- Arrivare puntuali; una prenotazione non iniziata entro 30 min può essere usata da altri *(regola del laboratorio da confermare)*.
+- Arrivare puntuali; una prenotazione non iniziata entro 30 min può essere usata da altri.
 - Le prove lunghe (ciclatori, mulino a sfere, muffola) vanno prenotate per **tutta la loro durata**, incluse pause e raffreddamento.
 - Segnalare subito i guasti al responsabile del laboratorio e annotarli nel registro dello strumento.
 

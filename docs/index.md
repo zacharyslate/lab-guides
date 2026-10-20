@@ -35,6 +35,3 @@ Each guide has an animation of the instrument and the cell or vessel it uses. Pr
 ## Languages
 
 Use the language menu in the header. English is the reference version. The other languages are being added; pages that are not yet translated show the English text with a notice, and machine-translated pages are marked until a native speaker has checked them. **For safety steps, if in doubt, follow the English text.**
-
-!!! note "Status of this site"
-    First version (October 2026). Points marked **"To confirm with the lab manager"** are places where the lab documents disagree or leave out a value; they need an answer before the guide is final.

@@ -21,7 +21,7 @@ Elija el equipo (y el canal, en potenciostatos y cicladores), mire la semana y r
 ## Normas
 
 - Reserve solo equipos para los que tenga **formación**.
-- Llegue puntual; una reserva que no se haya iniciado en 30 min puede usarla otra persona *(norma del laboratorio por confirmar)*.
+- Llegue puntual; una reserva que no se haya iniciado en 30 min puede usarla otra persona.
 - Los ensayos largos (cicladores, molino de bolas, horno) deben reservarse durante **toda su duración**, incluidas las pausas y el enfriamiento.
 - Informe de inmediato de las averías al responsable del laboratorio y anótelas en el cuaderno del equipo.
 

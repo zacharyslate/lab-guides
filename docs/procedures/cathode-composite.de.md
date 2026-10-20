@@ -30,8 +30,8 @@ Der Elektrolyt (Li₆PS₅Cl, LPSC) wird in Ethanol gelöst und auf NMC und Kohl
 6. **Sammeln** Sie das gesamte trockene Pulver aus dem Kolben (wieder in der Glovebox) und mörsern Sie es, bis es gleichmäßig und weich ist.
 7. **Lagern** Sie das Pulver in einer Flasche mit der Aufschrift **„NMC Cathode“**, dem NMC-Gewichtsanteil (38 %) und dem Datum.
 
-!!! question "Fehlende Parameter — vom Labor zu ergänzen"
-    Die Quellfolien nennen weder **Badtemperatur**, **eingestellten Druck**, **Trocknungszeit** noch eine **Wärmebehandlung nach dem Trocknen** (Lösen–Fällen-Routen für Argyrodite benötigen meist eine, um die kristalline Phase zurückzugewinnen und Restlösungsmittel zu entfernen). Ohne diese Angaben ist das Verfahren nicht reproduzierbar. Bitte ergänzen Sie hier die validierten Werte.
+!!! note "Trocknungsbedingungen notieren"
+    Badtemperatur, Solldruck und Trocknungszeit sind für dieses Verfahren noch nicht festgelegt. Notieren Sie die verwendeten Werte und eine eventuelle Wärmebehandlung nach dem Trocknen, damit der Versuch reproduzierbar ist.
 
 !!! warning "Sicherheit bei Lösungsmitteln"
     Ethanol und Acetonitril sind brennbar; Acetonitril ist giftig. Halten Sie die Mengen in der Glovebox klein, die Flaschen verschlossen und beachten Sie den Hinweis zu Lösungsmitteln in der [Glovebox-Anleitung](../instruments/glovebox.md#things-that-damage-the-box).

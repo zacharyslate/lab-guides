@@ -36,6 +36,3 @@ Ogni guida ha un'animazione dello strumento e della cella o del contenitore che 
 ## Lingue
 
 Usare il menu delle lingue nell'intestazione. La versione di riferimento è quella inglese. Le altre sono in corso di aggiunta; le pagine non ancora tradotte mostrano il testo inglese con un avviso, e le pagine tradotte automaticamente sono segnalate finché un madrelingua non le revisiona. **Per i passaggi di sicurezza, in caso di dubbio, seguire il testo inglese.**
-
-!!! note "Stato di questo sito"
-    Prima versione (ottobre 2026). I punti contrassegnati **«Da confermare con il responsabile del laboratorio»** sono quelli in cui i documenti del laboratorio si contraddicono o omettono un valore; vanno chiariti prima che la guida sia definitiva.

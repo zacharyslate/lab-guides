@@ -8,7 +8,7 @@ description: The original user manuals behind each guide — document numbers, w
 The guides on this site are summaries. **The manufacturer's manual is the authority**; if a guide and a manual disagree, follow the manual and tell the lab manager.
 
 !!! info "Why the PDFs are not on this site"
-    Vendor manuals are copyrighted and most forbid redistribution, so this public site **links** to them instead of hosting them. The lab's own copies are on the lab drive: **[ask the lab manager for the folder link — to be added here]**.
+    Vendor manuals are copyrighted and most forbid redistribution, so this public site **links** to them instead of hosting them. The lab's own copies are on the lab drive; ask the lab manager for the folder link.
 
 Links were checked on 19 October 2026. "Official" means the manufacturer's website; "third-party copy" means a copy hosted by someone else — use it only if the official one is unavailable.
 

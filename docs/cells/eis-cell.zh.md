@@ -42,6 +42,55 @@ translation: machine
 
 </div>
 
+## 压机与压力换算 { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Riken Seiki 脚踏泵及其 0–100 MPa 压力表：表上显示的是油压，而不是压片上的压力](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Riken Seiki 脚踏泵及其 0–100 MPa 压力表：表上显示的是油压，而不是压片上的压力</figcaption>
+</figure>
+
+<figure markdown>
+![CDM-5M 压机：顶部油缸推动压头向下压在放在底板上的模具或电池上](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>CDM-5M 压机：顶部油缸推动压头向下压在放在底板上的模具或电池上</figcaption>
+</figure>
+
+</div>
+
+脚踏泵上的压力表读的是油缸内的<strong>油压</strong>。力来自这个油压作用在油缸活塞上，即 <strong>40 mm 的活塞杆</strong>；45 mm 的压头只是把力传给冲头。压片中的压力等于这个力除以压片面积：
+
+<div class="formula" markdown>
+
+<em>F</em> = <em>P</em><sub>g</sub> × π <em>d</em>² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; <em>P</em><sub>p</sub> = <em>F</em> / (π <em>D</em>² / 4) = <em>P</em><sub>g</sub> × (<em>d</em> / <em>D</em>)² &nbsp;&nbsp;·&nbsp;&nbsp; <em>P</em><sub>g</sub> = <em>P</em><sub>p</sub> × (<em>D</em> / <em>d</em>)²
+
+</div>
+
+<em>d</em> = 活塞杆直径（40 mm），<em>D</em> = 模具（压片）直径。取 <em>d</em> = 40 mm 时，<strong>压力表上 1 MPa = 1.26 kN（0.13 t）</strong>。
+
+| 模具 Ø | 压片面积 | 压片 ÷ 表压 | 表压 4 MPa（压片成型） | 电池的实验室设定 |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 表压 7.5 MPa → <strong>333 MPa</strong>（9.4 kN） |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 表压 18 MPa → <strong>288 MPa</strong>（22.6 kN） |
+
+<strong>反过来：</strong>要以 375 MPa 压制 Ø 10 mm 的压片，表压设为 375 × (10/40)² = <strong>23.4 MPa</strong>；Ø 6 mm 则为 375 × (6/40)² = <strong>8.4 MPa</strong>。
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>活塞杆 Ø（mm）<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>模具 Ø（mm）<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>表压（MPa）<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>压片压力（MPa）<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>力<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "使用这些数字之前"
+    - 计算把 <strong>40 mm 活塞杆</strong>视为油所推动的活塞。如果油缸铭牌上给出了有效面积，请使用铭牌值：45 mm 的活塞会比这些数字大 27 % 的力。
+    - 未计入油缸和模具中的摩擦以及压力表的精度。论文中请同时报告压片压力、表压读数、活塞杆和模具直径以及压机型号。
+    - 切勿超过泵标签上的额定压力或模具的额定载荷。
+
 ## 测量设置（VersaStudio，Potentiostatic EIS） { #measurement-settings-versastudio-potentiostatic-eis }
 
 | 分组 | 设置 | 数值 |
@@ -61,9 +110,6 @@ translation: machine
 | | Cell to use | External |
 | Options | Notch filter | <strong>None</strong>（EIS 必需——VersaStudio 说明书 §4.4.2.2） |
 
-!!! question "实验室幻灯片中的不一致"
-    实验室幻灯片同时列出 <em>"Number of points: 30"</em> 和 <em>"Points per decade: 10"</em>。两者不可能同时成立：从 3 MHz 到 0.1 Hz 共 7.5 个十倍频，即每十倍频 10 个点约 75 个点（到 1 Hz 约 65 个点）。本指南采用每十倍频 10 个点。请确认。
-
 ## 从谱图到电导率 { #from-spectrum-to-conductivity }
 
 1. 用等效电路或弛豫时间分布（DRT）<strong>拟合</strong>谱图。拟合残差不应呈现规律性，但最低频率处阻塞电极发生极化的部分除外。在 DRT 中，每个峰对应一个过程；电极极化的贡献应从电解质电阻中<strong>排除</strong>。
@@ -72,8 +118,8 @@ translation: machine
 4. <strong>离子电导率：</strong>σ<sub>ion</sub> = <em>L</em> / (R<sub>total</sub> · <em>A</em>)——<em>L</em> 以 cm、<em>A</em> 以 cm²、R 以 Ω 计时，单位为 S cm⁻¹。
 5. <strong>活化能：</strong>σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT)。以 log₁₀ σ 对 1000/T（T 以 K 计）作图。斜率 <em>m</em> 给出 <strong>E<sub>a</sub> = −m · ln(10) · R · 1000 = −19.14 · m kJ mol⁻¹</strong>。
 
-!!! warning "对实验室幻灯片的更正"
-    幻灯片写的是 <em>"slope = 2.313 × E<sub>a</sub>"</em>。常数应为 ln 10 = <strong>2.303</strong>，且该关系必须包含 R 以及 1000/T 坐标轴带来的 1000 因子：E<sub>a</sub> [kJ mol⁻¹] = −2.303 · 8.314 · m = <strong>−19.14 m</strong>。在报告中还应注明您是以 σ 还是 σT 对 1/T 拟合——两种约定得到的 E<sub>a</sub> 略有不同。
+!!! note "活化能"
+    在报告中注明拟合的是 σ 还是 σT 对 1/T——两种做法得到的 E<sub>a</sub> 略有不同。
 
 所有拟合、DRT 和电导率步骤都可以在 <strong>[EIS Studio](https://zacharyslate.github.io/eis-studio/)</strong> 中完成——见 [EIS 数据分析](../analysis/eis-analysis.md)。
 
@@ -88,7 +134,7 @@ translation: machine
 ## 发表数据前需检查的要点 { #points-to-check-before-you-publish-numbers }
 
 !!! note "压力表读数不等于片上压力"
-    "4 MPa" 和 "18 MPa" 是<strong>压力表（液压）压力</strong>。片上压力为 <em>P</em><sub>片</sub> = <em>P</em><sub>压力表</sub> × (<em>A</em><sub>活塞</sub> / <em>A</em><sub>模具</sub>)，对 Ø 6–10 mm 模具而言要大很多倍。论文中请报告片上压力（以及压机型号和活塞直径），以便他人复现。
+    “4 MPa”“7.5 MPa”和“18 MPa”是<strong>表压（油压）</strong>。按 40 mm 活塞杆计算，Ø 10 mm 压片上表压 18 MPa 约为 <strong>288 MPa</strong>，Ø 6 mm 压片上表压 7.5 MPa 约为 <strong>333 MPa</strong>——见[压机与压力换算](#press)。论文中请报告压片压力（以及表压读数、活塞杆和模具直径），以便他人复现。
 
 !!! note "120 °C 下的聚碳酸酯"
     聚碳酸酯在玻璃化转变温度（约 145 °C）附近软化，而在此之前很早就会在载荷下蠕变。在 100–120 °C 和堆叠压力下，孔和密封圈可能变形，从而改变接触和厚度。高温测试后请检查电池并重新测量片厚；升温和降温曲线能够重合是一个很好的检验。

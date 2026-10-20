@@ -72,9 +72,6 @@ The sample never sees air: the flask is filled, closed with the valve adapter an
 
 </div>
 
-!!! question "Check against the lab slides"
-    The *Rotovapor* slides show the flask valve (vertical = open, horizontal = closed), the vacuum grease, the Keck clip and the joint, and end with "closed → to the rotovapor". Only the slide text could be read, not the photos, so the drawing assumes **a round-bottom flask plus a separate stopcock adapter**. If the lab uses a single flask with a built-in valve, steps 3–5 apply to whichever joint is closed in the glovebox — please confirm.
-
 ## Part 2 — On the rotavapor
 
 <div class="demo" data-demo="rotavapor">
@@ -103,9 +100,8 @@ The sample never sees air: the flask is filled, closed with the valve adapter an
 !!! warning "Air-sensitive samples"
     Venting (STOP pressed twice) lets **air** into the glass assembly. Your sample is protected only if the flask stopcock is **closed before** you vent. Never vent with the stopcock open.
 
-!!! question "To confirm with the lab manager"
-    - The start-up slides say to start chiller refrigeration 5 min after the vacuum and to open the flask 5 min later. Five minutes may not be enough for the coolant to reach its set temperature; uncondensed solvent then goes to the pump. Consider waiting until the chiller display reaches its set point.
-    - The slides do not give bath temperatures or set pressures for the ethanol/acetonitrile cathode suspension. Please add the validated values to the [cathode procedure](../procedures/cathode-composite.md).
+!!! tip "Wait for the chiller"
+    Five minutes is a minimum. If ACTUAL TEMP on the chiller is still well above SET TEMP when you open the flask, the solvent is not condensed and goes to the pump.
 
 ## Manuals
 

@@ -76,8 +76,5 @@ Der PXF4 verlangt Rampen**zeiten**, keine Raten. Geben Sie Ihre Werte ein:
 })();
 </script>
 
-!!! question "Korrektur der Laboranleitung"
-    Die gedruckte Laboranleitung gibt als Aufheizzeit für das Beispiel *„166 minutos, es decir, 2 horas 36 minutos … 02:36“* an. 166 min sind **2 h 46 min (02:46)** — die handschriftliche Korrektur auf der Laborkopie ist richtig. Bitte korrigieren Sie das Ausgangsdokument.
-
 !!! note "Programmgenauigkeit"
     Die Rampe wird ab SV = 20 °C berechnet. Ist der Ofen beim Start noch warm, weicht die tatsächliche Aufheizrate im ersten Segment von der nominalen ab. Notieren Sie den PV zu Beginn jedes Laufs.

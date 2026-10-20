@@ -21,7 +21,7 @@ Cihazı (potansiyostatlar ve döngüleyiciler için kanalı da) seçin, haftaya 
 ## Kurallar
 
 - Yalnızca **eğitim aldığınız** cihazları rezerve edin.
-- Zamanında gelin; 30 dk içinde başlatılmayan bir rezervasyon başkası tarafından kullanılabilir *(teyit edilecek laboratuvar kuralı)*.
+- Zamanında gelin; 30 dk içinde başlatılmayan bir rezervasyon başkası tarafından kullanılabilir.
 - Uzun çalışmalar (döngüleyiciler, bilyalı değirmen, fırın), duraklamalar ve soğutma dahil **tüm süreleri** boyunca rezerve edilmelidir.
 - Arızaları hemen laboratuvar sorumlusuna bildirin ve cihaz kayıt defterine yazın.
 

@@ -116,14 +116,11 @@ translation: machine
     Il catalizzatore al rame è **avvelenato in modo irreversibile da composti solforati e acidi**, e anche il setaccio molecolare adsorbe H₂S e vapori di solvente quando il filtro a carbone attivo è saturo (guida del laboratorio *Guía MBraun EasyLab*, rev. 07-2022). Gli elettroliti solfuri (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) rilasciano H₂S con tracce di umidità. Tenere chiusi i contenitori di solfuri quando non si usano, non lasciare mai polveri di solfuri aperte durante la notte e annotare quali prodotti chimici si usano nella glovebox, così da poter risalire alla causa di una perdita di capacità di rimozione dell'O₂.
 
 !!! note "Solventi"
-    I solventi volatili (etanolo, acetonitrile, THF…) caricano il filtro a carbone attivo e possono far derivare i sensori. Usare il volume più piccolo possibile e tenere chiuse le bottiglie. Chiedere al responsabile del laboratorio se la circolazione debba essere fermata mentre si lavora con solventi aperti — le procedure attuali del laboratorio non lo indicano.
+    I solventi volatili (etanolo, acetonitrile, THF…) caricano il filtro a carbone attivo e possono far derivare i sensori. Usare il volume più piccolo possibile e tenere chiuse le bottiglie.
 
 ## Rigenerazione e sensori (solo il responsabile del laboratorio)
 
 La rigenerazione del catalizzatore/setaccio (16 fasi, circa 960 min, gas di formazione Ar/H₂ a ~15 L/min) e la manutenzione del sensore di H₂O (nuovo rivestimento con H₃PO₄ all'85 % ogni ~2000 h) sono eseguite solo dal responsabile del laboratorio, seguendo la guida del laboratorio.
-
-!!! question "Da confermare con il responsabile del laboratorio"
-    I due documenti del laboratorio non concordano sul ciclo della precamera. Le diapositive di avvio in inglese dicono *«vuoto completo per almeno 5 min prima di rilasciare la pressione»*; la guida del laboratorio in spagnolo dice **3 cicli di vuoto con 15 min di attesa** (o 45 min in modalità «attiva»). Questa guida usa il ciclo più rigoroso di 3 × 15 min. Confermare qual è la regola del laboratorio.
 
 ## Manuali
 

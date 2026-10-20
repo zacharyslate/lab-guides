@@ -73,9 +73,6 @@ Il campione non vede mai l'aria: il pallone viene riempito, chiuso con l'adattat
 
 </div>
 
-!!! question "Da verificare con le diapositive del laboratorio"
-    Le diapositive *Rotovapor* mostrano la valvola del pallone (verticale = aperta, orizzontale = chiusa), il grasso per vuoto, la clip Keck e il giunto, e terminano con «chiuso → al rotovapor». È stato possibile leggere solo il testo delle diapositive, non le foto, quindi il disegno ipotizza **un pallone a fondo tondo più un adattatore a rubinetto separato**. Se il laboratorio usa un pallone con valvola integrata, i passi 3–5 si applicano al giunto che viene chiuso nella glovebox — confermare.
-
 ## Parte 2 — Sul rotavapor { #part-2-on-the-rotavapor }
 
 <div class="demo" data-demo="rotavapor">
@@ -104,9 +101,8 @@ Il campione non vede mai l'aria: il pallone viene riempito, chiuso con l'adattat
 !!! warning "Campioni sensibili all'aria"
     Lo sfiato (STOP premuto due volte) fa entrare **aria** nel gruppo di vetreria. Il campione è protetto solo se il rubinetto del pallone è **chiuso prima** dello sfiato. Non sfiatare mai con il rubinetto aperto.
 
-!!! question "Da confermare con il responsabile del laboratorio"
-    - Le diapositive di avvio indicano di avviare il raffreddamento 5 min dopo il vuoto e di aprire il pallone 5 min più tardi. 5 min potrebbero non bastare perché il refrigerante raggiunga la temperatura; il solvente non condensato finisce allora nella pompa. Valutare di attendere che il refrigeratore raggiunga il setpoint.
-    - Le diapositive non indicano temperature del bagno né pressioni per la sospensione catodica di etanolo/acetonitrile. Aggiungere i valori validati alla [procedura del catodo](../procedures/cathode-composite.md).
+!!! tip "Aspettare il refrigeratore"
+    Cinque minuti sono il minimo. Se ACTUAL TEMP del refrigeratore è ancora molto sopra SET TEMP quando apri il pallone, il solvente non condensa e finisce nella pompa.
 
 ## Manuali
 

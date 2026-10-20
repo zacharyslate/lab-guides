@@ -49,9 +49,5 @@ Une micro-batterie de test dans la même cellule en polycarbonate que pour l'[EI
 - **Quelle voie.** À ces courants, seul le **CT-9008** fonctionne correctement (gamme de courant 1 : 0,1–180 µA, précision ±36 nA). Les appareils CT-4008 et CT-5008 commencent respectivement à 0,2 mA et 0,12 mA — au-dessus de 0,1 C pour cette cellule — et leur précision est de ±0,02 % d'une pleine échelle de 100 mA ou 120 mA (±20–24 µA), aussi grande que le courant lui-même.
 - **Tension.** L'anode Li–In se situe à ≈ 0,6 V par rapport à Li⁺/Li ; une fenêtre cathodique exprimée par rapport à Li⁺/Li doit donc être décalée de ≈ 0,6 V vers le bas lors de la saisie dans BTS.
 
-!!! question "À confirmer avec le responsable du laboratoire"
-    - La diapositive montre les feuilles de Li et d'In, mais n'indique pas laquelle fait face à l'électrolyte quand les deux sont utilisées. Merci d'ajouter l'ordre d'empilement.
-    - L'étape 4 des diapositives indique *« remove the long pressing arm by hand, and retare the die with pellet »* après le second pressage ; ce guide avance la nouvelle tare avant l'ajout de la cathode afin de pouvoir noter sa masse. Merci de vérifier que c'est bien l'intention.
-
 !!! note "Pression au manomètre"
-    Toutes les pressions sont des lectures du **manomètre** de la presse hydraulique. Convertissez-les en pression sur la pastille (manomètre × surface du vérin / surface de la matrice) lorsque vous présentez des résultats — voir la [page de la cellule EIS](eis-cell.md#points-to-check-before-you-publish-numbers).
+    Toutes les pressions sont des lectures du **manomètre** de la presse hydraulique. Pression sur la pastille = manomètre × (40 mm / Ø matrice)² : avec une matrice de Ø 10 mm, 4 MPa au manomètre ≈ 64 MPa et 18 MPa ≈ 288 MPa. Voir [La presse et la conversion de pression](eis-cell.md#press), avec calculateur.

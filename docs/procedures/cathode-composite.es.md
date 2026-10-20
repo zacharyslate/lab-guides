@@ -30,8 +30,8 @@ El electrolito (Li₆PS₅Cl, LPSC) se disuelve en etanol y se vuelve a precipit
 6. **Recoja** todo el polvo seco del matraz (de nuevo en la caja de guantes) y muélalo en un mortero hasta que sea uniforme y suave.
 7. **Guarde** el polvo en un frasco etiquetado **«NMC Cathode»** con el % en peso de NMC (38 %) y la fecha.
 
-!!! question "Parámetros que faltan — debe añadirlos el laboratorio"
-    Las diapositivas originales no indican la **temperatura del baño**, la **presión de consigna**, el **tiempo de secado** ni ningún **tratamiento térmico posterior al secado** (las vías de disolución–precipitación para argiroditas suelen necesitar uno para recuperar la fase cristalina y eliminar el disolvente residual). Sin estos datos el procedimiento no es reproducible. Añada aquí los valores validados.
+!!! note "Anote las condiciones de secado"
+    La temperatura del baño, la presión de consigna y el tiempo de secado aún no están fijados para este procedimiento. Anote los valores que use, y cualquier tratamiento térmico posterior al secado, para que el proceso pueda reproducirse.
 
 !!! warning "Seguridad con disolventes"
     El etanol y el acetonitrilo son inflamables; el acetonitrilo es tóxico. Use volúmenes pequeños en la caja de guantes, mantenga los frascos tapados y consulte la nota sobre disolventes en la [guía de la caja de guantes](../instruments/glovebox.md#things-that-damage-the-box).

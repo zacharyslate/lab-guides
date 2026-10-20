@@ -36,6 +36,3 @@ Cada guía tiene una animación del instrumento y de la celda o recipiente que u
 ## Idiomas
 
 Use el menú de idiomas de la cabecera. La versión de referencia es la inglesa. Las demás se están añadiendo; las páginas aún no traducidas muestran el texto en inglés con un aviso, y las páginas con traducción automática se marcan hasta que un hablante nativo las revise. **En los pasos de seguridad, ante cualquier duda, siga el texto en inglés.**
-
-!!! note "Estado de este sitio"
-    Primera versión (octubre de 2026). Los puntos marcados como **«A confirmar con el responsable del laboratorio»** son lugares donde los documentos del laboratorio se contradicen u omiten un valor; necesitan respuesta antes de que la guía sea definitiva.

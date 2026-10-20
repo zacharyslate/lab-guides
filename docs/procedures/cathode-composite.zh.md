@@ -30,8 +30,8 @@ translation: machine
 6. （回到手套箱中）<strong>收集</strong>烧瓶中的全部干燥粉末，在研钵中研磨至均匀、细软。
 7. 将粉末<strong>储存</strong>在标有 <strong>"NMC Cathode"</strong>、NMC 质量分数（38%）和日期的瓶中。
 
-!!! question "缺失参数——需由实验室补充"
-    原始幻灯片没有给出<strong>油浴温度</strong>、<strong>设定压力</strong>、<strong>干燥时间</strong>或任何<strong>干燥后热处理</strong>（硫银锗矿的溶解–沉淀路线通常需要热处理来恢复晶相并除去残余溶剂）。缺少这些数据，该流程无法复现。请在此补充经过验证的数值。
+!!! note "记录干燥条件"
+    本流程的油浴温度、设定压力和干燥时间尚未确定。请记录所用数值以及干燥后的任何热处理，以便实验可以复现。
 
 !!! warning "溶剂安全"
     乙醇和乙腈易燃；乙腈有毒。在手套箱中尽量少用，瓶子保持盖紧，并参阅[手套箱指南](../instruments/glovebox.md#things-that-damage-the-box)中关于溶剂的说明。

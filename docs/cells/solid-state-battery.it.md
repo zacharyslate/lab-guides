@@ -49,9 +49,5 @@ Una microbatteria di prova nella stessa cella in policarbonato usata per l'[EIS]
 - **Quale canale.** A queste correnti funziona correttamente solo il **CT-9008** (intervallo di corrente 1: 0,1–180 µA, accuratezza ±36 nA). Le unità CT-4008 e CT-5008 partono rispettivamente da 0,2 mA e 0,12 mA — sopra 0,1 C per questa cella — e la loro accuratezza è ±0,02 % di un fondo scala di 100 mA o 120 mA (±20–24 µA), grande quanto la corrente stessa.
 - **Tensione.** L'anodo Li–In si trova a ≈ 0,6 V rispetto a Li⁺/Li, quindi una finestra catodica espressa rispetto a Li⁺/Li va abbassata di ≈ 0,6 V quando la si inserisce in BTS.
 
-!!! question "Da confermare con il responsabile del laboratorio"
-    - La diapositiva mostra sia il foglio di Li sia quello di In ma non dice quale è rivolto verso l'elettrolita quando si usano entrambi. Aggiungere l'ordine di impilamento.
-    - Il passo 4 delle diapositive dice *«remove the long pressing arm by hand, and retare the die with pellet»* dopo la seconda pressatura; questa guida anticipa la ritaratura a prima dell'aggiunta del catodo, così da poterne annotare la massa. Verificare che sia ciò che si intende.
-
 !!! note "Pressione del manometro"
-    Tutte le pressioni sono letture del **manometro** della pressa idraulica. Convertirle in pressione sulla pastiglia (manometro × area del pistone / area dello stampo) quando si riportano i risultati — vedere la [pagina della cella EIS](eis-cell.md#points-to-check-before-you-publish-numbers).
+    Tutte le pressioni sono letture del **manometro** della pressa idraulica. Pressione sulla pastiglia = manometro × (40 mm / Ø stampo)²: con uno stampo di Ø 10 mm, 4 MPa di manometro ≈ 64 MPa e 18 MPa ≈ 288 MPa. Vedi [La pressa e la conversione della pressione](eis-cell.md#press), con calcolatore.

@@ -49,9 +49,5 @@ translation: machine
 - **Hangi kanal.** Bu akımlarda yalnızca **CT-9008** düzgün çalışır (akım aralığı 1: 0,1–180 µA, doğruluk ±36 nA). CT-4008 ve CT-5008 cihazları sırasıyla 0,2 mA ve 0,12 mA'dan başlar — bu hücre için 0,1 C'nin üzerinde — ve doğrulukları 100 mA veya 120 mA tam ölçeğin ±%0,02'sidir (±20–24 µA), yani akımın kendisi kadar büyüktür.
 - **Gerilim.** Li–In anot Li⁺/Li'ye göre ≈ 0,6 V'tadır; bu nedenle Li⁺/Li'ye göre verilen bir katot penceresi BTS'ye girilirken ≈ 0,6 V aşağı kaydırılmalıdır.
 
-!!! question "Laboratuvar sorumlusuyla teyit edilecek"
-    - Slayt hem Li hem de In folyoyu gösteriyor, ancak ikisi birlikte kullanıldığında hangisinin elektrolite baktığını söylemiyor. Lütfen yığın sırasını ekleyin.
-    - Slaytların 4. adımı ikinci preslemeden sonra *"remove the long pressing arm by hand, and retare the die with pellet"* diyor; bu kılavuz, katot kütlesinin kaydedilebilmesi için yeniden dara almayı katot eklenmeden önceye alır. Lütfen amaçlananın bu olduğunu kontrol edin.
-
 !!! note "Manometre basıncı"
-    Tüm basınçlar hidrolik presin **manometre** okumalarıdır. Sonuçları raporlarken pelet basıncına çevirin (manometre × piston alanı / kalıp alanı) — bkz. [EIS hücresi sayfası](eis-cell.md#points-to-check-before-you-publish-numbers).
+    Tüm basınçlar hidrolik presin **manometre** değerleridir. Pelet basıncı = manometre × (40 mm / kalıp Ø)²: Ø 10 mm'lik kalıpta 4 MPa manometre ≈ 64 MPa, 18 MPa ≈ 288 MPa. Hesaplayıcı için [Pres ve basınç dönüşümü](eis-cell.md#press) bölümüne bakın.

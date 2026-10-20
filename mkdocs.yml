@@ -284,6 +284,7 @@ extra_javascript:
   - assets/js/demo-player.js
   - assets/js/booking-config.js
   - assets/js/booking.js
+  - assets/js/press-calc.js
 
 nav:
   - Home: index.md

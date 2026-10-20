@@ -73,9 +73,6 @@ Die Probe kommt nie mit Luft in Kontakt: Der Kolben wird **in der Glovebox** bef
 
 </div>
 
-!!! question "Mit den Laborfolien abgleichen"
-    Die Folien *Rotovapor* zeigen das Kolbenventil (senkrecht = offen, waagerecht = geschlossen), das Vakuumfett, die Keck-Klemme und den Schliff und enden mit „geschlossen → zum Rotovapor“. Nur der Folientext, nicht die Fotos, konnte gelesen werden; die Zeichnung geht daher von **einem Rundkolben plus separatem Hahnadapter** aus. Verwendet das Labor einen Kolben mit integriertem Ventil, gelten die Schritte 3–5 für den Schliff, der in der Glovebox verschlossen wird — bitte bestätigen.
-
 ## Teil 2 — Am Rotavapor { #part-2-on-the-rotavapor }
 
 <div class="demo" data-demo="rotavapor">
@@ -104,9 +101,8 @@ Die Probe kommt nie mit Luft in Kontakt: Der Kolben wird **in der Glovebox** bef
 !!! warning "Luftempfindliche Proben"
     Belüften (STOP zweimal gedrückt) lässt **Luft** in die Glasbaugruppe. Ihre Probe ist nur geschützt, wenn der Kolbenhahn **vor** dem Belüften **geschlossen** ist. Belüften Sie nie bei offenem Hahn.
 
-!!! question "Mit der Laborleitung zu klären"
-    - Die Einführungsfolien sagen, die Kühlung 5 min nach dem Vakuum zu starten und den Kolben 5 min später zu öffnen. 5 min reichen möglicherweise nicht, bis das Kühlmittel seine Temperatur erreicht; nicht kondensiertes Lösungsmittel gelangt dann in die Pumpe. Erwägen Sie, zu warten, bis der Kühler seinen Sollwert erreicht hat.
-    - Die Folien nennen keine Badtemperaturen oder Drücke für die Ethanol/Acetonitril-Kathodensuspension. Bitte ergänzen Sie die validierten Werte im [Kathodenverfahren](../procedures/cathode-composite.md).
+!!! tip "Auf den Kühler warten"
+    Fünf Minuten sind das Minimum. Liegt ACTUAL TEMP am Kühler beim Öffnen des Kolbens noch deutlich über SET TEMP, kondensiert das Lösungsmittel nicht und gelangt in die Pumpe.
 
 ## Handbücher
 

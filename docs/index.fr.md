@@ -36,6 +36,3 @@ Chaque guide comporte une animation de l'instrument et de la cellule ou du réci
 ## Langues
 
 Utilisez le menu des langues dans l'en-tête. La version de référence est la version anglaise. Les autres sont en cours d'ajout ; les pages non encore traduites affichent le texte anglais avec un avertissement, et les pages traduites automatiquement sont signalées jusqu'à leur relecture par un locuteur natif. **Pour les étapes de sécurité, en cas de doute, suivez le texte anglais.**
-
-!!! note "État de ce site"
-    Première version (octobre 2026). Les points marqués **« À confirmer avec le responsable du laboratoire »** sont des endroits où les documents du laboratoire se contredisent ou omettent une valeur ; ils doivent être tranchés avant que le guide soit définitif.

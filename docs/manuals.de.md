@@ -9,7 +9,7 @@ translation: machine
 Die Anleitungen auf dieser Website sind Zusammenfassungen. **Maßgeblich ist das Herstellerhandbuch**; widersprechen sich Anleitung und Handbuch, folgen Sie dem Handbuch und informieren Sie die Laborleitung.
 
 !!! info "Warum die PDFs nicht auf dieser Website liegen"
-    Herstellerhandbücher sind urheberrechtlich geschützt und die meisten verbieten die Weitergabe; diese öffentliche Website **verlinkt** daher auf sie, statt sie zu hosten. Die Laborkopien liegen auf dem Laufwerk des Labors: **[Link zum Ordner bei der Laborleitung erfragen — wird hier ergänzt]**.
+    Herstellerhandbücher sind urheberrechtlich geschützt und die meisten verbieten die Weitergabe; diese öffentliche Website **verlinkt** daher auf sie, statt sie zu hosten. Die Laborkopien liegen auf dem Laufwerk des Labors; den Link zum Ordner erhalten Sie bei der Laborleitung.
 
 Die Links wurden am 19. Oktober 2026 geprüft. „Offiziell“ bedeutet die Website des Herstellers; „Kopie Dritter“ bedeutet eine von jemand anderem gehostete Kopie — nur verwenden, wenn die offizielle nicht verfügbar ist. Dokumenttitel bleiben in der Originalsprache.
 

@@ -244,3 +244,9 @@
 .photo-grid figure { margin: 0; }
 .photo-grid img { width: 100%; height: auto; border-radius: 4px; }
 .photo-grid figcaption { font-size: 0.68rem; color: var(--md-default-fg-color--light); margin-top: 0.2rem; }
+
+/* press: gauge -> pellet pressure */
+.formula { margin: 0.8rem 0; padding: 0.55rem 0.9rem; border-left: 3px solid var(--md-accent-fg-color); background: var(--md-code-bg-color); overflow-x: auto; }
+.formula p { margin: 0; }
+.press-calc { margin: 1rem 0; }
+.press-calc input[data-pc="force"] { min-width: 11rem; }

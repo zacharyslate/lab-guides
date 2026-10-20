@@ -41,6 +41,55 @@ This cell measures the **ionic conductivity** of a sulfide or halide solid-elect
 
 </div>
 
+## The press and pressure conversion { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Riken Seiki foot pump with its 0–100 MPa gauge: the gauge shows the oil pressure, not the pressure on your pellet](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Riken Seiki foot pump with its 0–100 MPa gauge: the gauge shows the oil pressure, not the pressure on your pellet</figcaption>
+</figure>
+
+<figure markdown>
+![CDM-5M press: the cylinder on top pushes the ram down onto the die or cell, which sits on the base plate](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>CDM-5M press: the cylinder on top pushes the ram down onto the die or cell, which sits on the base plate</figcaption>
+</figure>
+
+</div>
+
+The gauge on the foot pump reads the **oil pressure** in the cylinder. The force comes from that pressure acting on the cylinder's piston, the **40 mm shaft**; the 45 mm head only passes the force on to the punch. The pressure in your pellet is that force divided by the pellet area:
+
+<div class="formula" markdown>
+
+*F* = *P*<sub>g</sub> × π *d*² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>p</sub> = *F* / (π *D*² / 4) = *P*<sub>g</sub> × (*d* / *D*)² &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>g</sub> = *P*<sub>p</sub> × (*D* / *d*)²
+
+</div>
+
+*d* = shaft diameter (40 mm), *D* = die (pellet) diameter. With *d* = 40 mm, **1 MPa on the gauge = 1.26 kN (0.13 t)**.
+
+| Die Ø | Pellet area | Pellet ÷ gauge | 4 MPa gauge (pellet forming) | Lab setting for the cell |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 7.5 MPa gauge → **333 MPa** (9.4 kN) |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 18 MPa gauge → **288 MPa** (22.6 kN) |
+
+**Backwards:** to press a Ø 10 mm pellet at 375 MPa, set the gauge to 375 × (10/40)² = **23.4 MPa**; for Ø 6 mm, 375 × (6/40)² = **8.4 MPa**.
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>Shaft Ø (mm)<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>Die Ø (mm)<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>Gauge (MPa)<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>Pellet pressure (MPa)<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>Force<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "Before you rely on the numbers"
+    - The calculation takes the **40 mm shaft** as the piston the oil pushes on. If the cylinder's nameplate gives an effective area, use that: a 45 mm piston would give 27 % more force than these numbers.
+    - Friction in the cylinder and die and the accuracy of the gauge are not included. In papers, report the pellet pressure together with the gauge reading, the shaft and die diameters and the press model.
+    - Never exceed the rated pressure on the pump label or the rated load of the die.
+
 ## Measurement settings (VersaStudio, Potentiostatic EIS)
 
 | Group | Setting | Value |
@@ -60,9 +109,6 @@ This cell measures the **ionic conductivity** of a sulfide or halide solid-elect
 | | Cell to use | External |
 | Options | Notch filter | **None** (required for EIS — VersaStudio manual §4.4.2.2) |
 
-!!! question "Inconsistency in the lab slides"
-    The lab slides list both *"Number of points: 30"* and *"Points per decade: 10"*. They cannot both hold: from 3 MHz to 0.1 Hz is 7.5 decades, i.e. ≈ 75 points at 10 points/decade (≈ 65 points to 1 Hz). This guide uses 10 points per decade. Please confirm.
-
 ## From spectrum to conductivity
 
 1. **Fit** the spectrum with an equivalent circuit or a distribution of relaxation times (DRT). The fit residuals must not show a pattern, except at the lowest frequencies where the blocking electrodes polarise. In DRT, each peak corresponds to one process; the electrode-polarisation contribution is **excluded** from the electrolyte resistance.
@@ -71,8 +117,8 @@ This cell measures the **ionic conductivity** of a sulfide or halide solid-elect
 4. **Ionic conductivity:** σ<sub>ion</sub> = *L* / (R<sub>total</sub> · *A*)  — in S cm⁻¹ with *L* in cm, *A* in cm², R in Ω.
 5. **Activation energy:** σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT). Plot log₁₀ σ against 1000/T (T in K). The slope *m* gives **E<sub>a</sub> = −m · ln(10) · R · 1000 = −19.14 · m kJ mol⁻¹**.
 
-!!! warning "Correction to the lab slides"
-    The slides state *"slope = 2.313 × E<sub>a</sub>"*. The constant is ln 10 = **2.303**, and the relation must include R and the factor 1000 from the 1000/T axis: E<sub>a</sub> [kJ mol⁻¹] = −2.303 · 8.314 · m = **−19.14 m**. Also state in reports whether you fit σ or σT against 1/T — the two conventions give slightly different E<sub>a</sub>.
+!!! note "Activation energy"
+    State in reports whether you fitted σ or σT against 1/T — the two conventions give slightly different E<sub>a</sub>.
 
 All of the fitting, DRT and conductivity steps can be done in **[EIS Studio](https://zacharyslate.github.io/eis-studio/)** — see [EIS data analysis](../analysis/eis-analysis.md).
 
@@ -87,7 +133,7 @@ Targets used in the group: separator electrolytes σ<sub>ion</sub> > 10⁻⁴ S 
 ## Points to check before you publish numbers
 
 !!! note "Gauge pressure is not pellet pressure"
-    "4 MPa" and "18 MPa" are **gauge (hydraulic) pressures**. The pressure on the pellet is *P*<sub>pellet</sub> = *P*<sub>gauge</sub> × (*A*<sub>ram</sub> / *A*<sub>die</sub>), which is many times larger for a Ø 6–10 mm die. Report the pellet pressure (and the press model and ram diameter) in papers so others can reproduce it.
+    "4 MPa", "7.5 MPa" and "18 MPa" are **gauge (oil) pressures**. With the 40 mm shaft, 18 MPa gauge on a Ø 10 mm pellet is ≈ **288 MPa**, and 7.5 MPa gauge on a Ø 6 mm pellet is ≈ **333 MPa** — see [The press and pressure conversion](#press). Report the pellet pressure (and the gauge reading, shaft and die diameters) in papers so others can reproduce it.
 
 !!! note "Polycarbonate at 120 °C"
     Polycarbonate softens near its glass transition (≈ 145 °C) and creeps under load well before that. At 100–120 °C under stack pressure the bore and gaskets can deform, changing contact and thickness. Check the cell after high-temperature runs and re-measure the pellet thickness; a heating-and-cooling run that retraces itself is a good test.

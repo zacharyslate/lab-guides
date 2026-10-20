@@ -116,14 +116,11 @@ translation: machine
     Le catalyseur au cuivre est **empoisonné de façon irréversible par les composés soufrés et les acides**, et le tamis moléculaire adsorbe aussi l'H₂S et les vapeurs de solvant lorsque le filtre à charbon actif est saturé (guide du laboratoire *Guía MBraun EasyLab*, rév. 07-2022). Les électrolytes sulfures (Li₂S, P₂S₅, Li₆PS₅Cl, Li₃PS₄) libèrent de l'H₂S au contact de traces d'humidité. Gardez les récipients de sulfures fermés lorsqu'ils ne sont pas utilisés, ne laissez jamais de poudres sulfurées ouvertes la nuit et notez les produits chimiques utilisés dans la boîte, afin de pouvoir retracer une perte de capacité d'élimination de l'O₂.
 
 !!! note "Solvants"
-    Les solvants volatils (éthanol, acétonitrile, THF…) chargent le filtre à charbon actif et peuvent faire dériver les capteurs. Utilisez le plus petit volume possible et gardez les flacons fermés. Demandez au responsable du laboratoire si la circulation doit être arrêtée pendant le travail avec des solvants ouverts — les procédures actuelles du laboratoire ne le précisent pas.
+    Les solvants volatils (éthanol, acétonitrile, THF…) chargent le filtre à charbon actif et peuvent faire dériver les capteurs. Utilisez le plus petit volume possible et gardez les flacons fermés.
 
 ## Régénération et capteurs (responsable du laboratoire uniquement)
 
 La régénération du catalyseur/tamis (16 étapes, environ 960 min, gaz de formage Ar/H₂ à ~15 L/min) et l'entretien du capteur d'H₂O (nouveau revêtement à l'H₃PO₄ 85 % toutes les ~2000 h) sont effectués uniquement par le responsable du laboratoire, selon le guide du laboratoire.
-
-!!! question "À confirmer avec le responsable du laboratoire"
-    Les deux documents du laboratoire divergent sur le cycle du sas. Les diapositives de démarrage en anglais indiquent *« vide complet pendant au moins 5 min avant de relâcher la pression »* ; le guide du laboratoire en espagnol indique **3 cycles de vide avec 15 min d'attente** (ou 45 min en mode « actif »). Ce guide utilise le cycle plus strict de 3 × 15 min. Merci de confirmer la règle du laboratoire.
 
 ## Manuels
 

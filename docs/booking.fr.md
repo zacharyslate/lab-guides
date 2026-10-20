@@ -21,7 +21,7 @@ Choisissez l'instrument (et la voie, pour les potentiostats et les cycleurs), re
 ## Règles
 
 - Ne réservez que les instruments pour lesquels vous avez été **formé**.
-- Soyez ponctuel ; une réservation non commencée dans les 30 min peut être utilisée par quelqu'un d'autre *(règle du laboratoire à confirmer)*.
+- Soyez ponctuel ; une réservation non commencée dans les 30 min peut être utilisée par quelqu'un d'autre.
 - Les essais longs (cycleurs, broyeur à billes, four) doivent être réservés pour **toute leur durée**, pauses et refroidissement compris.
 - Signalez immédiatement les pannes au responsable du laboratoire et notez-les dans le registre de l'instrument.
 

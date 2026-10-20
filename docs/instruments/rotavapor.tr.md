@@ -73,9 +73,6 @@ Numune hiçbir zaman havayla temas etmez: balon **eldivenli kabinin içinde** do
 
 </div>
 
-!!! question "Laboratuvar slaytlarıyla karşılaştırın"
-    *Rotovapor* slaytları balon vanasını (dikey = açık, yatay = kapalı), vakum gresini, Keck klipsini ve şlifi gösterir ve "kapalı → rotovapora" ile biter. Yalnızca slayt metni okunabildi, fotoğraflar okunamadı; bu yüzden çizim **bir yuvarlak dipli balon artı ayrı bir musluklu adaptör** varsayar. Laboratuvar entegre vanalı bir balon kullanıyorsa, 3–5. adımlar eldivenli kabinde kapatılan şlif için geçerlidir — lütfen teyit edin.
-
 ## Bölüm 2 — Rotavaporda { #part-2-on-the-rotavapor }
 
 <div class="demo" data-demo="rotavapor">
@@ -104,9 +101,8 @@ Numune hiçbir zaman havayla temas etmez: balon **eldivenli kabinin içinde** do
 !!! warning "Havaya duyarlı numuneler"
     Havalandırma (STOP'a iki kez basma) cam düzeneğe **hava** sokar. Numuneniz yalnızca balon musluğu havalandırmadan **önce kapatılmışsa** korunur. Musluk açıkken asla havalandırmayın.
 
-!!! question "Laboratuvar sorumlusuyla teyit edilecek"
-    - Başlangıç slaytları soğutmanın vakumdan 5 dk sonra başlatılmasını ve balonun 5 dk sonra açılmasını söylüyor. Soğutma sıvısının sıcaklığa ulaşması için 5 dk yeterli olmayabilir; yoğunlaşmayan çözücü bu durumda pompaya gider. Soğutucunun ayar noktasına ulaşmasını beklemeyi düşünün.
-    - Slaytlar etanol/asetonitril katot süspansiyonu için banyo sıcaklığı veya basınç vermiyor. Lütfen doğrulanmış değerleri [katot prosedürüne](../procedures/cathode-composite.md) ekleyin.
+!!! tip "Soğutucuyu bekleyin"
+    Beş dakika en azıdır. Balonu açtığınızda soğutucudaki ACTUAL TEMP hâlâ SET TEMP'in çok üzerindeyse çözücü yoğuşmaz ve pompaya gider.
 
 ## Kılavuzlar
 

@@ -76,8 +76,5 @@ Il PXF4 chiede **tempi** di rampa, non velocità. Inserire i propri valori:
 })();
 </script>
 
-!!! question "Correzione alla guida del laboratorio"
-    La guida stampata del laboratorio riporta come tempo di riscaldamento dell'esempio *«166 minutos, es decir, 2 horas 36 minutos … 02:36»*. 166 min sono **2 h 46 min (02:46)** — la correzione a mano sulla copia del laboratorio è corretta. Correggere il documento originale.
-
 !!! note "Accuratezza del programma"
     La rampa è calcolata da SV = 20 °C. Se la muffola è ancora calda all'avvio, la velocità di riscaldamento reale del primo segmento sarà diversa da quella nominale. Annotare il PV all'inizio di ogni prova.

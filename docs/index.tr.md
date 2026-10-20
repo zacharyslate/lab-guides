@@ -36,6 +36,3 @@ Her kılavuzda cihazın ve kullandığı hücrenin ya da kabın bir animasyonu v
 ## Diller
 
 Başlıktaki dil menüsünü kullanın. Esas alınan sürüm İngilizcedir. Diğer diller ekleniyor; henüz çevrilmemiş sayfalar İngilizce metni bir uyarıyla gösterir ve makine çevirisi sayfalar, anadili konuşan biri gözden geçirene kadar işaretlenir. **Güvenlik adımlarında şüpheye düşerseniz İngilizce metni izleyin.**
-
-!!! note "Bu sitenin durumu"
-    İlk sürüm (Ekim 2026). **"Laboratuvar sorumlusuyla teyit edilecek"** olarak işaretlenen maddeler, laboratuvar belgelerinin birbiriyle çeliştiği ya da bir değeri vermediği yerlerdir; kılavuz kesinleşmeden önce yanıtlanmaları gerekir.

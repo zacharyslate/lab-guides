@@ -1,6 +1,6 @@
 # Review notes — open questions for the lab
 
-Found while turning the lab documents and manuals into guides (19 October 2026). Each item is also flagged on the relevant page.
+Found while turning the lab documents and manuals into guides (19 October 2026). **Since 20 October 2026 these items live only here**: at Zach's request the "To confirm with the lab manager", "Correction to the slides" and similar notes were removed from the site. The corrected values stay in the guides; safety notes and notes on critical measurements and parameters were kept.
 
 ## Errors in the source documents
 
@@ -31,15 +31,16 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 |---|---|---|
 | 9 | Cathode composite procedure | Bath temperature, set pressure, drying time, any post-drying heat treatment |
 | 10 | Solid-state battery | Stacking order of Li and In foils; whether the re-tare happens before the cathode is added |
-| 11 | Press | Ram diameter (to convert gauge pressure to pellet pressure for publications) |
+| 11 | Press (CDM-5M + Riken Seiki foot pump) | ✔ Shaft 40 mm, head 45 mm (Zach, 2026-10-20); the site converts with the **40 mm shaft as the effective piston area** (1 MPa gauge = 1.257 kN). Still open: confirm the effective piston area / bore on the cylinder nameplate or manual (a 45 mm piston would give +27 % force); the pump's rated pressure (label appears to read 70 MPa — check) and the rated load of the Ø 6 and Ø 10 mm dies |
 | 12 | Glovebox | Whether circulation is paused while using open solvents; list of chemicals allowed in the box |
-| 13 | Booking rules | No per-booking time limit (decided 2026-10-19); still open: no-show rule, number of PMC-2000 channels |
+| 13 | Booking rules | No per-booking time limit (decided 2026-10-19); still open: the 30-min no-show rule (now shown on the site without a caveat), number of PMC-2000 channels |
 | 14 | Manuals | Link to the lab-drive folder with the manuals |
 | 15 | References | ✔ Confirmed correct by Zach (2026-10-20); "to be confirmed" notice removed |
 | 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |
 | 17 | Rotavapor flask | Only the text of the *Rotovapor* slides could be read. The guide assumes a round-bottom flask + separate stopcock adapter joined with grease and a Keck clip in the glovebox — confirm, or say if the flask has a built-in valve |
 | 18 | Glovebox panel | ✔ circ LED: confirmed faulty and very dim (Zach, 2026-10-20); guide says to check the pistons. Still open: the functions of the **Min.set / Max.set** knobs (box-pressure limits) come from their labels, not from a manual; "purge only when the lab manager asks" is a lab-rule assumption — confirm both |
 | 19 | Rotavapor set-up | From the lab photos (2026-10-20): (a) the **SET / ◄ ▼ ▲** procedure for the Nahita oil bath and the **Set soft key + knob** procedure for the V-850 are the usual ones for these controllers, not taken from their manuals (not in the project) — confirm on the instruments; (b) the 180 °C limit comes from the lab slides — confirm it applies to the Nahita bath; (c) what are the red blocks under the lift for (immersion stop?); (d) is 2.0 °C the standard chiller set point? |
+| 20 | Rotavapor chiller wait | The slides say open the flask after ≥ 5 min of chilling; the site now has a tip to wait until ACTUAL TEMP is near SET TEMP. Confirm this is the lab practice |
 
 ## Things that need a decision
 

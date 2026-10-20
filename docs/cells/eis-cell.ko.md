@@ -42,6 +42,55 @@ translation: machine
 
 </div>
 
+## 프레스와 압력 환산 { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Riken Seiki 발 펌프와 0–100 MPa 압력계: 펠릿에 걸리는 압력이 아니라 오일 압력을 보여 줍니다](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Riken Seiki 발 펌프와 0–100 MPa 압력계: 펠릿에 걸리는 압력이 아니라 오일 압력을 보여 줍니다</figcaption>
+</figure>
+
+<figure markdown>
+![CDM-5M 프레스: 위쪽 실린더가 램을 아래로 밀어 베이스 플레이트 위의 다이나 셀을 가압합니다](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>CDM-5M 프레스: 위쪽 실린더가 램을 아래로 밀어 베이스 플레이트 위의 다이나 셀을 가압합니다</figcaption>
+</figure>
+
+</div>
+
+발 펌프의 압력계는 실린더 안의 <strong>오일 압력</strong>을 읽습니다. 힘은 이 압력이 실린더의 피스톤, 즉 <strong>40 mm 샤프트</strong>에 작용해서 생기며, 45 mm 헤드는 그 힘을 펀치에 전달할 뿐입니다. 펠릿 안의 압력은 이 힘을 펠릿 면적으로 나눈 값입니다:
+
+<div class="formula" markdown>
+
+<em>F</em> = <em>P</em><sub>g</sub> × π <em>d</em>² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; <em>P</em><sub>p</sub> = <em>F</em> / (π <em>D</em>² / 4) = <em>P</em><sub>g</sub> × (<em>d</em> / <em>D</em>)² &nbsp;&nbsp;·&nbsp;&nbsp; <em>P</em><sub>g</sub> = <em>P</em><sub>p</sub> × (<em>D</em> / <em>d</em>)²
+
+</div>
+
+<em>d</em> = 샤프트 지름(40 mm), <em>D</em> = 다이(펠릿) 지름. <em>d</em> = 40 mm일 때 <strong>압력계 1 MPa = 1.26 kN(0.13 t)</strong>.
+
+| 다이 Ø | 펠릿 면적 | 펠릿 ÷ 게이지 | 게이지 4 MPa(펠릿 성형) | 셀에 대한 실험실 설정 |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 게이지 7.5 MPa → <strong>333 MPa</strong>(9.4 kN) |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 게이지 18 MPa → <strong>288 MPa</strong>(22.6 kN) |
+
+<strong>거꾸로:</strong> Ø 10 mm 펠릿을 375 MPa로 누르려면 게이지를 375 × (10/40)² = <strong>23.4 MPa</strong>로, Ø 6 mm이면 375 × (6/40)² = <strong>8.4 MPa</strong>로 맞춥니다.
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>샤프트 Ø (mm)<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>다이 Ø (mm)<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>게이지 (MPa)<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>펠릿 압력 (MPa)<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>힘<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "숫자를 믿기 전에"
+    - 계산은 <strong>40 mm 샤프트</strong>를 오일이 미는 피스톤으로 봅니다. 실린더 명판에 유효 면적이 있으면 그것을 쓰십시오. 45 mm 피스톤이라면 힘이 이 숫자보다 27 % 큽니다.
+    - 실린더와 다이의 마찰, 압력계의 정확도는 포함하지 않았습니다. 논문에는 펠릿 압력과 함께 게이지 값, 샤프트와 다이 지름, 프레스 모델을 적으십시오.
+    - 펌프 라벨의 정격 압력이나 다이의 정격 하중을 절대 넘지 마십시오.
+
 ## 측정 설정(VersaStudio, Potentiostatic EIS) { #measurement-settings-versastudio-potentiostatic-eis }
 
 | 그룹 | 설정 | 값 |
@@ -61,9 +110,6 @@ translation: machine
 | | Cell to use | External |
 | Options | Notch filter | <strong>None</strong>(EIS에 필수 — VersaStudio 설명서 §4.4.2.2) |
 
-!!! question "실험실 슬라이드의 불일치"
-    실험실 슬라이드에는 <em>"Number of points: 30"</em>과 <em>"Points per decade: 10"</em>이 모두 적혀 있습니다. 둘 다 성립할 수는 없습니다: 3 MHz에서 0.1 Hz까지는 7.5 디케이드이므로 디케이드당 10점이면 ≈ 75점(1 Hz까지는 ≈ 65점)입니다. 이 가이드는 디케이드당 10점을 사용합니다. 확인해 주십시오.
-
 ## 스펙트럼에서 전도도로 { #from-spectrum-to-conductivity }
 
 1. 등가 회로나 완화 시간 분포(DRT)로 스펙트럼을 <strong>피팅</strong>합니다. 차단 전극이 분극되는 최저 주파수를 제외하면 피팅 잔차에 경향이 없어야 합니다. DRT에서 각 피크는 하나의 과정에 해당하며, 전극 분극 기여는 전해질 저항에서 <strong>제외</strong>합니다.
@@ -72,8 +118,8 @@ translation: machine
 4. <strong>이온 전도도:</strong> σ<sub>ion</sub> = <em>L</em> / (R<sub>total</sub> · <em>A</em>) — <em>L</em>을 cm, <em>A</em>를 cm², R을 Ω로 하면 S cm⁻¹.
 5. <strong>활성화 에너지:</strong> σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT). log₁₀ σ를 1000/T(T는 K)에 대해 그립니다. 기울기 <em>m</em>에서 <strong>E<sub>a</sub> = −m · ln(10) · R · 1000 = −19.14 · m kJ mol⁻¹</strong>을 얻습니다.
 
-!!! warning "실험실 슬라이드 정정"
-    슬라이드에는 <em>"slope = 2.313 × E<sub>a</sub>"</em>라고 되어 있습니다. 상수는 ln 10 = <strong>2.303</strong>이며, 관계식에는 R과 1000/T 축에서 오는 1000배가 들어가야 합니다: E<sub>a</sub> [kJ mol⁻¹] = −2.303 · 8.314 · m = <strong>−19.14 m</strong>. 보고서에는 σ와 σT 중 무엇을 1/T에 대해 피팅했는지도 밝히십시오 — 두 방식은 E<sub>a</sub>가 약간 다릅니다.
+!!! note "활성화 에너지"
+    보고서에는 1/T에 대해 σ와 σT 중 무엇을 피팅했는지 적으십시오. 두 방식은 E<sub>a</sub>가 약간 다르게 나옵니다.
 
 피팅, DRT, 전도도 단계는 모두 <strong>[EIS Studio](https://zacharyslate.github.io/eis-studio/)</strong>에서 할 수 있습니다 — [EIS 데이터 분석](../analysis/eis-analysis.md) 참조.
 
@@ -88,7 +134,7 @@ translation: machine
 ## 수치를 발표하기 전에 확인할 점 { #points-to-check-before-you-publish-numbers }
 
 !!! note "게이지 압력은 펠릿 압력이 아닙니다"
-    "4 MPa"와 "18 MPa"는 <strong>게이지(유압) 압력</strong>입니다. 펠릿에 걸리는 압력은 <em>P</em><sub>펠릿</sub> = <em>P</em><sub>게이지</sub> × (<em>A</em><sub>램</sub> / <em>A</em><sub>다이</sub>)로, Ø 6–10 mm 다이에서는 몇 배나 큽니다. 다른 사람이 재현할 수 있도록 논문에는 펠릿 압력(과 프레스 모델, 램 직경)을 보고하십시오.
+    "4 MPa", "7.5 MPa", "18 MPa"는 <strong>게이지(오일) 압력</strong>입니다. 40 mm 샤프트에서 Ø 10 mm 펠릿에 게이지 18 MPa는 약 <strong>288 MPa</strong>, Ø 6 mm 펠릿에 게이지 7.5 MPa는 약 <strong>333 MPa</strong>입니다 — [프레스와 압력 환산](#press) 참조. 다른 사람이 재현할 수 있도록 논문에는 펠릿 압력(과 게이지 값, 샤프트와 다이 지름)을 적으십시오.
 
 !!! note "120 °C의 폴리카보네이트"
     폴리카보네이트는 유리 전이(≈ 145 °C) 근처에서 연화되고, 그보다 훨씬 낮은 온도에서도 하중을 받으면 크리프가 생깁니다. 적층 압력하에 100–120 °C에서는 구멍과 개스킷이 변형되어 접촉과 두께가 달라질 수 있습니다. 고온 측정 후에는 셀을 점검하고 펠릿 두께를 다시 재십시오. 가열과 냉각 곡선이 겹치는지 보는 것이 좋은 확인 방법입니다.

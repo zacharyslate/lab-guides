@@ -29,8 +29,8 @@ The electrolyte (Li₆PS₅Cl, LPSC) is dissolved in ethanol and re-precipitated
 6. **Collect** all the dry powder from the flask (back in the glovebox) and grind it in a mortar and pestle until it is uniform and soft.
 7. **Store** the powder in a bottle labelled **"NMC Cathode"** with the NMC wt % (38 %) and the date.
 
-!!! question "Missing parameters — to be added by the lab"
-    The source slides do not give the **bath temperature**, **set pressure**, **drying time** or any **post-drying heat treatment** (dissolution–precipitation routes for argyrodites usually need one to recover the crystalline phase and remove residual solvent). Without these the procedure is not reproducible. Please add the validated values here.
+!!! note "Record the drying conditions"
+    Bath temperature, set pressure and drying time are not fixed yet for this procedure. Write down the values you use, and any heat treatment after drying, so the run can be reproduced.
 
 !!! warning "Solvent safety"
     Ethanol and acetonitrile are flammable; acetonitrile is toxic. Keep volumes small in the glovebox, keep bottles capped, and see the note on solvents in the [glovebox guide](../instruments/glovebox.md#things-that-damage-the-box).

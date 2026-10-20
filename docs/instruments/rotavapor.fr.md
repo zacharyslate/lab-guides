@@ -73,9 +73,6 @@ L'échantillon ne voit jamais l'air : le ballon est rempli, fermé avec l'adapta
 
 </div>
 
-!!! question "À vérifier avec les diapositives du laboratoire"
-    Les diapositives *Rotovapor* montrent le robinet du ballon (vertical = ouvert, horizontal = fermé), la graisse à vide, la pince Keck et le rodage, et se terminent par « fermé → vers le rotovapor ». Seul le texte des diapositives a pu être lu, pas les photos ; le dessin suppose donc **un ballon à fond rond plus un adaptateur à robinet séparé**. Si le laboratoire utilise un ballon à robinet intégré, les étapes 3–5 s'appliquent au rodage fermé dans la boîte à gants — merci de confirmer.
-
 ## Partie 2 — Sur l'évaporateur rotatif { #part-2-on-the-rotavapor }
 
 <div class="demo" data-demo="rotavapor">
@@ -104,9 +101,8 @@ L'échantillon ne voit jamais l'air : le ballon est rempli, fermé avec l'adapta
 !!! warning "Échantillons sensibles à l'air"
     La remise à l'air (STOP pressé deux fois) fait entrer de l'**air** dans l'ensemble de verrerie. Votre échantillon n'est protégé que si le robinet du ballon est **fermé avant** la remise à l'air. Ne remettez jamais à l'air avec le robinet ouvert.
 
-!!! question "À confirmer avec le responsable du laboratoire"
-    - Les diapositives de démarrage indiquent de lancer le refroidissement 5 min après le vide et d'ouvrir le ballon 5 min plus tard. 5 min peuvent ne pas suffire pour que le liquide de refroidissement atteigne sa température ; le solvant non condensé part alors vers la pompe. Envisagez d'attendre que le refroidisseur atteigne sa consigne.
-    - Les diapositives ne donnent ni températures de bain ni pressions pour la suspension cathodique éthanol/acétonitrile. Merci d'ajouter les valeurs validées à la [procédure de la cathode](../procedures/cathode-composite.md).
+!!! tip "Attendre le refroidisseur"
+    Cinq minutes est un minimum. Si ACTUAL TEMP du refroidisseur est encore bien au-dessus de SET TEMP quand vous ouvrez le ballon, le solvant ne se condense pas et part vers la pompe.
 
 ## Manuels
 

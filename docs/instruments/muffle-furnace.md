@@ -75,8 +75,5 @@ The PXF4 asks for ramp **times**, not rates. Enter your values:
 })();
 </script>
 
-!!! question "Correction to the lab guide"
-    The printed lab guide gives the heating time for the example as *"166 minutos, es decir, 2 horas 36 minutos … 02:36"*. 166 min is **2 h 46 min (02:46)** — the hand-written correction on the lab copy is right. Please fix the source document.
-
 !!! note "Programme accuracy"
     The ramp is calculated from SV = 20 °C. If the furnace is still warm when you start, the real heating rate in the first segment will be different from the nominal one. Record the PV at the start of each run.

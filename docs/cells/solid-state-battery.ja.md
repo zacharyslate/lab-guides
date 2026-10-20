@@ -49,9 +49,5 @@ translation: machine
 - <strong>どのチャンネルか。</strong>この電流では <strong>CT-9008</strong> だけが適切に動作します（電流レンジ 1：0.1–180 µA、精度 ±36 nA）。CT-4008 と CT-5008 はそれぞれ 0.2 mA と 0.12 mA からで——このセルの 0.1 C を上回り——精度は 100 mA または 120 mA フルスケールの ±0.02%（±20–24 µA）で、電流そのものと同程度です。
 - <strong>電圧。</strong>Li–In 負極は Li⁺/Li 基準で ≈ 0.6 V にあるため、Li⁺/Li 基準で示された正極の電圧範囲は BTS に入力する際 ≈ 0.6 V 下げる必要があります。
 
-!!! question "研究室責任者に確認"
-    - スライドには Li 箔と In 箔の両方が示されていますが、両方使う場合にどちらが電解質側かが書かれていません。積層順を追記してください。
-    - スライドのステップ 4 では 2 回目のプレス後に <em>「remove the long pressing arm by hand, and retare the die with pellet」</em> とあります。本ガイドでは正極質量を記録できるよう、風袋引きを正極を入れる前に移しています。意図どおりか確認してください。
-
 !!! note "ゲージ圧"
-    圧力はすべて油圧プレスの<strong>ゲージ</strong>値です。結果を報告するときはペレット圧（ゲージ × ラム面積 / 金型面積）に換算してください——[EIS セルのページ](eis-cell.md#points-to-check-before-you-publish-numbers)を参照。
+    圧力はすべて油圧プレスの<strong>ゲージ</strong>値です。ペレット圧 = ゲージ × (40 mm / 金型 Ø)²：Ø 10 mm の金型ではゲージ 4 MPa ≈ 64 MPa、18 MPa ≈ 288 MPa。計算機のある[プレスと圧力の換算](eis-cell.md#press)を参照してください。

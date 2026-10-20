@@ -42,6 +42,55 @@ Cette cellule mesure la **conductivité ionique** d'une pastille d'électrolyte 
 
 </div>
 
+## La presse et la conversion de pression { #press }
+
+<div class="photo-grid" markdown>
+
+<figure markdown>
+![Pompe à pied Riken Seiki et son manomètre 0–100 MPa : il indique la pression d'huile, pas la pression sur la pastille](../assets/img/press-pump.jpg){ loading=lazy }
+<figcaption>Pompe à pied Riken Seiki et son manomètre 0–100 MPa : il indique la pression d'huile, pas la pression sur la pastille</figcaption>
+</figure>
+
+<figure markdown>
+![Presse CDM-5M : le vérin du haut pousse le piston vers le bas sur la matrice ou la cellule, posée sur la plaque de base](../assets/img/press-cdm5m.jpg){ loading=lazy }
+<figcaption>Presse CDM-5M : le vérin du haut pousse le piston vers le bas sur la matrice ou la cellule, posée sur la plaque de base</figcaption>
+</figure>
+
+</div>
+
+Le manomètre de la pompe à pied indique la **pression d'huile** dans le vérin. La force vient de cette pression agissant sur le piston du vérin, la **tige de 40 mm** ; la tête de 45 mm ne fait que transmettre la force au poinçon. La pression dans la pastille est cette force divisée par l'aire de la pastille :
+
+<div class="formula" markdown>
+
+*F* = *P*<sub>g</sub> × π *d*² / 4 &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>p</sub> = *F* / (π *D*² / 4) = *P*<sub>g</sub> × (*d* / *D*)² &nbsp;&nbsp;·&nbsp;&nbsp; *P*<sub>g</sub> = *P*<sub>p</sub> × (*D* / *d*)²
+
+</div>
+
+*d* = diamètre de la tige (40 mm), *D* = diamètre de la matrice (pastille). Avec *d* = 40 mm, **1 MPa au manomètre = 1,26 kN (0,13 t)**.
+
+| Ø matrice | Aire de la pastille | Pastille ÷ manomètre | 4 MPa manomètre (formage) | Réglage du labo pour la cellule |
+|---|---|---|---|---|
+| 6 mm | 28.3 mm² | × 44.4 | 178 MPa | 7,5 MPa manomètre → **333 MPa** (9,4 kN) |
+| 10 mm | 78.5 mm² | × 16.0 | 64 MPa | 18 MPa manomètre → **288 MPa** (22,6 kN) |
+
+**Dans l'autre sens :** pour presser une pastille de Ø 10 mm à 375 MPa, réglez le manomètre à 375 × (10/40)² = **23,4 MPa** ; pour Ø 6 mm, 375 × (6/40)² = **8,4 MPa**.
+
+<div class="bk press-calc">
+<div class="bk-row">
+<label>Ø tige (mm)<input type="number" data-pc="shaft" value="40" min="1" step="0.1"></label>
+<label>Ø matrice (mm)<input type="number" data-pc="die" value="10" min="1" step="0.1" list="pc-dies"></label>
+<label>Manomètre (MPa)<input type="number" data-pc="gauge" value="18" min="0" step="0.1"></label>
+<label>Pression sur la pastille (MPa)<input type="number" data-pc="pellet" min="0" step="1"></label>
+<label>Force<input type="text" data-pc="force" readonly></label>
+</div>
+<datalist id="pc-dies"><option value="6"><option value="10"></datalist>
+</div>
+
+!!! warning "Avant de vous fier aux chiffres"
+    - Le calcul prend la **tige de 40 mm** comme le piston sur lequel pousse l'huile. Si la plaque du vérin donne une surface effective, utilisez-la : un piston de 45 mm donnerait 27 % de force en plus.
+    - Le frottement dans le vérin et la matrice et la précision du manomètre ne sont pas pris en compte. Dans les articles, indiquez la pression sur la pastille avec la lecture du manomètre, les diamètres de la tige et de la matrice et le modèle de presse.
+    - Ne dépassez jamais la pression nominale indiquée sur la pompe ni la charge nominale de la matrice.
+
 ## Paramètres de mesure (VersaStudio, Potentiostatic EIS) { #measurement-settings-versastudio-potentiostatic-eis }
 
 | Groupe | Paramètre | Valeur |
@@ -61,9 +110,6 @@ Cette cellule mesure la **conductivité ionique** d'une pastille d'électrolyte 
 | | Cell to use | External |
 | Options | Notch filter | **None** (obligatoire pour l'EIS — manuel VersaStudio §4.4.2.2) |
 
-!!! question "Incohérence dans les diapositives du laboratoire"
-    Les diapositives du laboratoire indiquent à la fois *« Number of points: 30 »* et *« Points per decade: 10 »*. Les deux ne peuvent être vrais : de 3 MHz à 0,1 Hz il y a 7,5 décades, soit ≈ 75 points à 10 points/décade (≈ 65 points jusqu'à 1 Hz). Ce guide utilise 10 points par décade. Merci de confirmer.
-
 ## Du spectre à la conductivité { #from-spectrum-to-conductivity }
 
 1. **Ajustez** le spectre avec un circuit équivalent ou une distribution des temps de relaxation (DRT). Les résidus de l'ajustement ne doivent présenter aucune tendance, sauf aux plus basses fréquences où les électrodes bloquantes se polarisent. En DRT, chaque pic correspond à un processus ; la contribution de polarisation des électrodes est **exclue** de la résistance de l'électrolyte.
@@ -72,8 +118,8 @@ Cette cellule mesure la **conductivité ionique** d'une pastille d'électrolyte 
 4. **Conductivité ionique :** σ<sub>ion</sub> = *L* / (R<sub>total</sub> · *A*)  — en S cm⁻¹ avec *L* en cm, *A* en cm² et R en Ω.
 5. **Énergie d'activation :** σ<sub>ion</sub>(T) = A(T) · exp(−E<sub>a</sub>/RT). Tracez log₁₀ σ en fonction de 1000/T (T en K). La pente *m* donne **E<sub>a</sub> = −m · ln(10) · R · 1000 = −19,14 · m kJ mol⁻¹**.
 
-!!! warning "Correction des diapositives du laboratoire"
-    Les diapositives indiquent *« slope = 2.313 × E<sub>a</sub> »*. La constante est ln 10 = **2,303**, et la relation doit inclure R et le facteur 1000 de l'axe 1000/T : E<sub>a</sub> [kJ mol⁻¹] = −2,303 · 8,314 · m = **−19,14 m**. Précisez aussi dans vos rapports si vous ajustez σ ou σT en fonction de 1/T — les deux conventions donnent des E<sub>a</sub> légèrement différentes.
+!!! note "Énergie d'activation"
+    Indiquez dans vos rapports si vous avez ajusté σ ou σT en fonction de 1/T : les deux conventions donnent des E<sub>a</sub> légèrement différentes.
 
 Toutes les étapes d'ajustement, de DRT et de conductivité peuvent être réalisées dans **[EIS Studio](https://zacharyslate.github.io/eis-studio/)** — voir [Analyse des données EIS](../analysis/eis-analysis.md).
 
@@ -88,7 +134,7 @@ Objectifs utilisés dans le groupe : électrolytes séparateurs σ<sub>ion</sub>
 ## Points à vérifier avant de publier des valeurs { #points-to-check-before-you-publish-numbers }
 
 !!! note "La pression du manomètre n'est pas la pression sur la pastille"
-    « 4 MPa » et « 18 MPa » sont des **pressions au manomètre (hydrauliques)**. La pression sur la pastille est *P*<sub>pastille</sub> = *P*<sub>manomètre</sub> × (*A*<sub>vérin</sub> / *A*<sub>matrice</sub>), bien plus élevée pour une matrice de Ø 6–10 mm. Indiquez dans vos articles la pression sur la pastille (ainsi que le modèle de presse et le diamètre du vérin) pour que d'autres puissent la reproduire.
+    « 4 MPa », « 7,5 MPa » et « 18 MPa » sont des **pressions au manomètre (huile)**. Avec la tige de 40 mm, 18 MPa au manomètre sur une pastille de Ø 10 mm donnent ≈ **288 MPa**, et 7,5 MPa sur une pastille de Ø 6 mm ≈ **333 MPa** — voir [La presse et la conversion de pression](#press). Indiquez la pression sur la pastille (et la lecture du manomètre et les diamètres de la tige et de la matrice) dans les articles pour que d'autres puissent la reproduire.
 
 !!! note "Polycarbonate à 120 °C"
     Le polycarbonate se ramollit près de sa transition vitreuse (≈ 145 °C) et flue sous charge bien avant. À 100–120 °C sous pression d'empilement, l'alésage et les joints peuvent se déformer, modifiant le contact et l'épaisseur. Vérifiez la cellule après les essais à haute température et remesurez l'épaisseur de la pastille ; un cycle chauffe-refroidissement qui se superpose à lui-même est un bon test.
