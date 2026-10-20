@@ -8,5 +8,6 @@ site/
 # Vendor manuals are copyrighted: keep lab copies on the lab drive, not in this public repo
 manuals-local/
 *.pdf
+!docs/assets/qr/*.pdf
 
 .DS_Store
