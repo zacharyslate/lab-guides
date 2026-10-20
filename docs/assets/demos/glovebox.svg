@@ -1,12 +1,9 @@
-<svg viewBox="0 0 800 450" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the MBraun EasyLab glovebox: main chamber, antechamber with inner and outer doors, argon refill valve, vacuum valve, pressure gauge, control panel, catalyst circulation valves and foot pedals">
+<svg viewBox="0 0 800 525" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Schematic of the MBraun EasyLab glovebox: main chamber, antechamber with inner and outer doors, argon refill valve, vacuum valve, pressure gauge, control panel (pressure, O₂ and H₂O displays, Min.set and Max.set knobs, circ, reg, reg abort, pump, ana, light, purge and eco buttons), catalyst circulation valves and foot pedals">
 <text class="ttl" x="20" y="28" data-i18n="gb.title">MBraun EasyLab — bringing material in through the antechamber</text>
 <rect class="body" x="40" y="70" width="420" height="250" rx="10"/>
 <rect class="gl" x="60" y="85" width="380" height="150" rx="6"/>
 <text class="lbl" x="72" y="104" data-i18n="gb.main">Main chamber (argon)</text>
 <line class="ln" x1="60" y1="215" x2="440" y2="215"/>
-<rect class="scr" x="200" y="36" width="178" height="26" rx="3"/>
-<text class="scrtx" x="208" y="54" id="sens">O₂ &lt;1 · H₂O &lt;1 ppm</text>
-<text class="lbl-s" x="384" y="54" data-i18n="gb.sensors">sensors (example)</text>
 <g class="part" id="gloves">
 <circle class="st" cx="165" cy="275" r="36"/><circle class="dark" cx="165" cy="275" r="28"/>
 <circle class="st" cx="335" cy="275" r="36"/><circle class="dark" cx="335" cy="275" r="28"/>
@@ -44,28 +41,30 @@
 <rect class="gl" x="748" y="196" width="24" height="38" rx="3"/><rect class="dark" x="751" y="186" width="18" height="11" rx="2"/>
 <rect class="pw" x="750" y="215" width="20" height="17" rx="2"/>
 </g>
-<rect class="dark" x="40" y="342" width="230" height="96" rx="6"/>
-<text x="52" y="362" style="fill:#fff;font-size:12px" data-i18n="gb.panel">Control panel</text>
-<g style="font-size:10px;fill:#fff" text-anchor="middle">
-<rect x="52" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="74" y="415">ECO</text>
-<rect x="105" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="127" y="415">PUMP</text>
-<rect x="158" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="180" y="415">CIRC</text>
-<rect x="211" y="398" width="44" height="26" rx="3" style="fill:#4a5d70"/><text x="233" y="415">LIGHT</text>
-</g>
-<circle cx="74" cy="383" r="5" style="fill:#555"/><circle cx="127" cy="383" r="5" style="fill:#555"/><circle cx="180" cy="383" r="5" style="fill:#555"/><circle cx="233" cy="383" r="5" style="fill:#555"/>
-<g class="part" id="ledEco"><circle cx="74" cy="383" r="5" style="fill:#4cff8a"/></g>
-<g class="part" id="ledPump"><circle cx="127" cy="383" r="5" style="fill:#4cff8a"/></g>
-<g class="part" id="ledCirc"><circle cx="180" cy="383" r="5" style="fill:#4cff8a"/></g>
-<rect class="body" x="290" y="350" width="100" height="88" rx="5"/>
-<text class="lbl-s" x="340" y="395" text-anchor="middle" data-i18n="gb.cat">catalyst</text>
-<text class="lbl-s" x="340" y="409" text-anchor="middle">(Cu)</text>
+<!-- control panel, drawn after the lab's own EasyLab panel -->
+<style>.demo .gbp-bt{font-size:8.5px;fill:#2b2f33} .demo .gbp-lb{font-size:8.5px;fill:#2b2f33} .demo .gbp-btn{fill:#f4f4f2;stroke:#c3c6c9} .demo .gbp-seg{fill:#ff3b30;font-family:"Roboto Mono",monospace;font-size:17px;font-weight:700}</style>
+<rect x="20" y="334" width="310" height="186" rx="6" style="fill:#e9eaec;stroke:#b9bdc1"/>
+<rect x="34" y="344" width="282" height="168" rx="9" style="fill:#f6f7f8;stroke:#cdd1d5"/>
+<path d="M49 374 A17 17 0 0 1 83 374" style="fill:none;stroke:#1d79c4;stroke-width:3.5"/><circle cx="66" cy="378" r="12" style="fill:#151719"/><line x1="66" y1="378" x2="61" y2="369" style="stroke:#f2efe6;stroke-width:2.6;stroke-linecap:round"/><text x="66" y="404" text-anchor="middle" class="gbp-lb">Min.set</text>
+<path d="M267 374 A17 17 0 0 1 301 374" style="fill:none;stroke:#1d79c4;stroke-width:3.5"/><circle cx="284" cy="378" r="12" style="fill:#151719"/><line x1="284" y1="378" x2="290" y2="369" style="stroke:#f2efe6;stroke-width:2.6;stroke-linecap:round"/><text x="284" y="404" text-anchor="middle" class="gbp-lb">Max.set</text>
+<rect x="130" y="356" width="90" height="28" rx="2" style="fill:#160909"/><text x="175.0" y="378" text-anchor="middle" id="pval" class="gbp-seg">2.7</text>
+<text x="175" y="396" text-anchor="middle" class="gbp-lb">pressure mbar</text>
+<text x="96" y="414" text-anchor="middle" class="gbp-lb">O₂ ppm</text><text x="254" y="414" text-anchor="middle" class="gbp-lb">H₂O ppm</text>
+<rect x="56" y="418" width="80" height="26" rx="2" style="fill:#160909"/><text x="96.0" y="438" text-anchor="middle" id="o2val" class="gbp-seg">0.5</text><rect x="214" y="418" width="80" height="26" rx="2" style="fill:#160909"/><text x="254.0" y="438" text-anchor="middle" id="h2oval" class="gbp-seg">0.5</text>
+<circle cx="54" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="88" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="122" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="156" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="190" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="224" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="258" cy="472" r="2.6" style="fill:#5a1414"/><circle cx="292" cy="472" r="2.6" style="fill:#5a1414"/>
+<g class="part" id="ledCirc"><circle cx="54" cy="472" r="3.4" style="fill:#ff3b30"/><circle cx="54" cy="472" r="7" style="fill:#ff3b30;opacity:.25"/></g><g class="part" id="ledPump"><circle cx="156" cy="472" r="3.4" style="fill:#ff3b30"/><circle cx="156" cy="472" r="7" style="fill:#ff3b30;opacity:.25"/></g><g class="part" id="ledAna"><circle cx="190" cy="472" r="3.4" style="fill:#ff3b30"/><circle cx="190" cy="472" r="7" style="fill:#ff3b30;opacity:.25"/></g><g class="part" id="ledLight"><circle cx="224" cy="472" r="3.4" style="fill:#ff3b30"/><circle cx="224" cy="472" r="7" style="fill:#ff3b30;opacity:.25"/></g><g class="part" id="ledEco"><circle cx="292" cy="472" r="3.4" style="fill:#ff3b30"/><circle cx="292" cy="472" r="7" style="fill:#ff3b30;opacity:.25"/></g>
+<g class="part" id="btnCirc"><rect x="41" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="54" y="497" text-anchor="middle" class="gbp-bt">circ</text></g><g><rect x="75" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="88" y="497" text-anchor="middle" class="gbp-bt">reg</text></g><g><rect x="109" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="122" y="491" text-anchor="middle" class="gbp-bt">reg</text><text x="122" y="500" text-anchor="middle" class="gbp-bt">abort</text></g><g class="part" id="btnPump"><rect x="143" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="156" y="497" text-anchor="middle" class="gbp-bt">pump</text></g><g class="part" id="btnAna"><rect x="177" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="190" y="497" text-anchor="middle" class="gbp-bt">ana</text></g><g class="part" id="btnLight"><rect x="211" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="224" y="497" text-anchor="middle" class="gbp-bt">light</text></g><g><rect x="245" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="258" y="497" text-anchor="middle" class="gbp-bt">purge</text></g><g class="part" id="btnEco"><rect x="279" y="482" width="26" height="22" rx="3" class="gbp-btn"/><text x="292" y="497" text-anchor="middle" class="gbp-bt">eco</text></g>
+<text class="lbl-s" x="336" y="512" data-i18n="gb.panel">Control panel</text>
+<rect class="body" x="350" y="350" width="100" height="88" rx="5"/>
+<text class="lbl-s" x="400" y="395" text-anchor="middle" data-i18n="gb.cat">catalyst</text>
+<text class="lbl-s" x="400" y="409" text-anchor="middle">(Cu)</text>
 <g class="part" id="pistons">
-<rect class="st" x="305" y="328" width="12" height="22"/><rect class="st" x="363" y="328" width="12" height="22"/>
-<text class="lbl-s" x="340" y="343" text-anchor="middle">UP</text>
+<rect class="st" x="365" y="328" width="12" height="22"/><rect class="st" x="423" y="328" width="12" height="22"/>
+<text class="lbl-s" x="400" y="343" text-anchor="middle">UP</text>
 </g>
 <g class="part" id="pedals">
-<rect class="dark" x="410" y="398" width="26" height="36" rx="4"/><rect class="dark" x="444" y="398" width="26" height="36" rx="4"/>
-<text x="423" y="421" text-anchor="middle" style="fill:#fff;font-size:14px">+</text><text x="457" y="421" text-anchor="middle" style="fill:#fff;font-size:14px">−</text>
-<text class="lbl-s" x="440" y="390" text-anchor="middle" data-i18n="gb.pedals">foot pedals</text>
+<rect class="dark" x="476" y="450" width="26" height="36" rx="4"/><rect class="dark" x="510" y="450" width="26" height="36" rx="4"/>
+<text x="489" y="473" text-anchor="middle" style="fill:#fff;font-size:14px">+</text><text x="523" y="473" text-anchor="middle" style="fill:#fff;font-size:14px">−</text>
+<text class="lbl-s" x="506" y="503" text-anchor="middle" data-i18n="gb.pedals">foot pedals</text>
 </g>
 </svg>

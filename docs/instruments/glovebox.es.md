@@ -23,6 +23,26 @@ translation: machine
     - Nunca meta en la antecámara un recipiente abierto con disolvente bajo vacío. Los frascos de disolvente cerrados requieren el procedimiento de medio vacío (paso 9).
     - Si la lectura de O₂ o H₂O es alta, pare y avise al responsable del laboratorio. No abra materiales sensibles.
 
+## Panel de control { #control-panel }
+
+![El panel de control EasyLab de nuestro laboratorio](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Elemento | Función |
+|---|---|
+| **pressure mbar** (pantalla superior) | Presión de la caja sobre la del laboratorio, en mbar. Normalmente una pequeña sobrepresión: en modo ECO la caja se mantiene entre +2 y +6 mbar. Durante la regeneración sigue mostrando la presión de la caja. |
+| **O₂ ppm** y **H₂O ppm** | Oxígeno y agua en el argón. Durante la regeneración muestran la etapa y los minutos restantes. |
+| Mandos **Min.set** / **Max.set** | Límites inferior y superior del control de presión de la caja. **No los cambie.** |
+| **circ** | Circulación del argón por el purificador. Debe estar siempre activa salvo durante la regeneración. Su LED no es fiable: compruebe que los pistones de circulación están ARRIBA. |
+| **reg** / **reg abort** | Iniciar / detener la regeneración del catalizador (reg abort solo funciona en las primeras etapas). Solo el responsable del laboratorio. |
+| **pump** | Bomba de vacío. Debe estar encendida para hacer vacío en la antecámara. |
+| **ana** | Analizadores de O₂ y H₂O. Déjelos encendidos. |
+| **light** | Iluminación de la caja. |
+| **purge** | Purga la caja con argón para bajar el O₂/H₂O. Solo cuando lo pida el responsable del laboratorio. |
+| **eco** | Reposo: la bomba solo funciona cuando la caja pide argón, la luz se apaga, presión entre +2 y +6 mbar. Deje la caja en ECO al terminar. |
+
+!!! tip "Así se ve el estado normal de trabajo"
+    Como en la foto: presión de unos pocos mbar (aquí 2,7), O₂ y H₂O por debajo de 1 ppm (aquí 0,5) y los LED de **pump**, **ana** y **light** encendidos. El LED de **circ** puede quedar apagado aunque la circulación esté activa (fallo conocido); compruebe los pistones.
+
 ## Demostración { #demonstration }
 
 <div class="demo" data-demo="glovebox">

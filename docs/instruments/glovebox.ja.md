@@ -23,6 +23,26 @@ translation: machine
     - 開放した溶媒容器を前室に入れて真空引きしないでください。密閉した溶媒瓶には半真空の手順（ステップ 9）が必要です。
     - O₂ または H₂O の値が高い場合は作業を止め、研究室責任者に連絡してください。敏感な材料を開けないでください。
 
+## コントロールパネル { #control-panel }
+
+![当研究室の EasyLab コントロールパネル](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| 部位 | 機能 |
+|---|---|
+| <strong>pressure mbar</strong>（上部表示） | 室内に対するボックスの圧力（mbar）。通常はわずかな陽圧で、ECO モードでは +2〜+6 mbar に保たれます。再生中もボックス圧力を表示します。 |
+| <strong>O₂ ppm</strong> と <strong>H₂O ppm</strong> | アルゴン中の酸素と水分。再生中は代わりに工程と残り時間（分）を表示します。 |
+| <strong>Min.set</strong> / <strong>Max.set</strong> ノブ | ボックス圧力制御の下限と上限。<strong>変更しないでください。</strong> |
+| <strong>circ</strong> | 精製器を通るアルゴンの循環。再生時以外は常にオンにします。LED は信頼できないので、循環ピストンが「上」にあることを確認します。 |
+| <strong>reg</strong> / <strong>reg abort</strong> | 触媒再生の開始 / 中止（reg abort は最初の工程でのみ有効）。ラボ管理者のみ。 |
+| <strong>pump</strong> | 真空ポンプ。前室を排気するにはオンにする必要があります。 |
+| <strong>ana</strong> | O₂・H₂O 分析計。オンのままにします。 |
+| <strong>light</strong> | ボックス内照明。 |
+| <strong>purge</strong> | アルゴンでボックスをパージして O₂/H₂O を下げます。ラボ管理者の指示があるときのみ。 |
+| <strong>eco</strong> | 待機：ボックスがアルゴンを必要とするときだけポンプが動き、照明は消え、圧力は +2〜+6 mbar。使用後は ECO にしておきます。 |
+
+!!! tip "通常の作業状態"
+    写真のとおり：圧力は数 mbar（ここでは 2.7）、O₂ と H₂O は 1 ppm 未満（ここでは 0.5）、<strong>pump</strong>・<strong>ana</strong>・<strong>light</strong> の LED が点灯。循環がオンでも <strong>circ</strong> の LED が消えていることがあります（既知の不具合）。ピストンを確認してください。
+
 ## デモンストレーション { #demonstration }
 
 <div class="demo" data-demo="glovebox">

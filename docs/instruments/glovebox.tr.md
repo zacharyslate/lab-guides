@@ -23,6 +23,26 @@ translation: machine
     - Ön odaya asla açık bir çözücü kabını vakum altında koymayın. Kapalı çözücü şişeleri yarım vakum prosedürünü gerektirir (adım 9).
     - O₂ veya H₂O değeri yüksekse durun ve laboratuvar sorumlusuna haber verin. Hassas malzemeleri açmayın.
 
+## Kontrol paneli { #control-panel }
+
+![Laboratuvarımızdaki EasyLab kontrol paneli](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Öğe | İşlevi |
+|---|---|
+| **pressure mbar** (üst ekran) | Kutunun oda basıncına göre basıncı, mbar. Normalde küçük bir pozitif basınç: ECO modunda kutu +2 ile +6 mbar arasında tutulur. Rejenerasyon sırasında da kutu basıncını gösterir. |
+| **O₂ ppm** ve **H₂O ppm** | Argondaki oksijen ve su. Rejenerasyon sırasında bunun yerine aşamayı ve kalan dakikayı gösterir. |
+| **Min.set** / **Max.set** düğmeleri | Kutu basınç kontrolünün alt ve üst sınırları. **Değiştirmeyin.** |
+| **circ** | Argonun arıtıcıdan sirkülasyonu. Rejenerasyon dışında her zaman açık olmalıdır. LED'i güvenilir değildir: sirkülasyon pistonlarının YUKARIDA olduğunu kontrol edin. |
+| **reg** / **reg abort** | Katalizör rejenerasyonunu başlatır / durdurur (reg abort yalnızca ilk aşamalarda çalışır). Yalnızca laboratuvar sorumlusu. |
+| **pump** | Vakum pompası. Ön haznenin vakumlanması için açık olmalıdır. |
+| **ana** | O₂ ve H₂O analizörleri. Açık bırakın. |
+| **light** | Kutu aydınlatması. |
+| **purge** | O₂/H₂O'yu düşürmek için kutuyu argonla süpürür. Yalnızca laboratuvar sorumlusu isterse. |
+| **eco** | Bekleme: pompa yalnızca kutu argon istediğinde çalışır, ışık söner, basınç +2 ile +6 mbar. Kullanımdan sonra kutuyu ECO'da bırakın. |
+
+!!! tip "Normal çalışma durumu nasıl görünür"
+    Fotoğraftaki gibi: basınç birkaç mbar (burada 2,7), O₂ ve H₂O 1 ppm'in altında (burada 0,5), **pump**, **ana** ve **light** LED'leri yanık. **circ** LED'i sirkülasyon açıkken bile sönük kalabilir (bilinen arıza); pistonları kontrol edin.
+
 ## Gösterim { #demonstration }
 
 <div class="demo" data-demo="glovebox">

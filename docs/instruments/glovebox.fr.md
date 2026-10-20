@@ -23,6 +23,26 @@ translation: machine
     - Ne mettez jamais un récipient de solvant ouvert sous vide dans le sas. Les flacons de solvant fermés nécessitent la procédure au demi-vide (étape 9).
     - Si la valeur d'O₂ ou d'H₂O est élevée, arrêtez et prévenez le responsable du laboratoire. N'ouvrez aucun matériau sensible.
 
+## Panneau de commande { #control-panel }
+
+![Le panneau de commande EasyLab de notre laboratoire](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Élément | Fonction |
+|---|---|
+| **pressure mbar** (affichage du haut) | Surpression de la boîte par rapport à la pièce, en mbar. Normalement une légère surpression : en mode ECO, la boîte est maintenue entre +2 et +6 mbar. Pendant la régénération, il affiche toujours la pression de la boîte. |
+| **O₂ ppm** et **H₂O ppm** | Oxygène et eau dans l'argon. Pendant la régénération, ils affichent l'étape et les minutes restantes. |
+| Boutons rotatifs **Min.set** / **Max.set** | Limites basse et haute de la régulation de pression de la boîte. **Ne pas les modifier.** |
+| **circ** | Circulation de l'argon dans le purificateur. Doit rester active sauf pendant la régénération. Sa LED n'est pas fiable : vérifiez que les pistons de circulation sont en HAUT. |
+| **reg** / **reg abort** | Démarrer / arrêter la régénération du catalyseur (reg abort ne fonctionne qu'aux premières étapes). Responsable du laboratoire uniquement. |
+| **pump** | Pompe à vide. Doit être allumée pour faire le vide dans le sas. |
+| **ana** | Analyseurs d'O₂ et d'H₂O. Laisser allumés. |
+| **light** | Éclairage de la boîte. |
+| **purge** | Balaye la boîte à l'argon pour faire baisser O₂/H₂O. Seulement à la demande du responsable du laboratoire. |
+| **eco** | Veille : la pompe ne tourne que lorsque la boîte demande de l'argon, la lumière s'éteint, pression entre +2 et +6 mbar. Laissez la boîte en ECO après usage. |
+
+!!! tip "À quoi ressemble l'état de travail normal"
+    Comme sur la photo : pression de quelques mbar (ici 2,7), O₂ et H₂O sous 1 ppm (ici 0,5), LED **pump**, **ana** et **light** allumées. La LED **circ** peut rester éteinte même quand la circulation fonctionne (défaut connu) ; vérifiez les pistons.
+
 ## Démonstration { #demonstration }
 
 <div class="demo" data-demo="glovebox">

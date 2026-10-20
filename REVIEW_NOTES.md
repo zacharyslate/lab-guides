@@ -38,6 +38,7 @@ Found while turning the lab documents and manuals into guides (19 October 2026).
 | 15 | References | Full author lists and DOIs of the group papers (publisher pages could not be read automatically) |
 | 16 | Cora 5001 | Excitation wavelength(s) of the lab's unit |
 | 17 | Rotavapor flask | Only the text of the *Rotovapor* slides could be read. The guide assumes a round-bottom flask + separate stopcock adapter joined with grease and a Keck clip in the glovebox — confirm, or say if the flask has a built-in valve |
+| 18 | Glovebox panel | The functions of the **Min.set / Max.set** knobs (box-pressure limits) come from their labels, not from a manual; "purge only when the lab manager asks" is a lab-rule assumption — confirm both |
 
 ## Things that need a decision
 

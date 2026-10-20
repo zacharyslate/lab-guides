@@ -7,11 +7,11 @@ window.DEMOS = window.DEMOS || {};
 
 /* ---------------- MBraun EasyLab glovebox ---------------- */
 window.DEMOS["glovebox"] = {
-  base: ["ledEco", "ledCirc", "gloves", "pedals", "pistons", "needle", "vrefill", "vvac", "innerdoor", "outerdoor"],
+  base: ["ledEco", "ledAna", "btnCirc", "btnPump", "btnAna", "btnLight", "btnEco", "gloves", "pedals", "pistons", "needle", "vrefill", "vvac", "innerdoor", "outerdoor"],
   steps: [
     { set: { needle: "rotate(-110deg)" }, txt: { gaugeval: "−94 kPa" }, hl: ["ledEco", "needle", "innerdoor", "outerdoor"] },
-    { hide: ["ledEco"], show: ["ledPump"], hl: ["ledPump"] },
-    { hl: ["pistons", "ledCirc"] },
+    { hide: ["ledEco"], show: ["ledPump", "ledLight"], hl: ["btnEco", "btnPump", "ledPump"] },
+    { hl: ["pistons", "btnCirc"] },
     { set: { vrefill: "rotate(90deg)", needle: "rotate(0deg)" }, show: ["flowAr"], txt: { gaugeval: "0 kPa" }, hl: ["vrefill", "needle"] },
     { set: { vrefill: "rotate(0deg)", outerdoor: "translate(0px,-96px)", bottle: "translate(-110px,0px)" }, hide: ["flowAr"], show: ["bottle"], hl: ["outerdoor", "bottle"] },
     { set: { outerdoor: "translate(0px,0px)", vvac: "rotate(90deg)", needle: "rotate(-110deg)" }, show: ["flowVac"], txt: { gaugeval: "−94 kPa", timer: "15:00", cycle: "1 / 3" }, hl: ["vvac", "needle"] },
@@ -21,7 +21,7 @@ window.DEMOS["glovebox"] = {
     { set: { vvac: "rotate(0deg)", vrefill: "rotate(0deg)", needle: "rotate(0deg)", innerdoor: "translate(0px,-96px)", bottle: "translate(-430px,0px)" }, hide: ["flowVac", "flowAr"], txt: { gaugeval: "0 kPa", cycle: "", timer: "" }, hl: ["gloves", "innerdoor"] },
     { set: { innerdoor: "translate(0px,0px)" }, hl: ["pedals"] },
     { set: { vvac: "rotate(90deg)", needle: "rotate(-110deg)" }, show: ["flowVac"], txt: { gaugeval: "−94 kPa", timer: "≥ 5:00" }, hl: ["vvac", "innerdoor", "outerdoor"] },
-    { set: { vvac: "rotate(0deg)" }, hide: ["flowVac"], show: ["ledEco"], txt: { timer: "" }, hl: ["ledEco", "pistons", "vvac", "vrefill"] }
+    { set: { vvac: "rotate(0deg)" }, hide: ["flowVac", "ledPump", "ledLight"], show: ["ledEco"], txt: { timer: "" }, hl: ["btnEco", "ledEco", "pistons", "vvac", "vrefill"] }
   ]
 };
 

@@ -23,6 +23,26 @@ translation: machine
     - 열린 용매 용기를 진공 상태의 전실에 넣지 마십시오. 닫힌 용매 병은 반진공 절차(9단계)가 필요합니다.
     - O₂ 또는 H₂O 값이 높으면 작업을 멈추고 실험실 책임자에게 알리십시오. 민감한 재료를 열지 마십시오.
 
+## 제어판 { #control-panel }
+
+![우리 실험실의 EasyLab 제어판](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| 구성 요소 | 기능 |
+|---|---|
+| <strong>pressure mbar</strong> (위쪽 표시) | 실내 대비 박스 압력(mbar). 보통 약간의 양압이며 ECO 모드에서는 +2~+6 mbar로 유지됩니다. 재생 중에도 박스 압력을 표시합니다. |
+| <strong>O₂ ppm</strong>와 <strong>H₂O ppm</strong> | 아르곤 속 산소와 수분. 재생 중에는 대신 단계와 남은 시간(분)을 표시합니다. |
+| <strong>Min.set</strong> / <strong>Max.set</strong> 노브 | 박스 압력 제어의 하한과 상한. <strong>바꾸지 마십시오.</strong> |
+| <strong>circ</strong> | 정제기를 통한 아르곤 순환. 재생 중을 제외하고 항상 켜져 있어야 합니다. LED를 믿을 수 없으므로 순환 피스톤이 위(UP)에 있는지 확인하십시오. |
+| <strong>reg</strong> / <strong>reg abort</strong> | 촉매 재생 시작 / 중단(reg abort는 초기 단계에서만 작동). 실험실 관리자만. |
+| <strong>pump</strong> | 진공 펌프. 전실을 배기하려면 켜져 있어야 합니다. |
+| <strong>ana</strong> | O₂·H₂O 분석기. 켜 두십시오. |
+| <strong>light</strong> | 박스 조명. |
+| <strong>purge</strong> | O₂/H₂O를 낮추기 위해 박스를 아르곤으로 퍼지합니다. 실험실 관리자가 요청할 때만. |
+| <strong>eco</strong> | 대기: 박스가 아르곤을 필요로 할 때만 펌프가 작동하고 조명이 꺼지며 압력은 +2~+6 mbar. 사용 후에는 ECO로 두십시오. |
+
+!!! tip "정상 작업 상태"
+    사진처럼: 압력 몇 mbar(여기서는 2.7), O₂와 H₂O 1 ppm 미만(여기서는 0.5), <strong>pump</strong>·<strong>ana</strong>·<strong>light</strong> LED 켜짐. 순환이 켜져 있어도 <strong>circ</strong> LED가 꺼져 있을 수 있습니다(알려진 결함). 피스톤을 확인하십시오.
+
 ## 시연 { #demonstration }
 
 <div class="demo" data-demo="glovebox">

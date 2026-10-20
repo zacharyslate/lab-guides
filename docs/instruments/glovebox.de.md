@@ -23,6 +23,26 @@ translation: machine
     - Bringen Sie niemals einen offenen Lösungsmittelbehälter unter Vakuum in die Schleuse. Geschlossene Lösungsmittelflaschen erfordern das Halbvakuum-Verfahren (Schritt 9).
     - Wenn der O₂- oder H₂O-Wert hoch ist, hören Sie auf und informieren Sie die Laborleitung. Öffnen Sie keine empfindlichen Materialien.
 
+## Bedienfeld { #control-panel }
+
+![Das EasyLab-Bedienfeld in unserem Labor](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Element | Funktion |
+|---|---|
+| **pressure mbar** (obere Anzeige) | Überdruck der Box gegenüber dem Raum, in mbar. Normalerweise ein kleiner Überdruck: im ECO-Modus wird die Box auf +2 bis +6 mbar gehalten. Während der Regeneration zeigt sie weiterhin den Boxdruck. |
+| **O₂ ppm** und **H₂O ppm** | Sauerstoff und Wasser im Argon. Während der Regeneration zeigen sie stattdessen die Stufe und die Restminuten. |
+| Drehknöpfe **Min.set** / **Max.set** | Unter- und Obergrenze der Druckregelung der Box. **Nicht verstellen.** |
+| **circ** | Umwälzung des Argons durch den Reiniger. Muss immer eingeschaltet sein, außer während der Regeneration. Die LED ist unzuverlässig: prüfen, ob die Kolben der Umwälzventile OBEN stehen. |
+| **reg** / **reg abort** | Regeneration des Katalysators starten / abbrechen (reg abort nur in den ersten Stufen). Nur die Laborleitung. |
+| **pump** | Vakuumpumpe. Muss an sein, um die Schleuse zu evakuieren. |
+| **ana** | O₂- und H₂O-Analysatoren. Eingeschaltet lassen. |
+| **light** | Boxbeleuchtung. |
+| **purge** | Spült die Box mit Argon, um O₂/H₂O zu senken. Nur auf Anweisung der Laborleitung. |
+| **eco** | Standby: die Pumpe läuft nur, wenn die Box Argon braucht, das Licht geht aus, Druck +2 bis +6 mbar. Die Box nach der Arbeit im ECO-Modus lassen. |
+
+!!! tip "So sieht der normale Arbeitszustand aus"
+    Wie auf dem Foto: Druck einige mbar (hier 2,7), O₂ und H₂O unter 1 ppm (hier 0,5), LEDs von **pump**, **ana** und **light** an. Die **circ**-LED kann dunkel bleiben, obwohl die Umwälzung läuft (bekannter Fehler); die Kolben prüfen.
+
 ## Vorführung { #demonstration }
 
 <div class="demo" data-demo="glovebox">

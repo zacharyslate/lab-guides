@@ -23,6 +23,26 @@ translation: machine
     - Non mettere mai sotto vuoto nella precamera un contenitore di solvente aperto. Le bottiglie di solvente chiuse richiedono la procedura a mezzo vuoto (passo 9).
     - Se la lettura di O₂ o H₂O è alta, fermarsi e avvisare il responsabile del laboratorio. Non aprire materiali sensibili.
 
+## Pannello di controllo { #control-panel }
+
+![Il pannello di controllo EasyLab del nostro laboratorio](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Elemento | Funzione |
+|---|---|
+| **pressure mbar** (display superiore) | Pressione della glovebox rispetto al laboratorio, in mbar. Di norma una piccola sovrapressione: in modalità ECO la glovebox è mantenuta tra +2 e +6 mbar. Durante la rigenerazione mostra ancora la pressione della glovebox. |
+| **O₂ ppm** e **H₂O ppm** | Ossigeno e acqua nell'argon. Durante la rigenerazione mostrano invece la fase e i minuti rimanenti. |
+| Manopole **Min.set** / **Max.set** | Limiti inferiore e superiore del controllo di pressione. **Non modificarli.** |
+| **circ** | Circolazione dell'argon nel purificatore. Deve restare attiva tranne durante la rigenerazione. Il suo LED non è affidabile: controlla che i pistoni di circolazione siano SU. |
+| **reg** / **reg abort** | Avvia / interrompe la rigenerazione del catalizzatore (reg abort funziona solo nelle prime fasi). Solo il responsabile del laboratorio. |
+| **pump** | Pompa del vuoto. Deve essere accesa per evacuare l'anticamera. |
+| **ana** | Analizzatori di O₂ e H₂O. Lasciarli accesi. |
+| **light** | Illuminazione della glovebox. |
+| **purge** | Lava la glovebox con argon per abbassare O₂/H₂O. Solo su richiesta del responsabile del laboratorio. |
+| **eco** | Standby: la pompa funziona solo quando la glovebox richiede argon, la luce si spegne, pressione tra +2 e +6 mbar. Lascia la glovebox in ECO dopo l'uso. |
+
+!!! tip "Com'è lo stato di lavoro normale"
+    Come nella foto: pressione di pochi mbar (qui 2,7), O₂ e H₂O sotto 1 ppm (qui 0,5) e i LED di **pump**, **ana** e **light** accesi. Il LED di **circ** può restare spento anche con la circolazione attiva (difetto noto); controlla i pistoni.
+
 ## Dimostrazione { #demonstration }
 
 <div class="demo" data-demo="glovebox">

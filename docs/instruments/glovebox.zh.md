@@ -23,6 +23,26 @@ translation: machine
     - 切勿将敞口的溶剂容器放入过渡舱抽真空。密封的溶剂瓶需要采用半真空程序（第 9 步）。
     - 如果 O₂ 或 H₂O 读数偏高，请停止操作并通知实验室负责人。不要打开敏感材料。
 
+## 控制面板 { #control-panel }
+
+![本实验室的 EasyLab 控制面板](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| 部件 | 作用 |
+|---|---|
+| <strong>pressure mbar</strong>（上方显示） | 手套箱相对室内的压力，单位 mbar。通常为微正压：ECO 模式下保持在 +2 至 +6 mbar。再生期间仍显示手套箱压力。 |
+| <strong>O₂ ppm</strong> 和 <strong>H₂O ppm</strong> | 氩气中的氧和水含量。再生期间改为显示当前阶段和剩余分钟数。 |
+| <strong>Min.set</strong> / <strong>Max.set</strong> 旋钮 | 手套箱压力控制的下限和上限。<strong>请勿调节。</strong> |
+| <strong>circ</strong> | 氩气通过净化器的循环。除再生外必须始终开启。其指示灯不可靠：请检查循环活塞是否处于“上”位。 |
+| <strong>reg</strong> / <strong>reg abort</strong> | 启动 / 中止催化剂再生（reg abort 仅在最初几个阶段有效）。仅限实验室负责人。 |
+| <strong>pump</strong> | 真空泵。抽空过渡舱时必须开启。 |
+| <strong>ana</strong> | O₂ 和 H₂O 分析仪。保持开启。 |
+| <strong>light</strong> | 箱内照明。 |
+| <strong>purge</strong> | 用氩气吹扫手套箱以降低 O₂/H₂O。仅在实验室负责人要求时使用。 |
+| <strong>eco</strong> | 待机：仅在手套箱需要补充氩气时开泵，照明关闭，压力 +2 至 +6 mbar。使用后请将手套箱置于 ECO 模式。 |
+
+!!! tip "正常工作状态的样子"
+    如照片所示：压力为几 mbar（此处 2.7），O₂ 和 H₂O 低于 1 ppm（此处 0.5），<strong>pump</strong>、<strong>ana</strong> 和 <strong>light</strong> 指示灯亮。即使循环已开启，<strong>circ</strong> 指示灯也可能不亮（已知故障）；请检查活塞。
+
 ## 演示 { #demonstration }
 
 <div class="demo" data-demo="glovebox">

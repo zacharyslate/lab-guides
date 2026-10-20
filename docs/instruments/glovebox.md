@@ -22,6 +22,26 @@ description: How to start the MBraun EasyLab glovebox, move material in and out 
     - Never put an open container of solvent into the antechamber under vacuum. Closed solvent bottles need the half-vacuum procedure (step 9).
     - If the O₂ or H₂O reading is high, stop and tell the lab manager. Do not open sensitive materials.
 
+## Control panel { #control-panel }
+
+![The EasyLab control panel in our lab](../assets/img/glovebox-panel.jpg){ loading=lazy width="480" }
+
+| Element | What it does |
+|---|---|
+| **pressure mbar** (top display) | Box pressure above the room, in mbar. Normally a small overpressure: in ECO mode the box is held at +2 to +6 mbar. During regeneration it still shows the box pressure. |
+| **O₂ ppm** and **H₂O ppm** | Oxygen and water in the argon. During regeneration they show the stage and the minutes left instead. |
+| **Min.set** / **Max.set** knobs | Lower and upper limits of the box-pressure control. **Do not change them.** |
+| **circ** | Circulation of argon through the purifier. Must stay on except during regeneration. Its LED is unreliable: check that the circulation pistons are UP. |
+| **reg** / **reg abort** | Start / stop catalyst regeneration (reg abort only works in the first stages). Lab manager only. |
+| **pump** | Vacuum pump. Must be on to evacuate the antechamber. |
+| **ana** | O₂ and H₂O analysers. Leave on. |
+| **light** | Box lighting. |
+| **purge** | Flushes the box with argon to lower O₂/H₂O. Only when the lab manager asks. |
+| **eco** | Standby: the pump runs only when the box needs argon, the light switches off, pressure +2 to +6 mbar. Leave the box in ECO after use. |
+
+!!! tip "What a normal working state looks like"
+    As in the photo: pressure a few mbar (here 2.7), O₂ and H₂O below 1 ppm (here 0.5), and the **pump**, **ana** and **light** LEDs on. The **circ** LED can stay dark even when circulation is on (known fault); check the pistons.
+
 ## Demonstration
 
 <div class="demo" data-demo="glovebox">
